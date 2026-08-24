@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>ZP2KX</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU</Platforms>
+		<OutputType>WinExe</OutputType>
+		<LangVersion>14.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="C:\source\Content-References\Contents.csproj">
+			<Private>True</Private>
+			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="Content\**\*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>
