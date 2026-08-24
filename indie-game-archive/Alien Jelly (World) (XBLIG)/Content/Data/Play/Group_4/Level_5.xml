@@ -1,0 +1,5370 @@
+<?xml version="1.0"?>
+<DataLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <expendable>0</expendable>
+  <sky>Solar System</sky>
+  <music>4</music>
+  <particles>0</particles>
+  <intro>
+    <DataKeyFrame>
+      <position>
+        <X>204.291245</X>
+        <Y>156.297668</Y>
+        <Z>310.1429</Z>
+      </position>
+      <rotation>
+        <X>0.005578981</X>
+        <Y>-0.9943861</Y>
+        <Z>-0.07042018</Z>
+        <W>-0.0787794143</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>293.909149</X>
+        <Y>324.605133</Y>
+        <Z>251.8347</Z>
+      </position>
+      <rotation>
+        <X>0.24166657</X>
+        <Y>-0.7555585</Y>
+        <Z>-0.466150343</Z>
+        <W>-0.3917046</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>189.037766</X>
+        <Y>168.128082</Y>
+        <Z>233.152374</Z>
+      </position>
+      <rotation>
+        <X>0.244105384</X>
+        <Y>-0.6740018</Y>
+        <Z>-0.25327298</Z>
+        <W>-0.6496053</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>74.09433</X>
+        <Y>149.671265</Y>
+        <Z>271.843872</Z>
+      </position>
+      <rotation>
+        <X>0.132263973</X>
+        <Y>-0.242206439</Y>
+        <Z>-0.0333495475</Z>
+        <W>-0.9605884</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>-33.45008</X>
+        <Y>155.052216</Y>
+        <Z>257.7895</Z>
+      </position>
+      <rotation>
+        <X>0.130042672</X>
+        <Y>0.301200658</Y>
+        <Z>0.0415039733</Z>
+        <W>-0.9437396</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>-75.32969</X>
+        <Y>132.226059</Y>
+        <Z>-113.535912</Z>
+      </position>
+      <rotation>
+        <X>0.0138986772</X>
+        <Y>0.9857939</Y>
+        <Z>0.10530962</Z>
+        <W>-0.130104274</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>56.66013</X>
+        <Y>324.545227</Y>
+        <Z>-433.681366</Z>
+      </position>
+      <rotation>
+        <X>-0.022379823</X>
+        <Y>0.948079467</Y>
+        <Z>0.3097623</Z>
+        <W>0.0684971958</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>0.124478281</X>
+        <Y>156.137466</Y>
+        <Z>-87.51912</Z>
+      </position>
+      <rotation>
+        <X>-0.01435499</X>
+        <Y>0.960035563</Y>
+        <Z>0.27497977</Z>
+        <W>0.0501175076</W>
+      </rotation>
+    </DataKeyFrame>
+  </intro>
+  <atoms>
+    <DataAtom>
+      <definition>Exit</definition>
+      <guid>8CD53F265F08CC4:6F87BDB3:24A</guid>
+      <point>
+        <X>10</X>
+        <Y>3</Y>
+        <Z>21</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.00278951717</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>-0</Z>
+        <W>0</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F27426D140:36B185E0:24D</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.252381772</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2758A0FA2:1FE75353:24F</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.334414631</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F27A584D0A:31F96D35:257</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.07144027</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F27A8F2320:652D7790:259</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.287097543</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F27C1D4BD6:41431837:25A</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.199720338</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F27D749E76:326F6F11:25B</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.149564162</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F27D9F88CA:1CB51BC6:25C</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.319675684</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F27DC0E9B6:378CA635:25D</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.487220556</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F27E892F3E:21BEEFEB:25E</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.14259465</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F27ED57A7E:62A3BCD3:25F</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.05485689</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F28087667A:5C8A0131:260</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0488085</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F281868218:5270F107:261</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.160030514</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F281AA455E:33E027C6:262</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.237344638</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F2829B12E0:5ACF7B5D:263</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.460950047</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F282FF35A4:665EE565:264</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.34376058</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F289B3D2C4:53399778:26B</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0557070449</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F28A3491C0:4904175A:26C</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.432511538</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F28AE29D6A:496FEC57:26D</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.36578837</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F28B14AECC:16875F5E:26E</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.4887475</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F28DA6B7D4:1C1474CE:271</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0588583946</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F291F8FAF4:6DA31A4E:272</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4428731</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F292D1F0F2:157F30D0:273</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.03068377</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F292FCDB46:14851B8:274</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3056438</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2931BD9D8:6E7AA87E:275</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.36674872</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2935C3956:4E651960:277</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.1078658</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2937B37E8:31FC51CA:278</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.09928371</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29397D420:4A8FBAF9:279</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.4986489</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F293B9350C:2639FA81:27A</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.01543725</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F293F73230:3D17AB5F:27B</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.475531518</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F297A290B4:2768080A:27D</guid>
+      <point>
+        <X>3</X>
+        <Y>1</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.118609756</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>-0.707106769</Y>
+        <Z>0.707106769</Z>
+        <W>0</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F298BBE630:4BE9A82F:27E</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.08275548</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F299842BB8:2795C03A:281</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.08534128</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F299A32A4A:4F87C01E:282</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.05319304</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F299BFC682:35EEF72B:283</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.351021171</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F299FDC3A6:77C34F3:285</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.353447676</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29A4ED39A:5E74B29:286</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.1633702</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29C8FCCAE:15BEE16A:287</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.472647637</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29DFEF6D2:33844A86:288</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.09943941</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29E310834:84C6A7A:289</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.118258581</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29E54CB7A:18664739:28A</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.276623726</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29E6CA2FE:244040E:28B</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.217965737</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29E86DCDC:6A6FAD32:28C</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3550291</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29EA37914:8F29D85:28D</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.17395547</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29EDCB184:4E7F11B3:28F</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.200620681</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F29F21D5B6:456A82AF:290</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.210586</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2A2F5BC34:15F2206E:295</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0218975</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2A312586C:985DACC:296</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.429110676</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2A32EF4A4:F80955D:297</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.379912853</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2A34DF336:33D1F8:298</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.17678012</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2A390B50E:54D28324:299</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.471534729</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2A3D83B9A:9A978B7:29A</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.362840056</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2A9DC6AB6:730C7DF2:29B</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0151979979</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2AB17211E:55E86BBB:29C</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.142873466</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2ABA16982:26C1F8AE:29D</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.493655175</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2AC117808:46542D10:29E</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.417396</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2AD4769BC:64490B4B:29F</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.200543687</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2AE52711C:1BE852DE:2A0</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.495619684</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B11DB294:35A3C8B4:2A1</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.09358641</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B1974A82:509B099B:2A2</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.192354739</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B2075908:6A537F5E:2A3</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.482584417</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B2704080:6605B457:2A4</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0108719505</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B3D84396:1936E006:2A5</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.382439017</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B5260CCE:7C4DDB75:2A7</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.189195216</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B580A62A:F7C23F7:2A8</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.33087343</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B5EE5256:9E2CEEC:2A9</guid>
+      <point>
+        <X>-3</X>
+        <Y>2</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.08987997</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B724440A:660E3774:2AA</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>10</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.22153227</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.707106769</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B8498548:304C257B:2AB</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.101211578</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B8ADA80C:7BCBB76D:2AC</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.249633566</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2B97AB248:16AD1278:2AE</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.150818318</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2C08C4B1E:2B7BA60F:2AF</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.30953145</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F2CA9D9928:3DCBD738:2B0</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0180811156</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F3120C4DA4:5BDFBBAB:2B5</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.448991537</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F3134E2B1A:25DF8119:2B6</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.362367958</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F313EB864E:E58C0C7:2B7</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.03743976</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F3145B94D4:6F003AF5:2B8</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.147313222</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F3162C7F62:77617361:2B9</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.159813926</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F317F8A53C:547A6FB6:2BA</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.234142572</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F319DCA29A:930B46D:2BC</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.158955</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F31B555626:310E4648:2BD</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3022546</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F31CD06C0C:4CB493D6:2BE</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.141661257</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F31E46BD3E:3DD6AD21:2BF</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.216590121</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F31EAD425C:203A7572:2C0</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.307118</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F31EFE5250:4CC691A6:2C1</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.413979828</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F32025F5E8:6C358BD:2C2</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.37737602</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F321A5D082:71B4EDA:2C3</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.434438169</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F322BCC3A4:11E22395:2C5</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0168198142</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F323A8CC72:402DB702:2C6</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.458046317</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Switch_Red_90</definition>
+      <guid>8CD53F339B8EF4C:50AE69C3:2C7</guid>
+      <point>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.14596644</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>-0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Switch_Red_90</definition>
+      <guid>8CD53F347248BE6:19BD9827:2C8</guid>
+      <point>
+        <X>4</X>
+        <Y>4</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.107946515</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.5</X>
+        <Y>-0.5</Y>
+        <Z>-0.5</Z>
+        <W>-0.5</W>
+      </rotation>
+      <state>1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Switch_Red_90</definition>
+      <guid>8CD53F3508A30A0:74D13AD0:2C9</guid>
+      <point>
+        <X>-3</X>
+        <Y>4</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.192121372</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>-0.5</W>
+      </rotation>
+      <state>1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Switch_Red_90</definition>
+      <guid>8CD53F36732E9FA:784E3456:2CA</guid>
+      <point>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.01282274</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CD53F372756504:7A668661:2CB</guid>
+      <point>
+        <X>-1</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3957785</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CD53F377735174:31298DD4:2CC</guid>
+      <point>
+        <X>3</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.499873847</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CD53F37AE3152E:7721EF43:2CD</guid>
+      <point>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.180877432</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CD53F37DF1187E:2AD37231:2CE</guid>
+      <point>
+        <X>-3</X>
+        <Y>4</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.352695942</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Red</definition>
+      <guid>8CD53F388A48670:7B3DE0F:2CF</guid>
+      <point>
+        <X>1</X>
+        <Y>6</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.237437367</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Spikes</definition>
+      <guid>8CD53F3917D806C:1704E84D:2D0</guid>
+      <point>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>14</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.403412968</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.707106769</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Spikes</definition>
+      <guid>8CD53F39269893A:2156593:2D2</guid>
+      <point>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>12</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.09339315</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Red</definition>
+      <guid>8CD53F3D7D541C6:2E41B8FD:488</guid>
+      <point>
+        <X>0</X>
+        <Y>4</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.3520485</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.707106769</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Blue</definition>
+      <guid>8CD53F4666D868C:353BC7B9:646</guid>
+      <point>
+        <X>0</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.02769058</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Blue</definition>
+      <guid>8CD53F46741B7D6:6FBC0F02:647</guid>
+      <point>
+        <X>1</X>
+        <Y>5</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.2247232</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Blue_1x1</definition>
+      <guid>8CD53F482201818:43796756:64C</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>13</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0131056234</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Blue_1x1</definition>
+      <guid>8CD53F4825E153C:79DACD30:64E</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>15</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.147983432</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F5B83F18C6:F6B5EF6:8EF</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>11</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.182729527</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F5F7D3EEE4:74852FB1:8F0</guid>
+      <point>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0463898554</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F5F92DA3DE:5E695FBD:8F1</guid>
+      <point>
+        <X>-1</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.332556427</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F5FA3B0D98:688BE0BA:8F2</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.283388644</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Spikes</definition>
+      <guid>8CD53F60E7A45E4:68E178A0:8F3</guid>
+      <point>
+        <X>2</X>
+        <Y>-1</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.06968384</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53F61BA0BE4C:2A60FFE1:8F4</guid>
+      <point>
+        <X>4</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.24252972</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53F61C702AE2:16C774BA:8F6</guid>
+      <point>
+        <X>5</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.153804168</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53F61E7A4DE0:2C3356F6:8F8</guid>
+      <point>
+        <X>6</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0945068747</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53F61F06F89E:29EC2D:8FA</guid>
+      <point>
+        <X>7</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.191297531</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>3</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53F61FD1A080:5DC2F8A4:8FC</guid>
+      <point>
+        <X>8</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0112511441</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53F620B8E49A:2507FE27:8FE</guid>
+      <point>
+        <X>9</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0889771059</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>3</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F65FB78692:5239E4FB:900</guid>
+      <point>
+        <X>10</X>
+        <Y>0</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.192083448</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F661EA318A:6E40205B:901</guid>
+      <point>
+        <X>10</X>
+        <Y>0</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.2301413</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F6621EA546:CFFD269:902</guid>
+      <point>
+        <X>10</X>
+        <Y>0</Y>
+        <Z>18</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.23239705</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F6624BF1F4:1F20F273:903</guid>
+      <point>
+        <X>10</X>
+        <Y>0</Y>
+        <Z>19</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.230753765</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Rock_0_1x1x1</definition>
+      <guid>8CD53F663CE2EE8:73C91AC3:904</guid>
+      <point>
+        <X>10</X>
+        <Y>1</Y>
+        <Z>20</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0612501055</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F665F0296A:78A5F52:905</guid>
+      <point>
+        <X>10</X>
+        <Y>2</Y>
+        <Z>21</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0935042948</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Tree_0_1x1x1</definition>
+      <guid>8CD53F69AFC7BEA:2B30575E:906</guid>
+      <point>
+        <X>10</X>
+        <Y>0</Y>
+        <Z>15</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.451883</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>-0.5</Z>
+        <W>-0.5</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Roots_0_1x1x1</definition>
+      <guid>8CD53F6A0F983F8:5E3F7390:908</guid>
+      <point>
+        <X>-1</X>
+        <Y>0</Y>
+        <Z>11</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.398225874</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.5</X>
+        <Y>-0.5</Y>
+        <Z>-0.5</Z>
+        <W>-0.5</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Roots_0_1x1x1</definition>
+      <guid>8CD53F6A5CEE86E:410850AC:909</guid>
+      <point>
+        <X>5</X>
+        <Y>5</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.124914065</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Spikes</definition>
+      <guid>8CD53F82C86A788:1B205870:B11</guid>
+      <point>
+        <X>3</X>
+        <Y>-1</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.388765723</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
+        <W>0.5</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>MovingSpikes</definition>
+      <guid>8CD53F83A07B94C:5CB00519:B12</guid>
+      <point>
+        <X>13</X>
+        <Y>1</Y>
+        <Z>19</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.401163757</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>-0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F83F545356:304C1E31:B13</guid>
+      <point>
+        <X>14</X>
+        <Y>1</Y>
+        <Z>19</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.368896246</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Tree_0_1x1x1</definition>
+      <guid>8CD53F84A9209AC:2899F588:B15</guid>
+      <point>
+        <X>6</X>
+        <Y>2</Y>
+        <Z>19</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.05658989</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Tree_0_1x1x1</definition>
+      <guid>8CD53F84BC0D452:407398:B16</guid>
+      <point>
+        <X>14</X>
+        <Y>2</Y>
+        <Z>19</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.18753466</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CD53F85C24FF12:2A9540A3:B17</guid>
+      <point>
+        <X>6</X>
+        <Y>1</Y>
+        <Z>19</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.2857876</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Flowers_0_1x1x1</definition>
+      <guid>8CD53F87BE24D32:54E7E3BA:B18</guid>
+      <point>
+        <X>10</X>
+        <Y>1</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.227057308</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Flowers_0_1x1x1</definition>
+      <guid>8CD53F882C6995A:74021BBF:B1A</guid>
+      <point>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.2813656</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Flowers_0_1x1x1</definition>
+      <guid>8CD53F885BA62CC:1FE840B2:B1B</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>16</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.08028826</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Mushrooms_0_1x1x1</definition>
+      <guid>8CD53F889D36D7C:137D0271:B1C</guid>
+      <point>
+        <X>3</X>
+        <Y>3</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.126418293</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Mushrooms_0_1x1x1</definition>
+      <guid>8CD53F88E63ADC0:5F8CF574:B1E</guid>
+      <point>
+        <X>-3</X>
+        <Y>4</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.432685554</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CD53FA9172B090:476A9753:390</guid>
+      <point>
+        <X>1</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.12477228</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CD53FA929A5428:74E62007:392</guid>
+      <point>
+        <X>0</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.07719066</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CD53FA99692B26:426CF8E7:394</guid>
+      <point>
+        <X>-1</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0511515327</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CD53FA9B650008:653BE1A1:396</guid>
+      <point>
+        <X>2</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.433573484</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CD53FA9C7269C2:1094E53F:398</guid>
+      <point>
+        <X>3</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0278416537</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CD53FA9E009278:727F5F26:39A</guid>
+      <point>
+        <X>-2</X>
+        <Y>4</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.377046645</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53FAC658DD70:DD36F49:39C</guid>
+      <point>
+        <X>0</X>
+        <Y>-19</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.22377719</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CD53FAC76B0BDE:2FA81F1A:39E</guid>
+      <point>
+        <X>1</X>
+        <Y>-19</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.1743799</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CD53FAD62DFB18:592D3B22:3A0</guid>
+      <point>
+        <X>1</X>
+        <Y>-26</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.00329230842</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CD53FAD9D6F742:3356AAFA:3A2</guid>
+      <point>
+        <X>1</X>
+        <Y>-26</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.102045782</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CD53FADB1FFBC6:27722BB9:3A3</guid>
+      <point>
+        <X>1</X>
+        <Y>-27</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.183436438</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CD53FAE84FFD96:38C012D1:3A5</guid>
+      <point>
+        <X>1</X>
+        <Y>-25</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.278167933</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CD53FAE909F502:20011808:3A7</guid>
+      <point>
+        <X>1</X>
+        <Y>-25</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4013971</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CD53FAEF31E764:64F9CB0D:3AB</guid>
+      <point>
+        <X>1</X>
+        <Y>-25</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0862227455</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CD53FAF80AE160:5E35CE2:3AD</guid>
+      <point>
+        <X>1</X>
+        <Y>-18</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.251932949</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CD53FAF9007396:7C303EBB:3AF</guid>
+      <point>
+        <X>0</X>
+        <Y>-18</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.298004359</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CD53FB19FD3CD2:2064CCD7:3B2</guid>
+      <point>
+        <X>29</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.288924366</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CD53FB1B24E06A:7BC01E4A:3B4</guid>
+      <point>
+        <X>27</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.164653361</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CD53FB1DF4E696:186E829A:3B6</guid>
+      <point>
+        <X>25</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.37771523</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CDF1319F798C48:79D7B922:360</guid>
+      <point>
+        <X>-3</X>
+        <Y>3</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.144542977</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.707106769</X>
+        <Y>0.707106769</Y>
+        <Z>3.090862E-08</Z>
+        <W>-3.090862E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CDF131A44A3934:10CD507B:361</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.424520582</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.707106769</X>
+        <Y>0.707106769</Y>
+        <Z>3.090862E-08</Z>
+        <W>-3.090862E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131AAF02230:8459CFA:362</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.216983557</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131AC5583CC:24A5E5B2:364</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.341365546</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131AE32AF38:49E0268F:365</guid>
+      <point>
+        <X>4</X>
+        <Y>3</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0309111439</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131B00AF892:1468E266:366</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.489191979</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131B1E5B2F6:7F198E0D:367</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3931858</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131B667545A:2E7C78AA:368</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.102253743</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131B83D059B:341B4BAE:369</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.306274682</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131BD85A369:21DAF5F6:36A</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.158191115</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131C031BA9D:2BD82EAC:36B</guid>
+      <point>
+        <X>-4</X>
+        <Y>4</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0189592689</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF131C58ECB18:5E708477:36C</guid>
+      <point>
+        <X>30</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.312231719</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.499999881</X>
+        <Y>0.499999881</Y>
+        <Z>0.499999881</Z>
+        <W>0.5000001</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131CE11433E:58710E3C:36D</guid>
+      <point>
+        <X>28</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1158.98694</Y>
+        <Z>-0.399253756</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131CEB91E73:6FE1BCF0:36F</guid>
+      <point>
+        <X>26</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>687.4982</Y>
+        <Z>0.07691949</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131CF597F7C:7883641F:370</guid>
+      <point>
+        <X>24</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>437.822754</Y>
+        <Z>0.2926647</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D3EE33F8:30B24C04:377</guid>
+      <point>
+        <X>22</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>600.101563</Y>
+        <Z>0.09839933</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D4426FB4:43B6A9EC:378</guid>
+      <point>
+        <X>20</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1784.22327</Y>
+        <Z>-0.0898446441</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D496AB70:76923D91:379</guid>
+      <point>
+        <X>18</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1770.73218</Y>
+        <Z>-0.241650239</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D4ED7F45:757C56C9:37A</guid>
+      <point>
+        <X>16</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>766.9673</Y>
+        <Z>0.444489479</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D541BB01:4FFA46B0:37B</guid>
+      <point>
+        <X>14</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1680.73083</Y>
+        <Z>0.443777919</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D59AFFE0:2D9958D0:37C</guid>
+      <point>
+        <X>12</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>964.909851</Y>
+        <Z>-0.177593723</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D5F974F2:6B6FA217:37D</guid>
+      <point>
+        <X>10</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1715.03491</Y>
+        <Z>-0.0149591165</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D65FB251:24025011:37E</guid>
+      <point>
+        <X>8</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>769.0058</Y>
+        <Z>-0.0314993672</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131D747CBC7:5D75379:37F</guid>
+      <point>
+        <X>6</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1630.37061</Y>
+        <Z>0.388445735</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131DEB01D3B:F37D11D:380</guid>
+      <point>
+        <X>0</X>
+        <Y>-2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1115.29724</Y>
+        <Z>-0.158896312</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131DF7740B6:1528B277:381</guid>
+      <point>
+        <X>0</X>
+        <Y>-4</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>974.6716</Y>
+        <Z>0.07050885</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E00B4581:2E437691:382</guid>
+      <point>
+        <X>0</X>
+        <Y>-6</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1478.66516</Y>
+        <Z>0.162931845</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E0B124DE:314C8E7A:383</guid>
+      <point>
+        <X>0</X>
+        <Y>-8</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1096.59961</Y>
+        <Z>0.133381754</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E135E730:463B0680:384</guid>
+      <point>
+        <X>0</X>
+        <Y>-10</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>382.882355</Y>
+        <Z>0.28407383</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E1DBC68E:3E23AA12:385</guid>
+      <point>
+        <X>0</X>
+        <Y>-12</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>95.31532</Y>
+        <Z>-0.329270124</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E26AC236:1B5EBC2E:386</guid>
+      <point>
+        <X>0</X>
+        <Y>-14</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1203.26245</Y>
+        <Z>0.2101768</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E2EFAB98:14DDB600:387</guid>
+      <point>
+        <X>0</X>
+        <Y>-16</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>28.3916817</Y>
+        <Z>0.392727137</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E66CD17C:9D4518C:388</guid>
+      <point>
+        <X>1</X>
+        <Y>-20</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>773.27655</Y>
+        <Z>0.08936894</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E6DD2121:14BA6450:389</guid>
+      <point>
+        <X>1</X>
+        <Y>-22</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1815.70813</Y>
+        <Z>-0.391855836</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E7315CDC:1653032F:38A</guid>
+      <point>
+        <X>1</X>
+        <Y>-24</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>466.9304</Y>
+        <Z>0.115726724</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131E9A2DB35:545C28A1:38B</guid>
+      <point>
+        <X>1</X>
+        <Y>-26</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1384.38513</Y>
+        <Z>0.497020274</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131F7A9C289:157BC2E0:38C</guid>
+      <point>
+        <X>-1</X>
+        <Y>-1</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>257.016571</Y>
+        <Z>0.240931913</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131F89C3C66:4AA25A5E:38D</guid>
+      <point>
+        <X>-1</X>
+        <Y>-3</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1413.49243</Y>
+        <Z>0.1995279</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131F9357165:5694C835:38E</guid>
+      <point>
+        <X>-1</X>
+        <Y>-5</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1774.91736</Y>
+        <Z>0.272557467</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDF131F998EF9A:197C1DE9:38F</guid>
+      <point>
+        <X>-1</X>
+        <Y>-7</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1822.32776</Y>
+        <Z>-0.1753382</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CDF131FCD6737F:5702F014:392</guid>
+      <point>
+        <X>-1</X>
+        <Y>-9</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.3660801</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CDF131FF0D0ADB:3336A0C:394</guid>
+      <point>
+        <X>-1</X>
+        <Y>-11</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3662168</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CDF1320025D1F7:3AC15DE8:396</guid>
+      <point>
+        <X>-1</X>
+        <Y>-13</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.146065474</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_2</definition>
+      <guid>8CDF13201463A50:1466E5DC:398</guid>
+      <point>
+        <X>-1</X>
+        <Y>-15</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.191951647</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDF13205807169:273D6FD9:39A</guid>
+      <point>
+        <X>-1</X>
+        <Y>-16</Y>
+        <Z>17</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.2140374</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_Plant_0_1x1x1</definition>
+      <guid>8CDF1321035893C:4067AEFD:39B</guid>
+      <point>
+        <X>5</X>
+        <Y>5</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3317158</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_Plant_1_1x1x1</definition>
+      <guid>8CDF1321293F47D:338AAC39:39C</guid>
+      <point>
+        <X>5</X>
+        <Y>4</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.420147777</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.50000006</X>
+        <Y>0.4999999</Y>
+        <Z>0.499999732</Z>
+        <W>0.5000002</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_Plant_2_1x1x1</definition>
+      <guid>8CDF132186A7C7F:57C26D22:39D</guid>
+      <point>
+        <X>-4</X>
+        <Y>5</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.276118845</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>1</Y>
+        <Z>0</Z>
+        <W>-4.371139E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_Plant_2_1x1x1</definition>
+      <guid>8CDF13222288684:4AE06A12:39E</guid>
+      <point>
+        <X>30</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.22890234</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_Plant_1_1x1x1</definition>
+      <guid>8CDF13224803AEC:7C9DE0C8:39F</guid>
+      <point>
+        <X>30</X>
+        <Y>5</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.351823419</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.7071067</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CDF13247808D0F:1B41F1D7:3A0</guid>
+      <point>
+        <X>-4</X>
+        <Y>5</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.147596583</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CDF13248DBB554:25DEADC3:3A1</guid>
+      <point>
+        <X>-4</X>
+        <Y>5</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.3814522</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>RockGrass_0_1x1x1</definition>
+      <guid>8CDF13250416EAF:73F98DCE:3A2</guid>
+      <point>
+        <X>5</X>
+        <Y>5</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0379941761</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0.707106769</Y>
+        <Z>0</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Tree_0_1x1x1</definition>
+      <guid>8CDF1325982097E:5B5BF618:3A3</guid>
+      <point>
+        <X>-4</X>
+        <Y>6</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.437014133</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+  </atoms>
+  <conversations />
+</DataLevel>

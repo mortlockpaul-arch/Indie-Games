@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DataGame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<groups>
+		<DataLevelGroup>
+			<index>0</index>
+			<title>Chapter 1: Whats Going On?</title>
+		</DataLevelGroup>
+		<DataLevelGroup>
+			<index>1</index>
+			<title>Chapter 2: Just Getting Started</title>
+		</DataLevelGroup>
+		<DataLevelGroup>
+			<index>2</index>
+			<title>Chapter 3: All Brains On Deck</title>
+		</DataLevelGroup>
+		<DataLevelGroup>
+			<index>3</index>
+			<title>Chapter 4: No Jelly left behind!</title>
+		</DataLevelGroup>
+		<DataLevelGroup>
+			<index>4</index>
+			<title>Chapter 5: Home Stretch</title>
+		</DataLevelGroup>
+	</groups>
+  <levels>
+		<!-- Group 0 -->
+		<DataLevelHeader>
+			<name>Getting started</name>
+			<author />
+			<index>0</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Getting back to the Ship</name>
+			<author />
+			<index>1</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Where are the humans?</name>
+			<author />
+			<index>2</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Spiky things</name>
+			<author />
+			<index>3</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Crates, Crates, Crates</name>
+			<author />
+			<index>4</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Understanding Portals</name>
+			<author />
+			<index>5</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>A portal between friends</name>
+			<author />
+			<index>6</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Standing in the gap</name>
+			<author />
+			<index>7</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>0</group>
+		</DataLevelHeader>
+
+
+		
+		<!-- Group 1 -->
+		<DataLevelHeader>
+			<name>The Crate Staircase</name>
+			<author />
+			<index>0</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Flippin' Outrageous!</name>
+			<author />
+			<index>1</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Turning the world upside down</name>
+			<author />
+			<index>2</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Getting dizzy!</name>
+			<author />
+			<index>3</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Its just a phase</name>
+			<author />
+			<index>4</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Jelly Phase Bridge</name>
+			<author />
+			<index>5</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Turning things on and off</name>
+			<author />
+			<index>6</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Testing your skills</name>
+			<author />
+			<index>7</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>1</group>
+		</DataLevelHeader>
+
+		
+		<!-- Group 2 -->
+		<DataLevelHeader>
+			<name>Urban Distortion</name>
+			<author />
+			<index>0</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>And then... robots!</name>
+			<author />
+			<index>1</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Pushin' Crates</name>
+			<author />
+			<index>2</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Buttons, Blocks and Lasers</name>
+			<author />
+			<index>3</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Running the gauntlet</name>
+			<author />
+			<index>4</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>The Robots are alive!</name>
+			<author />
+			<index>5</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Blue and Red Revenge</name>
+			<author />
+			<index>6</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Upside down and over again</name>
+			<author />
+			<index>7</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>2</group>
+		</DataLevelHeader>
+
+		
+		<!-- Group 3 -->
+		<DataLevelHeader>
+			<name>Snow And Confusion</name>
+			<author />
+			<index>0</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Jelly Inception</name>
+			<author />
+			<index>1</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Tower of Death!</name>
+			<author />
+			<index>2</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>The world goes round and round</name>
+			<author />
+			<index>3</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>To kill a robot</name>
+			<author />
+			<index>4</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Long Distance relationships</name>
+			<author />
+			<index>5</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Blue And Green Rescue</name>
+			<author />
+			<index>6</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>A Shoulder To Stand On</name>
+			<author />
+			<index>7</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>3</group>
+		</DataLevelHeader>
+
+
+	
+	
+	
+	<!-- Group 4 -->
+		<DataLevelHeader>
+			<name>Flipping Pyramids</name>
+			<author />
+			<index>0</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>4</group>
+		</DataLevelHeader>
+		<DataLevelHeader>
+			<name>Ferrying crates to safety</name>
+			<author />
+			<index>1</index>
+			<type>0</type>
+			<edit>false</edit>
+			<passed>true</passed>
+			<group>4</group>
+		</DataLevelHeader>
+	<DataLevelHeader>
+		<name>Parallel puzzle processing</name>
+		<author />
+		<index>2</index>
+		<type>0</type>
+		<edit>false</edit>
+		<passed>true</passed>
+		<group>4</group>
+	</DataLevelHeader>
+	<DataLevelHeader>
+		<name>Snowy conundrum</name>
+		<author />
+		<index>3</index>
+		<type>0</type>
+		<edit>false</edit>
+		<passed>true</passed>
+		<group>4</group>
+	</DataLevelHeader>
+	<DataLevelHeader>
+		<name>Knowing just where to stand</name>
+		<author />
+		<index>4</index>
+		<type>0</type>
+		<edit>false</edit>
+		<passed>true</passed>
+		<group>4</group>
+	</DataLevelHeader>
+	<DataLevelHeader>
+		<name>getting all your crates in a line</name>
+		<author />
+		<index>5</index>
+		<type>0</type>
+		<edit>false</edit>
+		<passed>true</passed>
+		<group>4</group>
+	</DataLevelHeader>
+	<DataLevelHeader>
+		<name>Death to the robots!</name>
+		<author />
+		<index>6</index>
+		<type>0</type>
+		<edit>false</edit>
+		<passed>true</passed>
+		<group>4</group>
+	</DataLevelHeader>
+	<DataLevelHeader>
+		<name>A puzzling conclusion</name>
+		<author />
+		<index>7</index>
+		<type>0</type>
+		<edit>false</edit>
+		<passed>true</passed>
+		<group>4</group>
+	</DataLevelHeader>
+  </levels>
+  <skys>
+    <DataSky>
+      <name>Alpha Prime</name>
+      <type>0</type>
+      <primaryLightPosition>
+        <X>2500</X>
+        <Y>5000</Y>
+        <Z>0</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>250</X>
+        <Y>245</Y>
+        <Z>205</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>-5000</X>
+        <Y>2500</Y>
+        <Z>2500</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>32</X>
+        <Y>32</Y>
+        <Z>64</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>40</X>
+        <Y>20</Y>
+        <Z>0</Z>
+      </ambientLightColor>
+      <items>
+        <DataSkyItem>
+          <type>0</type>
+          <position>
+            <X>1000</X>
+            <Y>-300</Y>
+            <Z>0</Z>
+          </position>
+          <scale>700</scale>
+          <rotation>0</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>1</type>
+          <position>
+            <X>-200</X>
+            <Y>300</Y>
+            <Z>1300</Z>
+          </position>
+          <scale>600</scale>
+          <rotation>0</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>3</type>
+          <position>
+            <X>-1300</X>
+            <Y>100</Y>
+            <Z>-1300</Z>
+          </position>
+          <scale>2000</scale>
+          <rotation>0</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+      </items>
+      <rings>
+        <DataSkyRing>
+          <type>1</type>
+          <radius>3</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>4</height>
+          <speed>0</speed>
+          <renderStack>Add</renderStack>
+        </DataSkyRing>
+        <DataSkyRing>
+          <type>0</type>
+          <radius>5</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>1</rotation>
+          <height>4</height>
+          <speed>0</speed>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyRing>
+      </rings>
+    </DataSky>
+    <DataSky>
+      <name>Solar System</name>
+      <type>1</type>
+      <primaryLightPosition>
+        <X>5000</X>
+        <Y>2500</Y>
+        <Z>-2500</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>255</X>
+        <Y>245</Y>
+        <Z>205</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>5000</X>
+        <Y>5000</Y>
+        <Z>0</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>64</X>
+        <Y>64</Y>
+        <Z>208</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>50</X>
+        <Y>25</Y>
+        <Z>0</Z>
+      </ambientLightColor>
+      <items>
+        <DataSkyItem>
+          <type>8</type>
+          <position>
+            <X>3500</X>
+            <Y>1000</Y>
+            <Z>0</Z>
+          </position>
+          <scale>2</scale>
+          <rotation>0</rotation>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>8</type>
+          <position>
+            <X>4500</X>
+            <Y>-1000</Y>
+            <Z>-1000</Z>
+          </position>
+          <scale>3</scale>
+          <rotation>0</rotation>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>6</type>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>7000</Z>
+          </position>
+          <scale>10</scale>
+          <rotation>0</rotation>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>4</type>
+          <position>
+            <X>3500</X>
+            <Y>1500</Y>
+            <Z>0</Z>
+          </position>
+          <scale>4000</scale>
+          <rotation>3.78539824</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+      </items>
+      <rings>
+        <DataSkyRing>
+          <type>5</type>
+          <radius>3</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>3</height>
+          <speed>0</speed>
+          <renderStack>Alpha Last</renderStack>
+        </DataSkyRing>
+      </rings>
+    </DataSky>
+    <DataSky>
+      <name>Sun Shine</name>
+      <type>2</type>
+      <primaryLightPosition>
+        <X>0</X>
+        <Y>3000</Y>
+        <Z>0</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>255</X>
+        <Y>128</Y>
+        <Z>128</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>-5000</X>
+        <Y>-2500</Y>
+        <Z>2500</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>128</X>
+        <Y>128</Y>
+        <Z>255</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>40</X>
+        <Y>20</Y>
+        <Z>0</Z>
+      </ambientLightColor>
+      <items>
+        <DataSkyItem>
+          <type>7</type>
+          <position>
+            <X>0.001</X>
+            <Y>6000</Y>
+            <Z>0</Z>
+          </position>
+          <scale>20</scale>
+          <rotation>0</rotation>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>3</type>
+          <position>
+            <X>3000</X>
+            <Y>-3000</Y>
+            <Z>3000</Z>
+          </position>
+          <scale>3000</scale>
+          <rotation>0</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+      </items>
+      <rings />
+    </DataSky>
+    <DataSky>
+      <name>Emerald Flair</name>
+      <type>3</type>
+      <primaryLightPosition>
+        <X>5000</X>
+        <Y>5000</Y>
+        <Z>0</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>167</X>
+        <Y>255</Y>
+        <Z>196</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>-5000</X>
+        <Y>200</Y>
+        <Z>0</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>156</X>
+        <Y>247</Y>
+        <Z>75</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>64</X>
+        <Y>0</Y>
+        <Z>64</Z>
+      </ambientLightColor>
+      <items>
+        <DataSkyItem>
+          <type>5</type>
+          <position>
+            <X>0.01</X>
+            <Y>-2000</Y>
+            <Z>0</Z>
+          </position>
+          <scale>12</scale>
+          <rotation>0</rotation>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyItem>
+      </items>
+      <rings>
+        <DataSkyRing>
+          <type>2</type>
+          <radius>3</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>4</height>
+          <speed>0</speed>
+          <renderStack>Add</renderStack>
+        </DataSkyRing>
+        <DataSkyRing>
+          <type>2</type>
+          <radius>5</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>2</height>
+          <speed>0</speed>
+          <renderStack>Add</renderStack>
+        </DataSkyRing>
+      </rings>
+    </DataSky>
+    <DataSky>
+      <name>Warp Field</name>
+      <type>4</type>
+      <primaryLightPosition>
+        <X>1000</X>
+        <Y>5000</Y>
+        <Z>0</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>234</X>
+        <Y>17</Y>
+        <Z>248</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>-5000</X>
+        <Y>3000</Y>
+        <Z>0</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>114</X>
+        <Y>233</Y>
+        <Z>240</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>64</X>
+        <Y>64</Y>
+        <Z>0</Z>
+      </ambientLightColor>
+      <items>
+        <DataSkyItem>
+          <type>0</type>
+          <position>
+            <X>3000</X>
+            <Y>-100</Y>
+            <Z>0</Z>
+          </position>
+          <scale>2000</scale>
+          <rotation>0</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+      </items>
+      <rings>
+        <DataSkyRing>
+          <type>3</type>
+          <radius>3</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>6</height>
+          <speed>0</speed>
+          <renderStack>Add</renderStack>
+        </DataSkyRing>
+        <DataSkyRing>
+          <type>4</type>
+          <radius>5</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>1</height>
+          <speed>0</speed>
+          <renderStack>Add</renderStack>
+        </DataSkyRing>
+      </rings>
+    </DataSky>
+    <DataSky>
+      <name>Under Construction</name>
+      <type>5</type>
+      <primaryLightPosition>
+        <X>5000</X>
+        <Y>5000</Y>
+        <Z>0</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>255</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>-1000</X>
+        <Y>5000</Y>
+        <Z>0</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>114</X>
+        <Y>233</Y>
+        <Z>240</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>64</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </ambientLightColor>
+      <items />
+      <rings>
+        <DataSkyRing>
+          <type>6</type>
+          <radius>3</radius>
+          <axis>
+            <X>1</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>-1000</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0.1</rotation>
+          <height>1.5</height>
+          <speed>-2E-05</speed>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyRing>
+        <DataSkyRing>
+          <type>6</type>
+          <radius>3</radius>
+          <axis>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>1</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>1000</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0.1</rotation>
+          <height>1.5</height>
+          <speed>-1E-05</speed>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyRing>
+        <DataSkyRing>
+          <type>6</type>
+          <radius>2.5</radius>
+          <axis>
+            <X>1</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>1</height>
+          <speed>2E-05</speed>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyRing>
+      </rings>
+    </DataSky>
+    <DataSky>
+      <name>Starfield</name>
+      <type>6</type>
+      <primaryLightPosition>
+        <X>100</X>
+        <Y>5000</Y>
+        <Z>500</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>162</X>
+        <Y>254</Y>
+        <Z>255</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>-1000</X>
+        <Y>-5000</Y>
+        <Z>0</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>255</X>
+        <Y>42</Y>
+        <Z>253</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>62</X>
+        <Y>60</Y>
+        <Z>46</Z>
+      </ambientLightColor>
+      <items>
+        <DataSkyItem>
+          <type>8</type>
+          <position>
+            <X>3500</X>
+            <Y>1000</Y>
+            <Z>0</Z>
+          </position>
+          <scale>4</scale>
+          <rotation>0</rotation>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>2</type>
+          <position>
+            <X>-3000</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <scale>2000</scale>
+          <rotation>0.75</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+      </items>
+      <rings>
+        <DataSkyRing>
+          <type>1</type>
+          <radius>3</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>3</height>
+          <speed>0</speed>
+          <renderStack>Add</renderStack>
+        </DataSkyRing>
+        <DataSkyRing>
+          <type>0</type>
+          <radius>3.5</radius>
+          <axis>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>1</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0.75</rotation>
+          <height>0.5</height>
+          <speed>0</speed>
+          <renderStack>Add</renderStack>
+        </DataSkyRing>
+      </rings>
+    </DataSky>
+    <DataSky>
+      <name>Almost Home</name>
+      <type>6</type>
+      <primaryLightPosition>
+        <X>1000</X>
+        <Y>5000</Y>
+        <Z>500</Z>
+      </primaryLightPosition>
+      <primaryLightColor>
+        <X>255</X>
+        <Y>239</Y>
+        <Z>162</Z>
+      </primaryLightColor>
+      <secondaryLightPosition>
+        <X>-2000</X>
+        <Y>5000</Y>
+        <Z>0</Z>
+      </secondaryLightPosition>
+      <secondaryLightColor>
+        <X>255</X>
+        <Y>42</Y>
+        <Z>253</Z>
+      </secondaryLightColor>
+      <ambientLightColor>
+        <X>0</X>
+        <Y>60</Y>
+        <Z>71</Z>
+      </ambientLightColor>
+      <items>
+        <DataSkyItem>
+          <type>4</type>
+          <position>
+            <X>3500</X>
+            <Y>-1000</Y>
+            <Z>0</Z>
+          </position>
+          <scale>3000</scale>
+          <rotation>0</rotation>
+          <renderStack>Add</renderStack>
+        </DataSkyItem>
+        <DataSkyItem>
+          <type>8</type>
+          <position>
+            <X>3000</X>
+            <Y>1000</Y>
+            <Z>3000</Z>
+          </position>
+          <scale>2</scale>
+          <rotation>0</rotation>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyItem>
+      </items>
+      <rings>
+        <DataSkyRing>
+          <type>5</type>
+          <radius>3</radius>
+          <axis>
+            <X>0.01</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>0</rotation>
+          <height>5</height>
+          <speed>0.00005</speed>
+          <renderStack>Alpha Last</renderStack>
+        </DataSkyRing>
+        <DataSkyRing>
+          <type>8</type>
+          <radius>2</radius>
+          <axis>
+            <X>0</X>
+            <Y>1</Y>
+            <Z>0</Z>
+          </axis>
+          <position>
+            <X>0</X>
+            <Y>0</Y>
+            <Z>0</Z>
+          </position>
+          <rotation>1.5</rotation>
+          <height>0.5</height>
+          <speed>-0.000005</speed>
+          <renderStack>Alpha Hard</renderStack>
+        </DataSkyRing>
+      </rings>
+    </DataSky>
+  </skys>
+</DataGame>

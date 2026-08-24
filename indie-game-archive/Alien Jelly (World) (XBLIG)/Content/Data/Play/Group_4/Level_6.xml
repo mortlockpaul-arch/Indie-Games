@@ -1,0 +1,4593 @@
+<?xml version="1.0"?>
+<DataLevel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <expendable>0</expendable>
+  <sky>Almost Home</sky>
+  <music>4</music>
+  <particles>3</particles>
+  <intro>
+    <DataKeyFrame>
+      <position>
+        <X>-118.686127</X>
+        <Y>-2.363143</Y>
+        <Z>46.8231659</Z>
+      </position>
+      <rotation>
+        <X>0.018270541</X>
+        <Y>-0.9756256</Y>
+        <Z>0.0892970338</Z>
+        <W>0.199617013</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>-212.409439</X>
+        <Y>-38.1029968</Y>
+        <Z>-118.342682</Z>
+      </position>
+      <rotation>
+        <X>0.0329461433</X>
+        <Y>-0.9315392</Y>
+        <Z>0.08732331</Z>
+        <W>0.3514597</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>-151.230652</X>
+        <Y>-79.82096</Y>
+        <Z>-342.2149</Z>
+      </position>
+      <rotation>
+        <X>0.0263715349</X>
+        <Y>-0.9726626</Y>
+        <Z>0.139687881</Z>
+        <W>0.183628008</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>254.094574</X>
+        <Y>30.22676</Y>
+        <Z>-404.318085</Z>
+      </position>
+      <rotation>
+        <X>-0.017133642</X>
+        <Y>-0.9323799</Y>
+        <Z>0.044584427</Z>
+        <W>-0.3583104</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>423.41745</X>
+        <Y>31.04332</Y>
+        <Z>-193.166443</Z>
+      </position>
+      <rotation>
+        <X>-0.0254901648</X>
+        <Y>-0.8447234</Y>
+        <Z>0.0403928868</Z>
+        <W>-0.5330676</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>448.718048</X>
+        <Y>31.04332</Y>
+        <Z>27.1611557</Z>
+      </position>
+      <rotation>
+        <X>-0.0334567949</X>
+        <Y>-0.7128667</Y>
+        <Z>0.03408778</Z>
+        <W>-0.699671149</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>269.9909</X>
+        <Y>31.04332</Y>
+        <Z>314.4093</Z>
+      </position>
+      <rotation>
+        <X>-0.0244593266</X>
+        <Y>-0.311128646</Y>
+        <Z>0.008010361</Z>
+        <W>-0.9500192</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>21.0798435</X>
+        <Y>32.2294769</Y>
+        <Z>330.09256</Z>
+      </position>
+      <rotation>
+        <X>0.0233312212</X>
+        <Y>0.02841826</Y>
+        <Z>0.000663481536</Z>
+        <W>-0.999323547</W>
+      </rotation>
+    </DataKeyFrame>
+    <DataKeyFrame>
+      <position>
+        <X>5.0658617</X>
+        <Y>16.58179</Y>
+        <Z>-11.5484295</Z>
+      </position>
+      <rotation>
+        <X>0.0231645629</X>
+        <Y>-0.122764356</Y>
+        <Z>-0.00286625023</Z>
+        <W>-0.992161334</W>
+      </rotation>
+    </DataKeyFrame>
+  </intro>
+  <atoms>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E12B066B:678A459C:24FF</guid>
+      <point>
+        <X>-1</X>
+        <Y>-2</Y>
+        <Z>-5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0873234048</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E33DC190:654CA07A:2501</guid>
+      <point>
+        <X>-1</X>
+        <Y>-2</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.3032966</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E3852BDC:1A4FEF9F:2502</guid>
+      <point>
+        <X>-1</X>
+        <Y>-2</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.260077775</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E3A3B0CF:5708DFD9:2503</guid>
+      <point>
+        <X>-1</X>
+        <Y>-2</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.1300181</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165801E-08</X>
+        <Y>-2.1855687E-08</Y>
+        <Z>1.56958237E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E3C25CD2:476D724E:2504</guid>
+      <point>
+        <X>-1</X>
+        <Y>-2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.041441042</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E493B9A2:163D4723:2505</guid>
+      <point>
+        <X>-2</X>
+        <Y>-2</Y>
+        <Z>-5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.104661047</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E567877C:32CD2B29:2506</guid>
+      <point>
+        <X>-2</X>
+        <Y>-2</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.238085181</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E5BBC338:FBB9375:2508</guid>
+      <point>
+        <X>-2</X>
+        <Y>-2</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0210951883</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE941E5D4F0E6:12760BC:2509</guid>
+      <point>
+        <X>-2</X>
+        <Y>-2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.442658871</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE942E853615A:708F1319:250B</guid>
+      <point>
+        <X>-3</X>
+        <Y>-2</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.290157765</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE942E89AF2B6:2A64153C:250C</guid>
+      <point>
+        <X>-3</X>
+        <Y>-2</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.193731621</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE942E8DD53DF:72347223:250E</guid>
+      <point>
+        <X>-3</X>
+        <Y>-2</Y>
+        <Z>-5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.09688937</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9431B1A049E:59045525:2516</guid>
+      <point>
+        <X>-2</X>
+        <Y>-2</Y>
+        <Z>-6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.06651651</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE943243B3017:25476751:2517</guid>
+      <point>
+        <X>-5</X>
+        <Y>-2</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.178661257</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94328C695A0:644EC84:2519</guid>
+      <point>
+        <X>-4</X>
+        <Y>-2</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.007397093</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QByte_Default</definition>
+      <guid>8CDE94339200129:DAAA25:251B</guid>
+      <point>
+        <X>-5</X>
+        <Y>-1</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.152463943</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-2.89408575E-07</X>
+        <Y>-0.707106</Y>
+        <Z>-1.61558056E-08</Z>
+        <W>0.707107544</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CDE94343F4FD83:6A5DB2C0:251C</guid>
+      <point>
+        <X>-2</X>
+        <Y>-1</Y>
+        <Z>-5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4994335</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Blue</definition>
+      <guid>8CDE9434635F546:5CA3D4E4:251D</guid>
+      <point>
+        <X>-2</X>
+        <Y>-1</Y>
+        <Z>-6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.2730216</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CDE9435D0F4AAC:722A4DBA:251E</guid>
+      <point>
+        <X>-1</X>
+        <Y>-1</Y>
+        <Z>-5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0843458548</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QByte_Default</definition>
+      <guid>8CDE943686F7210:715DAFBF:251F</guid>
+      <point>
+        <X>1</X>
+        <Y>-1</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3613413</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.629682E-07</X>
+        <Y>0.707106233</Y>
+        <Z>-1.10284645E-07</Z>
+        <W>0.7071073</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Blue</definition>
+      <guid>8CDE9437C2386DB:4FFF525A:2520</guid>
+      <point>
+        <X>-1</X>
+        <Y>-1</Y>
+        <Z>-6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.308544248</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Red</definition>
+      <guid>8CDE9437E0EE34D:4B86FF19:2521</guid>
+      <point>
+        <X>-2</X>
+        <Y>0</Y>
+        <Z>-6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.036327038</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Red</definition>
+      <guid>8CDE9437ED36EAE:7CAE9075:2522</guid>
+      <point>
+        <X>-1</X>
+        <Y>0</Y>
+        <Z>-6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.395530671</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Exit</definition>
+      <guid>8CDE943AABDFCFC:1CA7D38A:2524</guid>
+      <point>
+        <X>-3</X>
+        <Y>5</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.388130933</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-2.5833782E-07</Y>
+        <Z>-8.42936956E-08</Z>
+        <W>8.146038E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94446F08F0B:255134C0:265E</guid>
+      <point>
+        <X>0</X>
+        <Y>-3</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.15145345</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9444789C40A:42555B5E:265F</guid>
+      <point>
+        <X>1</X>
+        <Y>-3</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.344506651</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94469C58ACC:3B1F874F:2661</guid>
+      <point>
+        <X>-2</X>
+        <Y>2</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.388937056</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165801E-08</X>
+        <Y>-2.1855687E-08</Y>
+        <Z>1.56958237E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9446C397A2E:31F8463D:2663</guid>
+      <point>
+        <X>-4</X>
+        <Y>2</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.358432144</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9446C6768AA:E2A9549:2664</guid>
+      <point>
+        <X>-5</X>
+        <Y>2</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.1761878</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165801E-08</X>
+        <Y>-2.1855687E-08</Y>
+        <Z>1.56958237E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9446CC0D499:F2BA29:2665</guid>
+      <point>
+        <X>-6</X>
+        <Y>2</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.39594</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165801E-08</X>
+        <Y>-2.1855687E-08</Y>
+        <Z>1.56958237E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QBit_Green</definition>
+      <guid>8CDE944A6B83DC2:12669A97:28F4</guid>
+      <point>
+        <X>-1</X>
+        <Y>1</Y>
+        <Z>-6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.328840643</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE944F588B800:77FA3E46:2A46</guid>
+      <point>
+        <X>-2</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.272399217</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165801E-08</X>
+        <Y>-2.1855687E-08</Y>
+        <Z>1.56958237E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE944F6625250:2C3F11CB:2A48</guid>
+      <point>
+        <X>-2</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0824414045</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165801E-08</X>
+        <Y>-2.1855687E-08</Y>
+        <Z>1.56958237E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE944F6DC8D2A:5527832A:2A49</guid>
+      <point>
+        <X>-2</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.277567267</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165801E-08</X>
+        <Y>-2.1855687E-08</Y>
+        <Z>1.56958237E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE9452ECCD419:47DA384F:2A4E</guid>
+      <point>
+        <X>-1</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4799862</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE9452FDF598E:768D0EF9:2A4F</guid>
+      <point>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.397295475</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE94530030EB4:103F6B5E:2A50</guid>
+      <point>
+        <X>1</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.30482</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE945310B81E3:15F574A6:2A51</guid>
+      <point>
+        <X>2</X>
+        <Y>-1</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.250062585</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE94532514D18:1A6F1A03:2A52</guid>
+      <point>
+        <X>3</X>
+        <Y>-1</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.458696723</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE94535D2DFDD:48BA867C:2A53</guid>
+      <point>
+        <X>3</X>
+        <Y>0</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.230006412</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE945373CFC7A:465E7B3B:2A54</guid>
+      <point>
+        <X>2</X>
+        <Y>0</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.436784178</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.16579952E-08</X>
+        <Y>-4.4207443E-08</Y>
+        <Z>2.31464142E-07</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9454492B9A7:130AD9A8:2A55</guid>
+      <point>
+        <X>-6</X>
+        <Y>2</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.498536736</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.687299E-07</X>
+        <Y>0.7071062</Y>
+        <Z>-1.7350483E-07</Z>
+        <W>0.707107365</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Switch_Green_90</definition>
+      <guid>8CDE9454FB22D98:43ACA386:2A58</guid>
+      <point>
+        <X>-6</X>
+        <Y>3</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-6.755127E-08</X>
+        <Y>1</Y>
+        <Z>4.10278034E-07</Z>
+        <W>8.146036E-08</W>
+      </rotation>
+      <state>1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94563CD6A26:17A0F643:2A5A</guid>
+      <point>
+        <X>-6</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.321924</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9456494B4B1:42294EBD:2A5B</guid>
+      <point>
+        <X>-7</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.422454476</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-7.946504E-09</X>
+        <Y>1</Y>
+        <Z>6.48696641E-07</Z>
+        <W>-6.010069E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94564C27C1D:3162E953:2A5C</guid>
+      <point>
+        <X>-8</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4409921</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000004</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.5000004</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Switch_Red_Hologram</definition>
+      <guid>8CDE9456BB574C9:6AF00C4C:2A5D</guid>
+      <point>
+        <X>-8</X>
+        <Y>1</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.707107</X>
+        <Y>-4.77659476E-08</Y>
+        <Z>8.99128239E-08</Z>
+        <W>0.707106531</W>
+      </rotation>
+      <state>1</state>
+      <properties />
+      <children>
+        <string>8CDE944F588B800:77FA3E46:2A46</string>
+        <string>8CDE944F6625250:2C3F11CB:2A48</string>
+        <string>8CDE944F6DC8D2A:5527832A:2A49</string>
+        <string>8CDE9452ECCD419:47DA384F:2A4E</string>
+        <string>8CDE9452FDF598E:768D0EF9:2A4F</string>
+        <string>8CDE94530030EB4:103F6B5E:2A50</string>
+        <string>8CDE945310B81E3:15F574A6:2A51</string>
+        <string>8CDE94532514D18:1A6F1A03:2A52</string>
+        <string>8CDE94535D2DFDD:48BA867C:2A53</string>
+        <string>8CDE945373CFC7A:465E7B3B:2A54</string>
+        <string>8CDE9466DF46A4E:4C82CA1C:2AA0</string>
+        <string>8CDE9466CD2061E:2A28080C:2A9F</string>
+      </children>
+      <focus>
+        <DataKeyFrame>
+          <position>
+            <X>165.226425</X>
+            <Y>176.57489</Y>
+            <Z>-90.48762</Z>
+          </position>
+          <rotation>
+            <X>0.8749378</X>
+            <Y>-0.246906951</Y>
+            <Z>0.113134019</Z>
+            <W>-0.40090093</W>
+          </rotation>
+        </DataKeyFrame>
+      </focus>
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CDE945A2CD80FD:77524CD6:2A5F</guid>
+      <point>
+        <X>0</X>
+        <Y>-1</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0541353859</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CDE945A441D6F1:6204C9A0:2A61</guid>
+      <point>
+        <X>2</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.195628554</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CDE945A5D4D8E8:1D2EA23:2A63</guid>
+      <point>
+        <X>3</X>
+        <Y>0</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3210459</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CDE945A864DC33:CC4B2B0:2A65</guid>
+      <point>
+        <X>1</X>
+        <Y>-1</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.3366317</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CDE945A9E16FA5:123516C4:2A67</guid>
+      <point>
+        <X>3</X>
+        <Y>-1</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.16514352</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CDE945AB49424A:42B55943:2A69</guid>
+      <point>
+        <X>2</X>
+        <Y>0</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.442335725</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE945B11087D3:3E73C942:2A6B</guid>
+      <point>
+        <X>-4</X>
+        <Y>2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1347.98816</Y>
+        <Z>-0.266823024</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE945B2148E22:27DB9535:2A6D</guid>
+      <point>
+        <X>-5</X>
+        <Y>2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>395.456268</Y>
+        <Z>0.463757783</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE945B25E9087:17579D29:2A6E</guid>
+      <point>
+        <X>-6</X>
+        <Y>2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1316.267</Y>
+        <Z>-0.16672048</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE945B352910A:3ED0E902:2A6F</guid>
+      <point>
+        <X>-6</X>
+        <Y>1</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1987.98</Y>
+        <Z>-0.398666531</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE945B411EC37:DBC0A1D:2A70</guid>
+      <point>
+        <X>-7</X>
+        <Y>1</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>602.9471</Y>
+        <Z>0.2068935</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945BFDDCF4F:7DBC5654:2A71</guid>
+      <point>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.481017441</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945C04B38B9:18E4D1F0:2A73</guid>
+      <point>
+        <X>1</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.09709496</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945C86CA3B3:1F2DD28F:2A76</guid>
+      <point>
+        <X>1</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0449124873</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945D4C8E208:15CC9FFF:2A77</guid>
+      <point>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0347253531</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945D735091D:2B993A8D:2A7A</guid>
+      <point>
+        <X>5</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.101982385</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945D8B6A5B2:174948D0:2A7B</guid>
+      <point>
+        <X>6</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.492451727</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945DC69343E:62D1C3B4:2A7C</guid>
+      <point>
+        <X>0</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4213708</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945DDEF8BD6:2ADB8092:2A7E</guid>
+      <point>
+        <X>-1</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.383016825</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945DE2F54E5:7523C3D7:2A80</guid>
+      <point>
+        <X>-3</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.00155747007</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945DE87884F:16099B16:2A83</guid>
+      <point>
+        <X>-6</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0502506979</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945DEA15240:79F3E607:2A84</guid>
+      <point>
+        <X>-7</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.488445729</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945E1280698:9B4A0AA:2A85</guid>
+      <point>
+        <X>1</X>
+        <Y>-2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.182569072</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945E8F053C4:6684A22A:2A86</guid>
+      <point>
+        <X>-7</X>
+        <Y>-2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0493032373</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE945E94C09AC:AFDD67C:2A87</guid>
+      <point>
+        <X>-8</X>
+        <Y>-2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.2068455</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Portal</definition>
+      <guid>8CDE945F34A51F1:14C5BE25:2A88</guid>
+      <point>
+        <X>-8</X>
+        <Y>-2</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.332043767</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>3</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94614B09D24:1ECF3789:2A8A</guid>
+      <point>
+        <X>6</X>
+        <Y>1</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.306368</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE946178F84E7:536B2F52:2A8B</guid>
+      <point>
+        <X>6</X>
+        <Y>0</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.277341366</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9461854AC8A:DA63D74:2A8C</guid>
+      <point>
+        <X>6</X>
+        <Y>-1</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.294125468</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE946188F4565:6060420F:2A8D</guid>
+      <point>
+        <X>6</X>
+        <Y>-2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.393112481</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE946275D9E55:33E614BD:2A8F</guid>
+      <point>
+        <X>6</X>
+        <Y>-4</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.127635375</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94628501832:43A1E800:2A90</guid>
+      <point>
+        <X>6</X>
+        <Y>-5</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.147084624</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CDE9462E9A7256:1CEBB391:2A91</guid>
+      <point>
+        <X>6</X>
+        <Y>-4</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.241001144</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Crate</definition>
+      <guid>8CDE9462F28AAAB:3C84EFF0:2A92</guid>
+      <point>
+        <X>6</X>
+        <Y>-2</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.299552232</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Spikes</definition>
+      <guid>8CDE946378AC918:47C55754:2A93</guid>
+      <point>
+        <X>7</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.329282433</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Spikes</definition>
+      <guid>8CDE9464B65C765:68C30980:2A96</guid>
+      <point>
+        <X>13</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.294964164</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94651C75361:C3ABF6B:2A97</guid>
+      <point>
+        <X>12</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.020459624</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE94654D736EB:7A5A0D7:2A99</guid>
+      <point>
+        <X>11</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.177112743</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE946551244F8:1E388379:2A9A</guid>
+      <point>
+        <X>10</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.40553382</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-1.10284724E-07</X>
+        <Y>-0.7071065</Y>
+        <Z>0.707107067</Z>
+        <W>-1.53133158E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9465583F432:5542223B:2A9C</guid>
+      <point>
+        <X>8</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.133906141</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000005</X>
+        <Y>0.499999553</Y>
+        <Z>-0.499999553</Z>
+        <W>0.500000358</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE9466CD2061E:2A28080C:2A9F</guid>
+      <point>
+        <X>6</X>
+        <Y>-3</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.1769322</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>1</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Hologram_1x1x1</definition>
+      <guid>8CDE9466DF46A4E:4C82CA1C:2AA0</guid>
+      <point>
+        <X>6</X>
+        <Y>-5</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.472142518</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.70710665</X>
+        <Y>-2.669255E-08</Y>
+        <Z>-4.706445E-08</Z>
+        <W>0.7071069</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>1</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Marker</definition>
+      <guid>8CDE9471FB24910:1C902D3D:2C9B</guid>
+      <point>
+        <X>6</X>
+        <Y>-5</Y>
+        <Z>-9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.05262186</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071069</X>
+        <Y>1.62968277E-07</Y>
+        <Z>1.61558109E-08</Z>
+        <W>0.70710665</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QByte_Default</definition>
+      <guid>8CDE9472DAC10D3:6D4B7DB8:2C9C</guid>
+      <point>
+        <X>0</X>
+        <Y>-2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.252120465</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.500000358</X>
+        <Y>0.4999996</Y>
+        <Z>-0.499999642</Z>
+        <W>0.5000003</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>2</int>
+        <int>2</int>
+        <int>1</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>QByte_Default</definition>
+      <guid>8CDE9472F54E50B:7721F81A:2C9D</guid>
+      <point>
+        <X>1</X>
+        <Y>2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4347345</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.5000004</X>
+        <Y>-0.499999672</Y>
+        <Z>0.4999996</Z>
+        <W>0.500000238</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>2</int>
+        <int>2</int>
+        <int>1</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Switch_Green_90</definition>
+      <guid>8CDE947FA399444:501E23E1:30B4</guid>
+      <point>
+        <X>14</X>
+        <Y>2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>2.05115157E-07</X>
+        <Y>0.707107067</Y>
+        <Z>-0.7071065</Z>
+        <W>-8.92113547E-08</W>
+      </rotation>
+      <state>1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CDE9480DE54480:2A73874E:30B6</guid>
+      <point>
+        <X>11</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.269010365</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Blue_1x1</definition>
+      <guid>8CDE948100434D3:52989F01:30B8</guid>
+      <point>
+        <X>10</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.473660827</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Blue_1x1</definition>
+      <guid>8CDE9481076F581:359C3F74:30BA</guid>
+      <point>
+        <X>9</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.109760284</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CDE94817022A29:42D7F5AA:30BE</guid>
+      <point>
+        <X>8</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.024638094</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Green_1x1</definition>
+      <guid>8CDE9482090BF0C:7361BD66:30C0</guid>
+      <point>
+        <X>14</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.146066412</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.707107</X>
+        <Y>-6.88393555E-08</Y>
+        <Z>-5.76011345E-08</Z>
+        <W>0.707106531</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Green_1x1</definition>
+      <guid>8CDE948299AB8AE:6751A31D:30C2</guid>
+      <point>
+        <X>13</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.08291184</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Green_1x1</definition>
+      <guid>8CDE9482D9D1615:EEE9264:30C4</guid>
+      <point>
+        <X>12</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.376613647</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Green_1x1</definition>
+      <guid>8CDE94835D1BB37:15FC7C32:30C6</guid>
+      <point>
+        <X>7</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.243445456</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Blue_1x1</definition>
+      <guid>8CDE9483E846BD2:25D93DE2:30C8</guid>
+      <point>
+        <X>6</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.1916511</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CDE9483FF82583:33EBDC87:30CA</guid>
+      <point>
+        <X>5</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.1865885</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Blue_1x1</definition>
+      <guid>8CDE94840E2B002:3AE1FC11:30CC</guid>
+      <point>
+        <X>4</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.08196349</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Red_1x1</definition>
+      <guid>8CDE94841B45AF4:3471A484:30CE</guid>
+      <point>
+        <X>3</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0373125747</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE948472F541F:32E0579B:30D0</guid>
+      <point>
+        <X>2</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.44162035</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071067</X>
+        <Y>-2.66925433E-08</Y>
+        <Z>-5.76011665E-08</Z>
+        <W>0.7071068</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9484C3AE808:7B1D4B4B:30D2</guid>
+      <point>
+        <X>0</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.103309914</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>7.867459E-08</X>
+        <Y>0.707106948</Y>
+        <Z>-0.7071066</Z>
+        <W>-4.706444E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9485C290D0F:5EDBDA8:30D4</guid>
+      <point>
+        <X>0</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.281528026</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-4.420744E-08</X>
+        <Y>4.53989429E-07</Y>
+        <Z>1</Z>
+        <W>-5.2650158E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9485D62CA27:343E1A27:30D5</guid>
+      <point>
+        <X>-2</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.377306342</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-4.420744E-08</X>
+        <Y>4.53989429E-07</Y>
+        <Z>1</Z>
+        <W>-5.2650158E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE9485EB7D7D6:41567351:30D6</guid>
+      <point>
+        <X>-3</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.306262076</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>3.77489542E-08</Y>
+        <Z>-4.960521E-10</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_1_1x1x1</definition>
+      <guid>8CDE948607FCD43:7E4FE5BF:30D9</guid>
+      <point>
+        <X>-3</X>
+        <Y>6</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.449518681</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-4.420744E-08</X>
+        <Y>4.53989429E-07</Y>
+        <Z>1</Z>
+        <W>-5.2650158E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Spikes</definition>
+      <guid>8CDE94866EFD864:F18091:30DA</guid>
+      <point>
+        <X>-1</X>
+        <Y>6</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.238678068</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>3.77489542E-08</Y>
+        <Z>-4.960521E-10</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE948700EE0F5:3A9EED32:30DB</guid>
+      <point>
+        <X>1</X>
+        <Y>7</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.4430945</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>3.77489542E-08</Y>
+        <Z>-4.960521E-10</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9487290DA4B:3907B212:30DD</guid>
+      <point>
+        <X>-3</X>
+        <Y>6</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.2199875</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>3.77489542E-08</Y>
+        <Z>-4.960521E-10</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE94873B8BCD1:39567F95:30DE</guid>
+      <point>
+        <X>-3</X>
+        <Y>6</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.411658823</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.707107</X>
+        <Y>2.26188476E-07</Y>
+        <Z>0.707106531</Z>
+        <W>2.68335327E-07</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE94882089516:245F580B:30DF</guid>
+      <point>
+        <X>9</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.1937606</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9488596F94B:51F4641E:30E0</guid>
+      <point>
+        <X>3</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.101893611</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9488662B0B6:429CDC78:30E1</guid>
+      <point>
+        <X>4</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0324117541</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9488C5B8E49:4874A17F:30E2</guid>
+      <point>
+        <X>-5</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.2310505</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9488D08C0C3:331280D5:30E3</guid>
+      <point>
+        <X>-4</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.168652937</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9488DE408C9:6A8542EF:30E4</guid>
+      <point>
+        <X>-2</X>
+        <Y>-2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3782324</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE94898684BE4:7CCD658B:30E5</guid>
+      <point>
+        <X>-5</X>
+        <Y>-2</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.153791234</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE94898B4BF53:E9B03EA:30E6</guid>
+      <point>
+        <X>-5</X>
+        <Y>-2</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.253562778</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9489A479A39:4B4ED075:30E7</guid>
+      <point>
+        <X>-2</X>
+        <Y>-2</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.352014035</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9489AC75368:3B86C824:30E8</guid>
+      <point>
+        <X>-3</X>
+        <Y>-2</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.23606728</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE9489EC284C4:1D7F0034:30E9</guid>
+      <point>
+        <X>-3</X>
+        <Y>-2</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.314150274</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE948A1DE4F5B:B1C9A52:30EA</guid>
+      <point>
+        <X>-1</X>
+        <Y>-2</Y>
+        <Z>-6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.00151974824</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE948A3C82527:7B4289B9:30EB</guid>
+      <point>
+        <X>1</X>
+        <Y>-2</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.239671543</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE948A997811E:31450C33:30EC</guid>
+      <point>
+        <X>-6</X>
+        <Y>3</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.03158269</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE948AB59F837:3CCB6F15:30ED</guid>
+      <point>
+        <X>-6</X>
+        <Y>4</Y>
+        <Z>1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.163198054</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948B0FCEC58:5D0BDD13:30EE</guid>
+      <point>
+        <X>6</X>
+        <Y>-1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.225558445</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948B2635F67:4E826F22:30F0</guid>
+      <point>
+        <X>6</X>
+        <Y>1</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.3417551</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948B55BEA0A:3C891A09:30F1</guid>
+      <point>
+        <X>6</X>
+        <Y>-3</Y>
+        <Z>-1</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.06545004</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948BA0BEF1D:15C45421:30F2</guid>
+      <point>
+        <X>12</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.440197825</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>8.146038E-08</X>
+        <Y>1</Y>
+        <Z>3.05969877E-07</Z>
+        <W>-4.96051256E-10</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948BF30D7C5:6A593A9:30F3</guid>
+      <point>
+        <X>-3</X>
+        <Y>2</Y>
+        <Z>0</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0460923463</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948C5F45B4F:7161454:30F4</guid>
+      <point>
+        <X>14</X>
+        <Y>2</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.296344459</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948C7D1389B:2AF5A14B:30F5</guid>
+      <point>
+        <X>14</X>
+        <Y>2</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.0452007651</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.76011452E-08</X>
+        <Y>0.707106352</Y>
+        <Z>-1.5454301E-08</Z>
+        <W>0.7071072</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948CCC72153:27F5E683:30F6</guid>
+      <point>
+        <X>1</X>
+        <Y>-1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.332866818</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE948CE706ABD:6F42B935:30F7</guid>
+      <point>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.361439139</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Filter_Green_1x1</definition>
+      <guid>8CDE9499224A233:1E159FF6:3353</guid>
+      <point>
+        <X>14</X>
+        <Y>6</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.118563496</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </properties>
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949DA8EFC85:4755AC84:3372</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>451.1209</Y>
+        <Z>-0.00240646885</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949DACC548B:7AE80D4:3373</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>853.104431</Y>
+        <Z>0.219253168</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949DAED7197:1F712771:3374</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1765.216</Y>
+        <Z>0.352875531</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949DB0B8158:54EAEBAB:3375</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1976.15649</Y>
+        <Z>-0.06487481</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949DB2A546B:7E13BF74:3376</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1138.19141</Y>
+        <Z>-0.253533</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949DB4B7178:63C5BE32:3377</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>7</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>141.843689</Y>
+        <Z>0.200093612</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CDE949DDDEF740:24E0AAF6:3378</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>8</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.0419854224</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE949E3948946:31671E6:337A</guid>
+      <point>
+        <X>-6</X>
+        <Y>5</Y>
+        <Z>9</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.486246884</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949F4BF51A0:776514C8:337B</guid>
+      <point>
+        <X>-3</X>
+        <Y>-1</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>239.382553</Y>
+        <Z>-0.311392844</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949F4FE7E6D:651CF95B:337C</guid>
+      <point>
+        <X>-3</X>
+        <Y>-1</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>929.958</Y>
+        <Z>-0.07050725</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949F5548EEF:F31F29D:337D</guid>
+      <point>
+        <X>-3</X>
+        <Y>-1</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1510.4093</Y>
+        <Z>0.154812157</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949F620947C:636C3750:337E</guid>
+      <point>
+        <X>-4</X>
+        <Y>-1</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>427.0948</Y>
+        <Z>0.362255871</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949F65DC571:2F2B30AA:337F</guid>
+      <point>
+        <X>-5</X>
+        <Y>-1</Y>
+        <Z>-2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1102.45874</Y>
+        <Z>-0.36634326</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949F70663FA:51E4ACD2:3380</guid>
+      <point>
+        <X>-5</X>
+        <Y>0</Y>
+        <Z>-3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>768.9864</Y>
+        <Z>0.00448264135</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>0.707106769</X>
+        <Y>2.66925291E-08</Y>
+        <Z>-1.545431E-08</Z>
+        <W>0.707106769</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE949F9EE257D:19175247:3381</guid>
+      <point>
+        <X>-5</X>
+        <Y>0</Y>
+        <Z>-4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>763.9547</Y>
+        <Z>-0.192247078</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CDE94A04A0F358:17A601F9:3382</guid>
+      <point>
+        <X>-3</X>
+        <Y>1</Y>
+        <Z>-5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.427241981</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-5.165802E-08</X>
+        <Y>6.010073E-08</Y>
+        <Z>5.26501154E-08</Z>
+        <W>1</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE94B9DC39B77:2449F4FD:363D</guid>
+      <point>
+        <X>7</X>
+        <Y>4</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.1728053</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>3.77489542E-08</Y>
+        <Z>-4.519953E-08</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_0_1x1x1</definition>
+      <guid>8CDE94BA0AF54AA:E819AFE:363E</guid>
+      <point>
+        <X>6</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.103835009</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>7.946614E-09</X>
+        <Y>2.75175466E-07</Y>
+        <Z>1</Z>
+        <W>-5.26501367E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>Alien_2_1x1x1</definition>
+      <guid>8CDE94BA638CCFB:62D2536E:363F</guid>
+      <point>
+        <X>6</X>
+        <Y>4</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.4456971</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>7.946614E-09</X>
+        <Y>2.75175466E-07</Y>
+        <Z>1</Z>
+        <W>-5.26501367E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94BB4FE9A4B:2C4D1E51:3640</guid>
+      <point>
+        <X>6</X>
+        <Y>3</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>564.880249</Y>
+        <Z>0.183326587</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071068</X>
+        <Y>-4.776596E-08</Y>
+        <Z>1.61558233E-08</Z>
+        <W>0.7071067</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94BB5A64E6F:387D7985:3641</guid>
+      <point>
+        <X>6</X>
+        <Y>4</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>893.869446</Y>
+        <Z>0.278643727</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071068</X>
+        <Y>-4.776596E-08</Y>
+        <Z>1.61558233E-08</Z>
+        <W>0.7071067</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_1</definition>
+      <guid>8CDE94BB740073F:1238D823:3642</guid>
+      <point>
+        <X>7</X>
+        <Y>4</Y>
+        <Z>2</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.006233204</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>-0.7071068</X>
+        <Y>-4.776596E-08</Y>
+        <Z>1.61558233E-08</Z>
+        <W>0.7071067</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94BC986CB11:65EE92D9:3646</guid>
+      <point>
+        <X>7</X>
+        <Y>3</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1425.94031</Y>
+        <Z>-0.009650261</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-5.16580165E-08</Y>
+        <Z>1.12902218E-15</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94BCA80E62B:2D5611B3:3647</guid>
+      <point>
+        <X>6</X>
+        <Y>2</Y>
+        <Z>3</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1719.412</Y>
+        <Z>0.2252621</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-5.16580165E-08</Y>
+        <Z>1.12902218E-15</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94BCC44BCD9:63E9F0B1:3648</guid>
+      <point>
+        <X>6</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1994.71582</Y>
+        <Z>0.125151411</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-5.16580165E-08</Y>
+        <Z>1.12902218E-15</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94BCE92860B:623B8154:364A</guid>
+      <point>
+        <X>4</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>365.150818</Y>
+        <Z>-0.08194326</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-5.16580165E-08</Y>
+        <Z>1.12902218E-15</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94BCEF3BA48:68CC9564:364B</guid>
+      <point>
+        <X>2</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1093.31812</Y>
+        <Z>-0.371660978</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-5.16580165E-08</Y>
+        <Z>1.12902218E-15</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CDE94BD0626AD6:78BC9E93:364C</guid>
+      <point>
+        <X>3</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>-0.139710426</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-5.16580165E-08</Y>
+        <Z>1.12902218E-15</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CDE94BD18C7043:83CEEA2:364E</guid>
+      <point>
+        <X>5</X>
+        <Y>1</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.357175022</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>-5.16580165E-08</Y>
+        <Z>1.12902218E-15</Z>
+        <W>-6.75512837E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_0</definition>
+      <guid>8CDE94C3F3E5623:48D61848:3650</guid>
+      <point>
+        <X>-3</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>0.03978712</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>8.146034E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94C40D2B7AF:398AA8EE:3652</guid>
+      <point>
+        <X>-2</X>
+        <Y>5</Y>
+        <Z>4</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>777.529541</Y>
+        <Z>-0.3739885</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>8.146034E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94C423225C4:A54DF6:3653</guid>
+      <point>
+        <X>-3</X>
+        <Y>5</Y>
+        <Z>5</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>606.1824</Y>
+        <Z>-0.17805323</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>8.146034E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+    <DataAtom>
+      <definition>CollectScore_3</definition>
+      <guid>8CDE94C461EFF0A:FCA9006:3654</guid>
+      <point>
+        <X>-3</X>
+        <Y>5</Y>
+        <Z>6</Z>
+      </point>
+      <data>
+        <X>0</X>
+        <Y>1302.24536</Y>
+        <Z>-0.282343119</Z>
+        <W>0</W>
+      </data>
+      <rotation>
+        <X>1</X>
+        <Y>0</Y>
+        <Z>0</Z>
+        <W>8.146034E-08</W>
+      </rotation>
+      <state>-1</state>
+      <properties />
+      <children />
+      <focus />
+    </DataAtom>
+  </atoms>
+  <conversations />
+</DataLevel>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataLevel>
+  <expendable>0</expendable>
+  <sky>Sun Shine</sky>
+  <music>2</music>
+  <intro />
+  <atoms>
+	<DataAtom>
+	  <definition>Dissapearing_0_1x1x1</definition>
+	  <guid>8CCA6629C4AFA04:531E8A40:34B</guid>
+	  <point>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+	  </point>
+	  <data>
+		<X>0</X>
+		<Y>0</Y>
+		<Z>0</Z>
+		<W>0</W>
+	  </data>
+	  <rotation>
+		<X>0</X>
+		<Y>1</Y>
+		<Z>0</Z>
+		<W>-4.371139E-08</W>
+	  </rotation>
+	  <state>-1</state>
+	  <properties>
+		<int>2</int>
+		<int>1</int>
+	  </properties>
+	</DataAtom>
+  </atoms>
+  <qbits />
+</DataLevel>
