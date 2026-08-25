@@ -13,10 +13,7 @@
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="C:\source\Content-References\Contents.csproj">
-			<Private>True</Private>
-			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
-		</ProjectReference>
+		<ProjectReference Include="..\..\Content-References\Contents.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Update="Content\**\*">

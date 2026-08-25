@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>TwentyGames</AssemblyName>
@@ -13,10 +13,15 @@
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="C:\source\Content-References\Contents.csproj">
-			<Private>True</Private>
-			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
-		</ProjectReference>
+	  <ProjectReference Include="..\..\Content-References\Contents.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="FarseerPhysicsXNA">
+	    <HintPath>FarseerPhysicsXNA.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ISParticleEngine">
+	    <HintPath>ISParticleEngine.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 	<ItemGroup>
 		<None Update="Content\**\*">
