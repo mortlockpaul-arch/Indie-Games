@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net481</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU</Platforms>
+	</PropertyGroup>
+	<PropertyGroup>
+		<LangVersion>14.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\FNA.NetStub\FNA.NetStub.csproj" />
+	  <ProjectReference Include="..\FNA\FNA.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="**">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System">
+	    <SpecificVersion>True</SpecificVersion>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Data">
+	    <SpecificVersion>True</SpecificVersion>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Drawing">
+	    <SpecificVersion>True</SpecificVersion>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Update="System.Xml">
+	    <SpecificVersion>True</SpecificVersion>
+	  </Reference>
+	</ItemGroup>
+
+
+</Project>
