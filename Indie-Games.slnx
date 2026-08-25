@@ -9,7 +9,8 @@
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/decompiled/BLOOD&amp;BACON (World) (XBLIG).csproj" />
   </Folder>
-  <Project Path="../Content-References/Contents.csproj" />
-  <Project Path="../FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b" />
-  <Project Path="../FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f" />
+  <Project Path="Indie-Game-Launcher.csproj" Id="db401b22-7c84-435e-bdf5-df0a57eaaeee" />
+  <Project Path="Content-References/Contents.csproj" />
+  <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b" />
+  <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f" />
 </Solution>
