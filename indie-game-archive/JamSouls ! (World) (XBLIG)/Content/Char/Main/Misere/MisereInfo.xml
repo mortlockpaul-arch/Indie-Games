@@ -1,0 +1,13 @@
+<XnaContent>
+  <Collision Width="34" Height="70" OffsetX="0" OffsetY="5" SpOffsetX="0" SpOffsetY="60" ></Collision>
+  <Stand FrameCount="1" Width="60" Height="84" Speed="100"  Loop="0" ></Stand>
+  <Walk FrameCount="6" Width="60" Height="84" Speed="100"  Loop="0" ></Walk>
+  <Jump FrameCount="2" Width="60" Height="86" Speed="100"  Loop="1" ></Jump>
+  <Fall FrameCount="2" Width="58" Height="81" Speed="250"  Loop="1" ></Fall>
+  <Explode FrameCount="3" Width="90" Height="91" Speed="100"  Loop="1" ></Explode>
+   <SpecialStand FrameCount="1" Width="188" Height="152" Speed="100"  Loop="0" ></SpecialStand>
+  <SpecialWalk FrameCount="1" Width="180" Height="182" Speed="100"  Loop="0" ></SpecialWalk>
+  <SpecialJump FrameCount="2" Width="232" Height="197" Speed="100"  Loop="1" ></SpecialJump>
+  <SpecialFall FrameCount="1" Width="268" Height="167" Speed="100"  Loop="0" ></SpecialFall>
+  <SpecialDash FrameCount="4" Width="278" Height="252" Speed="20"  Loop="0" ></SpecialDash>
+</XnaContent>

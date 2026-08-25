@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+  <Asset Type="ProjectMercury.ParticleEffect">
+    <Item>
+      <Name>Basic Emitter</Name>
+      <Budget>20</Budget>
+      <Term>60</Term>
+      <ReleaseQuantity>20</ReleaseQuantity>
+      <Enabled>true</Enabled>
+      <ReleaseSpeed>
+        <Value>0</Value>
+        <Variation>25</Variation>
+      </ReleaseSpeed>
+      <ReleaseColour>
+        <Value>0 0 0</Value>
+        <Variation>0 0 0</Variation>
+      </ReleaseColour>
+      <ReleaseOpacity>
+        <Value>1</Value>
+        <Variation>0</Variation>
+      </ReleaseOpacity>
+      <ReleaseScale>
+        <Value>2</Value>
+        <Variation>6</Variation>
+      </ReleaseScale>
+      <ReleaseRotation>
+        <Value>0</Value>
+        <Variation>25</Variation>
+      </ReleaseRotation>
+      <ReleaseImpulse>20 20</ReleaseImpulse>
+      <ParticleTextureAssetName>LensFlare</ParticleTextureAssetName>
+      <Modifiers>
+        <Item Type="ProjectMercury.Modifiers.RectangleConstraintDeflector">
+          <Width>200</Width>
+          <Height>60</Height>
+          <RestitutionCoefficient>
+            <Value>0</Value>
+            <Variation>0</Variation>
+          </RestitutionCoefficient>
+          <Position>0 0</Position>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.RadialGravityModifier">
+          <Radius>300</Radius>
+          <InnerRadius>10</InnerRadius>
+          <Position>25 30</Position>
+          <Strength>10</Strength>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.RadialGravityModifier">
+          <Radius>300</Radius>
+          <InnerRadius>10</InnerRadius>
+          <Position>100 30</Position>
+          <Strength>10</Strength>
+        </Item>
+        <Item Type="ProjectMercury.Modifiers.RadialGravityModifier">
+          <Radius>300</Radius>
+          <InnerRadius>10</InnerRadius>
+          <Position>175 30</Position>
+          <Strength>10</Strength>
+        </Item>
+      </Modifiers>
+      <BlendMode>Alpha</BlendMode>
+      <TriggerOffset>0 0</TriggerOffset>
+      <MinimumTriggerPeriod>0</MinimumTriggerPeriod>
+    </Item>
+    <Name>DeathSpecialEffect</Name>
+    <Author>Mog</Author>
+    <Description>particle</Description>
+  </Asset>
+</XnaContent>

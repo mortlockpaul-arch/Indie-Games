@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="1" Y="0" Z="0.001" TreeName="Layer0" Filename="lvl_Mort_bkg" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="101" Y="218" SX="108" SY="19" TreeName="Box1" Block="False" FloorType="NONE"></Box>
+	<Box X="217" Y="332" SX="73" SY="20" TreeName="Box2" Block="False" FloorType="NONE"></Box>
+	<Box X="564" Y="533" SX="104" SY="19" TreeName="Box5" Block="False" FloorType="NONE"></Box>
+	<Box X="679" Y="257" SX="61" SY="18" TreeName="Box6" Block="False" FloorType="NONE"></Box>
+	<Box X="1033" Y="320" SX="85" SY="19" TreeName="Box11" Block="False" FloorType="NONE"></Box>
+	<Box X="-39" Y="-135" SX="37" SY="906" TreeName="leftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-39" Y="732" SX="1355" SY="46" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1278" Y="-135" SX="38" SY="909" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Anim X="908" Y="421" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-85:135" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1130" Y="363" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-87:12" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1110" Y="363" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-86" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="732" Y="279" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-81:85" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="31" Y="269" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-63:63" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1168" Y="125" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-84:85" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1208" Y="268" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-83:98" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="796" Y="128" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-80:50" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="586" Y="106" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-79:50" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="235" Y="128" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-78:200" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="216" Y="133" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-7:100" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="177" Y="409" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-76" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="193" Y="399" Z="0.01" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim-75" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Box X="-9" Y="-127" SX="1298" SY="68" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Anim X="437" Y="360" Z="0.999" SX="28" SY="28" FrameNum="8" Speed="100" Loop="0" TreeName="OeilAnim:122" Filename="OeilAnim" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Flag Name="BlueFlag" X="123" Y="177"></Flag>
+	<Flag Name="RedFlag" X="1109" Y="147"></Flag>
+	<PlayerStart X="725" Y="20" Z="0.019" TreeName="Player20" TeamNum="1"></PlayerStart>
+	<PlayerStart X="277" Y="14" Z="0.019" TreeName="Player20-230" TeamNum="0"></PlayerStart>
+	<PlayerStart X="110" Y="14" Z="0.019" TreeName="Player20-232" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1117" Y="16" Z="0.019" TreeName="Player20-234" TeamNum="1"></PlayerStart>
+	<PowerUp Name="PowerUp54" X="692" Y="230"></PowerUp>
+	<PowerUp Name="PowerUp54-267" X="416" Y="235"></PowerUp>
+	<Box X="870" Y="278" SX="107" SY="18" TreeName="Box8-105" Block="False" FloorType="NONE"></Box>
+	<JamPowerUp Name="JamPowerUp42" X="72" Y="492"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp42-44" X="1147" Y="490"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp42-45" X="585" Y="433"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp42-46" X="377" Y="333"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp42-47" X="760" Y="322"></JamPowerUp>
+	<PlayerStart X="432" Y="14" Z="0.019" TreeName="Player20-48" TeamNum="0"></PlayerStart>
+	<PlayerStart X="906" Y="23" Z="0.019" TreeName="Player20-49" TeamNum="1"></PlayerStart>
+	<Box X="380" Y="261" SX="101" SY="20" TreeName="Box2-51" Block="False" FloorType="NONE"></Box>
+	<Box X="381" Y="437" SX="61" SY="18" TreeName="Box2-52" Block="False" FloorType="NONE"></Box>
+	<Box X="728" Y="423" SX="126" SY="13" TreeName="Box5-53" Block="False" FloorType="NONE"></Box>
+	<Box X="1087" Y="190" SX="89" SY="17" TreeName="Box8-54" Block="False" FloorType="NONE"></Box>
+	<Box X="-43" Y="581" SX="222" SY="37" TreeName="Box12-57" Block="False" FloorType="NONE"></Box>
+	<Box X="1086" Y="579" SX="222" SY="37" TreeName="Box12-58" Block="False" FloorType="NONE"></Box>
+	<Spring Name="Spring53" X="12" Y="519" Z="0.01"></Spring>
+	<Spring Name="Spring53-55" X="1221" Y="517" Z="0.01"></Spring>
+	<Dummy Name="PlayerStart" X="138" Y="24" Flip="0"></Dummy>
+	<Dummy Name="BossStart" X="1121" Y="9" Flip="1"></Dummy>
+	<Dummy Name="FrogSpawn" X="673" Y="13" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-353" X="740" Y="13" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-354" X="1168" Y="443" Flip="0"></Dummy>
+	<Dummy Name="PlayerStart" X="138" Y="24" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="813" Y="13" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-349" X="960" Y="11" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-353" X="894" Y="13" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-354" X="1034" Y="10" Flip="0"></Dummy>
+	<Box X="276" Y="581" SX="186" SY="17" TreeName="Box12-71" Block="False" FloorType="NONE"></Box>
+	<Box X="782" Y="582" SX="186" SY="16" TreeName="Box12-72" Block="False" FloorType="NONE"></Box>
+	<Layer X="-1" Y="676" Z="1" TreeName="WaveScroller" Filename="lvl_Mort_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<PowerUp Name="PowerUp54-82" X="357" Y="552"></PowerUp>
+	<PowerUp Name="PowerUp54-83" X="865" Y="555"></PowerUp>
+	<WayPoint Name="Wp64" X="154" Y="205" WayPointId="194" Ground="True"></WayPoint>
+	<WayPoint Name="Wp65" X="253" Y="318" WayPointId="195" Ground="True"></WayPoint>
+	<WayPoint Name="Wp66" X="429" Y="245" WayPointId="196" Ground="True"></WayPoint>
+	<WayPoint Name="Wp67" X="409" Y="423" WayPointId="197" Ground="True"></WayPoint>
+	<WayPoint Name="Wp68" X="708" Y="242" WayPointId="198" Ground="True"></WayPoint>
+	<WayPoint Name="Wp69" X="793" Y="409" WayPointId="199" Ground="True"></WayPoint>
+	<WayPoint Name="Wp70" X="919" Y="264" WayPointId="200" Ground="True"></WayPoint>
+	<WayPoint Name="Wp71" X="1076" Y="305" WayPointId="201" Ground="True"></WayPoint>
+	<WayPoint Name="Wp72" X="1128" Y="175" WayPointId="202" Ground="True"></WayPoint>
+	<WayPoint Name="Wp73" X="1174" Y="565" WayPointId="203" Ground="True"></WayPoint>
+	<WayPoint Name="Wp74" X="876" Y="566" WayPointId="204" Ground="True"></WayPoint>
+	<WayPoint Name="Wp75" X="615" Y="518" WayPointId="205" Ground="True"></WayPoint>
+	<WayPoint Name="Wp76" X="365" Y="565" WayPointId="206" Ground="True"></WayPoint>
+	<WayPoint Name="Wp77" X="102" Y="565" WayPointId="207" Ground="True"></WayPoint>
+	<Box X="-39" Y="721" SX="1355" SY="46" TreeName="SlowGadou" Block="True" FloorType="NONE"></Box>
+	<Box X="-39" Y="721" SX="1355" SY="46" TreeName="BottomBounds-79" Block="True" FloorType="NONE"></Box>
+	<WayPoint Name="Wp80" X="231" Y="700" WayPointId="80" Ground="True"></WayPoint>
+	<WayPoint Name="Wp81" X="627" Y="698" WayPointId="81" Ground="True"></WayPoint>
+	<WayPoint Name="Wp87" X="1042" Y="698" WayPointId="87" Ground="True"></WayPoint>
+	<AmbientLight A="255" R="255" G="255" B="255"></AmbientLight>
+</XnaContent>

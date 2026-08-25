@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="lvl_Passion_bkg" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="-3" Y="447" SX="43" SY="19" TreeName="Box1" Block="False" FloorType="NONE"></Box>
+	<Box X="383" Y="347" SX="76" SY="18" TreeName="Box13" Block="False" FloorType="NONE"></Box>
+	<Box X="834" Y="347" SX="76" SY="18" TreeName="Box1345" Block="False" FloorType="NONE"></Box>
+	<Box X="1107" Y="574" SX="67" SY="17" TreeName="Box13456" Block="False" FloorType="NONE"></Box>
+	<Box X="1044" Y="338" SX="258" SY="19" TreeName="Box1345678" Block="False" FloorType="NONE"></Box>
+	<Box X="1203" Y="453" SX="75" SY="19" TreeName="Box13456789" Block="False" FloorType="NONE"></Box>
+	<Box X="-13" Y="327" SX="257" SY="25" TreeName="Box112" Block="False" FloorType="NONE"></Box>
+	<Anim X="1237" Y="278" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A-70" Filename="Fall_A" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1177" Y="287" Z="0.01" SX="125" SY="193" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_C-71" Filename="Fall_C" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1128" Y="284" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A-72" Filename="Fall_A" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1083" Y="277" Z="0.01" SX="125" SY="310" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_B-73" Filename="Fall_B" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1021" Y="287" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A-75" Filename="Fall_A" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="201" Y="283" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A" Filename="Fall_A" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="148" Y="277" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A-67" Filename="Fall_A" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="83" Y="279" Z="0.01" SX="125" SY="310" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_B" Filename="Fall_B" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="16" Y="274" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A-68" Filename="Fall_A" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="-45" Y="286" Z="0.01" SX="125" SY="193" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_C" Filename="Fall_C" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="-89" Y="278" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A-69" Filename="Fall_A" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="968" Y="289" Z="0.01" SX="125" SY="419" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_A-74" Filename="Fall_A" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="565" Y="559" Z="0.01" SX="172" SY="140" FrameNum="4" Speed="100" Loop="0" TreeName="Fall_D" Filename="Fall_D" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<PlayerStart X="71" Y="35" Z="0.06599995" TreeName="Player43" TeamNum="0"></PlayerStart>
+	<PlayerStart X="353" Y="39" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="833" Y="46" Z="0.06799996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<PlayerStart X="1179" Y="44" Z="0.06899996" TreeName="Player46" TeamNum="1"></PlayerStart>
+	<PlayerStart X="524" Y="31" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="709" Y="48" Z="0.06699996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<Box X="297" Y="296" SX="87" SY="69" TreeName="Box74" Block="True" FloorType="NONE"></Box>
+	<Box X="909" Y="292" SX="89" SY="73" TreeName="Box75" Block="True" FloorType="NONE"></Box>
+	<Anim X="63" Y="511" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume" Filename="Brume" Flip="2" A="255" R="255" G="255" B="255"></Anim>
+	<PowerUp Name="PowerUp1" X="744" Y="683"></PowerUp>
+	<PowerUp Name="PowerUp2" X="834" Y="683"></PowerUp>
+	<PowerUp Name="PowerUp3" X="442" Y="682"></PowerUp>
+	<PowerUp Name="PowerUp4" X="544" Y="681"></PowerUp>
+	<JamPowerUp Name="JamPowerUp71" X="529" Y="105"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp72" X="414" Y="153"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp73" X="807" Y="143"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp74" X="682" Y="107"></JamPowerUp>
+	<Flag Name="BlueFlag" X="321" Y="250"></Flag>
+	<Flag Name="RedFlag" X="939" Y="247"></Flag>
+	<Box X="-30" Y="707" SX="1316" SY="57" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Light X="649" Y="258" TreeName="Light31" Range="600" A="255" R="255" G="255" B="255"></Light>
+	<Box X="-56" Y="-100" SX="56" SY="811" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1280" Y="-66" SX="62" SY="801" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-21" Y="-105" SX="1316" SY="51" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Box X="98" Y="575" SX="76" SY="19" TreeName="Box37" Block="False" FloorType="NONE"></Box>
+	<PlayerStart X="219" Y="41" Z="0.06699996" TreeName="Player44263" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1030" Y="43" Z="0.06699996" TreeName="Player44263264" TeamNum="1"></PlayerStart>
+	<Particle X="131" Y="344" Z="0.08499999" blending="True" TreeName="particle71" ParticleFile="PinkSpark.xml" Flip="0"></Particle>
+	<Particle X="1140" Y="329" Z="0.086" blending="True" TreeName="particle71-77" ParticleFile="PinkSpark.xml" Flip="0"></Particle>
+	<Dummy Name="BossStart" X="858" Y="47" Flip="0"></Dummy>
+	<Dummy Name="PlayerStart" X="386" Y="39" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="19" Y="34" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-84" X="94" Y="32" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-85" X="169" Y="34" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-86" X="1064" Y="41" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-87" X="1136" Y="41" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-88" X="1218" Y="41" Flip="0"></Dummy>
+	<WayPoint Name="Wp64" X="17" Y="315" WayPointId="64" Ground="True"></WayPoint>
+	<WayPoint Name="Wp65" X="145" Y="311" WayPointId="65" Ground="True"></WayPoint>
+	<WayPoint Name="Wp66" X="345" Y="272" WayPointId="66" Ground="True"></WayPoint>
+	<WayPoint Name="Wp67" X="415" Y="306" WayPointId="67" Ground="True"></WayPoint>
+	<WayPoint Name="Wp68" X="884" Y="324" WayPointId="68" Ground="True"></WayPoint>
+	<WayPoint Name="Wp69" X="952" Y="274" WayPointId="69" Ground="True"></WayPoint>
+	<WayPoint Name="Wp70" X="1109" Y="319" WayPointId="70" Ground="True"></WayPoint>
+	<WayPoint Name="Wp71" X="1252" Y="321" WayPointId="71" Ground="True"></WayPoint>
+	<WayPoint Name="Wp72" X="373" Y="698" WayPointId="72" Ground="True"></WayPoint>
+	<WayPoint Name="Wp73" X="131" Y="693" WayPointId="73" Ground="True"></WayPoint>
+	<WayPoint Name="Wp74" X="544" Y="692" WayPointId="74" Ground="True"></WayPoint>
+	<WayPoint Name="Wp75" X="753" Y="689" WayPointId="75" Ground="True"></WayPoint>
+	<WayPoint Name="Wp76" X="946" Y="688" WayPointId="76" Ground="True"></WayPoint>
+	<WayPoint Name="Wp77" X="1133" Y="689" WayPointId="77" Ground="True"></WayPoint>
+	<WayPoint Name="Wp78" X="13" Y="432" WayPointId="78" Ground="True"></WayPoint>
+	<WayPoint Name="Wp79" X="138" Y="562" WayPointId="79" Ground="True"></WayPoint>
+	<WayPoint Name="Wp80" X="1139" Y="560" WayPointId="80" Ground="True"></WayPoint>
+	<WayPoint Name="Wp81" X="1240" Y="440" WayPointId="81" Ground="True"></WayPoint>
+	<Dummy Name="BallSpawn" X="633" Y="-59" Flip="0"></Dummy>
+	<JamPowerUp Name="JamPowerUp71-88" X="304" Y="189"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp71-89" X="922" Y="183"></JamPowerUp>
+	<Layer X="-2" Y="553" Z="0.3" TreeName="GoalBlue" Filename="Goal" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="834" Y="552" Z="0.3" TreeName="GoalRed" Filename="Goal" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Anim X="-67" Y="374" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-99:10" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="-67" Y="264" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-100:50" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="16" Y="264" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-101" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="89" Y="264" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-102:70" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="147" Y="264" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-103" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="-104" Y="617" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-104:60" Filename="Brume" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="-37" Y="610" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-105:20" Filename="Brume" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="43" Y="609" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-106" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="143" Y="607" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-107" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="213" Y="600" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-108" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="942" Y="602" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-109:5" Filename="Brume" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1032" Y="613" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-110" Filename="Brume" Flip="2" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1110" Y="600" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-111" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1198" Y="618" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-112:30" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1062" Y="490" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-113:20" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1171" Y="376" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-114:60" Filename="Brume" Flip="2" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1202" Y="286" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-115:100" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1125" Y="274" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-116" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1044" Y="293" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-117:50" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1001" Y="278" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-118:23" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="-49" Y="279" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-107" Filename="Brume" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="135" Y="288" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-108:10" Filename="Brume" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="194" Y="583" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-109:80" Filename="Brume" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="53" Y="606" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-110:10" Filename="Brume" Flip="2" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1181" Y="596" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-111:10" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1096" Y="614" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-112" Filename="Brume" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="975" Y="589" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-113:5" Filename="Brume" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Layer X="0" Y="0" Z="1" TreeName="Layer113" Filename="lvl_Passion_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Anim X="1153" Y="300" Z="0.2" SX="146" SY="111" FrameNum="6" Speed="100" Loop="0" TreeName="Brume-115" Filename="Brume" Flip="2" A="255" R="255" G="255" B="255"></Anim>
+	<Box X="847" Y="670" SX="45" SY="45" TreeName="GoalWall" Block="True" FloorType="NONE"></Box>
+	<Box X="388" Y="670" SX="45" SY="45" TreeName="GoalWall-119" Block="True" FloorType="NONE"></Box>
+	<Box X="-68" Y="680" SX="457" SY="25" TreeName="GoalBlueZone" Block="True" FloorType="NONE"></Box>
+	<Box X="895" Y="680" SX="453" SY="25" TreeName="GoalRedZone" Block="True" FloorType="NONE"></Box>
+	<Box X="864" Y="657" SX="17" SY="17" TreeName="GoalWall-115" Block="True" FloorType="NONE"></Box>
+	<Box X="398" Y="658" SX="17" SY="17" TreeName="GoalWall-116" Block="True" FloorType="NONE"></Box>
+	<AmbientLight A="255" R="255" G="191" B="255"></AmbientLight>
+</XnaContent>

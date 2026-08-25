@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="BKG" Filename="BKG" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="435" Y="730" Z="0.004" TreeName="1bt-ICO_Foot" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="435" Y="638" Z="0.007000001" TreeName="1bt-ICO_flag" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="436" Y="544" Z="0.01" TreeName="1bt-ICO_deathmatch" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1012" Y="704" Z="0.011" TreeName="0bt-RB" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="702" Y="704" Z="0.013" TreeName="0bt-LB" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1311" Y="383" Z="0.017" TreeName="3bt-Tromperie" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1153" Y="380" Z="0.02" TreeName="2bt-Guerre" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1050" Y="425" Z="0.023" TreeName="2bt-Mort" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="929" Y="406" Z="0.026" TreeName="2bt-Famine" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="831" Y="360" Z="0.029" TreeName="2bt-Misere" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="696" Y="395" Z="0.028" TreeName="3bt-Folie" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="589" Y="429" Z="0.025" TreeName="3bt-Vice" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="461" Y="441" Z="0.03799999" TreeName="2bt-Maladie" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="402" Y="405" Z="0.04099999" TreeName="3bt-Passion" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="764" Y="539" Z="1" TreeName="Miroir_Level" Filename="Miroir_Level" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="741" Y="492" Z="0.04699998" TreeName="Miroir" Filename="Miroir" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1332" Y="521" Z="0.05099997" TreeName="Bougie_04" Filename="Bougie_04" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1083" Y="526" Z="0.05199997" TreeName="Bougie_03" Filename="Bougie_03" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="669" Y="518" Z="0.05299997" TreeName="Bougie_02" Filename="Bougie_02" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="433" Y="519" Z="0.05399996" TreeName="Bougie_01" Filename="Bougie_01" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="714" Y="0" Z="0.05499996" TreeName="Chandelier" Filename="Chandelier" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Anim X="338" Y="381" Z="0.06099997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Dummy Name="CharacterScreen" X="887" Y="369" Flip="0"></Dummy>
+	<Dummy Name="GameModeScreen" X="558" Y="553" Flip="0"></Dummy>
+	<Dummy Name="GameOptionScreen" X="1229" Y="553" Flip="0"></Dummy>
+	<Dummy Name="LevelScreen" X="894" Y="556" Flip="0"></Dummy>
+	<Dummy Name="ModeIcon" X="892" Y="658" Flip="0"></Dummy>
+	<Dummy Name="LvlName" X="789" Y="514" Flip="0"></Dummy>
+	<Dummy Name="Option_Start" X="1111" Y="590" Flip="0"></Dummy>
+	<Dummy Name="p1" X="785" Y="577" Flip="0"></Dummy>
+	<Dummy Name="p2" X="784" Y="638" Flip="0"></Dummy>
+	<Dummy Name="p3" X="785" Y="700" Flip="0"></Dummy>
+	<Dummy Name="p4" X="785" Y="748" Flip="0"></Dummy>
+	<Dummy Name="Holder1" X="558" Y="131" Flip="0"></Dummy>
+	<Dummy Name="Holder2" X="770" Y="174" Flip="0"></Dummy>
+	<Dummy Name="Holder3" X="1013" Y="174" Flip="0"></Dummy>
+	<Dummy Name="Holder4" X="1229" Y="131" Flip="0"></Dummy>
+	<Anim X="276" Y="736" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme69" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="430" Y="478" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme6970" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="676" Y="477" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme697071" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1078" Y="483" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme69707172" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1330" Y="480" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme6970717273" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1417" Y="379" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme697071727374" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1481" Y="736" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme69707172737475" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="717" Y="-11" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme6970717273747576" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="783" Y="-12" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme697071727374757677" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="968" Y="-7" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme69707172737475767778" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1032" Y="-8" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme6970717273747576777880" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="745" Y="456" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme69707180" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1015" Y="459" Z="0.07199997" SX="46" SY="65" FrameNum="16" Speed="100" Loop="0" TreeName="BougieFlamme6970718081" Filename="BougieFlamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Light X="469" Y="481" TreeName="Light81" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="428" Y="466" TreeName="Light8183" Range="300" A="255" R="255" G="229" B="110"></Light>
+	<Light X="311" Y="752" TreeName="Light818384" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="675" Y="511" TreeName="Light81838485" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="1042" Y="496" TreeName="Light8183848586" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="1013" Y="151" TreeName="Light818384858687" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="1343" Y="517" TreeName="Light81838485868788" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="1432" Y="447" TreeName="Light8183848586878889" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="1493" Y="767" TreeName="Light818384858687888990" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="1089" Y="308" TreeName="Light81838485868788899091" Range="500" A="255" R="253" G="232" B="190"></Light>
+	<Light X="904" Y="1067" TreeName="Light8183848586878889909192" Range="500" A="255" R="178" G="238" B="253"></Light>
+	<Light X="724" Y="308" TreeName="Light8183848586878889909193" Range="500" A="255" R="253" G="232" B="190"></Light>
+	<Layer X="1480" Y="179" Z="0.09" TreeName="2bt-Esperance" Filename="LB" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1419" Y="144" Z="0.08499999" TreeName="Layer93" Filename="MM_Etagerette" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="672" Y="-15" Z="0.01" TreeName="Layer93" Filename="MM_Tissu" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="913" Y="-16" Z="0.01" TreeName="Layer93-95" Filename="MM_Tissu" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1129" Y="-61" Z="0.01" TreeName="Layer93-96" Filename="MM_Tissu" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="460" Y="-61" Z="0.01" TreeName="Layer93-97" Filename="MM_Tissu" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Light X="921" Y="856" TreeName="Light818384-71" Range="250" A="255" R="255" G="229" B="110"></Light>
+	<Light X="564" Y="785" TreeName="Light8183-71" Range="300" A="255" R="255" G="229" B="110"></Light>
+	<AmbientLight A="255" R="45" G="45" B="45"></AmbientLight>
+</XnaContent>

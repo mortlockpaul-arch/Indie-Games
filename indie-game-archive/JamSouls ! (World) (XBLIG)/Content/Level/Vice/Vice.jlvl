@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="lvl_Vice_bkg" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="871" Y="508" SX="179" SY="97" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="59" Y="411" SX="190" SY="99" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="506" Y="337" SX="258" SY="60" TreeName="Box11213" Block="False" FloorType="NONE"></Box>
+	<Anim X="242" Y="160" Z="0.01" SX="89" SY="147" FrameNum="9" Speed="100" Loop="0" TreeName="Flamme-62" Filename="Flamme" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="429" Y="137" Z="0.01" SX="72" SY="127" FrameNum="9" Speed="100" Loop="0" TreeName="Flamme_bkg-60:100" Filename="Flamme_bkg" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="764" Y="133" Z="0.01" SX="72" SY="127" FrameNum="9" Speed="100" Loop="0" TreeName="Flamme_bkg:266" Filename="Flamme_bkg" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="950" Y="160" Z="0.01" SX="89" SY="147" FrameNum="9" Speed="100" Loop="0" TreeName="Flamme" Filename="Flamme" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<PlayerStart X="370" Y="62" Z="0.06599995" TreeName="Player43" TeamNum="0"></PlayerStart>
+	<PlayerStart X="289" Y="62" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="780" Y="47" Z="0.06799996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<PlayerStart X="927" Y="47" Z="0.06899996" TreeName="Player46" TeamNum="1"></PlayerStart>
+	<PlayerStart X="525" Y="49" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="987" Y="47" Z="0.06699996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<Anim X="528" Y="515" Z="0.1" SX="108" SY="104" FrameNum="4" Speed="100" Loop="0" TreeName="Pics!2" Filename="Pics" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="420" Y="514" Z="0.1" SX="108" SY="104" FrameNum="4" Speed="100" Loop="0" TreeName="Pics!1" Filename="Pics" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="636" Y="515" Z="0.1" SX="108" SY="104" FrameNum="4" Speed="100" Loop="0" TreeName="Pics!3" Filename="Pics" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="744" Y="515" Z="0.1" SX="108" SY="104" FrameNum="4" Speed="100" Loop="0" TreeName="Pics!4" Filename="Pics" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<PowerUp Name="PowerUp1" X="703" Y="307"></PowerUp>
+	<PowerUp Name="PowerUp2" X="953" Y="484"></PowerUp>
+	<PowerUp Name="PowerUp3" X="530" Y="304"></PowerUp>
+	<PowerUp Name="PowerUp4" X="304" Y="486"></PowerUp>
+	<JamPowerUp Name="JamPowerUp71" X="74" Y="308"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp72" X="441" Y="502"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp73" X="1125" Y="308"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp74" X="774" Y="502"></JamPowerUp>
+	<Flag Name="FlagBlue" X="72" Y="367"></Flag>
+	<Flag Name="FlagRed" X="1131" Y="372"></Flag>
+	<Box X="1206" Y="-208" SX="95" SY="1033" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-3" Y="-230" SX="73" SY="1053" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="5" Y="-118" SX="1267" SY="62" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Box X="394" Y="588" SX="501" SY="54" TreeName="Box41" Block="True" FloorType="NONE"></Box>
+	<Box X="8" Y="600" SX="1278" SY="115" TreeName="BottomBound" Block="False" FloorType="NONE"></Box>
+	<Light X="642" Y="227" TreeName="Light2662-76" Range="900" A="255" R="255" G="255" B="255"></Light>
+	<Light X="279" Y="263" TreeName="Light2662-78" Range="300" A="255" R="55" G="235" B="235"></Light>
+	<Box X="231" Y="508" SX="179" SY="97" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="1029" Y="411" SX="202" SY="99" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="1018" Y="-65" SX="307" SY="273" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="-12" Y="-59" SX="270" SY="265" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Layer X="0" Y="0" Z="0.998" TreeName="Layer60" Filename="lvl_Vice_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<JamPowerUp Name="JamPowerUp72-62" X="597" Y="245"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp72-63" X="598" Y="503"></JamPowerUp>
+	<Anim X="184" Y="168" Z="0.999" SX="93" SY="173" FrameNum="9" Speed="100" Loop="0" TreeName="Flamme_front-64:50" Filename="Flamme_front" Flip="1" A="255" R="255" G="255" B="255"></Anim>
+	<Light X="1052" Y="258" TreeName="Light2662-74" Range="300" A="255" R="55" G="235" B="235"></Light>
+	<Light X="460" Y="193" TreeName="Light2662-75" Range="200" A="255" R="55" G="235" B="235"></Light>
+	<Light X="816" Y="188" TreeName="Light2662-76" Range="200" A="255" R="55" G="235" B="235"></Light>
+	<Dummy Name="BossStart" X="913" Y="78" Flip="0"></Dummy>
+	<Dummy Name="PlayerStart" X="312" Y="69" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="493" Y="29" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-80" X="534" Y="26" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-81" X="584" Y="26" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-82" X="631" Y="24" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-83" X="679" Y="25" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-84" X="732" Y="32" Flip="0"></Dummy>
+	<PlayerStart X="430" Y="59" Z="0.06599995" TreeName="Player43-85" TeamNum="0"></PlayerStart>
+	<PlayerStart X="851" Y="46" Z="0.06799996" TreeName="Player45-86" TeamNum="1"></PlayerStart>
+	<WayPoint Name="Wp62" X="85" Y="364" WayPointId="62" Ground="True"></WayPoint>
+	<WayPoint Name="Wp63" X="220" Y="396" WayPointId="63" Ground="True"></WayPoint>
+	<WayPoint Name="Wp64" X="279" Y="492" WayPointId="64" Ground="True"></WayPoint>
+	<WayPoint Name="Wp65" X="388" Y="494" WayPointId="65" Ground="True"></WayPoint>
+	<WayPoint Name="Wp66" X="474" Y="571" WayPointId="66" Ground="True"></WayPoint>
+	<WayPoint Name="Wp67" X="622" Y="573" WayPointId="67" Ground="True"></WayPoint>
+	<WayPoint Name="Wp68" X="794" Y="572" WayPointId="68" Ground="True"></WayPoint>
+	<WayPoint Name="Wp69" X="896" Y="492" WayPointId="69" Ground="True"></WayPoint>
+	<WayPoint Name="Wp70" X="1000" Y="492" WayPointId="70" Ground="True"></WayPoint>
+	<WayPoint Name="Wp71" X="1075" Y="395" WayPointId="71" Ground="True"></WayPoint>
+	<WayPoint Name="Wp72" X="1154" Y="363" WayPointId="72" Ground="True"></WayPoint>
+	<WayPoint Name="Wp73" X="741" Y="322" WayPointId="73" Ground="True"></WayPoint>
+	<WayPoint Name="Wp74" X="632" Y="322" WayPointId="74" Ground="True"></WayPoint>
+	<WayPoint Name="Wp75" X="529" Y="319" WayPointId="75" Ground="True"></WayPoint>
+	<Layer X="842" Y="488" Z="0.1" TreeName="TriggerTrap!3" Filename="PiegeA_UP" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="333" Y="488" Z="0.1" TreeName="TriggerTrap!2" Filename="PiegeA_UP" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1146" Y="385" Z="0.1" TreeName="TriggerTrap!4" Filename="PiegeB_UP" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="9" Y="383" Z="0.1" TreeName="TriggerTrap!1" Filename="PiegeB_UP" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="383" Y="488" SX="41" SY="32" TreeName="Trap!2" Block="True" FloorType="KILL"></Box>
+	<Box X="82" Y="384" SX="40" SY="36" TreeName="Trap!1" Block="True" FloorType="KILL"></Box>
+	<Box X="846" Y="486" SX="53" SY="30" TreeName="Trap!3" Block="True" FloorType="KILL"></Box>
+	<Box X="1146" Y="389" SX="54" SY="27" TreeName="Trap!4" Block="True" FloorType="NONE"></Box>
+	<Box X="436" Y="414" SX="45" SY="43" TreeName="Box84" Block="False" FloorType="NONE"></Box>
+	<Box X="791" Y="416" SX="45" SY="43" TreeName="Box84-86" Block="False" FloorType="NONE"></Box>
+	<Anim X="1004" Y="167" Z="0.999" SX="93" SY="173" FrameNum="9" Speed="100" Loop="0" TreeName="Flamme_front-81" Filename="Flamme_front" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<AmbientLight A="255" R="0" G="54" B="196"></AmbientLight>
+</XnaContent>

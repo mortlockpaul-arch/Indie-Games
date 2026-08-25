@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="Background_2" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="786" Y="542" SX="159" SY="19" TreeName="Box1345" Block="False" FloorType="NONE"></Box>
+	<Box X="1031" Y="156" SX="247" SY="21" TreeName="Box1345678" Block="False" FloorType="NONE"></Box>
+	<Box X="306" Y="440" SX="388" SY="20" TreeName="Box13411" Block="False" FloorType="NONE"></Box>
+	<Box X="109" Y="293" SX="90" SY="20" TreeName="Box112" Block="False" FloorType="NONE"></Box>
+	<Box X="535" Y="280" SX="197" SY="19" TreeName="Box11213" Block="False" FloorType="NONE"></Box>
+	<Box X="-11" Y="179" SX="247" SY="19" TreeName="Box1121314" Block="False" FloorType="NONE"></Box>
+	<PlayerStart X="45" Y="271" Z="0.06599995" TreeName="Player43" TeamNum="0"></PlayerStart>
+	<PlayerStart X="31" Y="34" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1223" Y="243" Z="0.06799996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<PlayerStart X="1113" Y="375" Z="0.06899996" TreeName="Player46" TeamNum="1"></PlayerStart>
+	<PlayerStart X="168" Y="351" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1210" Y="26" Z="0.06699996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<PowerUp Name="PowerUp1" X="1107" Y="285"></PowerUp>
+	<PowerUp Name="PowerUp2" X="1125" Y="512"></PowerUp>
+	<PowerUp Name="PowerUp3" X="138" Y="262"></PowerUp>
+	<PowerUp Name="PowerUp4" X="184" Y="519"></PowerUp>
+	<JamPowerUp Name="JamPowerUp71" X="441" Y="578"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp72" X="220" Y="579"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp73" X="1013" Y="578"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp74" X="696" Y="578"></JamPowerUp>
+	<Flag Name="FlagBlue" X="102" Y="133"></Flag>
+	<Flag Name="FlagRed" X="1134" Y="109"></Flag>
+	<Box X="1062" Y="314" SX="116" SY="20" TreeName="Box1341196" Block="False" FloorType="NONE"></Box>
+	<Box X="782" Y="370" SX="184" SY="18" TreeName="Box134119628" Block="False" FloorType="NONE"></Box>
+	<Box X="1272" Y="-211" SX="28" SY="1033" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="-23" Y="-229" SX="28" SY="1053" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="2" Y="731" SX="1278" SY="39" TreeName="hl" Block="True" FloorType="BURN"></Box>
+	<Box X="5" Y="-118" SX="1267" SY="58" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="218" Y="680" SX="866" SY="20" TreeName="Box41" Block="False" FloorType="NONE"></Box>
+	<WayPoint Name="Wp41" X="47" Y="164" WayPointId="42" Ground="False"></WayPoint>
+	<Box X="164" Y="547" SX="65" SY="18" TreeName="Box66" Block="False" FloorType="NONE"></Box>
+	<Box X="1107" Y="546" SX="70" SY="15" TreeName="Box6668" Block="False" FloorType="NONE"></Box>
+	<Light X="128" Y="698" TreeName="Light2662" Range="300" A="255" R="255" G="35" B="35"></Light>
+	<Particle X="137" Y="730" Z="0.09400001" blending="True" TreeName="particle62" ParticleFile="lave bulle.xml" Flip="0"></Particle>
+	<Particle X="1167" Y="734" Z="0.09500001" blending="True" TreeName="particle62126" ParticleFile="lave bulle.xml" Flip="0"></Particle>
+	<WayPoint Name="Wp42" X="183" Y="163" WayPointId="61" Ground="True"></WayPoint>
+	<WayPoint Name="Wp44" X="147" Y="277" WayPointId="63" Ground="True"></WayPoint>
+	<WayPoint Name="Wp45" X="339" Y="427" WayPointId="64" Ground="True"></WayPoint>
+	<WayPoint Name="Wp46" X="495" Y="427" WayPointId="65" Ground="True"></WayPoint>
+	<WayPoint Name="Wp47" X="625" Y="427" WayPointId="66" Ground="True"></WayPoint>
+	<WayPoint Name="Wp48" X="180" Y="522" WayPointId="67" Ground="True"></WayPoint>
+	<WayPoint Name="Wp49" X="283" Y="664" WayPointId="68" Ground="True"></WayPoint>
+	<WayPoint Name="Wp50" X="452" Y="664" WayPointId="69" Ground="True"></WayPoint>
+	<WayPoint Name="Wp51" X="659" Y="665" WayPointId="70" Ground="True"></WayPoint>
+	<WayPoint Name="Wp52" X="829" Y="664" WayPointId="71" Ground="True"></WayPoint>
+	<WayPoint Name="Wp53" X="1008" Y="666" WayPointId="72" Ground="True"></WayPoint>
+	<WayPoint Name="Wp54" X="810" Y="530" WayPointId="73" Ground="True"></WayPoint>
+	<WayPoint Name="Wp55" X="915" Y="530" WayPointId="74" Ground="True"></WayPoint>
+	<WayPoint Name="Wp56" X="808" Y="357" WayPointId="75" Ground="True"></WayPoint>
+	<WayPoint Name="Wp57" X="935" Y="357" WayPointId="76" Ground="True"></WayPoint>
+	<WayPoint Name="Wp58" X="1141" Y="527" WayPointId="77" Ground="True"></WayPoint>
+	<WayPoint Name="Wp59" X="1113" Y="300" WayPointId="78" Ground="True"></WayPoint>
+	<WayPoint Name="Wp60" X="1077" Y="141" WayPointId="79" Ground="True"></WayPoint>
+	<WayPoint Name="Wp61" X="703" Y="267" WayPointId="80" Ground="True"></WayPoint>
+	<WayPoint Name="Wp62" X="568" Y="266" WayPointId="81" Ground="True"></WayPoint>
+	<Light X="1161" Y="697" TreeName="Light2662-61" Range="300" A="255" R="255" G="35" B="35"></Light>
+	<Light X="637" Y="19" TreeName="Light2662-59" Range="700" A="255" R="255" G="255" B="255"></Light>
+	<Box X="2" Y="735" SX="1278" SY="39" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Box X="2" Y="735" SX="1278" SY="39" TreeName="BottomBound-61" Block="True" FloorType="NONE"></Box>
+	<Light X="648" Y="698" TreeName="Light2662-76" Range="300" A="255" R="255" G="35" B="35"></Light>
+	<Box X="-3" Y="446" SX="111" SY="22" TreeName="Box66-77" Block="False" FloorType="NONE"></Box>
+	<Box X="1186" Y="434" SX="99" SY="19" TreeName="Box6668-78" Block="False" FloorType="NONE"></Box>
+	<Layer X="0" Y="0" Z="0.8" TreeName="Layer63" Filename="Background_2_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<PlayerStart X="868" Y="44" Z="0.06699996" TreeName="Player45-80" TeamNum="1"></PlayerStart>
+	<PlayerStart X="337" Y="44" Z="0.06699996" TreeName="Player44-81" TeamNum="0"></PlayerStart>
+	<AmbientLight A="255" R="187" G="187" B="187"></AmbientLight>
+</XnaContent>

@@ -1,0 +1,123 @@
+LANGUAGE;ENGLISH;FRENCH;SPANISH;GERMAN;ITALIAN;CHINESE;JAPANESE;|
+PRESS_START;Press Start;Appuyer sur Start;Presione "Start";Start drücken;Premi Start;点击开始;スタートボタンを押してください;|
+PRESS_START_MENU;Press
+ Start;Start pour
+Rejoindre;Presione
+ "Start";Drücken;Premi Start;点击开始;スタートボタンを押してください;|
+VALID ;Select;Selectionner;Seleccionar;Auswählen;Seleziona;选择;セレクト;|
+CANCEL ;Cancel;Annuler;Cancelar;Abbrechen;Annulla;取消;キャンセル;|
+UNDO;Undo;Annuler;Deshacer;Abbrechen;Annulla;取消;戻る;|
+REMATCH;Rematch;Revanche;Revancha;Revanche;Rivincita;再玩一次;再開;|
+REMATCH_RANDOM_MAP;Rematch and change map;Revanche sur une autre map;Revancha y cambio de mapa;Revanche und Karte wechseln;Rivincita su un'altra mappa;其他地图再玩一次;再開＆マップ変更;|
+EXIT_MAIN_MENU;Exit to main menu;Retour au menu principal;Volver al menú principal;Zurück zum Hauptmenu;Torna al menu principale;返回主页;メインメニューへ戻る;|
+MESSAGE_QUIT_CONFIRM;Are you sure you want to quit this game?;Quitter la partie en cours ?;¿Estás seguro de qué quieres salir de esta partida?;Möchten Sie das Spiel wirklich beenden ?;Vuoi davvero uscire dalla partita?;终止游戏;本当にやめてしまっても良いですか？;|
+PAUSED;Paused;Pause;Pausado;Pause;Pausa;暂停;ポーズ;|
+REDTEAM;Red Team;Equipe Rouge;Equipo Rojo;Team Rot;Squadra rossa;红队;赤チーム;|
+BLUETEAM;Blue Team;Equipe Bleue;Equipo Azul;Team Blau;Squadra blu;蓝队;青チーム;|
+START_GAME;Start game;Commencer;Comenzar partida;Spiel starten;Inizia partita;开始;ゲームスタート;|
+GOAL;Goals;Buts;Objetivos;Tore;Obiettivi;目标;ゴール;|
+FLAGS;Jam;Jam;Jam;Jam;Jam;果酱;;|
+FRAGS;Frags;Frags;Frags;Frags;Frags;Frags;殺す;|
+DIFFICULTY_ONE;Cute;Mignon;Adorable;süß;Timido;可爱;かわいい;|
+DIFFICULTY_TWO;Angry;Sauvage;Cabreado;wütend;Arrabbiato;生气;怒る;|
+DIFFICULTY_THREE;Sadistic;Sadique;Sádico;sadistisch;Sadico;残酷;残忍な;|
+DIFFICULTY_FOUR;Wild;Sauvage;Salvaje;Wild;Selvaggio;狂野;野蛮な;|
+DIFFICULTY_FIVE;Crazy;Fou;Loco;verrückt;Folle;疯子;変わり者;|
+NO_BOT;No bots;Aucun Bot;Sin bots;Ohne bots;Niente bot;notbots;AIプレイヤー０人;|
+ONE_BOT;One bots;Un Bots;Un bot;Ein Bot;Un bot;one bot;AIプレイヤー１人;|
+TWO_BOT;Two bots;Deux Bots;Dos bots;Zwei Bots;Due bot;two bots;AIプレイヤー２人;|
+THREE_BOT;Three bots;Trois Bots;Tres bots;Drei Bots;Tre bot;three bots;AIプレイヤー３人;|
+MENU_TIP_HADES;Choose your doll use left and right;Choisis un personnage avec gauche ou droite;Elige tu personaje usando izquierda o derecha;Wähle deinen Charakter mit der linken oder rechten Taste;Scegli un personaggio muovendo a sinistra o destra;左右键选择人物;右左のボタンでキャラクターを選択してください;|
+MENU_TIP_POSE;Choose your game mode use up and down;Choisis ton mode avec gauche et droite;Elige tu modo de juego usando arriba o abajo;Wähle deinen Spielmodus mit der oberen oder unteren Taste;Scegli la modalità muovendo a sinistra o destra;左右键选择模式;上下のボタンでゲームモードを選択してください;|
+MENU_TIP_ZEUS;Choose your map use left and right;Choisis ton niveau avec gauche et droite;Elige tu nivel usando izquierda o derecha;Wähle deinen Level mit der rechten oder linken Taste;Scegli il livello muovendo a sinistra o destra;左右键选择级别;左右ボタンでマップを選択してください;|
+MENU_TIP_DIO;Setup your game;Réglages du jeux;Configura tu juego;Spieleinstellungen;Configura partita;安装游戏;セットアップゲーム;|
+MUSIC_ON;Music : On;Musique : On;Música : Activada;Musik : An;Musica: Sì;音乐：开;ミュージック：オン;|
+SOUND_ON;Sound Effects : On;Sfx : On;Efectos de sonido : Activados;Effekte : An;Effetti sonori: Sì;音效：开;サウンドエフェクト：オン;|
+MUSIC_OFF;Music : Off;Musique : Off;Música : Desactivada;Musik : Aus;Musica: No;音乐：关;ミュージック：オフ;|
+SOUND_OFF;Sound Effects : Off;Sfx : Off;Efectos de sonido : Desactivados;Effekte : Aus;Effetti sonori: No;音效：关;サウンドエフェクト：オフ;|
+RESUME_GAME;Resume game;Reprendre la partie;Volver al juego;Spiel fortsetzen;Riprendi partita;再次进入游戏;ゲームの再開;|
+QUIT_GAME;Quit game;Quitter la partie;Salir del juego;Spiel beenden;Esci;离开;ゲームをやめる;|
+FRAG_NUMBER;Frag :;Frag :;Frag :;Frag :;Frag:;Frag;;殺傷：;|
+DEATH_NUMBER;Death :;Mort :;Muerte :;Tot :;Morto:;死亡：;死者：;|
+USED_POWER_UP;PowerUp :;PowerUp :;PowerUp :;Power-Up :;Power-up;加血;パワーアップ：;|
+CAPTUREFLAG_NUMBER;Pots :;Jam  :;Jam  :;Jam  :;Jam  :;拿取果酱;捕獲：;|
+DRAW;DRAW;EGALITÉ;EMPATE;UNENTSCHIEDEN;PAREGGIO;平手;引き分け;|
+WIN;WIN !;GAGNE !;GANO;GEWONNEN !;VITTORIA!;胜利！;勝利！;|
+GET_READY;Get Ready !;Tenez-vous prêts !;Preparaté !;Mach dich bereit!;PREPARATI!;准备！;準備！;|
+A_CONTINUE;Press A to continue;Appuyer A pour continuer;Presiona "A" para continuar;A drücken zum Fortsetzen;Premi A per continuare;按A继续;続ける場合はAボタンを押してください;|
+LOADING;Loading...;Chargement...;Cargando...;Laden ...;Caricamento…;下载中;ローディング．．．;|
+RECONNECT_PAD;Please reconnect the gamepad;Reconnecter la manette;Por favor vuelva a conectar el mando;Bitte Controller neu anschließen;Riconnetti controller;联接手柄;ゲームパッドをつなぎ直してください;|
+STORY_MODE;Story;Histoire;Historia;Story;Storia;历史记录;ストーリー;|
+ARENA_MODE;Arena;Arène;Arena;Arena;Arena;竞技场;アリーナ;|
+CHAR_PASSION;Passion;Passion;Pasión;Leidenschaft;Passione;激情;情熱;|
+CHAR_MALADIE;Disease;Maladie;Enfermedad;Krankheit;Malattia;疾病;病気;|
+CHAR_VICE;Vice;Vice;Vice;Laster;Vizio;恶棍;欠陥;|
+CHAR_FOLIE;Madness;Folie;Locura;Wahnsinn;Follia;疯狂;狂気;|
+CHAR_MISERE;Destitution;Misère;Destitución;Elend;Miseria;悲惨;貧困;|
+CHAR_FAMINE;Starvation;Famine;Hambre;Hunger;Fame;饥饿;飢餓;|
+CHAR_MORT;Death;Mort;Muerte;Tod;Morte;死亡;死;|
+CHAR_GUERRE;War;Guerre;Guerra;Krieg;Guerra;战争;戦い;|
+CHAR_TROMPERIE;Deception;Tromperie;Decepción;Täuschung;Inganno;欺骗;だます;|
+CHAR_ESPERANCE;Hope;Espérance;Esperanza;Glauben;Speranza;希望;希望;|
+FREQUENCE;Frequency;Fréquence;Frecuencia;Frequenz;Frequenza;周期;頻度;|
+POWERUP;PowerUp;PowerUp;PowerUp;Power-Up;Power-up;加血;パワーアップ;|
+LOW;Low;Basse;Bajo;Niedrig;Basso;低;低;|
+MIDDLE;Medium;Moyenne;Medio;Mittel;Medio;中等;中;|
+HIGH;High;Haute;Alto;Hoch;Alto;高;高;|
+NEVER;Never;Jamais;Nunca;Nie;Mai;永不;いままでにない;|
+VOLUME;Volume;Volume;Volumen;Lautstärke;Volume;音量;音量;|
+ON;On;On;On;An;Sì;开;オン;|
+OFF;Off;Off;Off;Aus;No;关;オフ;|
+OPTION;Option;Option;Opción;Option;Opzioni;选项;オプション;|
+EXIT_AND_SAVE;Exit and save;Quitter et sauvegarder;Salir y guardar;Beenden und speichern;Esci e salva;保存后离开;終了＆セーブ;|
+LOADING_DATA;Loading data;Chargement...;Cargando información;Daten laden;Caricamento…;下载中;データロード;|
+SAVING_DATA;Saving data;Sauvegarde;Guardando información;Daten speichern;Salvataggio dati in corso;保存;データセーブ;|
+SKULL;Skull;Cactus;Calavera;Schädel;Teschio;仙人掌;骸骨;|
+FLY;Fly;Mouche;Volar;Fliegen;Mosca;苍蝇;飛ぶ;|
+SOLDIER;Soldier;Soldat;Soldado;Soldat;Soldato;士兵;兵士;|
+BOMB;Bomb;Bombe;Bomba;Bombe;Bomba;炸弹;爆弾;|
+CLOUD;Cloud;Nuage;Nube;Wolke;Nuvola;云;雲;|
+SEED;Root;Racine;Semilla;Wurzel;Radice;根部;根;|
+HEART;Heart;Cœur;Corazón;Herz;Cuore;心;ハート;|
+POTION;Vile;Fiole;Poción;Gemein;Pozione;长颈瓶;ひどい;|
+CHILI;Chili;Chili;Chile;Chili;Peperoncino;智利;辛い;|
+SUGAR;Sugar;Sucre;Azúcar;Zucker;Zucchero;糖;砂糖;|
+NO_STORAGE;No storage device was found;Aucun périphérique de stockage détecté;Ningún dispositivo de almacenamiento fue encontrado;Kein Speichergerät gefunden;Nessun dispositivo di archiviazione trovato;没有发现储存装置;ストレージデバイスが見つかりません;|
+CHALLENGE_WIN;Challenge Sucessfull;Défi Reussi !;Desafío Conseguido;Herausforderung geschafft;Sfida riuscita!;挑战成功;成功;|
+CHALLENGE_LOOSE;Challenge Failed;Défi Rater !;Desafío Fallado;Herausforderung fehlgeschlagen;Sfida fallita!;挑战失败;失敗;|
+TRY_AGAIN;Try Again !;Essaye Encore !;Intenta otra vez !;Versuch es erneut!;Riprova!;再来一次;もう一度;|
+BACK_WORLD_MAP;Back to worldmap;Retour a la map monde;Volver al mapa del mundo;Zurück zur Karte;Torna alla mappa;回到地图模式;ワールドマップに戻る;|
+CREDIT;Credits;Crédits;Creditos;Credits;Riconoscimenti;得分;残高;|
+CODE;Developer;Programmeur;Programador;Developer;Sviluppatore;程序员;開発者;|
+ARTIST ;Artist;Artiste;Artista;Artist;Artista;美术人员;アーティスト;|
+ADD_ARTIST;Additional artist;Artiste additionnel;Artista adicional;Additional artist;Artista addizionale;其他美术人员;アディショナルアーティスト;|
+MUSIC_COMPOSITOR;Music composer;Compositeur musique;Compositor de música;Music composer;Compositore musica;音乐制作;音楽制作者;|
+SFX;Sound effects Composer;Compositeur Effet Sonore;Compositor de Efectos sonoros;Sfx Composer;Compositore effetti sonori;音效制作;サウンドエフェクト製作者;|
+ADD_COMPOSITOR;Additional music composer;Compositeur additionnel;Compositor adicional de Música;Additional music composer;Compositore musica addizionale;其他音乐制作;アディショナル音楽制作者;|
+LOCALISATION;Translator;Traducteur;Traductor;Übersetzer;Traduttore;翻译人员;翻訳者;|
+THANKS;Thanks to;Remerciements;Gracias a;Danke an;Ringraziamenti a;特别鸣谢;のおかげで;|
+KICKOFF;Kick-Off;Engagement;Comenzar;Kick-Off;Avvio;开球;キックオフ;|
+BACK;Back;Retour;Volver;Zurück;Indietro;返回;戻る;|
+TUTO;How to play;Comment jouer;Como jugar;Spielanleitung;Come giocare;游戏指南;操作方法;|
+JUMP;Jump;Sauter;Saltar;Hüpfen;Saltare;跳起;ジャンプ;|
+MOVE;Move;Bouger;Mover;Bewegen;Muovere;移动;動く;|
+RUN;Run;Courir;Correr;Laufen;Correre;奔跑;走る;|
+USE_POWERUP;Use a powerup;Utiliser un powerup;Usar Power-Up;Powerup verwenden;Usare Power-up;加一次血;パワーアップの使い方;|
+SHOOT_LOW;Kick weak;Tir faible;Disparo Flojo;Schwach schießen;Colpo debole;轻射;弱いキック;|
+SHOOT_HIGH;Kick strong;Tir puissant;Disparo Fuerte;Stark schießen;Colpo forte;重射;強いキック;|
+SHOOT_UP;Kick up;Tir lobe;Disparar Arriba;Hoch schießen;Colpo impetuoso;向上射击;蹴り上げる;|
+GRAB_POWERUP;Grab a powerup;Attraper un powerup;Agarrar un Power-Up;Powerup nehmen;Afferrare Power-up;抓住加血机会;パワーアップ;|
+DRAW_NAME;Display player name;Afficher le nom du joueur;Mostrar Nombre del Jugador;Spielername anzeigen;Mostra nome giocatore;列出玩家名字;プレイヤーネームの表示;|
+DEATH_RULE;Free for all : Score points by killing your opponents ;Chacun pour soi : Tuez vos adversaires pour marquer des points;Puntúa matando a tus oponentes;Frei für alle: Gewinne Punkte, indem du Gegner tötest;Ognuno per sé: uccidi i tuoi avversari per segnare punti.;自保为上：杀掉其他玩家得分;フリー：倒した敵のスコア;|
+FLAG_RULE;Steal other team's jam pot and bring it back to your pot to score points;Volez le jam de l’équipe adverse et apporter le au votre pour marquer;Roba la bandera del otro equipo y traela junto a tu tarro para conseguir 1 punto;Stehle den Jam Pot des anderen Teams und bringe es zurück zum Pot, um Punkte zu gewinnen;Ruba la jam della squadra avversaria e portala nella tua per segnare punti.;偷取同队的果酱给自家;他チームから盗んだスコア;|
+FOOT_RULE;Put the ball in the opposite team's goal to score a point;Mettez la balle dans les buts de l’équipe adverse pour marquer;Marca un gol en portería del otro equipo para conseguir 1 punto;Schieße den Ball in das gegnerische Tor, um Punkte zu gewinnen;Metti la palla nelle porte della squadra avversaria per segnare punti.;将球放到对方终点得分;敵ゴールに対して決めたスコア;|
+STORY_PASSION;Story;Story;Story;Story;Story;Story;Story;|
+STORY_MALADIE;Story;Story;Story;Story;Story;Story;Story;|
+STORY_VICE;Story;Story;Story;Story;Story;Story;Story;|
+STORY_FOLIE;Story;Story;Story;Story;Story;Story;Story;|
+STORY_MISERE;Story;Story;Story;Story;Story;Story;Story;|
+STORY_FAMINE;Story;Story;Story;Story;Story;Story;Story;|
+STORY_MORT;Story;Story;Story;Story;Story;Story;Story;|
+STORY_GUERRE;Story;Story;Story;Story;Story;Story;Story;|
+STORY_TROMPERIE;Story;Story;Story;Story;Story;Story;Story;|
+STORY_ESPERANCE;Story;Story;Story;Story;Story;Story;Story;|

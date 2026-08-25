@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Box X="1" Y="709" SX="1281" SY="61" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-37" Y="-99" SX="76" SY="817" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1225" Y="-78" SX="76" SY="846" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-35" Y="-29" SX="1340" SY="56" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1010" Y="500" SX="296" SY="272" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="-5" Y="497" SX="278" SY="269" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="399" Y="631" SX="142" SY="136" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="723" Y="631" SX="142" SY="136" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Anim X="288" Y="350" Z="0.01" SX="163" SY="106" FrameNum="8" Speed="150" Loop="0" TreeName="ToupieT2-A-decalage-en-75" Filename="ToupieT2" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="45" Y="228" Z="0.01" SX="103" SY="68" FrameNum="8" Speed="150" Loop="0" TreeName="ToupieT3-A-decalage-en-50" Filename="ToupieT3" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="1112" Y="228" Z="0.01" SX="103" SY="68" FrameNum="8" Speed="150" Loop="0" TreeName="ToupieT3-B-decalage-en-130" Filename="ToupieT3" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="830" Y="348" Z="0.01" SX="163" SY="106" FrameNum="8" Speed="150" Loop="0" TreeName="ToupieT2-B-decalage-en-115" Filename="ToupieT2" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="507" Y="228" Z="0.01" SX="249" SY="164" FrameNum="8" Speed="150" Loop="0" TreeName="ToupieT1-decalage-en-75" Filename="ToupieT1" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Spring Name="Spring56" X="67" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-86" X="114" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-87" X="161" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-88" X="208" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-89" X="272" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-90" X="336" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-91" X="538" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-92" X="602" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-93" X="666" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-94" X="863" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-95" X="927" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-96" X="991" Y="675" Z="1"></Spring>
+	<Spring Name="Spring56-97" X="1010" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-98" X="1057" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-99" X="1105" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-100" X="1152" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-101" X="390" Y="596" Z="1"></Spring>
+	<Spring Name="Spring56-102" X="433" Y="596" Z="1"></Spring>
+	<Spring Name="Spring56-103" X="476" Y="596" Z="1"></Spring>
+	<Spring Name="Spring56-104" X="723" Y="596" Z="1"></Spring>
+	<Spring Name="Spring56-105" X="773" Y="595" Z="1"></Spring>
+	<Spring Name="Spring56-106" X="824" Y="595" Z="1"></Spring>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="lvl_Folie_bkg" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<PlayerStart X="309" Y="42" Z="0.016" TreeName="Player15" TeamNum="0"></PlayerStart>
+	<PlayerStart X="492" Y="39" Z="0.016" TreeName="Player151819" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1171" Y="56" Z="0.016" TreeName="Player151819202122" TeamNum="1"></PlayerStart>
+	<PlayerStart X="822" Y="44" Z="0.016" TreeName="Player15181920212223" TeamNum="1"></PlayerStart>
+	<PlayerStart X="995" Y="58" Z="0.016" TreeName="Player1518192021222324" TeamNum="1"></PlayerStart>
+	<PlayerStart X="167" Y="80" Z="0.016" TreeName="Player151819202122232425" TeamNum="0"></PlayerStart>
+	<Flag Name="BlueFlag" X="73" Y="203"></Flag>
+	<Flag Name="RedFlag" X="1144" Y="201"></Flag>
+	<PowerUp Name="PowerUp63" X="618" Y="633"></PowerUp>
+	<PowerUp Name="PowerUp6371" X="334" Y="633"></PowerUp>
+	<PowerUp Name="PowerUp63717273" X="775" Y="547"></PowerUp>
+	<JamPowerUp Name="JamPowerUp35" X="878" Y="281"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-55" X="1131" Y="160"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-56" X="61" Y="154"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-57" X="341" Y="279"></JamPowerUp>
+	<PowerUp Name="PowerUp63-43" X="470" Y="549"></PowerUp>
+	<Dummy Name="PlayerStart" X="80" Y="70" Flip="0"></Dummy>
+	<Dummy Name="BossStart" X="1165" Y="54" Flip="1"></Dummy>
+	<Dummy Name="FrogSpawn" X="414" Y="57" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-144" X="575" Y="56" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-145" X="818" Y="51" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-146" X="993" Y="50" Flip="0"></Dummy>
+	<JamPowerUp Name="JamPowerUp35-80" X="595" Y="178"></JamPowerUp>
+	<Spring Name="Spring56-81" X="23" Y="459" Z="1"></Spring>
+	<Spring Name="Spring56-82" X="1198" Y="459" Z="1"></Spring>
+	<PowerUp Name="PowerUp6371-86" X="917" Y="636"></PowerUp>
+	<Box X="49" Y="241" SX="97" SY="21" TreeName="Box82" Block="False" FloorType="NONE"></Box>
+	<Box X="1114" Y="241" SX="97" SY="21" TreeName="Box82-88" Block="False" FloorType="NONE"></Box>
+	<Box X="513" Y="262" SX="237" SY="27" TreeName="Box84" Block="False" FloorType="NONE"></Box>
+	<Box X="292" Y="374" SX="156" SY="23" TreeName="Box85" Block="False" FloorType="NONE"></Box>
+	<Box X="836" Y="374" SX="156" SY="23" TreeName="Box85-91" Block="False" FloorType="NONE"></Box>
+	<WayPoint Name="Wp67" X="97" Y="225" WayPointId="67" Ground="True"></WayPoint>
+	<WayPoint Name="Wp68" X="377" Y="358" WayPointId="68" Ground="True"></WayPoint>
+	<WayPoint Name="Wp69" X="545" Y="246" WayPointId="69" Ground="True"></WayPoint>
+	<WayPoint Name="Wp70" X="709" Y="243" WayPointId="70" Ground="True"></WayPoint>
+	<WayPoint Name="Wp71" X="908" Y="362" WayPointId="71" Ground="True"></WayPoint>
+	<WayPoint Name="Wp72" X="1162" Y="232" WayPointId="72" Ground="True"></WayPoint>
+	<WayPoint Name="Wp73" X="81" Y="468" WayPointId="73" Ground="False"></WayPoint>
+	<WayPoint Name="Wp74" X="217" Y="467" WayPointId="74" Ground="False"></WayPoint>
+	<WayPoint Name="Wp75" X="341" Y="682" WayPointId="75" Ground="False"></WayPoint>
+	<WayPoint Name="Wp76" X="472" Y="598" WayPointId="76" Ground="False"></WayPoint>
+	<WayPoint Name="Wp77" X="635" Y="685" WayPointId="77" Ground="False"></WayPoint>
+	<WayPoint Name="Wp78" X="798" Y="600" WayPointId="78" Ground="False"></WayPoint>
+	<WayPoint Name="Wp79" X="958" Y="679" WayPointId="79" Ground="False"></WayPoint>
+	<WayPoint Name="Wp80" X="1082" Y="462" WayPointId="80" Ground="False"></WayPoint>
+	<WayPoint Name="Wp81" X="1213" Y="460" WayPointId="81" Ground="False"></WayPoint>
+	<AmbientLight A="255" R="255" G="255" B="255"></AmbientLight>
+</XnaContent>

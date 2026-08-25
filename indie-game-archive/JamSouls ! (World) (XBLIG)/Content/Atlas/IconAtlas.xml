@@ -1,0 +1,15 @@
+<animation name="IconAtlas" frames="13" backAndForth="False">
+  <frame id="0" name="Level_Icon.png" duration="100" x="0" y="0" w="267" h="264" />
+  <frame id="1" name="Level_Icon.png" duration="100" x="1072" y="0" w="267" h="264" />
+  <frame id="2" name="Level_Icon.png" duration="100" x="536" y="0" w="267" h="264" />
+  <frame id="3" name="Level_Icon.png" duration="100" x="804" y="530" w="267" h="264" />
+  <frame id="4" name="Level_Icon.png" duration="100" x="268" y="0" w="267" h="264" />
+  <frame id="5" name="Level_Icon.png" duration="100" x="268" y="265" w="267" h="264" />
+  <frame id="6" name="Level_Icon.png" duration="100" x="0" y="530" w="267" h="264" />
+  <frame id="7" name="Level_Icon.png" duration="100" x="536" y="265" w="267" h="264" />
+  <frame id="8" name="Level_Icon.png" duration="100" x="268" y="530" w="267" h="264" />
+  <frame id="9" name="Level_Icon.png" duration="100" x="804" y="0" w="267" h="264" />
+  <frame id="10" name="Level_Icon.png" duration="100" x="536" y="530" w="267" h="264" />
+  <frame id="11" name="Level_Icon.png" duration="100" x="804" y="265" w="267" h="264" />
+  <frame id="12" name="Level_Icon.png" duration="100" x="0" y="265" w="267" h="264" />
+</animation>

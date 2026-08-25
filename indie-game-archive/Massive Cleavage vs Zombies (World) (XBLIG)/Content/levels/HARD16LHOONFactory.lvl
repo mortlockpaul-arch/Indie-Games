@@ -1,0 +1,24 @@
+
+type=trigger;typename=ExitLevel;active=True;runXSecondssAfterEvent=120;uniqueName=scene20;runAfterEventNamed=LevelStart;QTEButton=nulll;cutSceneDuration=0;cutSceneName=success
+type=customization;name=FailBackground;value=screens/fail
+
+type=GroundScenery;x=0;y=-200;w=2048;h=1350;name=LHOONFactory;visible=True;uniqueName=;xRoll=0;yRoll=0;DPS=0;isDPSFeetOnly=True;AI=none;AIspeed=0;AIdistance=0;isFlippedHorizontally=False;isFlippedVertically=False;Z=-1
+
+
+type=GroundScenery;x=-100000;y=0;w=100000;h=1080;name=green;visible=True;uniqueName=;xRoll=0;yRoll=0;DPS=0;isDPSFeetOnly=True;AI=none;AIspeed=0;AIdistance=0;isFlippedHorizontally=False;isFlippedVertically=False;Z=-1
+type=GroundScenery;x=2048;y=0;w=100000;h=1080;name=green;visible=True;uniqueName=;xRoll=0;yRoll=0;DPS=0;isDPSFeetOnly=True;AI=none;AIspeed=0;AIdistance=0;isFlippedHorizontally=False;isFlippedVertically=False;Z=-1
+
+type=obstacle;x=-800;y=0;w=1000;h=1200;name=BlackEdgeSides;active=True;uniqueName=;xRoll=0;yRoll=0;isDestructible=False;hp=10;DPS=0;isPickupable=False;AI=none;AIspeed=200;AIdistance=200;isFlippedVertically=False;isFlippedHorizontally=False;isReallyScenery=False
+type=obstacle;x=1900;y=0;w=1080;h=1200;name=BlackEdgeSides;active=True;uniqueName=;xRoll=0;yRoll=0;isDestructible=False;hp=10;DPS=0;isPickupable=False;AI=none;AIspeed=200;AIdistance=200;isFlippedVertically=False;isFlippedHorizontally=False;isReallyScenery=False
+type=obstacle;x=0;y=-1000;w=2048;h=1080;name=BlackEdgeTopnBottom;active=True;uniqueName=;xRoll=0;yRoll=0;isDestructible=False;hp=10;DPS=0;isPickupable=False;AI=none;AIspeed=200;AIdistance=200;isFlippedVertically=False;isFlippedHorizontally=False;isReallyScenery=False
+
+type=obstacle;x=0;y=1000;w=2048;h=1080;name=BlackEdgeTopnBottom;active=True;uniqueName=;xRoll=0;yRoll=0;isDestructible=False;hp=10;DPS=0;isPickupable=False;AI=none;AIspeed=200;AIdistance=200;isFlippedVertically=False;isFlippedHorizontally=False;isReallyScenery=False
+type=obstacle;x=-2048;y=1000;w=2048;h=1080;name=BlackEdgeTopnBottom;active=True;uniqueName=;xRoll=0;yRoll=0;isDestructible=False;hp=10;DPS=0;isPickupable=False;AI=none;AIspeed=200;AIdistance=200;isFlippedVertically=False;isFlippedHorizontally=False;isReallyScenery=False
+type=obstacle;x=2048;y=1000;w=2048;h=1080;name=BlackEdgeTopnBottom;active=True;uniqueName=;xRoll=0;yRoll=0;isDestructible=False;hp=10;DPS=0;isPickupable=False;AI=none;AIspeed=200;AIdistance=200;isFlippedVertically=False;isFlippedHorizontally=False;isReallyScenery=False
+
+
+zzzzzztype=BadGuy;x=500;y=400;name=Y;isAlive=True;AI=Y;uniqueName=;scale=1;AIspeed=0;AIdistance=0
+zzzzzztype=BadGuy;x=1500;y=400;name=Y;isAlive=True;AI=Y;uniqueName=;scale=1;AIspeed=0;AIdistance=0
+
+type=trigger;x=0;y=0;w=0;h=0;typename=PlayMusic;active=True;uniqueName=;runXSecondssAfterEvent=0;activateEnemyNamed=;activateSceneryNamed=;activateObstacleNamed=;runAfterEventNamed=LevelStart;activateSound=;activateMusic=Frenetic_Mutation_Alt Zombified;setEventNamed=;activateWaveNamed=
+type=customization;name=BrawlerXMode;value=R,100000,1000,4,2,1

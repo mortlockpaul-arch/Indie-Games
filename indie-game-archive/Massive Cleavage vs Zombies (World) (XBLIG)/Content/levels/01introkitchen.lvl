@@ -1,0 +1,36 @@
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene1;runAfterEventNamed=LevelStart;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/introkitchen01;activateMusic=The House of Leaves SHORT
+type=trigger;;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene2;runAfterEventNamed=scene1SCENEOVER;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/introkitchen02
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene3;runAfterEventNamed=scene2SCENEOVER;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/introkitchen03;activateSound=zombie moans/FF_2FX21441best16
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene4;runAfterEventNamed=scene3SCENEOVER;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/introkitchen04
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene5;runAfterEventNamed=scene4SCENEOVER;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/introkitchen05
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene6;runAfterEventNamed=scene5SCENEOVER;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/introkitchen06;activateSound=zombie moans/FF_2FX0042416
+
+type=trigger;typename=QuickTimeEvent;active=True;uniqueName=scene7;runXSecondssAfterEvent=0;runAfterEventNamed=scene6SCENEOVER;QTEButton=B;cutSceneDuration=3000;cutSceneName=introkitchen/introkitchen07
+
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene8;runAfterEventNamed=scene7SUCCESS;QTEButton=nulll;cutSceneDuration=1000;cutSceneName=introkitchen/introkitchen08
+
+type=trigger;typename=QuickTimeEvent;active=True;uniqueName=scene9;runAfterEventNamed=scene8SCENEOVER;QTEButton=Y;cutSceneDuration=2000;cutSceneName=introkitchen/introkitchen09
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene10;runAfterEventNamed=scene9SUCCESS;QTEButton=nulll;cutSceneDuration=1000;cutSceneName=introkitchen/introkitchen10;activateSound=
+
+type=trigger;typename=QuickTimeEvent;active=True;uniqueName=scene11;runAfterEventNamed=scene10SCENEOVER;QTEButton=Y;cutSceneDuration=2000;cutSceneName=introkitchen/introkitchen11
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene12;runAfterEventNamed=scene11SUCCESS;QTEButton=nulll;cutSceneDuration=1000;cutSceneName=introkitchen/introkitchen12;activateSound=
+
+type=trigger;typename=QuickTimeEvent;active=True;uniqueName=scene13;runAfterEventNamed=scene12SCENEOVER;QTEButton=Y;cutSceneDuration=2000;cutSceneName=introkitchen/introkitchen13
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene14;runAfterEventNamed=scene13SUCCESS;QTEButton=nulll;cutSceneDuration=1000;cutSceneName=introkitchen/introkitchen14;activateSound=
+
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene15;runAfterEventNamed=scene14SCENEOVER;QTEButton=nulll;cutSceneDuration=1000;cutSceneName=introkitchen/introkitchen1516
+type=trigger;typename=QuickTimeEvent;active=True;uniqueName=scene16;runAfterEventNamed=scene15SCENEOVER;QTEButton=B;cutSceneDuration=2000;cutSceneName=introkitchen/introkitchen1516
+
+type=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=scene17;runAfterEventNamed=scene16SUCCESS;QTEButton=X;cutSceneDuration=1000;cutSceneName=introkitchen/introkitchen1717;activateSound=
+
+
+
+type=trigger;typename=ExitLevel;active=True;uniqueName=;runXSecondssAfterEvent=0;runAfterEventNamed=scene17SCENEOVER;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/introkitchen1717
+
+zzztype=trigger;typename=CutSceneUNSKIPPABLE;active=True;uniqueName=;runXSecondssAfterEvent=0;runAfterEventNamed=QTEFAIL;QTEButton=nulll;cutSceneDuration=0;cutSceneName=introkitchen/FAIL
+
+type=trigger;typename=custom;active=True;uniqueName=;runXSecondssAfterEvent=0;runAfterEventNamed=SCENECANCELLED;activateSound=;activateMusic=;setEventNamed=LevelStartForReal;activateWaveNamed=;QTEButton=nulll;cutSceneDuration=0;cutSceneName=
+
+zzzztype=customization;name=BrawlerXMode;value=R,10000,5000,4,2,0
+type=customization;name=CutSceneOrQTE;value=1
+type=customization;name=FailBackground;value=CutScenes/introkitchen/FAIL

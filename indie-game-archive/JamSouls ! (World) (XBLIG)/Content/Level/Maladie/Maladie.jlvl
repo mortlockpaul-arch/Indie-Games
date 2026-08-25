@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="1" Y="0" Z="0.001" TreeName="Layer0" Filename="lvl_Maladie_bkg" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="403" Y="549" SX="143" SY="16" TreeName="Box2" Block="False" FloorType="NONE"></Box>
+	<Box X="243" Y="279" SX="124" SY="21" TreeName="Box3" Block="False" FloorType="NONE"></Box>
+	<Box X="35" Y="235" SX="103" SY="17" TreeName="Box4" Block="False" FloorType="NONE"></Box>
+	<Box X="476" Y="401" SX="78" SY="19" TreeName="Box5" Block="False" FloorType="NONE"></Box>
+	<Box X="606" Y="446" SX="125" SY="19" TreeName="Box6" Block="False" FloorType="NONE"></Box>
+	<Box X="791" Y="550" SX="90" SY="19" TreeName="Box8" Block="False" FloorType="NONE"></Box>
+	<Box X="945" Y="458" SX="109" SY="17" TreeName="Box12" Block="False" FloorType="NONE"></Box>
+	<Box X="962" Y="228" SX="87" SY="19" TreeName="Box13" Block="False" FloorType="NONE"></Box>
+	<Box X="-5" Y="716" SX="1307" SY="26" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<PlayerStart X="309" Y="42" Z="0.016" TreeName="Player15" TeamNum="0"></PlayerStart>
+	<PlayerStart X="492" Y="39" Z="0.016" TreeName="Player151819" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1175" Y="30" Z="0.016" TreeName="Player151819202122" TeamNum="1"></PlayerStart>
+	<PlayerStart X="822" Y="44" Z="0.016" TreeName="Player15181920212223" TeamNum="1"></PlayerStart>
+	<PlayerStart X="987" Y="27" Z="0.016" TreeName="Player1518192021222324" TeamNum="1"></PlayerStart>
+	<PlayerStart X="167" Y="80" Z="0.016" TreeName="Player151819202122232425" TeamNum="0"></PlayerStart>
+	<Particle X="955" Y="742" Z="0.999" blending="True" TreeName="particle56-59" ParticleFile="lave bulle.xml" Flip="0"></Particle>
+	<Flag Name="BlueFlag" X="65" Y="191"></Flag>
+	<Flag Name="RedFlag" X="1161" Y="154"></Flag>
+	<PowerUp Name="PowerUp63" X="618" Y="669"></PowerUp>
+	<PowerUp Name="PowerUp6371" X="636" Y="263"></PowerUp>
+	<PowerUp Name="PowerUp63717273" X="822" Y="524"></PowerUp>
+	<Box X="-37" Y="-99" SX="37" SY="847" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1278" Y="-98" SX="37" SY="854" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-11" Y="-100" SX="1323" SY="56" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Layer X="-87" Y="632" Z="0.5" TreeName="Layer68" Filename="lvl_Maladie_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="1134" Y="197" SX="96" SY="23" TreeName="Box12-70" Block="False" FloorType="NONE"></Box>
+	<Box X="590" Y="288" SX="115" SY="18" TreeName="Box6-52" Block="False" FloorType="NONE"></Box>
+	<Box X="43" Y="400" SX="137" SY="21" TreeName="Box3-53" Block="False" FloorType="NONE"></Box>
+	<JamPowerUp Name="JamPowerUp35" X="963" Y="357"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-55" X="1167" Y="265"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-56" X="477" Y="443"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-57" X="75" Y="298"></JamPowerUp>
+	<Box X="1133" Y="366" SX="130" SY="21" TreeName="Box12-59" Block="False" FloorType="NONE"></Box>
+	<Layer X="674" Y="637" Z="0.02" TreeName="Layer68-41" Filename="lvl_Maladie_front" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="468" Y="695" SX="337" SY="68" TreeName="Box41" Block="True" FloorType="NONE"></Box>
+	<PowerUp Name="PowerUp63-43" X="460" Y="520"></PowerUp>
+	<Particle X="317" Y="129" Z="0.026" blending="True" TreeName="particle42" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="93" Y="75" Z="0.027" blending="True" TreeName="particle42-44" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="644" Y="106" Z="0.028" blending="True" TreeName="particle42-45" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="1015" Y="86" Z="0.029" blending="True" TreeName="particle42-46" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="1178" Y="67" Z="0.03" blending="True" TreeName="particle42-47" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="529" Y="269" Z="0.031" blending="True" TreeName="particle42-48" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="-2" Y="347" Z="0.032" blending="True" TreeName="particle42-49" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="1071" Y="439" Z="0.033" blending="True" TreeName="particle42-50" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="1296" Y="413" Z="0.034" blending="True" TreeName="particle42-51" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="45" Y="546" Z="0.035" blending="True" TreeName="particle42-53" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="411" Y="568" Z="0.03599999" blending="True" TreeName="particle42-54" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="1035" Y="605" Z="0.03699999" blending="True" TreeName="particle42-55" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="847" Y="613" Z="0.03799999" blending="True" TreeName="particle42-56" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="1257" Y="565" Z="0.03899999" blending="True" TreeName="particle42-57" ParticleFile="fumerole.xml" Flip="0"></Particle>
+	<Particle X="339" Y="742" Z="0.03999999" blending="True" TreeName="particle56" ParticleFile="lave bulle.xml" Flip="0"></Particle>
+	<Particle X="65" Y="741" Z="0.04099999" blending="True" TreeName="particle56-58" ParticleFile="lave bulle.xml" Flip="0"></Particle>
+	<Particle X="1197" Y="742" Z="1" blending="True" TreeName="particle56-60" ParticleFile="lave bulle.xml" Flip="0"></Particle>
+	<Dummy Name="PlayerStart" X="98" Y="22" Flip="0"></Dummy>
+	<Dummy Name="BossStart" X="1165" Y="30" Flip="1"></Dummy>
+	<Dummy Name="FrogSpawn" X="414" Y="18" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-144" X="565" Y="21" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-145" X="812" Y="16" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-146" X="1002" Y="15" Flip="0"></Dummy>
+	<WayPoint Name="BlueFlag" X="93" Y="219" WayPointId="61" Ground="True"></WayPoint>
+	<WayPoint Name="Wp62" X="308" Y="263" WayPointId="62" Ground="True"></WayPoint>
+	<WayPoint Name="Wp63" X="118" Y="383" WayPointId="63" Ground="True"></WayPoint>
+	<WayPoint Name="Wp64" X="473" Y="532" WayPointId="64" Ground="True"></WayPoint>
+	<WayPoint Name="Wp65" X="516" Y="385" WayPointId="65" Ground="True"></WayPoint>
+	<WayPoint Name="Wp66" X="640" Y="271" WayPointId="66" Ground="True"></WayPoint>
+	<WayPoint Name="Wp67" X="670" Y="429" WayPointId="67" Ground="True"></WayPoint>
+	<WayPoint Name="Wp68" X="835" Y="534" WayPointId="68" Ground="True"></WayPoint>
+	<WayPoint Name="Wp69" X="744" Y="679" WayPointId="69" Ground="True"></WayPoint>
+	<WayPoint Name="Wp70" X="530" Y="679" WayPointId="70" Ground="True"></WayPoint>
+	<WayPoint Name="Wp71" X="988" Y="442" WayPointId="71" Ground="True"></WayPoint>
+	<WayPoint Name="Wp72" X="1190" Y="353" WayPointId="72" Ground="True"></WayPoint>
+	<WayPoint Name="Wp73" X="1006" Y="212" WayPointId="73" Ground="True"></WayPoint>
+	<WayPoint Name="Wp74" X="1185" Y="180" WayPointId="74" Ground="True"></WayPoint>
+	<WayPoint Name="Wp75" X="53" Y="696" WayPointId="75" Ground="True"></WayPoint>
+	<WayPoint Name="Wp76" X="218" Y="698" WayPointId="76" Ground="True"></WayPoint>
+	<WayPoint Name="Wp77" X="907" Y="695" WayPointId="77" Ground="True"></WayPoint>
+	<WayPoint Name="Wp78" X="1081" Y="696" WayPointId="78" Ground="True"></WayPoint>
+	<JamPowerUp Name="JamPowerUp35-80" X="638" Y="340"></JamPowerUp>
+	<WayPoint Name="Wp80" X="362" Y="696" WayPointId="80" Ground="True"></WayPoint>
+	<WayPoint Name="Wp81" X="1230" Y="698" WayPointId="81" Ground="True"></WayPoint>
+	<Box X="-1" Y="705" SX="1281" SY="13" TreeName="SlowGadou-83" Block="True" FloorType="NONE"></Box>
+	<AmbientLight A="255" R="255" G="255" B="255"></AmbientLight>
+</XnaContent>

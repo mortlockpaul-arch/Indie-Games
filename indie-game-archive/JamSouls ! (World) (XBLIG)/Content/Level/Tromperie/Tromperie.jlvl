@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.0001" TreeName="Layer0" Filename="lvl_Tromperie" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="1280" Y="-217" SX="43" SY="962" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-74" Y="-120" SX="1411" SY="53" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-7" Y="712" SX="1326" SY="35" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-48" Y="-254" SX="50" SY="1000" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<PlayerStart X="190" Y="58" Z="0.06599995" TreeName="Player43" TeamNum="0"></PlayerStart>
+	<PlayerStart X="933" Y="51" Z="0.06699996" TreeName="Player44" TeamNum="1"></PlayerStart>
+	<PlayerStart X="57" Y="64" Z="0.06799996" TreeName="Player45" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1085" Y="65" Z="0.06899996" TreeName="Player46" TeamNum="1"></PlayerStart>
+	<PlayerStart X="304" Y="40" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="829" Y="17" Z="0.06699996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<Particle X="786" Y="52" Z="0.999" blending="True" TreeName="particle67" ParticleFile="HaloTromperie.xml" Flip="0"></Particle>
+	<PowerUp Name="PowerUp1" X="960" Y="649"></PowerUp>
+	<PowerUp Name="PowerUp2" X="1193" Y="651"></PowerUp>
+	<JamPowerUp Name="JamPowerUp71" X="910" Y="423"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp72" X="403" Y="326"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp73" X="647" Y="576"></JamPowerUp>
+	<Flag Name="BlueFlag" X="40" Y="386"></Flag>
+	<Flag Name="RedFlag" X="1191" Y="384"></Flag>
+	<PowerUp Name="PowerUp1110" X="193" Y="516"></PowerUp>
+	<PowerUp Name="PowerUp1110111" X="408" Y="652"></PowerUp>
+	<Box X="1093" Y="428" SX="188" SY="19" TreeName="Box109" Block="False" FloorType="NONE"></Box>
+	<PowerUp Name="PowerUp1-97" X="871" Y="375"></PowerUp>
+	<JamPowerUp Name="JamPowerUp72-100" X="658" Y="205"></JamPowerUp>
+	<Box X="-20" Y="670" SX="1333" SY="46" TreeName="Box56" Block="True" FloorType="NONE"></Box>
+	<Box X="-2" Y="425" SX="147" SY="21" TreeName="Box57" Block="False" FloorType="NONE"></Box>
+	<Box X="166" Y="544" SX="79" SY="14" TreeName="Box58" Block="False" FloorType="NONE"></Box>
+	<Box X="333" Y="421" SX="209" SY="14" TreeName="Box59" Block="False" FloorType="NONE"></Box>
+	<Box X="540" Y="304" SX="290" SY="175" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<Box X="872" Y="512" SX="147" SY="19" TreeName="Box61" Block="False" FloorType="NONE"></Box>
+	<Box X="824" Y="407" SX="103" SY="13" TreeName="Box62" Block="False" FloorType="NONE"></Box>
+	<PowerUp Name="PowerUp1110-110" X="674" Y="650"></PowerUp>
+	<JamPowerUp Name="JamPowerUp73-111" X="28" Y="334"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp73-112" X="1178" Y="326"></JamPowerUp>
+	<Light X="642" Y="247" TreeName="Light59" Range="600" A="255" R="255" G="255" B="255"></Light>
+	<Layer X="0" Y="0" Z="0.9999" TreeName="Layer60" Filename="lvl_Tromperie_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<PlayerStart X="517" Y="18" Z="0.06699996" TreeName="Player44-60" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1205" Y="68" Z="0.06899996" TreeName="Player46-61" TeamNum="1"></PlayerStart>
+	<Dummy Name="l" X="53" Y="58" Flip="0"></Dummy>
+	<Dummy Name="BossStart" X="1202" Y="62" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="548" Y="38" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="655" Y="40" Flip="0"></Dummy>
+	<Dummy Name="FrogStart-66" X="783" Y="46" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="901" Y="52" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="1010" Y="50" Flip="0"></Dummy>
+	<Dummy Name="FrogStart-69" X="655" Y="40" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn" X="901" Y="52" Flip="0"></Dummy>
+	<Dummy Name="FrogStart-71" X="901" Y="52" Flip="0"></Dummy>
+	<Dummy Name="FrogStart-72" X="1010" Y="50" Flip="0"></Dummy>
+	<WayPoint Name="Wp49" X="53" Y="414" WayPointId="49" Ground="True"></WayPoint>
+	<WayPoint Name="Wp50" X="203" Y="528" WayPointId="50" Ground="True"></WayPoint>
+	<WayPoint Name="Wp51" X="325" Y="662" WayPointId="51" Ground="True"></WayPoint>
+	<WayPoint Name="Wp52" X="150" Y="661" WayPointId="52" Ground="True"></WayPoint>
+	<WayPoint Name="Wp53" X="502" Y="663" WayPointId="53" Ground="True"></WayPoint>
+	<WayPoint Name="Wp54" X="685" Y="662" WayPointId="54" Ground="True"></WayPoint>
+	<WayPoint Name="Wp55" X="845" Y="662" WayPointId="55" Ground="True"></WayPoint>
+	<WayPoint Name="Wp56" X="1074" Y="658" WayPointId="56" Ground="True"></WayPoint>
+	<WayPoint Name="Wp57" X="1213" Y="660" WayPointId="57" Ground="True"></WayPoint>
+	<WayPoint Name="Wp58" X="944" Y="501" WayPointId="58" Ground="True"></WayPoint>
+	<WayPoint Name="Wp59" X="1194" Y="413" WayPointId="59" Ground="True"></WayPoint>
+	<WayPoint Name="Wp60" X="882" Y="383" WayPointId="60" Ground="True"></WayPoint>
+	<WayPoint Name="Wp61" X="788" Y="289" WayPointId="61" Ground="True"></WayPoint>
+	<WayPoint Name="Wp62" X="602" Y="289" WayPointId="62" Ground="True"></WayPoint>
+	<WayPoint Name="Wp63" X="430" Y="409" WayPointId="63" Ground="True"></WayPoint>
+	<Layer X="1" Y="219" Z="1" TreeName="GoalBlueTop" Filename="Goal" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1174" Y="222" Z="1" TreeName="GoalRedTop" Filename="Goal" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Dummy Name="BallSpawn" X="646" Y="-84" Flip="0"></Dummy>
+	<Box X="-16" Y="221" SX="19" SY="210" TreeName="GoalWall" Block="True" FloorType="NONE"></Box>
+	<Box X="0" Y="432" SX="145" SY="101" TreeName="GoalWall" Block="True" FloorType="NONE"></Box>
+	<Box X="-6" Y="337" SX="66" SY="92" TreeName="GoalBlueZone" Block="True" FloorType="NONE"></Box>
+	<Box X="1278" Y="226" SX="14" SY="205" TreeName="GoalWall" Block="True" FloorType="NONE"></Box>
+	<Box X="1227" Y="333" SX="57" SY="95" TreeName="GoalRedZone" Block="True" FloorType="NONE"></Box>
+	<Box X="1148" Y="441" SX="103" SY="68" TreeName="GoalWall" Block="True" FloorType="NONE"></Box>
+	<AmbientLight A="255" R="202" G="255" B="223"></AmbientLight>
+</XnaContent>

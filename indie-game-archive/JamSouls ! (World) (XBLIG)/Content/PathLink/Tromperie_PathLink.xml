@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<WayPoint-49>
+		<NeightBor-50>
+			<InputEvent0 Duration="24" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="312" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="408" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="232" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-50>
+	</WayPoint-49>
+	<WayPoint-50>
+		<NeightBor-49>
+			<InputEvent0 Duration="152" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="320" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent2 Duration="48" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="264" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-49>
+		<NeightBor-63>
+			<InputEvent0 Duration="176" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="192" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent2 Duration="112" Left="False" Right="True" Down="False" Jump="True" Run="True" />
+			<InputEvent3 Duration="328" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-63>
+		<NeightBor-51>
+			<InputEvent0 Duration="264" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="192" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="224" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="80" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent4 Duration="8" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-51>
+	</WayPoint-50>
+	<WayPoint-51>
+		<NeightBor-52>
+			<InputEvent0 Duration="416" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-52>
+		<NeightBor-53>
+			<InputEvent0 Duration="424" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-53>
+		<NeightBor-50>
+			<InputEvent0 Duration="320" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="160" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent2 Duration="40" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="312" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent4 Duration="24" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-50>
+	</WayPoint-51>
+	<WayPoint-52>
+		<NeightBor-51>
+			<InputEvent0 Duration="64" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="296" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="344" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-51>
+		<NeightBor-50>
+			<InputEvent0 Duration="80" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="192" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="48" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="136" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent4 Duration="112" Left="False" Right="False" Down="True" Jump="False" Run="True" />
+			<InputEvent5 Duration="56" Left="False" Right="False" Down="True" Jump="True" Run="True" />
+			<InputEvent6 Duration="80" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent7 Duration="128" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent8 Duration="104" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent9 Duration="280" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-50>
+	</WayPoint-52>
+	<WayPoint-53>
+		<NeightBor-51>
+			<InputEvent0 Duration="424" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-51>
+		<NeightBor-54>
+			<InputEvent0 Duration="440" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-54>
+	</WayPoint-53>
+	<WayPoint-54>
+		<NeightBor-53>
+			<InputEvent0 Duration="440" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-53>
+		<NeightBor-55>
+			<InputEvent0 Duration="384" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-55>
+	</WayPoint-54>
+	<WayPoint-55>
+		<NeightBor-54>
+			<InputEvent0 Duration="384" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-54>
+		<NeightBor-56>
+			<InputEvent0 Duration="552" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-56>
+	</WayPoint-55>
+	<WayPoint-56>
+		<NeightBor-58>
+			<InputEvent0 Duration="64" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="224" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="160" Left="False" Right="False" Down="True" Jump="False" Run="True" />
+			<InputEvent3 Duration="64" Left="False" Right="False" Down="True" Jump="True" Run="True" />
+			<InputEvent4 Duration="224" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent5 Duration="72" Left="True" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent6 Duration="168" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-58>
+		<NeightBor-57>
+			<InputEvent0 Duration="96" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="272" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="280" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-57>
+		<NeightBor-55>
+			<InputEvent0 Duration="560" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-55>
+	</WayPoint-56>
+	<WayPoint-57>
+		<NeightBor-56>
+			<InputEvent0 Duration="272" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="264" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-56>
+	</WayPoint-57>
+	<WayPoint-58>
+		<NeightBor-60>
+			<InputEvent0 Duration="160" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="112" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent2 Duration="272" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="112" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent4 Duration="112" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-60>
+		<NeightBor-59>
+			<InputEvent0 Duration="240" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="152" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="280" Left="False" Right="True" Down="False" Jump="True" Run="True" />
+			<InputEvent3 Duration="256" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent4 Duration="176" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-59>
+		<NeightBor-57>
+			<InputEvent0 Duration="336" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="704" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-57>
+	</WayPoint-58>
+	<WayPoint-59>
+		<NeightBor-58>
+			<InputEvent0 Duration="240" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="640" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="32" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-58>
+	</WayPoint-59>
+	<WayPoint-60>
+		<NeightBor-61>
+			<InputEvent0 Duration="160" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="200" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent2 Duration="152" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="280" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent4 Duration="48" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-61>
+		<NeightBor-58>
+			<InputEvent0 Duration="56" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="264" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="120" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent3 Duration="144" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent4 Duration="8" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-58>
+	</WayPoint-60>
+	<WayPoint-61>
+		<NeightBor-62>
+			<InputEvent0 Duration="160" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="384" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-62>
+		<NeightBor-60>
+			<InputEvent0 Duration="272" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="304" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-60>
+	</WayPoint-61>
+	<WayPoint-62>
+		<NeightBor-63>
+			<InputEvent0 Duration="480" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="176" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-63>
+		<NeightBor-61>
+			<InputEvent0 Duration="80" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="400" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+		</NeightBor-61>
+	</WayPoint-62>
+	<WayPoint-63>
+		<NeightBor-50>
+			<InputEvent0 Duration="48" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="664" Left="True" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="24" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-50>
+		<NeightBor-62>
+			<InputEvent0 Duration="80" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent1 Duration="280" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+			<InputEvent2 Duration="72" Left="False" Right="False" Down="False" Jump="True" Run="True" />
+			<InputEvent3 Duration="96" Left="False" Right="True" Down="False" Jump="True" Run="True" />
+			<InputEvent4 Duration="304" Left="False" Right="True" Down="False" Jump="False" Run="True" />
+			<InputEvent5 Duration="136" Left="False" Right="False" Down="False" Jump="False" Run="True" />
+		</NeightBor-62>
+	</WayPoint-63>
+</XnaContent>

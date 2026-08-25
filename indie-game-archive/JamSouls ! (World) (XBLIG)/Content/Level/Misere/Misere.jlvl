@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="lvl_Misere_bkg" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="490" Y="213" SX="287" SY="22" TreeName="Box3" Block="False" FloorType="NONE"></Box>
+	<Anim X="603" Y="256" Z="0.003" SX="58" SY="61" FrameNum="7" Speed="100" Loop="0" TreeName="AnimLavelinge" Filename="AnimLavelinge" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Box X="2" Y="699" SX="1291" SY="30" TreeName="Box4" Block="False" FloorType="NONE"></Box>
+	<Box X="593" Y="438" SX="115" SY="25" TreeName="Box6" Block="False" FloorType="NONE"></Box>
+	<Box X="1195" Y="631" SX="64" SY="20" TreeName="Box8" Block="False" FloorType="NONE"></Box>
+	<Box X="-1" Y="716" SX="1281" SY="24" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Anim X="42" Y="611" Z="0.01" SX="93" SY="70" FrameNum="6" Speed="100" Loop="0" TreeName="AnimTele" Filename="AnimTele" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<PlayerStart X="195" Y="31" Z="0.016" TreeName="Player15" TeamNum="0"></PlayerStart>
+	<PlayerStart X="341" Y="30" Z="0.016" TreeName="Player151819" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1167" Y="37" Z="0.016" TreeName="Player151819202122" TeamNum="1"></PlayerStart>
+	<PlayerStart X="964" Y="39" Z="0.016" TreeName="Player15181920212223" TeamNum="1"></PlayerStart>
+	<PlayerStart X="1074" Y="36" Z="0.016" TreeName="Player1518192021222324" TeamNum="1"></PlayerStart>
+	<PlayerStart X="101" Y="29" Z="0.016" TreeName="Player151819202122232425" TeamNum="0"></PlayerStart>
+	<Particle X="632" Y="28" Z="0.999" blending="True" TreeName="particle78-88" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="524" Y="649" Z="0.999" blending="True" TreeName="particle82-87" ParticleFile="Clapouti_small.xml" Flip="0"></Particle>
+	<Particle X="1228" Y="630" Z="0.999" blending="True" TreeName="particle82-86" ParticleFile="Clapouti_small.xml" Flip="0"></Particle>
+	<Particle X="800" Y="605" Z="0.999" blending="True" TreeName="particle82-85" ParticleFile="Clapouti_small.xml" Flip="0"></Particle>
+	<Particle X="516" Y="607" Z="0.999" blending="True" TreeName="particle82" ParticleFile="Clapouti_small.xml" Flip="0"></Particle>
+	<Particle X="749" Y="689" Z="0.999" blending="True" TreeName="particle65-91" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="150" Y="701" Z="0.999" blending="True" TreeName="particle65-90" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="75" Y="603" Z="0.999" blending="True" TreeName="particle65-85" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="987" Y="716" Z="0.999" blending="True" TreeName="particle78-89" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="707" Y="629" Z="0.999" blending="True" TreeName="particle78" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Flag Name="BlueFlag" X="60" Y="561"></Flag>
+	<PowerUp Name="PowerUp63" X="555" Y="182"></PowerUp>
+	<PowerUp Name="PowerUp6371" X="686" Y="186"></PowerUp>
+	<PowerUp Name="PowerUp63717273" X="1215" Y="667"></PowerUp>
+	<Box X="-37" Y="-99" SX="37" SY="817" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1280" Y="-83" SX="37" SY="759" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-2" Y="-100" SX="1283" SY="56" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Layer X="0" Y="553" Z="0.5" TreeName="Layer68" Filename="lvl_Misere_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<JamPowerUp Name="JamPowerUp35" X="39" Y="500"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-55" X="1194" Y="530"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-56" X="486" Y="477"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-57" X="618" Y="342"></JamPowerUp>
+	<Box X="505" Y="599" SX="303" SY="142" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<PowerUp Name="PowerUp63-43" X="43" Y="676"></PowerUp>
+	<Dummy Name="PlayerStart" X="40" Y="23" Flip="0"></Dummy>
+	<Dummy Name="BossStart" X="1208" Y="33" Flip="1"></Dummy>
+	<Dummy Name="FrogSpawn" X="1102" Y="33" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-144" X="1032" Y="32" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-145" X="818" Y="34" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-146" X="990" Y="33" Flip="0"></Dummy>
+	<JamPowerUp Name="JamPowerUp35-80" X="772" Y="479"></JamPowerUp>
+	<Box X="37" Y="601" SX="88" SY="20" TreeName="Box4-58" Block="False" FloorType="NONE"></Box>
+	<WayPoint Name="Wp37" X="84" Y="589" WayPointId="39" Ground="True"></WayPoint>
+	<WayPoint Name="Wp38" X="91" Y="687" WayPointId="40" Ground="True"></WayPoint>
+	<WayPoint Name="Wp39" X="249" Y="685" WayPointId="41" Ground="True"></WayPoint>
+	<WayPoint Name="Wp41" X="395" Y="684" WayPointId="43" Ground="True"></WayPoint>
+	<WayPoint Name="Wp42" X="511" Y="584" WayPointId="44" Ground="True"></WayPoint>
+	<WayPoint Name="Wp43" X="804" Y="583" WayPointId="45" Ground="True"></WayPoint>
+	<WayPoint Name="Wp44" X="893" Y="683" WayPointId="46" Ground="True"></WayPoint>
+	<WayPoint Name="Wp45" X="1053" Y="683" WayPointId="47" Ground="True"></WayPoint>
+	<WayPoint Name="Wp46" X="1230" Y="682" WayPointId="48" Ground="True"></WayPoint>
+	<WayPoint Name="Wp50" X="652" Y="421" WayPointId="52" Ground="True"></WayPoint>
+	<WayPoint Name="Wp52" X="548" Y="197" WayPointId="54" Ground="True"></WayPoint>
+	<WayPoint Name="Wp53" X="716" Y="199" WayPointId="55" Ground="True"></WayPoint>
+	<Dummy Name="FrogSpawn-53" X="927" Y="33" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-54" X="876" Y="33" Flip="0"></Dummy>
+	<Flag Name="RedFlag" X="1207" Y="591"></Flag>
+	<Spring Name="Spring56" X="594" Y="565" Z="0.01"></Spring>
+	<Spring Name="Spring57" X="660" Y="565" Z="0.01"></Spring>
+	<Spring Name="Spring58" X="532" Y="565" Z="0.01"></Spring>
+	<Spring Name="Spring59" X="722" Y="565" Z="0.01"></Spring>
+	<JamPowerUp Name="JamPowerUp35-59" X="599" Y="112"></JamPowerUp>
+	<Layer X="-3" Y="119" Z="0.01" TreeName="Thunder0" Filename="Eclair1" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="25" Y="308" Z="0.01" TreeName="Thunder1" Filename="Eclair2" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="238" Y="389" Z="0.01" TreeName="Thunder2" Filename="Eclair3" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="274" Y="159" Z="0.01" TreeName="Thunder3" Filename="Eclair4" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="763" Y="107" Z="0.01" TreeName="Thunder4" Filename="Eclair5" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="963" Y="219" Z="0.01" TreeName="Thunder5" Filename="Eclair6" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1148" Y="251" Z="0.01" TreeName="Thunder7" Filename="Eclair7" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="908" Y="73" Z="0.01" TreeName="Thunder6" Filename="Eclair8" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Particle X="639" Y="-1" Z="0.054" blending="True" TreeName="particle64" ParticleFile="Rain.xml" Flip="0"></Particle>
+	<Particle X="-2" Y="698" Z="0.055" blending="True" TreeName="particle65" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="420" Y="710" Z="0.05599999" blending="True" TreeName="particle65-67" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="648" Y="439" Z="0.05699999" blending="True" TreeName="particle65-68" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="1194" Y="703" Z="0.05799999" blending="True" TreeName="particle65-69" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="1294" Y="703" Z="0.05899999" blending="True" TreeName="particle65-70" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="545" Y="208" Z="0.05999999" blending="True" TreeName="particle65-71" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="642" Y="211" Z="0.06099999" blending="True" TreeName="particle65-72" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="740" Y="207" Z="0.06199998" blending="True" TreeName="particle65-73" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="648" Y="560" Z="0.06299999" blending="True" TreeName="particle65-74" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="601" Y="628" Z="0.06399999" blending="True" TreeName="particle65-75" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="727" Y="560" Z="0.06499999" blending="True" TreeName="particle65-76" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<Particle X="582" Y="558" Z="0.06599999" blending="True" TreeName="particle65-77" ParticleFile="Clapouti.xml" Flip="0"></Particle>
+	<AmbientLight A="255" R="255" G="255" B="255"></AmbientLight>
+</XnaContent>

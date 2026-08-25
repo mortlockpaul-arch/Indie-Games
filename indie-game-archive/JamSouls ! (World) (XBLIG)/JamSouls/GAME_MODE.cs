@@ -1,0 +1,11 @@
+namespace JamSouls;
+
+public enum GAME_MODE
+{
+	NONE,
+	DEATHMATCH,
+	CAPTURE_THE_JAM,
+	JAM_BALL,
+	STORYMATCH,
+	MODE_COUNT
+}

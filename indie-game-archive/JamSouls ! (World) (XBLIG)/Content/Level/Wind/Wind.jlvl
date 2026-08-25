@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="Background_4" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="811" Y="683" SX="480" SY="20" TreeName="Box1345" Block="True" FloorType="NONE"></Box>
+	<Box X="792" Y="235" SX="232" SY="21" TreeName="Box1345678" Block="False" FloorType="NONE"></Box>
+	<Box X="419" Y="536" SX="373" SY="20" TreeName="Box13411" Block="False" FloorType="NONE"></Box>
+	<Box X="398" Y="376" SX="86" SY="17" TreeName="Box11213" Block="False" FloorType="NONE"></Box>
+	<Box X="1032" Y="557" SX="202" SY="22" TreeName="Box1121314" Block="False" FloorType="NONE"></Box>
+	<PlayerStart X="166" Y="591" Z="0.06599995" TreeName="Player43" TeamNum="0"></PlayerStart>
+	<PlayerStart X="36" Y="46" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1069" Y="594" Z="0.06899996" TreeName="Player46" TeamNum="1"></PlayerStart>
+	<PlayerStart X="34" Y="294" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1193" Y="35" Z="0.06699996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<Anim X="1132" Y="149" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="58" Loop="0" TreeName="PierreVolante909192939495" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="-13" Y="160" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="48" Loop="0" TreeName="PierreVolante" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="179" Y="370" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="54" Loop="0" TreeName="PierreVolante90" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="356" Y="345" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="56" Loop="0" TreeName="PierreVolante909192" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="624" Y="346" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="51" Loop="0" TreeName="PierreVolante90919293" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="872" Y="374" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="50" Loop="0" TreeName="PierreVolante9091929394" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="626" Y="677" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="53" Loop="0" TreeName="PierreVolante9091-91" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="534" Y="679" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="53" Loop="0" TreeName="PierreVolante9091-92" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="443" Y="676" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="53" Loop="0" TreeName="PierreVolante9091-89" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<PowerUp Name="PowerUp1" X="104" Y="624"></PowerUp>
+	<PowerUp Name="PowerUp2" X="1103" Y="505"></PowerUp>
+	<PowerUp Name="PowerUp3" X="133" Y="491"></PowerUp>
+	<PowerUp Name="PowerUp4" X="580" Y="483"></PowerUp>
+	<JamPowerUp Name="JamPowerUp71" X="347" Y="583"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp72" X="204" Y="134"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp73" X="1129" Y="454"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp74" X="809" Y="584"></JamPowerUp>
+	<Flag Name="BlueFlag" X="216" Y="195"></Flag>
+	<Flag Name="RedFlag" X="919" Y="192"></Flag>
+	<Light X="658" Y="192" TreeName="Light30" Range="600" A="255" R="255" G="255" B="255"></Light>
+	<Box X="195" Y="237" SX="166" SY="19" TreeName="Box1121395" Block="False" FloorType="NONE"></Box>
+	<Box X="388" Y="702" SX="452" SY="19" TreeName="Box112139596" Block="True" FloorType="NONE"></Box>
+	<Box X="1165" Y="178" SX="123" SY="20" TreeName="Box1121395969798" Block="False" FloorType="NONE"></Box>
+	<Box X="223" Y="396" SX="87" SY="20" TreeName="Box112100" Block="False" FloorType="NONE"></Box>
+	<Box X="1" Y="190" SX="126" SY="19" TreeName="Box112100101" Block="False" FloorType="NONE"></Box>
+	<Box X="42" Y="543" SX="190" SY="20" TreeName="Box112100102" Block="False" FloorType="NONE"></Box>
+	<Box X="-23" Y="685" SX="436" SY="20" TreeName="Box112100102103" Block="True" FloorType="NONE"></Box>
+	<Box X="663" Y="375" SX="88" SY="19" TreeName="Box11213959697105" Block="False" FloorType="NONE"></Box>
+	<Box X="911" Y="406" SX="98" SY="19" TreeName="Box1121314106" Block="False" FloorType="NONE"></Box>
+	<JamPowerUp Name="JamPowerUp7239" X="69" Y="440"></JamPowerUp>
+	<Box X="-6" Y="764" SX="1295" SY="116" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-69" Y="-85" SX="69" SY="918" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1281" Y="-88" SX="67" SY="912" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-6" Y="-135" SX="1300" SY="67" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Light X="956" Y="403" TreeName="Light83" Range="100" A="255" R="0" G="0" B="255"></Light>
+	<Light X="562" Y="135" TreeName="Light83165" Range="100" A="100" R="0" G="0" B="255"></Light>
+	<Light X="704" Y="320" TreeName="Light83165166" Range="100" A="255" R="0" G="0" B="255"></Light>
+	<Light X="447" Y="339" TreeName="Light83165166167" Range="100" A="255" R="0" G="0" B="255"></Light>
+	<Light X="272" Y="380" TreeName="Light83165166167168" Range="100" A="255" R="0" G="0" B="255"></Light>
+	<Light X="83" Y="169" TreeName="Light83165166167168169" Range="100" A="255" R="0" G="0" B="255"></Light>
+	<Light X="1208" Y="166" TreeName="Light83165166167168169170" Range="100" A="255" R="0" G="0" B="255"></Light>
+	<Light X="200" Y="987" TreeName="Light3087" Range="700" A="255" R="255" G="155" B="155"></Light>
+	<Particle X="234" Y="88" Z="0.09700003" blending="True" TreeName="particle52" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="151" Y="25" Z="0.09800003" blending="True" TreeName="particle5254" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="885" Y="75" Z="0.09900003" blending="True" TreeName="particle525455" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="1021" Y="90" Z="0.1" blending="True" TreeName="particle52545556" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="1222" Y="67" Z="0.101" blending="True" TreeName="particle5254555657" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="1266" Y="352" Z="0.102" blending="True" TreeName="particle525455565758" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="1002" Y="322" Z="0.103" blending="True" TreeName="particle52545556575859" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="204" Y="327" Z="0.104" blending="True" TreeName="particle5254555657585960" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="842" Y="617" Z="0.105" blending="True" TreeName="particle525455565758596061" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="405" Y="625" Z="0.106" blending="True" TreeName="particle52545556575859606162" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Particle X="1376" Y="555" Z="0.107" blending="True" TreeName="particle52545556575859606163" ParticleFile="CheryBlossomLeaf.xml" Flip="0"></Particle>
+	<Light X="1073" Y="988" TreeName="Light308789" Range="700" A="255" R="255" G="155" B="155"></Light>
+	<PlayerStart X="1193" Y="306" Z="0.06899996" TreeName="Player46-306" TeamNum="1"></PlayerStart>
+	<PowerUp Name="PowerUp1-93" X="1123" Y="626"></PowerUp>
+	<JamPowerUp Name="JamPowerUp74-94" X="906" Y="133"></JamPowerUp>
+	<Layer X="-16" Y="571" Z="0.5" TreeName="Layer92" Filename="Background_4_front_1" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="791" Y="594" Z="0.5" TreeName="Layer93" Filename="Background_4_front_2" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Dummy Name="BallSpawn" X="582" Y="69" Flip="0"></Dummy>
+	<Anim X="343" Y="679" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="53" Loop="0" TreeName="PierreVolante9091-97" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<Anim X="719" Y="679" Z="0.5" SX="177" SY="62" FrameNum="12" Speed="53" Loop="0" TreeName="PierreVolante9091-98" Filename="PierreVolante" Flip="0" A="255" R="255" G="255" B="255"></Anim>
+	<WayPoint Name="Wp73" X="62" Y="173" WayPointId="73" Ground="True"></WayPoint>
+	<WayPoint Name="Wp74" X="276" Y="221" WayPointId="74" Ground="True"></WayPoint>
+	<WayPoint Name="Wp75" X="266" Y="379" WayPointId="75" Ground="True"></WayPoint>
+	<WayPoint Name="Wp76" X="441" Y="360" WayPointId="76" Ground="True"></WayPoint>
+	<WayPoint Name="Wp77" X="707" Y="361" WayPointId="77" Ground="True"></WayPoint>
+	<WayPoint Name="Wp78" X="511" Y="520" WayPointId="78" Ground="True"></WayPoint>
+	<WayPoint Name="Wp79" X="677" Y="522" WayPointId="79" Ground="True"></WayPoint>
+	<WayPoint Name="Wp80" X="134" Y="528" WayPointId="80" Ground="True"></WayPoint>
+	<WayPoint Name="Wp81" X="102" Y="668" WayPointId="81" Ground="True"></WayPoint>
+	<WayPoint Name="Wp82" X="318" Y="671" WayPointId="82" Ground="True"></WayPoint>
+	<WayPoint Name="Wp83" X="516" Y="685" WayPointId="83" Ground="True"></WayPoint>
+	<WayPoint Name="Wp84" X="747" Y="686" WayPointId="84" Ground="True"></WayPoint>
+	<WayPoint Name="Wp85" X="961" Y="666" WayPointId="85" Ground="True"></WayPoint>
+	<WayPoint Name="Wp86" X="1145" Y="668" WayPointId="86" Ground="True"></WayPoint>
+	<WayPoint Name="Wp87" X="1125" Y="541" WayPointId="87" Ground="True"></WayPoint>
+	<WayPoint Name="Wp88" X="958" Y="392" WayPointId="88" Ground="True"></WayPoint>
+	<WayPoint Name="Wp89" X="849" Y="221" WayPointId="89" Ground="True"></WayPoint>
+	<WayPoint Name="Wp90" X="971" Y="221" WayPointId="90" Ground="True"></WayPoint>
+	<WayPoint Name="Wp91" X="1217" Y="161" WayPointId="91" Ground="True"></WayPoint>
+	<AmbientLight A="255" R="89" G="108" B="183"></AmbientLight>
+</XnaContent>

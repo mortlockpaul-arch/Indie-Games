@@ -1,0 +1,8 @@
+<XnaContent>
+  <Collision Width="25" Height="40" OffsetX="0" OffsetY="5" SpOffsetX="0" SpOffsetY="0" ></Collision>
+  <Stand FrameCount="4" Width="72" Height="80" Speed="100" Loop="0"></Stand>
+  <Walk FrameCount="6" Width="72" Height="80" Speed="100" Loop="0" ></Walk>
+  <Jump FrameCount="2" Width="72" Height="80" Speed="100"  Loop="1"></Jump>
+  <Fall FrameCount="2" Width="72" Height="80" Speed="100"  Loop="1"></Fall>
+  <Explode FrameCount="3" Width="72" Height="80" Speed="120"  Loop="1"></Explode>
+</XnaContent>

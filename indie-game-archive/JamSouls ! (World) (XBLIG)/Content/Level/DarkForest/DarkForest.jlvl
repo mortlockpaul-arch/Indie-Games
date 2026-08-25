@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="Background_3" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Light X="679" Y="74" TreeName="Light2" Range="80" A="255" R="255" G="255" B="0"></Light>
+	<Light X="352" Y="226" TreeName="Light4" Range="50" A="255" R="255" G="255" B="0"></Light>
+	<Light X="493" Y="179" TreeName="Light5" Range="80" A="255" R="255" G="255" B="0"></Light>
+	<Light X="565" Y="571" TreeName="Light6" Range="80" A="255" R="255" G="255" B="0"></Light>
+	<Light X="285" Y="478" TreeName="Light7" Range="30" A="255" R="255" G="255" B="0"></Light>
+	<Light X="959" Y="358" TreeName="Light10" Range="50" A="255" R="255" G="255" B="0"></Light>
+	<Light X="1230" Y="505" TreeName="Light11" Range="80" A="255" R="255" G="255" B="0"></Light>
+	<Light X="1214" Y="239" TreeName="Light13" Range="50" A="255" R="255" G="255" B="0"></Light>
+	<Light X="1159" Y="638" TreeName="Light14" Range="80" A="255" R="255" G="255" B="0"></Light>
+	<Light X="211" Y="256" TreeName="Light3" Range="80" A="255" R="255" G="255" B="0"></Light>
+	<Box X="267" Y="596" SX="141" SY="19" TreeName="Box52" Block="False" FloorType="NONE"></Box>
+	<Box X="854" Y="610" SX="126" SY="14" TreeName="Box40" Block="False" FloorType="NONE"></Box>
+	<Box X="1254" Y="528" SX="108" SY="194" TreeName="Box43" Block="True" FloorType="NONE"></Box>
+	<Box X="926" Y="409" SX="50" SY="16" TreeName="Box44" Block="False" FloorType="NONE"></Box>
+	<Box X="975" Y="299" SX="176" SY="17" TreeName="Box45" Block="False" FloorType="NONE"></Box>
+	<Box X="272" Y="366" SX="99" SY="14" TreeName="Box46" Block="False" FloorType="NONE"></Box>
+	<Box X="842" Y="300" SX="73" SY="17" TreeName="Box46" Block="False" FloorType="NONE"></Box>
+	<Box X="1240" Y="238" SX="48" SY="16" TreeName="Box48" Block="False" FloorType="NONE"></Box>
+	<Box X="363" Y="472" SX="101" SY="16" TreeName="Box49" Block="False" FloorType="NONE"></Box>
+	<Box X="470" Y="522" SX="39" SY="16" TreeName="Box50" Block="False" FloorType="NONE"></Box>
+	<Box X="530" Y="568" SX="47" SY="18" TreeName="Box51" Block="False" FloorType="NONE"></Box>
+	<Box X="208" Y="296" SX="48" SY="15" TreeName="Box53" Block="False" FloorType="NONE"></Box>
+	<Box X="147" Y="258" SX="37" SY="13" TreeName="Box54" Block="False" FloorType="NONE"></Box>
+	<Box X="436" Y="217" SX="129" SY="18" TreeName="Box55" Block="False" FloorType="NONE"></Box>
+	<Box X="271" Y="140" SX="110" SY="18" TreeName="Box56" Block="False" FloorType="NONE"></Box>
+	<Box X="630" Y="106" SX="61" SY="15" TreeName="Box57" Block="False" FloorType="NONE"></Box>
+	<Box X="1280" Y="-217" SX="18" SY="937" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-88" Y="-148" SX="1411" SY="24" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Light X="200" Y="582" TreeName="Light8" Range="50" A="255" R="255" G="255" B="0"></Light>
+	<Light X="331" Y="76" TreeName="Light1" Range="80" A="255" R="255" G="255" B="0"></Light>
+	<Light X="891" Y="134" TreeName="Light13 copy " Range="50" A="255" R="255" G="128" B="0"></Light>
+	<Box X="1" Y="712" SX="1297" SY="35" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-48" Y="-254" SX="50" SY="1000" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<PlayerStart X="414" Y="284" Z="0.06599995" TreeName="Player43" TeamNum="0"></PlayerStart>
+	<PlayerStart X="872" Y="54" Z="0.06699996" TreeName="Player44" TeamNum="1"></PlayerStart>
+	<PlayerStart X="25" Y="372" Z="0.06799996" TreeName="Player45" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1025" Y="360" Z="0.06899996" TreeName="Player46" TeamNum="1"></PlayerStart>
+	<Light X="1028" Y="257" TreeName="light55" Range="50" A="255" R="255" G="255" B="0"></Light>
+	<Particle X="254" Y="463" Z="1" blending="True" TreeName="particle61" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="1215" Y="631" Z="1" blending="True" TreeName="particle62" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="706" Y="54" Z="1" blending="True" TreeName="particle63" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="341" Y="70" Z="1" blending="True" TreeName="particle64" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="145" Y="579" Z="1" blending="True" TreeName="particle65" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="636" Y="36" Z="1" blending="True" TreeName="particle66" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="904" Y="302" Z="1" blending="True" TreeName="particle67" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="529" Y="505" Z="1" blending="True" TreeName="particle68" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="186" Y="226" Z="1" blending="True" TreeName="particle69" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="445" Y="139" Z="1" blending="True" TreeName="particle70" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="1215" Y="457" Z="1" blending="True" TreeName="particle71" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="976" Y="229" Z="1" blending="True" TreeName="particle72" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="396" Y="114" Z="1" blending="True" TreeName="particle73" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="820" Y="482" Z="1" blending="True" TreeName="particle74" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="232" Y="234" Z="1" blending="True" TreeName="particle75" ParticleFile="flies.xml" Flip="0"></Particle>
+	<Particle X="1175" Y="218" Z="1" blending="True" TreeName="particle76" ParticleFile="flies.xml" Flip="0"></Particle>
+	<PlayerStart X="490" Y="40" Z="0.06699996" TreeName="Player44" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1085" Y="569" Z="0.06699996" TreeName="Player45" TeamNum="1"></PlayerStart>
+	<PowerUp Name="PowerUp1" X="1106" Y="479"></PowerUp>
+	<PowerUp Name="PowerUp2" X="301" Y="683"></PowerUp>
+	<PowerUp Name="PowerUp4" X="303" Y="112"></PowerUp>
+	<JamPowerUp Name="JamPowerUp71" X="883" Y="504"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp72" X="40" Y="551"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp73" X="1042" Y="406"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp74" X="303" Y="493"></JamPowerUp>
+	<Flag Name="FlagBlue" X="283" Y="324"></Flag>
+	<Flag Name="FlagRed" X="1215" Y="365"></Flag>
+	<PowerUp Name="PowerUp1110" X="1165" Y="666"></PowerUp>
+	<PowerUp Name="PowerUp1110111" X="504" Y="193"></PowerUp>
+	<Box X="1005" Y="512" SX="298" SY="16" TreeName="Box109" Block="False" FloorType="NONE"></Box>
+	<Box X="1174" Y="411" SX="104" SY="14" TreeName="Box109" Block="False" FloorType="NONE"></Box>
+	<WayPoint Name="Wp74" X="1185" Y="698" WayPointId="184" Ground="True"></WayPoint>
+	<WayPoint Name="Wp75" X="1021" Y="698" WayPointId="185" Ground="True"></WayPoint>
+	<WayPoint Name="Wp76" X="761" Y="697" WayPointId="186" Ground="True"></WayPoint>
+	<WayPoint Name="Wp77" X="547" Y="552" WayPointId="187" Ground="True"></WayPoint>
+	<WayPoint Name="Wp78" X="416" Y="458" WayPointId="188" Ground="True"></WayPoint>
+	<WayPoint Name="Wp79" X="329" Y="352" WayPointId="189" Ground="True"></WayPoint>
+	<WayPoint Name="Wp80" X="239" Y="282" WayPointId="190" Ground="True"></WayPoint>
+	<WayPoint Name="Wp81" X="165" Y="245" WayPointId="81" Ground="True"></WayPoint>
+	<WayPoint Name="Wp82" X="332" Y="126" WayPointId="82" Ground="True"></WayPoint>
+	<WayPoint Name="Wp83" X="498" Y="201" WayPointId="83" Ground="True"></WayPoint>
+	<WayPoint Name="Wp84" X="662" Y="91" WayPointId="84" Ground="True"></WayPoint>
+	<WayPoint Name="Wp85" X="867" Y="283" WayPointId="85" Ground="True"></WayPoint>
+	<WayPoint Name="Wp86" X="1103" Y="284" WayPointId="86" Ground="True"></WayPoint>
+	<WayPoint Name="Wp87" X="1263" Y="222" WayPointId="87" Ground="True"></WayPoint>
+	<WayPoint Name="Wp88" X="1232" Y="389" WayPointId="88" Ground="True"></WayPoint>
+	<WayPoint Name="Wp89" X="1072" Y="491" WayPointId="89" Ground="True"></WayPoint>
+	<WayPoint Name="Wp90" X="949" Y="393" WayPointId="90" Ground="True"></WayPoint>
+	<WayPoint Name="Wp91" X="912" Y="595" WayPointId="91" Ground="True"></WayPoint>
+	<WayPoint Name="Wp92" X="574" Y="698" WayPointId="93" Ground="True"></WayPoint>
+	<WayPoint Name="Wp93" X="331" Y="697" WayPointId="94" Ground="True"></WayPoint>
+	<WayPoint Name="Wp94" X="332" Y="579" WayPointId="95" Ground="True"></WayPoint>
+	<WayPoint Name="Wp95" X="71" Y="697" WayPointId="96" Ground="True"></WayPoint>
+	<PowerUp Name="PowerUp1-97" X="943" Y="371"></PowerUp>
+	<WayPoint Name="Wp108" X="1246" Y="490" WayPointId="108" Ground="True"></WayPoint>
+	<Layer X="0" Y="0" Z="0.8" TreeName="Layer95" Filename="Background_3_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<AmbientLight A="255" R="174" G="197" B="255"></AmbientLight>
+</XnaContent>

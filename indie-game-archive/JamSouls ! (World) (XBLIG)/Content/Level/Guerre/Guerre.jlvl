@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent>
+	<Layer X="0" Y="0" Z="0.001" TreeName="Layer0" Filename="lvl_Guerre_bkg" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="176" Y="321" SX="219" SY="23" TreeName="Box3" Block="False" FloorType="NONE"></Box>
+	<Box X="2" Y="697" SX="1291" SY="30" TreeName="Box4" Block="False" FloorType="NONE"></Box>
+	<Box X="576" Y="430" SX="147" SY="19" TreeName="Box6" Block="False" FloorType="NONE"></Box>
+	<Box X="1094" Y="580" SX="111" SY="20" TreeName="Box8" Block="False" FloorType="NONE"></Box>
+	<Box X="932" Y="330" SX="192" SY="21" TreeName="Box12" Block="False" FloorType="NONE"></Box>
+	<Box X="-1" Y="716" SX="1281" SY="26" TreeName="BottomBound" Block="True" FloorType="NONE"></Box>
+	<PlayerStart X="270" Y="12" Z="0.016" TreeName="Player15" TeamNum="0"></PlayerStart>
+	<PlayerStart X="475" Y="14" Z="0.016" TreeName="Player151819" TeamNum="0"></PlayerStart>
+	<PlayerStart X="1222" Y="10" Z="0.016" TreeName="Player151819202122" TeamNum="1"></PlayerStart>
+	<PlayerStart X="818" Y="14" Z="0.016" TreeName="Player15181920212223" TeamNum="1"></PlayerStart>
+	<PlayerStart X="1011" Y="12" Z="0.016" TreeName="Player1518192021222324" TeamNum="1"></PlayerStart>
+	<PlayerStart X="70" Y="17" Z="0.016" TreeName="Player151819202122232425" TeamNum="0"></PlayerStart>
+	<Flag Name="BlueFlag" X="31" Y="397"></Flag>
+	<PowerUp Name="PowerUp63" X="851" Y="671"></PowerUp>
+	<PowerUp Name="PowerUp6371" X="388" Y="669"></PowerUp>
+	<PowerUp Name="PowerUp63717273" X="279" Y="290"></PowerUp>
+	<Box X="-37" Y="-158" SX="37" SY="896" TreeName="LeftBound" Block="True" FloorType="NONE"></Box>
+	<Box X="1280" Y="-161" SX="37" SY="877" TreeName="RightBound" Block="True" FloorType="NONE"></Box>
+	<Box X="-2" Y="-159" SX="1283" SY="56" TreeName="TopBound" Block="True" FloorType="NONE"></Box>
+	<Layer X="0" Y="426" Z="0.5" TreeName="Layer68" Filename="lvl_Guerre_front" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Box X="-34" Y="449" SX="137" SY="293" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<JamPowerUp Name="JamPowerUp35" X="1000" Y="230"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-55" X="1206" Y="341"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-56" X="216" Y="228"></JamPowerUp>
+	<JamPowerUp Name="JamPowerUp35-57" X="20" Y="344"></JamPowerUp>
+	<Box X="1186" Y="455" SX="134" SY="286" TreeName="Bound" Block="True" FloorType="NONE"></Box>
+	<PowerUp Name="PowerUp63-43" X="1020" Y="302"></PowerUp>
+	<Dummy Name="PlayerStart" X="264" Y="8" Flip="0"></Dummy>
+	<Dummy Name="BossStart" X="1005" Y="7" Flip="1"></Dummy>
+	<Dummy Name="FrogSpawn" X="601" Y="11" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-144" X="698" Y="14" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-145" X="812" Y="16" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-146" X="1225" Y="11" Flip="0"></Dummy>
+	<JamPowerUp Name="JamPowerUp35-80" X="618" Y="336"></JamPowerUp>
+	<Box X="102" Y="584" SX="117" SY="18" TreeName="Box4-58" Block="False" FloorType="NONE"></Box>
+	<Dummy Name="FrogSpawn-53" X="507" Y="11" Flip="0"></Dummy>
+	<Dummy Name="FrogSpawn-54" X="897" Y="14" Flip="0"></Dummy>
+	<Dummy Name="BallSpawn" X="640" Y="-50" Flip="0"></Dummy>
+	<Flag Name="RedFlag" X="1218" Y="414"></Flag>
+	<Layer X="-18" Y="36" Z="0.5039999" TreeName="GoalBlue" Filename="Goal" Flip="0" A="255" R="255" G="255" B="255"></Layer>
+	<Layer X="1169" Y="36" Z="0.5049999" TreeName="GoalRed" Filename="Goal" Flip="1" A="255" R="255" G="255" B="255"></Layer>
+	<Particle X="536" Y="-22" Z="0.5069999" blending="True" TreeName="particle62" ParticleFile="Etincelle.xml" Flip="0"></Particle>
+	<Box X="-8" Y="192" SX="37" SY="16" TreeName="GoalWall" Block="True" FloorType="NONE"></Box>
+	<Box X="1250" Y="193" SX="37" SY="15" TreeName="GoalWall-75" Block="True" FloorType="NONE"></Box>
+	<Box X="1168" Y="192" SX="19" SY="19" TreeName="GoalWall-76" Block="True" FloorType="NONE"></Box>
+	<Box X="93" Y="191" SX="20" SY="22" TreeName="GoalWall-77" Block="True" FloorType="NONE"></Box>
+	<Box X="29" Y="198" SX="61" SY="14" TreeName="GoalBlueZone-80" Block="True" FloorType="NONE"></Box>
+	<Box X="1266" Y="189" SX="24" SY="14" TreeName="GoalWall-82" Block="True" FloorType="NONE"></Box>
+	<Box X="1186" Y="196" SX="64" SY="14" TreeName="GoalRedZone" Block="True" FloorType="NONE"></Box>
+	<Box X="447" Y="563" SX="115" SY="25" TreeName="Box67" Block="False" FloorType="NONE"></Box>
+	<Box X="772" Y="558" SX="115" SY="25" TreeName="Box67-69" Block="False" FloorType="NONE"></Box>
+	<Box X="-13" Y="190" SX="28" SY="17" TreeName="GoalWall-79" Block="True" FloorType="NONE"></Box>
+	<WayPoint Name="Wp59" X="56" Y="433" WayPointId="59" Ground="True"></WayPoint>
+	<WayPoint Name="Wp60" X="189" Y="569" WayPointId="60" Ground="True"></WayPoint>
+	<WayPoint Name="Wp61" X="328" Y="681" WayPointId="61" Ground="True"></WayPoint>
+	<WayPoint Name="Wp62" X="197" Y="680" WayPointId="62" Ground="True"></WayPoint>
+	<WayPoint Name="Wp63" X="504" Y="548" WayPointId="63" Ground="True"></WayPoint>
+	<WayPoint Name="Wp64" X="497" Y="682" WayPointId="64" Ground="True"></WayPoint>
+	<WayPoint Name="Wp65" X="662" Y="682" WayPointId="65" Ground="True"></WayPoint>
+	<WayPoint Name="Wp66" X="841" Y="681" WayPointId="66" Ground="True"></WayPoint>
+	<WayPoint Name="Wp67" X="826" Y="543" WayPointId="67" Ground="True"></WayPoint>
+	<WayPoint Name="Wp68" X="989" Y="681" WayPointId="68" Ground="True"></WayPoint>
+	<WayPoint Name="Wp69" X="1129" Y="680" WayPointId="69" Ground="True"></WayPoint>
+	<WayPoint Name="Wp70" X="1129" Y="565" WayPointId="70" Ground="True"></WayPoint>
+	<WayPoint Name="Wp71" X="1236" Y="440" WayPointId="71" Ground="True"></WayPoint>
+	<WayPoint Name="Wp72" X="1097" Y="316" WayPointId="72" Ground="True"></WayPoint>
+	<WayPoint Name="Wp73" X="961" Y="315" WayPointId="73" Ground="True"></WayPoint>
+	<WayPoint Name="Wp74" X="651" Y="415" WayPointId="74" Ground="True"></WayPoint>
+	<WayPoint Name="Wp75" X="348" Y="306" WayPointId="75" Ground="True"></WayPoint>
+	<WayPoint Name="Wp76" X="216" Y="305" WayPointId="76" Ground="True"></WayPoint>
+	<Box X="99" Y="186" SX="9" SY="11" TreeName="GoalWall-72" Block="True" FloorType="NONE"></Box>
+	<Box X="1173" Y="185" SX="8" SY="11" TreeName="GoalWall-73" Block="True" FloorType="NONE"></Box>
+	<Box X="-20" Y="186" SX="29" SY="18" TreeName="GoalWall-74" Block="True" FloorType="NONE"></Box>
+	<Box X="1272" Y="184" SX="24" SY="14" TreeName="GoalWall-75" Block="True" FloorType="NONE"></Box>
+	<AmbientLight A="255" R="255" G="255" B="255"></AmbientLight>
+</XnaContent>
