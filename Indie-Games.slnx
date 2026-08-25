@@ -1,16 +1,43 @@
 <Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
   <Folder Name="/indie-game-archive/">
-    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/JamSouls ! (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/JamSouls ! (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/2176 Supernova Storm (World) (XBLIG)/2176 Supernova Storm (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/decompiled/2176 Supernova Storm (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/DepthAttack (World) (XBLIG)/DepthAttack (World) (XBLIG).csproj" />
   </Folder>
-  <Project Path="Content-References/Contents.csproj" />
-  <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b" />
-  <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f" />
+  <Project Path="Content-References/Contents.csproj">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
 </Solution>
