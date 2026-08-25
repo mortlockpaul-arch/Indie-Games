@@ -16,6 +16,17 @@
 	  <ProjectReference Include="..\..\Content-References\Contents.csproj" />
 	</ItemGroup>
 	<ItemGroup>
+	  <Reference Include="BEPUphysics">
+	    <HintPath>BEPUphysics.dll</HintPath>
+	  </Reference>
+	  <Reference Include="DPSFXbox360">
+	    <HintPath>DPSFXbox360.dll</HintPath>
+	  </Reference>
+	  <Reference Include="SynapseGaming-SunBurn-Indie">
+	    <HintPath>SynapseGaming-SunBurn-Indie.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+	<ItemGroup>
 		<None Update="Content\**\*">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>

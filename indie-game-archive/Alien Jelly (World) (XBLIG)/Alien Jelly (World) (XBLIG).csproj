@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>Game</AssemblyName>
@@ -14,6 +14,11 @@
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\Contents.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="GKEngine">
+	    <HintPath>GKEngine.dll</HintPath>
+	  </Reference>
 	</ItemGroup>
 	<ItemGroup>
 		<None Update="Content\**\*">
