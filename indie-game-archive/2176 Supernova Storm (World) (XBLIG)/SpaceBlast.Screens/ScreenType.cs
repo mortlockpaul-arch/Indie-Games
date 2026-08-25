@@ -1,0 +1,35 @@
+namespace SpaceBlast.Screens;
+
+internal enum ScreenType
+{
+	None,
+	PressStart,
+	Player2ControllerScreen,
+	MainMenu,
+	TrialMainMenu,
+	PauseMenu,
+	GameResults,
+	Purchase,
+	ThankYou,
+	Promotion,
+	Instructions,
+	LayoutInstructions,
+	Credits,
+	MultiplayerGameSearch,
+	SinglePlayerMenu,
+	SinglePlayerDeathmatchOptions,
+	SinglePlayerTeamDeathmatchOptions,
+	SinglePlayerCustomOptions,
+	TrialRestriction,
+	SplitScreenMenu,
+	SplitScreenCoOpOptions,
+	SplitScreenAllVsAllOptions,
+	SplitScreenCustomOptions,
+	SystemLinkMenuScreen,
+	SystemLinkCustomGameScreen,
+	MultiplayerMenuScreen,
+	MultiplayerCreateCustomGameScreen,
+	MultiplayerAvailableGamesScreen,
+	ControllerDisconnected,
+	PrivateGameScreen
+}

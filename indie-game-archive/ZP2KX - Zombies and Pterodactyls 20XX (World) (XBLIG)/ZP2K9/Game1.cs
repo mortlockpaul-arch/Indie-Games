@@ -8,6 +8,11 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Net;
 using SceneEdit.scene;
+using xCharEdit;
+using xCharEdit.Character;
+using yMapEdit.map;
+using yMapEdit.map.postglow;
+using yMapEdit.segdef;
 using ZP2K9.ai;
 using ZP2K9.characters;
 using ZP2K9.characters.weapons;
@@ -19,11 +24,6 @@ using ZP2K9.menu.levels;
 using ZP2K9.net;
 using ZP2K9.particles;
 using ZP2K9.store;
-using xCharEdit;
-using xCharEdit.Character;
-using yMapEdit.map;
-using yMapEdit.map.postglow;
-using yMapEdit.segdef;
 
 namespace ZP2K9;
 
