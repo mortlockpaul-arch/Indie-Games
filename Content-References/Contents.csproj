@@ -5,7 +5,7 @@
 		<TargetFramework>net481</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU;x86</Platforms>
+		<Platforms>AnyCPU;x86;x64</Platforms>
 	</PropertyGroup>
 	<PropertyGroup>
 		<LangVersion>14.0</LangVersion>
