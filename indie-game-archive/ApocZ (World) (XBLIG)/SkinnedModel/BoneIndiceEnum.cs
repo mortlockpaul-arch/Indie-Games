@@ -1,0 +1,38 @@
+namespace SkinnedModel;
+
+public enum BoneIndiceEnum
+{
+	FpsRoot,
+	FpsHead,
+	FpsSpine,
+	FpsRightArm,
+	FpsRightElbow,
+	FpsRightHand,
+	FpsRightMag,
+	FpsRightBullet,
+	FpsRightBolt,
+	FpsLeftArm,
+	FpsLeftElbow,
+	FpsLeftHand,
+	CoOpPelvis,
+	CoOpSpine0,
+	CoOpSpine1,
+	CoOpSpine2,
+	CoOpNeck,
+	CoOpHead,
+	CoOpRightArm,
+	CoOpRightElbow,
+	CoOpRightHand,
+	CoOpLeftArm,
+	CoOpLeftElbow,
+	CoOpLeftHand,
+	CoOpRightThigh,
+	CoOpRightKnee,
+	CoOpRightFoot,
+	CoOpRightToe,
+	CoOpLeftThigh,
+	CoOpLeftKnee,
+	CoOpLeftFoot,
+	CoOpLeftToe,
+	NumberOf
+}

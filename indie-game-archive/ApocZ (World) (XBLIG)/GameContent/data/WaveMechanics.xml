@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Generic="System.Collections.Generic">
+  <Asset Type="Generic:List[DataContent.WaveMechanics]">
+    <Item>
+      <WaveTitle>Wave One</WaveTitle>
+      <WaveEndMessage>Wave One Complete</WaveEndMessage>
+      <MaxSpawnedAtOnce>100</MaxSpawnedAtOnce>
+      <MaxBotThisWave>30</MaxBotThisWave>
+      <TopAttackNumber>16</TopAttackNumber>
+      <BottomAttackNumber>8</BottomAttackNumber>
+      <TimerWaveStart>6</TimerWaveStart>
+      <TimerWaveCoolDown>16</TimerWaveCoolDown>
+      <RunSpeedScalar>1</RunSpeedScalar>
+    </Item>
+    <Item>
+      <WaveTitle>Wave Two</WaveTitle>
+      <WaveEndMessage>Wave Two Complete</WaveEndMessage>
+      <MaxSpawnedAtOnce>100</MaxSpawnedAtOnce>
+      <MaxBotThisWave>30</MaxBotThisWave>
+      <TopAttackNumber>20</TopAttackNumber>
+      <BottomAttackNumber>8</BottomAttackNumber>
+      <TimerWaveStart>6</TimerWaveStart>
+      <TimerWaveCoolDown>16</TimerWaveCoolDown>
+      <RunSpeedScalar>1</RunSpeedScalar>
+    </Item>
+    <Item>
+      <WaveTitle>Wave Three</WaveTitle>
+      <WaveEndMessage>Wave Three Complete</WaveEndMessage>
+      <MaxSpawnedAtOnce>100</MaxSpawnedAtOnce>
+      <MaxBotThisWave>30</MaxBotThisWave>
+      <TopAttackNumber>24</TopAttackNumber>
+      <BottomAttackNumber>12</BottomAttackNumber>
+      <TimerWaveStart>6</TimerWaveStart>
+      <TimerWaveCoolDown>16</TimerWaveCoolDown>
+      <RunSpeedScalar>1</RunSpeedScalar>
+    </Item>
+    <Item>
+      <WaveTitle>Last Wave</WaveTitle>
+      <WaveEndMessage>Survivor!</WaveEndMessage>
+      <MaxSpawnedAtOnce>100</MaxSpawnedAtOnce>
+      <MaxBotThisWave>200</MaxBotThisWave>
+      <TopAttackNumber>32</TopAttackNumber>
+      <BottomAttackNumber>16</BottomAttackNumber>
+      <TimerWaveStart>6</TimerWaveStart>
+      <TimerWaveCoolDown>16</TimerWaveCoolDown>
+      <RunSpeedScalar>1</RunSpeedScalar>
+    </Item>
+  </Asset>
+</XnaContent>
