@@ -1,36 +1,59 @@
-<?xml version='1.0' encoding='utf-8'?>
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<AssemblyName>ZXBox.Core</AssemblyName>
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<AssemblyName>Jet Set Willy 360</AssemblyName>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
 		<TargetFramework>net481</TargetFramework>
 		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
+	</PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net481</TargetFramework>
 		<PlatformTarget>x86</PlatformTarget>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU</Platforms>
-		<OutputType>WinExe</OutputType>
+	</PropertyGroup>
+	<PropertyGroup>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+	</PropertyGroup>
+	<PropertyGroup>
+		<RootNamespace />
 		<OutputType>WinExe</OutputType>
 		<StartupObject>Manic_Miner_360.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj">
-			<Private>True</Private>
-			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
-		</ProjectReference>
+		<None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
+		<EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" LogicalName="Microsoft.Xna.Framework.RuntimeProfile" />
 	</ItemGroup>
 	<ItemGroup>
-		<Reference Include="ZXBox.Core">
-			<HintPath>ZXBox.Core.dll</HintPath>
-			<Private>True</Private>
+		<ProjectReference Include="..\..\Content-References\Contents.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+    <None Include="Content\**\*">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+</ItemGroup>
+	<ItemGroup>
+		<Reference Include="System.Core">
+			<HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
-		<None Update="Content\**\*">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
+	  <None Update="48.rom">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="jetset_k.z80">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="jetset_k_cheat.z80">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="manic_cheat.z80">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="manic_normal.z80">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="manic_trial.z80">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 </Project>
