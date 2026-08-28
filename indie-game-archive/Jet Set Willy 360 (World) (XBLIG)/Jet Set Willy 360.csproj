@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Jet Set Willy 360</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" LogicalName="Microsoft.Xna.Framework.RuntimeProfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Elite.Core.Shared">
+      <HintPath>..\..\extracted\Jet Set Willy 360 (World) (XBLIG)\584E07D1\Elite.Core.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="Elite.Core">
+      <HintPath>..\..\extracted\Jet Set Willy 360 (World) (XBLIG)\584E07D1\Elite.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game" />
+  </ItemGroup>
+</Project>

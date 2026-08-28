@@ -8,6 +8,10 @@
 		<Platforms>AnyCPU;x86;x64</Platforms>
 	</PropertyGroup>
 	<PropertyGroup>
+		<DebugSymbols>false</DebugSymbols>
+		<DebugType>None</DebugType>
+	</PropertyGroup>
+	<PropertyGroup>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
@@ -16,12 +20,20 @@
 	  <ProjectReference Include="..\FNA.NetStub\FNA.NetStub.csproj" />
 	  <ProjectReference Include="..\FNA\FNA.csproj" />
 	</ItemGroup>
+	<PropertyGroup>
+		<CurrentPlatform Condition="'$(PlatformTarget)' == 'x86'">x86</CurrentPlatform>
+		<CurrentPlatform Condition="'$(PlatformTarget)' == 'x64'">x64</CurrentPlatform>
+		<CurrentPlatform Condition="'$(PlatformTarget)' == 'AnyCPU'">x86</CurrentPlatform>
+	</PropertyGroup>
 	<ItemGroup>
-		<None Update="**">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		<None Update="$(CurrentPlatform)\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<TargetPath>%(Filename)%(Extension)</TargetPath>
 		</None>
-
 	</ItemGroup>
+	<Target Name="ShowPlatform" BeforeTargets="Build">
+		<Message Importance="High" Text="PlatformTarget=$(PlatformTarget), CurrentPlatform=$(CurrentPlatform)" />
+	</Target>
 	<ItemGroup>
 	  <Reference Update="System">
 	    <SpecificVersion>True</SpecificVersion>

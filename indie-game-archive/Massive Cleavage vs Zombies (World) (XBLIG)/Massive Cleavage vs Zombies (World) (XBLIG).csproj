@@ -15,9 +15,4 @@
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\Contents.csproj" />
 	</ItemGroup>
-	<ItemGroup>
-		<None Update="Content\**\*">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
 </Project>
