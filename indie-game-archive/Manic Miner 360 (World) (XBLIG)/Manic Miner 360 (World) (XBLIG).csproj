@@ -4,17 +4,10 @@
 		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
 		<TargetFramework>net481</TargetFramework>
 		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
-	</PropertyGroup>
-	<PropertyGroup>
-		<TargetFramework>net481</TargetFramework>
 		<PlatformTarget>x86</PlatformTarget>
-	</PropertyGroup>
-	<PropertyGroup>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-	</PropertyGroup>
-	<PropertyGroup>
 		<RootNamespace />
 		<OutputType>WinExe</OutputType>
 		<StartupObject>Manic_Miner_360.Program</StartupObject>

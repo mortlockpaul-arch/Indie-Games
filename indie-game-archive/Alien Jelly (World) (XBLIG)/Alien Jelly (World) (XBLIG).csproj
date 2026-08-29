@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>Common</AssemblyName>
@@ -11,26 +11,23 @@
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<StartupObject>Manic_Miner_360.Program</StartupObject>
+		<StartupObject>Game.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\Contents.csproj">
 			<Private>True</Private>
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>
-	</ItemGroup>
-	<ItemGroup>
-		<Reference Include="Common">
-			<HintPath>Common.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="GKEngine">
-			<HintPath>GKEngine.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
+		<ProjectReference Include="..\..\Rerence-Projects\Common\Common.csproj" />
+		<ProjectReference Include="..\..\Rerence-Projects\GKEngine\GKEngine.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Update="Content\**\*">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="GKEngine.Entities.Range" Alias="Range" />
 	</ItemGroup>
 </Project>
