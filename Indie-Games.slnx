@@ -18,7 +18,6 @@
       <Platform Solution="Debug|x64" Project="x86" />
       <Platform Solution="Release|x64" Project="x64" />
     </Project>
-    <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -44,6 +43,11 @@
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
+    <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
+  </Folder>
+  <Folder Name="/reference-projects/">
+    <Project Path="Rerence-Projects/Common/Common.csproj" />
+    <Project Path="Rerence-Projects/GKEngine/GKEngine.csproj" />
   </Folder>
   <Project Path="Content-References/Contents.csproj">
     <Platform Solution="*|x64" Project="x64" />
