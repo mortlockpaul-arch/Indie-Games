@@ -5,7 +5,6 @@
 		<TargetFramework>net481</TargetFramework>
 		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 		<PlatformTarget>x86</PlatformTarget>
-		<TargetFramework>net481</TargetFramework>
 		<RootNamespace />
 		<OutputType>WinExe</OutputType>
 	</PropertyGroup>
@@ -17,6 +16,7 @@
 	<PropertyGroup>
 		<ApplicationIcon>app.ico</ApplicationIcon>
 		<RootNamespace />
+		<StartupObject>Manic_Miner_360.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="gamethumbnail.png" />
