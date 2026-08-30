@@ -3,7 +3,8 @@
 	<PropertyGroup>
 		<AssemblyName>Common</AssemblyName>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		<TargetFramework>net10.0</TargetFramework>
+				<TargetFramework>net481</TargetFramework>
+		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Platforms>AnyCPU</Platforms>
@@ -19,8 +20,8 @@
 			<Private>True</Private>
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>
-		<ProjectReference Include="..\..\Rerence-Projects\Common\Common.csproj" />
-		<ProjectReference Include="..\..\Rerence-Projects\GKEngine\GKEngine.csproj" />
+		<ProjectReference Include="..\..\Reference-Projects\Common\Common.csproj" />
+		<ProjectReference Include="..\..\Reference-Projects\GKEngine\GKEngine.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Update="Content\**\*">

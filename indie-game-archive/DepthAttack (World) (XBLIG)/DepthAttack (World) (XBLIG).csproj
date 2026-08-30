@@ -3,7 +3,8 @@
 	<PropertyGroup>
 		<AssemblyName>DepthAttack</AssemblyName>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		<TargetFramework>net9.0-windows7.0</TargetFramework>
+		<TargetFramework>net481</TargetFramework>
+		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Platforms>AnyCPU;x64</Platforms>

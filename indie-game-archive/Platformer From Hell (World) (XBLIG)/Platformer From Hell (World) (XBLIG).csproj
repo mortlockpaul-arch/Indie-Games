@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>EasyStorage</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<TargetFramework>net481</TargetFramework>
+		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU</Platforms>
+		<OutputType>WinExe</OutputType>
+		<LangVersion>14.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Content-References\Contents.csproj">
+			<Private>True</Private>
+			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="EasyStorage.resources">
+			<HintPath>EasyStorage.resources.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="EasyStorage">
+			<HintPath>EasyStorage.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="EasyStorage.resources">
+			<HintPath>EasyStorage.resources.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="EasyStorage.resources">
+			<HintPath>EasyStorage.resources.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="EasyStorage.resources">
+			<HintPath>EasyStorage.resources.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="EasyStorage.resources">
+			<HintPath>EasyStorage.resources.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="Content\**\*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

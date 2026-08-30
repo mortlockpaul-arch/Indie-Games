@@ -2,14 +2,8 @@
   <PropertyGroup>
     <AssemblyName>ZXBox.Core</AssemblyName>
     <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-	  <TargetFramework>net481</TargetFramework>
-	  <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
+    <TargetFramework>net20</TargetFramework>
   </PropertyGroup>
-	<PropertyGroup>
-		<RootNamespace />
-		<OutputType>WinExe</OutputType>
-		<StartupObject>Manic_Miner_360.Program</StartupObject>
-	</PropertyGroup>
   <PropertyGroup>
     <LangVersion>14.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
@@ -23,12 +17,7 @@
     <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" LogicalName="Microsoft.Xna.Framework.RuntimeProfile" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Content-References\Contents.csproj" />
-  </ItemGroup>
-	<None Include="Content\**\*">
-		<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-	</None>
-  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework" />
     <Reference Include="System.Core">
       <HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll</HintPath>
     </Reference>
