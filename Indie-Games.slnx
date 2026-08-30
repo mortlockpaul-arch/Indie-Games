@@ -5,6 +5,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/indie-game-archive/">
+    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/2176 Supernova Storm (World) (XBLIG)/2176 Supernova Storm (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -22,6 +23,7 @@
     <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
     <Project Path="indie-game-archive/DepthAttack (World) (XBLIG)/DepthAttack (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
@@ -30,41 +32,41 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Jet Set Willy 360 (World) (XBLIG)/Jet Set Willy 360 (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
-    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
-    <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/FarseerPhysics.csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/RenderLibrary.csproj" />
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj" />
     <Project Path="Reference-Projects/Common/Common.csproj" />
     <Project Path="Reference-Projects/GKEngine/GKEngine.csproj" />
   </Folder>
-  <Project Path="Content-References/Contents.csproj">
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
-  </Project>
-  <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b">
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
-  </Project>
-  <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
-  </Project>
+  <Folder Name="/References/">
+    <Project Path="Content-References/Contents.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+  </Folder>
   <Project Path="RetroShelf/RetroShelf.csproj">
     <Platform Solution="*|x64" Project="x64" />
   </Project>
