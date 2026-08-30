@@ -23,7 +23,6 @@
     <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
     <Project Path="indie-game-archive/DepthAttack (World) (XBLIG)/DepthAttack (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
@@ -47,6 +46,7 @@
     </Project>
   </Folder>
   <Folder Name="/Reference-Projects/">
+    <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/FarseerPhysics.csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/RenderLibrary.csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj" />
