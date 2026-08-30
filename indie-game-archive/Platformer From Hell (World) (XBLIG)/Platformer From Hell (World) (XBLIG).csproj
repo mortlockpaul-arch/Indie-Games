@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>EasyStorage</AssemblyName>
@@ -7,11 +7,12 @@
 		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU</Platforms>
+		<PlatformTarget>x86</PlatformTarget>
 		<OutputType>WinExe</OutputType>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<StartupObject>PlatformerFromHell.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\Contents.csproj">
