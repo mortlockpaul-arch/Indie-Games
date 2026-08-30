@@ -1,0 +1,11 @@
+namespace Scene;
+
+public enum MassTypes
+{
+	FLESH_MASS,
+	HEAVY_MASS,
+	LIGHT_MASS,
+	MED_MASS,
+	ULTRALIGHT_MASS,
+	ULTRAHEAVY_MASS
+}

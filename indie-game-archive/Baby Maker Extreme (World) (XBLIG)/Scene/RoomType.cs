@@ -1,0 +1,16 @@
+namespace Scene;
+
+public enum RoomType
+{
+	BIRTHROOM,
+	CAFETERIA,
+	HALLWAY,
+	WAITINGROOM,
+	BEDSROOM,
+	PHYSIO,
+	LAB,
+	SURGERYTHEATRE,
+	DIAGNOSIS,
+	MORTUARY,
+	MAX_TYPE
+}

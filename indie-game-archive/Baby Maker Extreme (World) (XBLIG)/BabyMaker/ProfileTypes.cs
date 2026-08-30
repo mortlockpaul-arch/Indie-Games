@@ -1,0 +1,11 @@
+namespace BabyMaker;
+
+public enum ProfileTypes
+{
+	PROF_UPDATE,
+	PROF_STARTUPDATE,
+	PROF_DRAW,
+	PROF_STARTDRAW,
+	PROF_ENEMY_UPDATE,
+	PROF_PHYSICS
+}
