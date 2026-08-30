@@ -1,28 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <AssemblyName>EasyStorage</AssemblyName>
-    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-    <TargetFramework>net20</TargetFramework>
-  </PropertyGroup>
-  <PropertyGroup>
-    <LangVersion>14.0</LangVersion>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-  </PropertyGroup>
-  <PropertyGroup>
-    <RootNamespace />
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
-    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" LogicalName="Microsoft.Xna.Framework.RuntimeProfile" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.Xna.Framework.Game" />
-    <Reference Include="Microsoft.Xna.Framework.Storage" />
-    <Reference Include="Microsoft.Xna.Framework" />
-    <Reference Include="Microsoft.Xna.Framework.GamerServices" />
-    <Reference Include="System.Core">
-      <HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<PropertyGroup>
+		<AssemblyName>Platformer From Hell</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<TargetFramework>net481</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>AnyCPU</Platforms>
+		<OutputType>WinExe</OutputType>
+		<LangVersion>14.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Content-References\Contents.csproj">
+			<Private>True</Private>
+			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="EasyStorage">
+			<HintPath>EasyStorage.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="de/EasyStorage.resources.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="es/EasyStorage.resources.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="fr/EasyStorage.resources.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="it/EasyStorage.resources.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Include="ja/EasyStorage.resources.dll">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="EasyStorage.Strings.de.resx" />
+		<EmbeddedResource Include="EasyStorage.Strings.es.resx" />
+		<EmbeddedResource Include="EasyStorage.Strings.fr.resx" />
+		<EmbeddedResource Include="EasyStorage.Strings.it.resx" />
+		<EmbeddedResource Include="EasyStorage.Strings.ja.resx" />
+		<EmbeddedResource Include="EasyStorage.Strings.resx" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="Content\**\*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 </Project>

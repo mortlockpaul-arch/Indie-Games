@@ -7,7 +7,7 @@
 		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU;x86;x64</Platforms>
+		<PlatformTarget>x86</PlatformTarget>
 		<OutputType>WinExe</OutputType>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
