@@ -5,10 +5,6 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/indie-game-archive/">
-    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
     <Project Path="indie-game-archive/2176 Supernova Storm (World) (XBLIG)/2176 Supernova Storm (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -41,9 +37,11 @@
     </Project>
     <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
+    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
