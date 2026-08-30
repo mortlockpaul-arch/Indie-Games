@@ -1,0 +1,1170 @@
+<Data>
+  <Asset>
+    <levelData>colony</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>1318 294</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>0</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>playerSpawn</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>1172 264</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>1</type>
+    <frame>0</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>playerSpawn</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>1194 321</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>2</type>
+    <frame>0</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>playerSpawn</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>1226 245</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>3</type>
+    <frame>0</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>playerSpawn</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>1143 299</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>4</type>
+    <frame>0</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-707 367</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>0</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>orb</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>1829 -276</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>380</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-417 -212</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>7</type>
+    <frame>1</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-430 -84</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>7</type>
+    <frame>11</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-430 49</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>7</type>
+    <frame>41</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-455 149</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>7</type>
+    <frame>71</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-444 296</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>7</type>
+    <frame>101</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-434 428</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>8</type>
+    <frame>252</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-428 536</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>8</type>
+    <frame>282</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-440 635</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>8</type>
+    <frame>312</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-448 787</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>8</type>
+    <frame>342</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-446 907</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>8</type>
+    <frame>372</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>orb</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-546 341</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>8</type>
+    <frame>432</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>122 230</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>6</type>
+    <frame>554</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>119 363</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>6</type>
+    <frame>584</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>orb</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>40 300</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>6</type>
+    <frame>614</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-269 708</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>2</type>
+    <frame>642</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-308 800</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>2</type>
+    <frame>632</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-360 307</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>2</type>
+    <frame>462</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-266 892</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>2</type>
+    <frame>582</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>2</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-215 266</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>4</type>
+    <frame>920</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>10</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>493 636</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>3</type>
+    <frame>1222</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>561 419</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>3</type>
+    <frame>1382</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>orb</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-262 -226</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>3</type>
+    <frame>1271</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-673 1013</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>0</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-683 -332</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>30</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-680 23</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>60</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-670 760</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>90</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-690 857</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>0</type>
+    <frame>120</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>lensFlare</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-199 -62</position>
+    <angle>0</angle>
+    <size>2</size>
+    <type>1</type>
+    <frame>1</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>lensFlare</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>475 2</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>1</type>
+    <frame>1</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-4 251</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>6</type>
+    <frame>1</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-7 337</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>6</type>
+    <frame>11</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>1</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-141 -232</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>21</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>18 422</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>31</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-39 155</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>41</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-34 159</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>51</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>12 170</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>61</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-88 189</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>71</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-74 295</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>81</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>54 170</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>91</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>99 177</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>101</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>101 293</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>111</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>179 220</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>121</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>192 282</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>131</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>167 267</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>141</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>198 355</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>151</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>250 287</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>161</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>224 393</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>171</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>248 292</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>181</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>241 351</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>191</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>195 341</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>201</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>235 229</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>211</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>61 128</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>221</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>182 313</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>231</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>187 416</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>241</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>81 267</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>251</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>63 455</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>261</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>176 446</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>271</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>210 414</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>281</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>7 396</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>291</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>98 420</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>301</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>28 368</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>311</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>56 384</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>321</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>137 476</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>331</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-545 403</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>341</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>10</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>-75 271</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>11</type>
+    <frame>351</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>0</numSec>
+    <numPri>1</numPri>
+  </Asset>
+  <Asset>
+    <levelData>enemy</levelData>
+    <name>name: </name>
+    <desc>desc: </desc>
+    <position>1789 -256</position>
+    <angle>0</angle>
+    <size>1</size>
+    <type>8</type>
+    <frame>459</frame>
+    <text>text: </text>
+    <color>0 0 0</color>
+    <color2>0 0 0</color2>
+    <color3>0 0 0</color3>
+    <numSec>10</numSec>
+    <numPri>2</numPri>
+  </Asset>
+</Data>

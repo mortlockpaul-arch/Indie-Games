@@ -1,4 +1,4 @@
-
+<?xml version='1.0' encoding='utf-8'?>
 <Solution>
   <Configurations>
     <Platform Name="x64" />
@@ -31,6 +31,7 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Jet Set Willy 360 (World) (XBLIG)/Jet Set Willy 360 (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Let's Draw A Picture Together! (World) (XBLIG)/Let's Draw A Picture Together! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj">
@@ -44,6 +45,8 @@
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
+    <Project Path="indie-game-archive/Defenders of the Last Colony/Defenders of the Last Colony.csproj" />
+    <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/27 Ball Funky Pool (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
@@ -52,6 +55,11 @@
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj" />
     <Project Path="Reference-Projects/Common/Common.csproj" />
     <Project Path="Reference-Projects/GKEngine/GKEngine.csproj" />
+    <Project Path="indie-game-archive/Defenders of the Last Colony/EasyStorage.csproj" />
+    <Project Path="indie-game-archive/Defenders of the Last Colony/EasyStorage.resources.csproj" />
+    <Project Path="indie-game-archive/Defenders of the Last Colony/Hammer.csproj" />
+    <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/LibMaximinus.csproj" />
+    <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/MaximinusDataTypes.csproj" />
   </Folder>
   <Folder Name="/References/">
     <Project Path="Content-References/Contents.csproj">

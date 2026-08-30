@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<options>
+  <!-- Game options -->
+
+  <!-- Is the game in full screen? -->
+  <elm>Full Screen</elm>
+  <elm>0</elm>
+
+  <!-- Transparency -->
+  <elm>HUD transparency</elm>
+  <elm>13</elm>
+
+  <!-- Music Volume -->
+  <elm>Music</elm>
+  <elm>89</elm>
+
+  <!-- Sound FX volume -->
+  <elm>Sound FX</elm>
+  <elm>11</elm>
+
+  <!-- Will the controller use vibration? -->
+  <elm>Controller Vibration</elm>
+  <elm>true</elm>
+
+  <!-- Which player will controll the keyboard -->
+  <elm>Keyboard is Player</elm>
+  <elm>1</elm>
+
+  <!-- End of Game options -->
+
+</options>
