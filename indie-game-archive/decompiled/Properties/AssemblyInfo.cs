@@ -3,12 +3,12 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyCopyright("Copyright © Lance Laxton 2012")]
-[assembly: AssemblyTitle("Ambiance")]
-[assembly: AssemblyProduct("Ambiance")]
-[assembly: AssemblyDescription("Screen Saver program for Xbox 360 and Windows")]
+[assembly: Guid("32362c2b-fe5f-4c7f-bb21-0b7520539445")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyTrademark("")]
+[assembly: AssemblyTitle("Lucky")]
+[assembly: AssemblyProduct("Lucky")]
 [assembly: ComVisible(false)]
-[assembly: Guid("ba4ed7a6-7717-400c-9e7d-fef90d2dac48")]
+[assembly: AssemblyCompany("twist-edGames.com")]
+[assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyVersion("1.0.0.0")]
