@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Solution>
   <Configurations>
+    <Platform Name="Any CPU" />
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
@@ -9,11 +10,6 @@
     <Project Path="indie-game-archive/2176 Supernova Storm (World) (XBLIG)/2176 Supernova Storm (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj">
-      <Platform Solution="*|x86" Project="x86" />
-      <Platform Solution="Debug|x64" Project="x86" />
-      <Platform Solution="Release|x64" Project="x64" />
     </Project>
     <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
@@ -47,6 +43,7 @@
     </Project>
     <Project Path="indie-game-archive/Defenders of the Last Colony/Defenders of the Last Colony.csproj" />
     <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/27 Ball Funky Pool (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
@@ -60,6 +57,10 @@
     <Project Path="indie-game-archive/Defenders of the Last Colony/Hammer.csproj" />
     <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/LibMaximinus.csproj" />
     <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/MaximinusDataTypes.csproj" />
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/AircraftRC.resources.csproj" />
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/BEPUphysics.csproj" />
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/DPSFXbox360.csproj" />
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/SynapseGaming-SunBurn-Indie.csproj" />
   </Folder>
   <Folder Name="/References/">
     <Project Path="Content-References/Contents.csproj">
