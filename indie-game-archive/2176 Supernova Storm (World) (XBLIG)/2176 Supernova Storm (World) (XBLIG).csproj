@@ -12,7 +12,7 @@
 	  <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
   <ItemGroup>
-	  <ProjectReference Include="..\..\Content-References\Contents.csproj" />
+	  <ProjectReference Include="..\..\Content-References\FNA.Contents.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <ApplicationIcon>app.ico</ApplicationIcon>

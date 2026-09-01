@@ -2,16 +2,12 @@
 
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<TargetFramework>net481</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Platforms>AnyCPU;x86;x64</Platforms>
-	</PropertyGroup>
-	<PropertyGroup>
 		<DebugSymbols>false</DebugSymbols>
 		<DebugType>None</DebugType>
-	</PropertyGroup>
-	<PropertyGroup>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>

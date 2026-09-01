@@ -10,7 +10,7 @@
 	  <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Content-References\Contents.csproj" />
+    <ProjectReference Include="..\..\Content-References\FNA.Contents.csproj" />
     <ProjectReference Include="..\Common\Common.csproj" />
   </ItemGroup>
   <ItemGroup>

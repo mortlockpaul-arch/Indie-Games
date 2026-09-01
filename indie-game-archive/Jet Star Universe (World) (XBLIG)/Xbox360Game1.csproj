@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>Jet Star Universe (World) (XBLIG)</AssemblyName>
@@ -15,7 +15,7 @@
 		<PlatformTarget>x86</PlatformTarget>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj">
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
 			<Private>True</Private>
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>

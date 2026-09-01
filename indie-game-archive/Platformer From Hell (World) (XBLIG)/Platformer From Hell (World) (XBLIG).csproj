@@ -17,7 +17,7 @@
 		<StartupObject>PlatformerFromHell.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj">
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
 			<Private>True</Private>
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>

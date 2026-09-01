@@ -11,13 +11,14 @@
 		<RootNamespace />
 		<OutputType>WinExe</OutputType>
 		<StartupObject>Jet_Set_Willy_360.Program</StartupObject>
+		<Platforms>AnyCPU;x64</Platforms>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
 		<EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" LogicalName="Microsoft.Xna.Framework.RuntimeProfile" />
 	</ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj" />
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="Content\**\*">

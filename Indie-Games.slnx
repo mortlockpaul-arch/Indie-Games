@@ -1,7 +1,6 @@
 
 <Solution>
   <Configurations>
-    <Platform Name="Any CPU" />
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
@@ -29,7 +28,9 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Jet Set Willy 360 (World) (XBLIG)/Jet Set Willy 360 (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Jet Set Willy 360 (World) (XBLIG)/Jet Set Willy 360 (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Jet Star Universe (World) (XBLIG).csproj">
       <Platform Solution="Debug|x86" Project="x86" />
     </Project>
@@ -70,7 +71,7 @@
     <Project Path="Reference-Projects/GKEngine/GKEngine.csproj" />
   </Folder>
   <Folder Name="/References/">
-    <Project Path="Content-References/Contents.csproj">
+    <Project Path="Content-References/FNA.Contents.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -82,7 +83,7 @@
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj" />
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.WindowsDX.csproj" />
   </Folder>
-  <Project Path="RetroShelf/RetroShelf.csproj">
-    <Platform Solution="*|x64" Project="x64" />
-  </Project>
+  <Folder Name="/Solution Items/">
+    <File Path="global.json" />
+  </Folder>
 </Solution>

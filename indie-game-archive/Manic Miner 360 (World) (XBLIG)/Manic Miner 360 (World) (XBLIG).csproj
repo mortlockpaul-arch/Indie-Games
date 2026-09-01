@@ -2,11 +2,12 @@
 	<PropertyGroup>
 		<AssemblyName>Manic Miner 360</AssemblyName>
 		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-		<TargetFramework>net481</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 		<PlatformTarget>x86</PlatformTarget>
 		<RootNamespace />
 		<OutputType>WinExe</OutputType>
+		<Platforms>AnyCPU;x64</Platforms>
 	</PropertyGroup>
 	<PropertyGroup>
 		<LangVersion>14.0</LangVersion>
@@ -31,6 +32,6 @@
 		<Reference Include="System.Core">
 			<HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll</HintPath>
 		</Reference>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj" />
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj" />
 	</ItemGroup>
 </Project>

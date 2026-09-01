@@ -15,6 +15,6 @@
 		<StartupObject>BunnyOfWar.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj" />
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj" />
 	</ItemGroup>
 </Project>
