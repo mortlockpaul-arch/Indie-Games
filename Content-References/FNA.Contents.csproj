@@ -14,7 +14,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\FNA.NetStub\FNA.NetStub.csproj" />
-	  <ProjectReference Include="..\FNA\FNA.NetFramework.csproj" />
 	</ItemGroup>
 	<PropertyGroup>
 		<CurrentPlatform Condition="'$(PlatformTarget)' == 'x86'">x86</CurrentPlatform>
