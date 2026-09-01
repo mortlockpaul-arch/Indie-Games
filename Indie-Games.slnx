@@ -1,4 +1,4 @@
-
+<?xml version='1.0' encoding='utf-8'?>
 <Solution>
   <Configurations>
     <Platform Name="Any CPU" />
@@ -21,7 +21,6 @@
     <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/decompiled/Lucky (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Defenders of the Last Colony/Defenders of the Last Colony.csproj" />
     <Project Path="indie-game-archive/DepthAttack (World) (XBLIG)/DepthAttack (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -49,6 +48,7 @@
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
+    <Project Path="indie-game-archive/Lucky (World) (XBLIG)/Lucky (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
     <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/LibMaximinus.csproj" />
@@ -78,10 +78,7 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
+    <Project Path="FNA/FNA.NetFramework.csproj" />
   </Folder>
   <Project Path="RetroShelf/RetroShelf.csproj">
     <Platform Solution="*|x64" Project="x64" />
