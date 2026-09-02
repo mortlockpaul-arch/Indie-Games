@@ -1,0 +1,750 @@
+<?xml version="1.0"?>
+<SampleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <myStoryList>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>1</sceneId>
+      <sceneRefName>Start</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>StartMenu</sceneType>
+      <displayStateId>185</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>2</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>11</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>StartMenu</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>11</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>5</sceneId>
+      <sceneRefName>Waiting</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>5</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>12</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>186</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>4</sceneId>
+      <sceneRefName>Other No Reset</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Credits</questionText>
+          <sceneId>12</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Back</questionText>
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>20</sceneId>
+      <sceneRefName>Start New Game</sceneRefName>
+      <headerText />
+      <bodyText>New Game</bodyText>
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MorningConversation</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>ResetGame</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>9</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>StartMenu</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>19</sceneId>
+      <sceneRefName>Trail No Save Data</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Purchase Game</questionText>
+          <sceneId>9</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>New Game</questionText>
+          <sceneId>20</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>3</id>
+          <questionText>Options</questionText>
+          <sceneId>4</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>4</id>
+          <questionText>Other Games</questionText>
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>15</sceneId>
+      <sceneRefName>Erase Game</sceneRefName>
+      <headerText />
+      <bodyText>(Erasing Game)</bodyText>
+      <sceneType>StartMenu</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions />
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>3</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(Do you want to erase your saved data?)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Erase Data / Start New Game</questionText>
+          <sceneId>20</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Cancel</questionText>
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>7</sceneId>
+      <sceneRefName>Trial Saved data</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>New - (Continue not available without purchase)</questionText>
+          <sceneId>14</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Purchase</questionText>
+          <sceneId>9</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>3</id>
+          <questionText>Options</questionText>
+          <sceneId>4</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>4</id>
+          <questionText>Other Games</questionText>
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>14</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(This will erase your current game)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Erase Game / Start New</questionText>
+          <sceneId>15</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Cancel</questionText>
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>10</sceneId>
+      <sceneRefName>Continue Full Game</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Continue</questionText>
+          <sceneId>11</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Options</questionText>
+          <sceneId>13</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>3</id>
+          <questionText>Other Games</questionText>
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>4</id>
+          <questionText>Quit Game</questionText>
+          <sceneId>21</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>13</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Reset Current Game</questionText>
+          <sceneId>14</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Credits</questionText>
+          <sceneId>12</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>3</id>
+          <questionText>Back</questionText>
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>2</sceneId>
+      <sceneRefName>New Game Full</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>New Game</questionText>
+          <sceneId>20</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Options</questionText>
+          <sceneId>4</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>3</id>
+          <questionText>Other Games</questionText>
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>4</id>
+          <questionText>Quit Game</questionText>
+          <sceneId>21</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>21</sceneId>
+      <sceneRefName>Quit Game</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>StartMenu</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>21</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>16</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>181</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>17</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>188</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>8</sceneId>
+      <sceneRefName>Starting Point Loop</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>StartMenu</sceneType>
+      <displayStateId>182</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>22</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>192</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>18</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>191</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>22</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>StartLucky</chapter>
+      <sceneId>6</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>187</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Bureau - Agent Kendall</questionText>
+          <sceneId>16</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Bureau 2 - Shattered Slipper</questionText>
+          <sceneId>17</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>3</id>
+          <questionText>Colonies: Neociv</questionText>
+          <sceneId>18</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>4</id>
+          <questionText>Back</questionText>
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+  </myStoryList>
+  <hasChanged>true</hasChanged>
+</SampleData>

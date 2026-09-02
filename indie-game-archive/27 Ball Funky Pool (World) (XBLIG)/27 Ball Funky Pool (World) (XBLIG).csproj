@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>27 Ball Funky Pool</AssemblyName>
@@ -6,16 +6,16 @@
 		<TargetFramework>net8.0-windows</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
-		<PlatformTarget>x86</PlatformTarget>
 		<OutputType>WinExe</OutputType>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
 		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
-		<PlatformTarget>x86</PlatformTarget>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<StartupObject>Billard3.Program</StartupObject>
+		<PlatformTarget>x64</PlatformTarget>
+		<Platforms>x86;x64</Platforms>
+		<RootNameSpace>27 Ball Funky Pool</RootNameSpace>
+		<StartupObject>27 Ball Funky Pool.Program</StartupObject>
+		<ApplicationIcon>gamethumbnail.png</ApplicationIcon>
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
@@ -23,13 +23,20 @@
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>
 	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="LibMaximinus">
+			<HintPath>LibMaximinus.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="MaximinusDataTypes">
+			<HintPath>MaximinusDataTypes.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+	</ItemGroup>
 	<ItemGroup />
 	<ItemGroup>
 		<None Update="Content\**\*">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-	</ItemGroup>
-	<ItemGroup>
-		<Using Remove="System.Threading" />
 	</ItemGroup>
 </Project>

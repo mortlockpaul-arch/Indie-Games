@@ -1,4 +1,4 @@
-
+<?xml version='1.0' encoding='utf-8'?>
 <Solution>
   <Configurations>
     <Platform Name="x64" />
@@ -6,11 +6,14 @@
   </Configurations>
   <Folder Name="/indie-game-archive/">
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/2060 Cyber Racer (World) (XBLIG)/2060 Cyber Racer (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/2176 Supernova Storm (World) (XBLIG)/2176 Supernova Storm (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/27 Ball Funky Pool (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/27 Ball Funky Pool (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
@@ -46,12 +49,12 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
+    <Project Path="indie-game-archive/Decay - Part 1 (World) (XBLIG)/Decay - Part 1 (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
     <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/LibMaximinus.csproj" />
@@ -68,6 +71,7 @@
       <Platform Solution="Debug|x64" Project="x64" />
     </Project>
     <Project Path="indie-game-archive/Defenders of the Last Colony/Hammer.csproj" />
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj" />
     <Project Path="Reference-Projects/Common/Common.csproj" />
     <Project Path="Reference-Projects/GKEngine/GKEngine.csproj" />

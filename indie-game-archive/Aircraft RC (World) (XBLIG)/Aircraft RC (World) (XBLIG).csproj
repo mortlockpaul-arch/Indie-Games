@@ -6,7 +6,7 @@
 		<TargetFramework>net8.0-windows</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU;x64</Platforms>
+		<Platforms>x86;x64</Platforms>
 		<OutputType>WinExe</OutputType>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>

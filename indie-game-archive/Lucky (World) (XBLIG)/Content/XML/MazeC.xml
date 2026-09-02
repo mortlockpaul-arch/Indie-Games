@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<SampleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <myStoryList>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>43</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>158</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MazeD</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>42</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>161</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MazeX</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>1</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>155</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>2</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>8</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>What about being a world famous Popstar?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>167</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>9</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>2</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>156</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>3</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>4</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Walter is a stock analyst that has beaten the S&amp;P Index for 15 years in a row.  What is his secret.  Is it a skill or luck?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>170</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>5</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>5</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(Walter is a stock analyst beating S&amp;P 500)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>174</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Skill</questionText>
+          <sceneId>7</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>SFXRumble</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Luck</questionText>
+          <sceneId>10</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>7</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>171</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>3</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>FailedMazeC</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>9</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(Popstar?)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>174</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Luck</questionText>
+          <sceneId>10</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Skill</questionText>
+          <sceneId>7</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>10</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>It is unlikely that someone could flip heads 15 times in a row.  However, it does become likely that someone will do it if enough people try.  The odds of you winning the lottery are remote but someone will win.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>170</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>11</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>11</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>For stocks, we have thousands of managers placing bets.  If it were a skill, it wouldn't be so rare to have managers like Walter.  Professional poker players consistently beat novice players which shows it's a skill.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>170</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>15</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>15</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>You made your money from stocks.  Did you get lucky?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>170</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>12</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>12</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(Your success on the market)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>174</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Luck</questionText>
+          <sceneId>13</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Skill</questionText>
+          <sceneId>7</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>SFXRumble</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>13</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Now you know the secret of your success.  If you would have been born poor, we would have been teaching you that not everything is luck but you already no that.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>170</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>14</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>14</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Not sure how any of this helps me.  I'm still dead.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>174</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>16</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>16</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Your correct path is to your right.  </bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>170</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>3</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>CompleteMazeC</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeC</chapter>
+      <sceneId>3</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>157</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>4</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+  </myStoryList>
+  <hasChanged>true</hasChanged>
+</SampleData>

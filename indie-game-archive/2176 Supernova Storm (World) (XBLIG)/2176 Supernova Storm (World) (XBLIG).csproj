@@ -17,6 +17,7 @@
   <PropertyGroup>
     <ApplicationIcon>app.ico</ApplicationIcon>
     <RootNamespace />
+    <StartupObject>SpaceBlast.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Microsoft.Xna.Framework.RuntimeProfile" />

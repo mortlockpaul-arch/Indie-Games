@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<SampleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <myStoryList>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>1</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>97</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>2</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>2</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>89</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>3</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>3</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>91</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>4</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>4</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>93</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>5</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>5</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>95</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>6</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>6</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>90</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>7</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>7</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>92</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>8</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>94</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>9</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>9</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>96</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>10</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>14</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>99</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>1</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>15</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>110</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>1</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>20</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>113</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>PitConversation</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>WrongTurnUndo</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>11</sceneId>
+      <sceneRefName>Wrong Way</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>104</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>12</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>12</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>101</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>16</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>16</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>Condition</sceneType>
+      <displayStateId>101</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>First Time</questionText>
+          <sceneId>13</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>WrongTurn</variableName>
+              <isNot>true</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>true</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Die</questionText>
+          <sceneId>17</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>17</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Damn...I cannot make it back...need water....</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>98</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>18</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>18</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>112</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>DesertWalkA</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>WrongTurnUndo</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>19</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Cool!  This is the spot on the map.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>114</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>20</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>10</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>107</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>DesertWalkB</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>DesertWalkD</chapter>
+      <sceneId>13</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Wrong way!  I need to back-track...</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>98</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>14</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>WrongTurn</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+  </myStoryList>
+  <hasChanged>false</hasChanged>
+</SampleData>

@@ -1,0 +1,943 @@
+<?xml version="1.0"?>
+<SampleData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <myStoryList>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>1</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>161</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>2</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MusicDungeon</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>2</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>162</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>3</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>3</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PathSpecial</sceneType>
+      <displayStateId>163</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>4</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>5</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>173</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>9</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>9</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Yikes....</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>10</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>10</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Answer my question wrong and you die.  </bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>11</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>11</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>A new novelist writes a great book.   Is it luck or skill?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>12</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>12</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(A new novelist writes a great book)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Luck</questionText>
+          <sceneId>13</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Skill</questionText>
+          <sceneId>14</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>14</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Correct.  It takes work, discipline and skill to write a book.  This is true for even a bad book.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>15</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>15</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>The new novelist gets it published.  Is it luck or skill?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>16</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>16</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(The new novelist gets it published.)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Skill</questionText>
+          <sceneId>13</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Luck</questionText>
+          <sceneId>18</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>18</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>It is sad but true.  Best selling books are often rejected countless times.  Harry Potter was rejected 9 times.  Steven King's Carrie was rejected 30 times.   Many great books never make it.   </bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>17</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>6</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>173</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>20</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>20</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Hmmmm....</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>21</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>21</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Tommy practices flipping a coin and predicting the outcome.  He is not cheating or using a fake coin.  Out of 5 flips, he is correct 4 times.  Is this a skill or luck?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>22</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>22</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(Tommy's 4 out of 5 correct).</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Luck</questionText>
+          <sceneId>23</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Skill</questionText>
+          <sceneId>13</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>23</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>5 flips are not enough to tell if it is luck or not.  We can say it is luck because we know there is no skill in coin flipping predictions.  </bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>24</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>24</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>With that said, you often judge how well a CEO is doing based on 5 years of data.  You don't have enough data to know anything.  I will now direct you back to the correct path.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>25</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>13</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>176</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MazeA</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MusicAbout</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+            <VariableData>
+              <id>2</id>
+              <variableName>RestartMaze</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>19</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MazeB</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>17</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>I will now help you get back on the correct path.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>19</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MusicAbout</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>25</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MazeC</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MusicAbout</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>4</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>Condition</sceneType>
+      <displayStateId>163</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MazeA</questionText>
+          <sceneId>5</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MazeAStart</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>true</isRequired>
+            </VariableData>
+            <VariableData>
+              <id>2</id>
+              <variableName>SFXRumble</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>MazeB</questionText>
+          <sceneId>6</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MazeBStart</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>true</isRequired>
+            </VariableData>
+            <VariableData>
+              <id>2</id>
+              <variableName>SFXRumble</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>3</id>
+          <questionText>MazeC</questionText>
+          <sceneId>7</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MazeCStart</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>true</isRequired>
+            </VariableData>
+            <VariableData>
+              <id>2</id>
+              <variableName>SFXRumble</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>4</id>
+          <questionText>SomethingWrong Death</questionText>
+          <sceneId>8</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>7</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThru</sceneType>
+      <displayStateId>173</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>26</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>26</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Yes.  Very scary...can we get on with this?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>27</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>27</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>A train leaves Chicago at 8:30 am traveling at an average speed of 65 mph.  Carol gets in her car in Springfield and is driving at 70 mph.  The temperature is 24 degrees and her car is overdue for an oil change.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>28</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>28</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>I'm going to need a calculator.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>29</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>29</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Carol gets a bad feeling and stops the car.  She smokes a cigarette and is shocked to see the train rush by her.  She would have been killed if she had not stopped.  Was this luck or some sort of unconscious skill?</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>30</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>30</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>(Carol's vibe saving her life)</bodyText>
+      <sceneType>BasicDialogue</sceneType>
+      <displayStateId>175</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>Luck</questionText>
+          <sceneId>31</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+        <QuestionData>
+          <id>2</id>
+          <questionText>Skill</questionText>
+          <sceneId>13</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>31</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>What Carol fails to mention in this story is how often she stops to have a cigarette and how frequently she has bad feelings that something is about to happen.  However, she is not lying.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>32</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>32</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText>Like all of us, she only remembers certain things.  In this case, she also fails to realize that she would have stopped at the crossing like she normally does.  I will help you back to the path.</bodyText>
+      <sceneType>BasicContinue</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText />
+          <sceneId>33</sceneId>
+          <variableAdded />
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+    <StoryData>
+      <chapter>MazeX</chapter>
+      <sceneId>33</sceneId>
+      <sceneRefName>BLANK</sceneRefName>
+      <headerText />
+      <bodyText />
+      <sceneType>PassThruToNewScene</sceneType>
+      <displayStateId>172</displayStateId>
+      <soundFileName />
+      <questions>
+        <QuestionData>
+          <id>1</id>
+          <questionText>MazeD</questionText>
+          <sceneId>1</sceneId>
+          <variableAdded>
+            <VariableData>
+              <id>1</id>
+              <variableName>MusicAbout</variableName>
+              <isNot>false</isNot>
+              <isGlobal>false</isGlobal>
+              <isRequired>false</isRequired>
+            </VariableData>
+          </variableAdded>
+          <startFrame>0</startFrame>
+          <endFrame>0</endFrame>
+          <startTime>0</startTime>
+          <endTime>0</endTime>
+          <triggerType>-1</triggerType>
+        </QuestionData>
+      </questions>
+      <facts />
+    </StoryData>
+  </myStoryList>
+  <hasChanged>false</hasChanged>
+</SampleData>
