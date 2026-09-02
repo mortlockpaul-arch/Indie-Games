@@ -63,12 +63,6 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\FNA\FNA.csproj">
-      <Project>{35253ce1-c864-4cd3-8249-4d1319748e8f}</Project>
-      <Name>FNA</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
@@ -147,5 +141,11 @@
     <Compile Include="src\Net\NetworkSessionType.cs" />
     <Compile Include="src\Net\SendDataOptions.cs" />
     <Compile Include="src\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FNA\FNA.csproj">
+      <Project>{35253ce1-c864-4cd3-8249-4d1319748e8f}</Project>
+      <Name>FNA</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

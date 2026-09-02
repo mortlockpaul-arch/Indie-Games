@@ -38,7 +38,9 @@
     <Project Path="indie-game-archive/Let's Draw A Picture Together! (World) (XBLIG)/Let's Draw A Picture Together! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Lucky (World) (XBLIG)/Lucky (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -80,6 +82,12 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="FNA/FNA.Core.csproj" />
+    <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="FNA/FNA.NetFramework.csproj" />
+    <Project Path="FNA/FNA.NetStandard.csproj" />
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj" />
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.WindowsDX.csproj" />
   </Folder>
