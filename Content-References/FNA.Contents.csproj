@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<TargetFramework>net8.0-windows</TargetFramework>
+		<TargetFramework>net5.0-windows7.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Platforms>AnyCPU;x86;x64</Platforms>
@@ -29,6 +29,11 @@
 	<Target Name="ShowPlatform" BeforeTargets="Build">
 		<Message Importance="High" Text="PlatformTarget=$(PlatformTarget), CurrentPlatform=$(CurrentPlatform)" />
 	</Target>
+	<ItemGroup>
+	  <None Update="x86\x.txt" TargetPath="%(Filename)%(Extension)">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 	<ItemGroup>
 	  <Reference Update="System">
 	    <SpecificVersion>True</SpecificVersion>
