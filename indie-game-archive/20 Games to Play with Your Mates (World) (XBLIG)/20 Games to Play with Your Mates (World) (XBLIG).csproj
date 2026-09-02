@@ -1,34 +1,25 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>20 Games</AssemblyName>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<TargetFramework>net8.0-windows</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
+		<ImplicitUsings>disable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU;x64</Platforms>
+		<Platforms>x86;x64;AnyCPU</Platforms>
 		<OutputType>WinExe</OutputType>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
 		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
 		<PlatformTarget>x86</PlatformTarget>
+		<StartupObject>FiftyGames.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
 			<Private>True</Private>
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>
-	</ItemGroup>
-	<ItemGroup>
-		<Reference Include="FarseerPhysicsXNA">
-			<HintPath>FarseerPhysicsXNA.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="ISParticleEngine">
-			<HintPath>ISParticleEngine.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
 	</ItemGroup>
 	<ItemGroup />
 	<ItemGroup>

@@ -9,6 +9,7 @@
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<Platforms>x86;x64</Platforms>
 	</PropertyGroup>
 	<PropertyGroup>
 		<ApplicationIcon>app.ico</ApplicationIcon>
