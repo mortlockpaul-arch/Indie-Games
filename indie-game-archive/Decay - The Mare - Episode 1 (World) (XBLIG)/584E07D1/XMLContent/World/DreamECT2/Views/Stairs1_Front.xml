@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Stairs1_Front"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/stairs1" name="stairs1" show="true"/>
+  <AddImage path="World/DreamECT/stairs1_2" name="stairs1_2" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="Stairs1_Back" type="fade_out"/>
+
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="520,300,660,460"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Stairs2_Front"
+    viewtrigger_type="fade_out"/>
+	
+  <!--Events-->
+  <Event name="Stairs1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="DreamECT2.Flicker1">
+    <ShowImage name="stairs1_2"/>
+  </Event>
+  
+  <Event name="DreamECT2.Flicker2">
+    <HideImage name="stairs1_2"/>
+  </Event>
+  
+</Script>

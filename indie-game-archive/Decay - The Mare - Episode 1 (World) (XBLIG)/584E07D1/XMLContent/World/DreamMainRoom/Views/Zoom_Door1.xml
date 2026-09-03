@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Door1" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <SetLocalState state="ScratchingSound" value="1"/>
+  
+  <SetLocalState state="Vibrate" value="0"/>
+  <SetLocalState state="VibrationState" value="0"/>
+  
+  <!--Load content-->
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+    <True>
+      <LoadContent type="TextureAnimation"
+                   path="World/DreamMainRoom/Animations/Zoom_Door1/" images="16"
+                   combinedFrames="true" width="640" height="360" frames="232"
+                   frameSmoothing="false" size="2048" fps="25"
+                   />
+    </True>
+    <False>
+      <LoadContent type="TextureAnimation"
+                   path="World/DreamMainRoom/Animations/Zoom_Door1/" images="1"
+                   combinedFrames="true" width="640" height="360" frames="1"
+                   frameSmoothing="false" size="2048" fps="25"
+                   />
+    </False>
+  </Case>
+  
+  <Action type="CreateAnimationInstance" path="World/DreamMainRoom/Animations/Zoom_Door1/" name="mare_anim" dest_rect="0,0,1280,720"/>
+  <Action type="AnimationInstance" name="mare_anim" action="show"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamMainRoom/Sound/scratching_sounds" name="scratching_sound"/>
+  <Action type="CreateSoundInstance" path="World/DreamMainRoom/Sound/mare sound sekvens" name="mare_sound"/>
+  
+  <ViewTrigger name="Back" next_view="View2" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="370,210,910,480"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Zoom_Door1.onHatch"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Zoom_Door1.onBack">
+    <Action type="SoundInstance" name="scratching_sound" action="Stop"/>
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onReset">
+    <Action type="GameDataView" value="View2"/>
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleEvent event="Zoom_Door1.PlayScratchingSound"/>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="Zoom_Door1.onHatch">
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="ShowText" text="I can hear sounds coming from the other side ..." text_event="Zoom_Door1.onText2"/>
+      </True>
+      <False>
+        <Action type="ShowText" text="It won't open."/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Zoom_Door1.HandleScratchingSound.1">
+    <Action type="SoundInstance" name="scratching_sound" action="Play"/>
+    <DelayedEvent event="Zoom_Door1.PlayScratchingSound" delay="11000"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.PlayScratchingSound">
+    <HandleLocalState state="ScratchingSound"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onText2">
+    <Action type="ShowText" text="... is someone trying to communicate with me?" text_event="Zoom_Door1.onText3"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onText3">
+    <BlockInput/>
+    <Action type="HideCursor"/>
+    <Action type="FadeOutHUD"/>
+    <SetHUDAlpha value="0"/>
+    <DelayedEvent event="Zoom_Door1.onShowMare" delay="5000"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onShowMare">
+    <SetLocalState state="ScratchingSound" value="0"/>
+    <Action type="SoundInstance" name="scratching_sound" action="Stop"/>
+    <Action type="PauseMusic"/>
+    <HandleEvent event="DreamMainRoom.StopTVSound"/>
+    <Action type="AnimationInstance" name="mare_anim" action="play" finished_event="Zoom_Door1.onMareAnim"/>
+    <Action type="SoundInstance" name="mare_sound" action="Play" />
+    <SetLocalState state="Vibrate" value="1"/>
+    <SetLocalState state="VibrationState" value="1"/>
+    <DelayedEvent event="Zoom_Door1.onVibrationState2" delay="1000"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onMareAnim">
+    <Action type="AnimationInstance" name="mare_anim" action="hide"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onUpdate">
+    <Case>
+      <Check type1="LocalState" value1="Vibrate" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleLocalState state="VibrationState"/>
+      </True>
+      <False>
+        <SetVibration value="0"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Zoom_Door1.onVibrationState2">
+    <SetLocalState state="VibrationState" value="2"/>
+    <DelayedEvent event="Zoom_Door1.onVibrationState3" delay="2000"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onVibrationState3">
+    <SetLocalState state="Vibrate" value="0"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.HandleVibrationState.1">
+    <SetVibration value="1,0"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.HandleVibrationState.2">
+    <SetVibration value="0,25"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="mare_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="mare_sound" action="Resume"/>
+  </Event>
+  
+  <Event name="Zoom_Door1.onFinished">
+    <HandleEvent event="Game.Finished"/>
+  </Event>
+  
+</Script>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Chair" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom3/zoom_chair" name="zoom_chair" show="true"/>
+  <AddImage path="World/DreamRoom3/zoom_chair_sledgetop_x475y312" name="sledgetop" show="true" dest_rect="475,312,178,96"/>
+  <AddImage path="World/DreamRoom3/zoom_chair_coin_x311y609" name="coin" show="true" dest_rect="311,609,27,42"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="475,312,653,408"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Zoom_Chair.SledgeTop"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="311,609,338,651"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Zoom_Chair.Coin"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Zoom_Chair.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Zoom_Chair.SledgeTop">
+    <Action type="AskPickup" item_id="DreamRoom3SledgeTop"/>
+  </Event>
+
+  <Event name="Pickup.DreamRoom3SledgeTop">
+    <FadeOutImage name="sledgetop"/>
+    <RemoveTrigger name="Trigger01"/>
+    <HandleEvent event="View1_Front.HandleSledgeTop.1"/>
+    <SetGlobalState state="DreamRoom3.SledgeTop" value="1"/>
+    <SetGlobalState state="DreamRoom4.ShowWhiteRoom" value="1"/>
+  </Event>
+  
+  <Event name="Zoom_Chair.HandleSledgeTop.1">
+    <HideImage name="sledgetop"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <Event name="Zoom_Chair.Coin">
+    <Action type="AskPickup" item_id="Coin"/>
+  </Event>
+
+  <Event name="Pickup.Coin">
+    <FadeOutImage name="coin"/>
+    <RemoveTrigger name="Trigger02"/>
+    <SetGlobalState state="DreamRoom3.Coin" value="1"/>
+  </Event>
+  
+  <Event name="Zoom_Chair.HandleCoin.1">
+    <HideImage name="coin"/>
+    <RemoveTrigger name="Trigger02"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom3.SledgeTop" event="Zoom_Chair.HandleSledgeTop"/>
+  <HandleState state="DreamRoom3.Coin" event="Zoom_Chair.HandleCoin"/>
+  
+</Script>

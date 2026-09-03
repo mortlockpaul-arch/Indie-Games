@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View2"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamOwnRoom/view2_dream" name="view2_dream" show="true"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamOwnRoom/Animations/Closet/" images="1"
+               combinedFrames="true" width="234" height="578" frames="20"
+               frameSmoothing="false" size="2048"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamOwnRoom/Animations/Closet/" name="closet_anim" dest_rect="800,37,234,578"/>
+  <Action type="AnimationInstance" name="closet_anim" action="show"/>
+  
+  <Action type="CreateSoundInstance" path="Sound/locked_door" name="locked_sound"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="820,70,1083,560"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="SkapZoom"
+    viewtrigger_type="fade_out"/>
+
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="470,70,670,560"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View2.onDoor"
+    activate_own="true"/>
+  
+  <!--Events-->
+  <Event name="View2.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+
+  <Event name="View2.onDoor">
+    <Case>
+      <Check type1="GetState" value1="DreamOwnRoom.WakeUp" rule="==" type2="String" value2="2"/>
+      <True>
+        <Action type="ChangeArea" area="DreamMainRoom" view="View1" door_sound="true"/>
+      </True>
+      <False>
+        <Action type="SoundInstance" name="locked_sound" volume="0,5" action="Play"/>
+        <Action type="ShowText" text="ITS_LOCKED" fade="false"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="View2.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1" nextCheck="AND"/>
+      <Check type1="GlobalState" value1="DreamOwnRoom.ClosetState" rule="==" type2="String" value2=""/>
+      <True>
+        <HandleEvent event="View2.CloseCloset"/>
+      </True>
+      <False/>
+    </Case>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="View2.CloseCloset">
+    <Action type="AnimationInstance" name="closet_anim" action="Play" finished_event="View2.ClosetState.1"/>
+    <PlayDoorSound/>
+  </Event>
+  
+  <Event name="View2.ClosetState.1">
+    <SetGlobalState state="DreamOwnRoom.ClosetState" value="1"/>
+    <Action type="AnimationInstance" name="closet_anim" action="hide"/>
+    <HandleEvent event="SkapZoom.ClosetState.1"/>
+  </Event>
+  
+  <HandleState state="DreamOwnRoom.ClosetState" event="View2.ClosetState"/>
+</Script>

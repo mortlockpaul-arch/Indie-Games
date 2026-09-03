@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Door3" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom1/zoom_door_room3" name="zoom_door_room3" show="true"/>
+  <AddImage path="World/DreamRoom1/zoom_door_room3_withkey_x749x459" name="key" show="false" dest_rect="749,459,48,52"/>
+  
+  <Action type="CreateSoundInstance" path="Sound/doors_unlock" name="unlock_sound"/>
+  <Action type="CreateSoundInstance" path="Sound/locked_door" name="locked_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back1" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Back2" next_view="View2_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="415,0,835,720"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="Zoom_Door_Room3.onDoor"
+    activate_own="true"/>
+  
+  <!--Events-->
+  <Event name="Zoom_Door3.SetBack1">
+    <SetLocalState state="BackView" value="View1_Front"/>
+  </Event>
+  
+  <Event name="Zoom_Door3.SetBack2">
+    <SetLocalState state="BackView" value="View2_Back"/>
+  </Event>
+  
+  <Event name="Zoom_Door3.onReset">
+    <Case>
+      <Check type1="LocalState" value1="BackView" rule="==" type2="String" value2="View1_Front"/>
+      <True>
+        <Action type="GameDataView" value="View1_Front"/>
+      </True>
+      <False>
+        <Action type="GameDataView" value="View2_Back"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Zoom_Door3.onBack">
+    <Case>
+      <Check type1="LocalState" value1="BackView" rule="==" type2="String" value2="View1_Front"/>
+      <True>
+        <Action type="ActivateTrigger" name="Back1"/>
+      </True>
+      <False>
+        <Action type="ActivateTrigger" name="Back2"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom3.Unlocked.1">
+    <ShowImage name="key"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room3.onDoor">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom3.Unlocked" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="ChangeArea" area="DreamRoom3" view="View1_Front" door_sound="true"/>
+      </True>
+      <False>
+        <Action type="SoundInstance" name="locked_sound" volume="0,5" action="Play"/>
+        <Action type="ShowText" text="ITS_LOCKED" text_event="Zoom_Door_Room3.onDoor2"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Zoom_Door_Room3.onDoor2">
+    <Action type="ShowText" text="There's blood on the lock."/>
+  </Event>
+  
+  <Event name="Zoom_Door3.Use.Room2BloodyKey">
+    <SetGlobalState state="DreamRoom3.Unlocked" value="1"/>
+    <RemoveItem item_id="Room2BloodyKey"/>
+    <HandleEvent event="DreamRoom3.Unlocked.1"/>
+    <FadeInImage name="key"/>
+    <Action type="SoundInstance" name="unlock_sound" action="Play"/>
+    <UseEventHandled/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom3.Unlocked" event="DreamRoom3.Unlocked"/>
+  
+</Script>

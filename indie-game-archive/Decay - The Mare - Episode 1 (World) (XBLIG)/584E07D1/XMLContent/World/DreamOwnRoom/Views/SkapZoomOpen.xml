@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="SkapZoomOpen" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamOwnRoom/skap_zoom_open_dream" name="skap_zoom_dream" show="true"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View2" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="360,0,840,720"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="SkapZoomOpen.onCloset"
+    activate_own ="true"/>
+
+  <!--Events-->
+  <Event name="SkapZoomOpen.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+    <PlayDoorSound/>
+  </Event>
+  
+  <Event name="SkapZoomOpen.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="SkapZoomOpen.onCloset">
+    <Action type="ShowText" text="THERE_IS_NOTHING" fade="false"/>
+  </Event>
+</Script>

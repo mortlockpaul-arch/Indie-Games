@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Light_Sequence" navigator="false" hud_state="none"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom4/left" name="left" show="false"/>
+  <AddImage path="World/DreamRoom4/hole_zoom_dark" name="hole_zoom_dark" show="false"/>
+  <AddImage path="World/DreamRoom4/hole_zoom_light" name="hole_zoom_light" show="false"/>
+  
+  <!--Events-->
+  <Event name="Light_Sequence.Setup.DreamRoom1">
+    <SetLocalState state="View" value="Ring_Zoom"/>
+    <ViewTrigger name="Back" next_view="Ring_Zoom" type="fade_to_black"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Setup.DreamRoom8">
+    <SetLocalState state="View" value="Table_Zoom"/>
+    <ViewTrigger name="Back" next_view="Table_Zoom" type="fade_to_black"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Setup.DreamRoom11">
+    <SetLocalState state="View" value="Table_Zoom"/>
+    <ViewTrigger name="Back" next_view="Table_Zoom" type="fade_to_black"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Setup.DreamRoom13">
+    <SetLocalState state="View" value="Table_Zoom"/>
+    <ViewTrigger name="Back" next_view="Table_Zoom" type="fade_to_black"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Setup.LightOn">
+    <SetGlobalState state="DreamRoom4.Light" value="1"/>
+    <HideImage name="left"/>
+    <HideImage name="hole_zoom_dark"/>
+    <HideImage name="hole_zoom_light"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Setup.LightOff">
+    <SetGlobalState state="DreamRoom4.Light" value="0"/>
+    <HideImage name="left"/>
+    <HideImage name="hole_zoom_dark"/>
+    <HideImage name="hole_zoom_light"/>
+  </Event>
+  
+  <Event name="Light_Sequence.onReset">
+    <Action type="GameDataView" local_state="View"/>
+    <BlockInput/>
+    <Action type="HideCursor"/>
+    <ShowImage name="left"/>
+    <FadeInImage name="left" speed="1,0"/>
+    <DelayedEvent event="Light_Sequence.Light1" delay="2000"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Light1">
+    <FadeOutImage name="left" speed="1,0"/>
+    <DelayedEvent event="Light_Sequence.Light2" delay="1500"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Light2">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.Light" rule="==" type2="String" value2="1"/>
+      <True>
+        <ShowImage name="hole_zoom_dark"/>
+        <FadeInImage name="hole_zoom_dark" speed="1,0"/>
+      </True>
+      <False>
+        <ShowImage name="hole_zoom_light"/>
+        <FadeInImage name="hole_zoom_light" speed="1,0"/>
+      </False>
+    </Case>
+    
+    <DelayedEvent event="Light_Sequence.Light3" delay="3000"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Light3">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.Light" rule="==" type2="String" value2="1"/>
+      <True>
+        <ShowImage name="hole_zoom_light"/>
+        <FadeInImage name="hole_zoom_light" speed="2,0"/>
+      </True>
+      <False>
+        <ShowImage name="hole_zoom_dark"/>
+        <FadeInImage name="hole_zoom_dark" speed="2,0"/>
+      </False>
+    </Case>
+    
+    <DelayedEvent event="Light_Sequence.Light4" delay="3000"/>
+  </Event>
+  
+  <Event name="Light_Sequence.Light4">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+</Script>

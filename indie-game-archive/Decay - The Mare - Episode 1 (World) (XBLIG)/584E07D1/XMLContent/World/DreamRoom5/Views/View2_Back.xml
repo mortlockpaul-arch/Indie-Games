@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View2_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom5/view2_back" name="view2_back" show="true"/>
+  <AddImage path="World/DreamRoom5/view2_back_withkey_x355y401" name="key" show="false" dest_rect="355,401,29,38"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom5/Animations/Fan/" images="1"
+               combinedFrames="true" width="86" height="83" frames="39"
+               frameSmoothing="false" size="640"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom5/Animations/Fan/" name="fan_anim" dest_rect="640,53,86,83"/>
+  <Action type="AnimationInstance" name="fan_anim" action="Play" loop="cycle"/>
+  <Action type="AnimationInstance" name="fan_anim" action="show"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View2_Front" type="fade_out"/>
+  <ViewTrigger name="Zoom_Door" next_view="Zoom_Door6" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="520,215,655,480"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View1_Back"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="305,175,375,645"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="View2_Back.Zoom_Door"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View2_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Unlocked.1">
+    <ShowImage name="key"/>
+  </Event>
+  
+  <Event name="View2_Back.Zoom_Door">
+    <HandleEvent event="Zoom_Door6.SetBack2"/>
+    <Action type="ActivateTrigger" name="Zoom_Door"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom6.Unlocked" event="DreamRoom6.Unlocked"/>
+  
+</Script>

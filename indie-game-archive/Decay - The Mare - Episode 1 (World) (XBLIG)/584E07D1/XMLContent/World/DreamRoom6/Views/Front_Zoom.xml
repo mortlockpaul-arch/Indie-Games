@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Front_Zoom" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <SetLocalState state="NoFlicker" value="0"/>
+  <SetLocalState state="NoBlink" value="0"/>
+  
+  <!--Load content-->
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom6/Animations/Front/" images="1"
+               combinedFrames="true" width="640" height="360" frames="4"
+               frameSmoothing="false" size="2048" fps="8"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom6/Animations/Front/" name="eye_anim" dest_rect="0,0,1280,720"/>
+  <Action type="AnimationInstance" name="eye_anim" action="show"/>
+  
+  <AddImage path="World/DreamRoom6/front_zoom2" name="light" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  
+  <!--Events-->
+  <Event name="Front_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Front_Zoom.onReset">
+    <Case>
+      <Check type1="LocalState" value1="NoBlink" rule="!=" type2="String" value2="1"/>
+      <True>
+        <HandleEvent event="Front_Zoom.onBlink"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="Front_Zoom.onBlink">
+    <SetLocalState state="Blink" random_min="1" random_max="100"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Blink" rule="lower" type2="Number" value2="5"/>
+      <True>
+        <SetLocalState state="NoFlicker" value="1"/>
+        <HideImage name="light"/>
+        <Action type="AnimationInstance" name="eye_anim" action="play" finished_event="Front_Zoom.onBlinkAnim1"/>
+      </True>
+      <False>
+        <DelayedEvent event="Front_Zoom.onBlink" delay="1000"/>
+      </False>
+    </Case>
+    
+  </Event>
+  
+  <Event name="Front_Zoom.onBlinkAnim1">
+    <Action type="AnimationInstance" name="eye_anim" action="set_frame" value="0"/>
+    <SetLocalState state="NoFlicker" value="0"/>
+    <SetLocalState state="NoBlink" value="1"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker1">
+    <Case>
+      <Check type1="LocalState" value1="NoFlicker" rule="!=" type2="String" value2="1"/>
+      <True>
+        <ShowImage name="light"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker2">
+    <Case>
+      <Check type1="LocalState" value1="NoFlicker" rule="!=" type2="String" value2="1"/>
+      <True>
+        <HideImage name="light"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+</Script>

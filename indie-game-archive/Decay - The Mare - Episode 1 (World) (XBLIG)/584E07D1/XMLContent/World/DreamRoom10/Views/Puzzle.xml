@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Puzzle" navigator="false" hud_state="cancel" text_fade="true"/>
+  
+  <SetLocalState state="ButtonCount" value=""/>
+  <SetLocalState state="NextButton" value=""/>
+  <SetLocalState state="ButtonSound" value="1"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom10/head_close_zoom" name="head_close_zoom" show="true"/>
+  <AddImage path="World/DreamRoom10/eye_left_x482y262" name="left_eye" show="false" dest_rect="482,262,105,50"/>
+  <AddImage path="World/DreamRoom10/eye_right_x668y285" name="right_eye" show="false" dest_rect="668,285,72,62"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom10/Sound/eye_push" name="button_sound1"/>
+  <Action type="SoundInstance" name="button_sound1" volume="0,25"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom10/Sound/eye_push" name="button_sound2"/>
+  <Action type="SoundInstance" name="button_sound2" volume="0,25"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom10/Sound/eye_push" name="button_sound3"/>
+  <Action type="SoundInstance" name="button_sound3" volume="0,25"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom10/Sound/lock_open" name="lock_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Completed" next_view="View1_Back" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="480,260,580,310"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Puzzle.onLeftEye"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="680,290,735,340"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Puzzle.onRightEye"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Puzzle.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Puzzle.onReset">
+    <Action type="GameDataView" value="View1_Front"/>
+    <SetLocalState state="ButtonCount" value="0"/>
+    <SetLocalState state="NextButton" value="Left"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonSound.1">
+    <Action type="SoundInstance" name="button_sound1" action="Play"/>
+    <SetLocalState state="ButtonSound" value="2"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonSound.2">
+    <Action type="SoundInstance" name="button_sound2" action="Play"/>
+    <SetLocalState state="ButtonSound" value="3"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonSound.3">
+    <Action type="SoundInstance" name="button_sound3" action="Play"/>
+    <SetLocalState state="ButtonSound" value="1"/>
+  </Event>
+  
+  <Event name="Puzzle.onLeftEye">
+    <Case>
+      <Check type1="LocalState" value1="NextButton" rule="==" type2="String" value2="Left"/>
+      <True>
+        <SetLocalState state="ButtonCount" add="1"/>
+        <HandleLocalState state="ButtonCount"/>
+      </True>
+	    <False>
+        <SetLocalState state="ButtonCount" value="0"/>
+        <SetLocalState state="NextButton" value="Left"/>
+      </False>
+    </Case>
+    
+    <BlockInput/>
+    <ShowImage name="left_eye"/>
+    <Action type="HideCursor"/>
+    <SetHUDAlpha value="0"/>
+    <Action type="FadeOutHUD"/>
+    <HandleLocalState state="ButtonSound"/>
+    <DelayedEvent event="Puzzle.onLeftEyePushed" delay="400"/>
+  </Event>
+  
+  <Event name="Puzzle.onLeftEyePushed">
+    <UnblockInput/>
+    <HideImage name="left_eye"/>
+    <Action type="ShowCursor"/>
+    <Action type="FadeInHUD"/>
+  </Event>
+  
+  <Event name="Puzzle.onRightEye">
+    <Case>
+      <Check type1="LocalState" value1="NextButton" rule="==" type2="String" value2="Right"/>
+      <True>
+        <SetLocalState state="ButtonCount" add="1"/>
+        <HandleLocalState state="ButtonCount"/>
+      </True>
+	    <False>
+        <SetLocalState state="ButtonCount" value="0"/>
+        <SetLocalState state="NextButton" value="Left"/>
+      </False>
+    </Case>
+    
+    <BlockInput/>
+    <ShowImage name="right_eye"/>
+    <Action type="HideCursor"/>
+    <SetHUDAlpha value="0"/>
+    <Action type="FadeOutHUD"/>
+    <HandleLocalState state="ButtonSound"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ButtonCount" rule="lower" type2="Number" value2="5"/>
+      <True>
+        <DelayedEvent event="Puzzle.onRightEyePushed" delay="400"/>
+      </True>
+	    <False/>
+    </Case>
+  </Event>
+  
+  <Event name="Puzzle.onRightEyePushed">
+    <UnblockInput/>
+    <HideImage name="right_eye"/>
+    <Action type="ShowCursor"/>
+    <Action type="FadeInHUD"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonCount.1">
+    <SetLocalState state="NextButton" value="Right"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonCount.2">
+    <SetLocalState state="NextButton" value="Left"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonCount.3">
+    <SetLocalState state="NextButton" value="Left"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonCount.4">
+    <SetLocalState state="NextButton" value="Right"/>
+  </Event>
+  
+  <Event name="Puzzle.HandleButtonCount.5">
+    <SetGlobalState state="DreamRoom10.WallOpen" value="1"/>
+    <HandleEvent event="View1_Front.HandleWallOpen.1"/>
+    <HandleEvent event="View1_Back.HandleWallOpen.1"/>
+    <Action type="FadeToBlack" event="Puzzle.onCompleted1"/>
+  </Event>
+  
+  <Event name="Puzzle.onCompleted1">
+    <Action type="SoundInstance" name="lock_sound" action="Play"/>
+    <DelayedEvent event="Puzzle.onCompleted2" delay="1000"/>
+  </Event>
+  
+  <Event name="Puzzle.onCompleted2">
+    <Action type="ActivateTrigger" name="Completed"/>
+  </Event>
+  
+</Script>

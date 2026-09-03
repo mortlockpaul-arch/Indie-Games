@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Load content-->
+  <!--
+  <LoadContent type="TextureAnimation"
+               path="World/Room1/Animations/View1to2/" images="1"
+               combinedFrames="true" width="320" height="180" frames="50"
+               frameSmoothing="true"
+               />
+               -->
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom2/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>View1_Left</View>
+  <View>Puzzle</View>
+  <View>Letter_Zoom</View>
+  
+  <PlayMusic value="1"/>
+  
+</Script>

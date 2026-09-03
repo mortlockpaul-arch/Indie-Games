@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View3_Back"/>
+  <Navigator down="true" left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom5/view3_back" name="view3_back" show="true"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom5/Animations/View3_Back_Fan/" images="1"
+               combinedFrames="true" width="45" height="43" frames="39"
+               frameSmoothing="false" size="320"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom5/Animations/View3_Back_Fan/" name="fan_anim" dest_rect="743,141,45,43"/>
+  <Action type="AnimationInstance" name="fan_anim" action="Play" loop="cycle"/>
+  <Action type="AnimationInstance" name="fan_anim" action="show"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="Zoom_Door_Room8" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="Zoom_Stairs" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="Zoom_Door_Room7" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="600,110,890,450"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View2_Back"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View3_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View3_Back.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View3_Back.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+</Script>

@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Puzzle" navigator="false" hud_state="cancel" text_fade="true"/>
+  
+  <SetLocalState state="ArrowsSound" value="1"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom4/clock_puzzle_zoom" name="clock_puzzle_zoom" show="true"/>
+  <AddImage path="World/DreamRoom4/arrow_hour" name="arrow_hour" show="true" dest_rect="640,360,1280,720" center="640,360"/>
+  <AddImage path="World/DreamRoom4/arrow_minute" name="arrow_minute" show="true" dest_rect="640,360,1280,720" center="640,360"/>
+  <AddImage path="World/DreamRoom4/arrow_second" name="arrow_second" show="true" dest_rect="640,360,1280,720" center="640,360"/>
+  <AddImage path="World/DreamRoom4/arrow_knob" name="arrow_knob" show="true" dest_rect="0,0,1280,720"/>
+  
+  <AddImage path="World/DreamECT/bottom_back_open" name="galler_open" show="false"/>
+  
+  <LoadContent type="Sound" path="World/DreamRoom4/Sound/clock_arrows"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom4/Sound/clock_arrows" name="arrows_sound1"/>
+    <Action type="CreateSoundInstance" path="World/DreamRoom4/Sound/clock_arrows" name="arrows_sound2"/>
+  
+  <LoadContent type="Sound" path="World/DreamRoom4/Sound/gate_goes_up"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom4/Sound/gate_goes_up" name="gate_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="Dark_Room_View1" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  
+  <!--Events-->
+  <Event name="Puzzle.onBack">
+		<Action type="EnableInventory"/>
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Puzzle.onReset">
+    <Action type="GameDataView" value="Dark_Room_View1"/>
+		<Action type="DisableInventory"/>
+		<Action type="HideCursor"/>
+  </Event>
+  
+  <Event name="Puzzle.ResetPuzzle">
+    <SetLocalState state="ArrowHour" value="3"/>
+    <SetLocalState state="ArrowHourRot" value="0"/>
+    <SetImageRotation name="arrow_hour" value="0"/>
+    
+    <SetLocalState state="ArrowMinute" value="9"/>
+    <SetLocalState state="ArrowMinuteRot" value="0"/>
+    <SetImageRotation name="arrow_minute" value="0"/>
+    
+    <SetLocalState state="ArrowSecond" value="12"/>
+    <SetLocalState state="ArrowSecondRot" value="0"/>
+    <SetImageRotation name="arrow_second" value="0"/>
+    
+    <HandleEvent event="Puzzle.SelectArrowHour"/>
+  </Event>
+  
+  <Event name="Puzzle.SelectArrowHour">
+    <SetLocalState state="CurrentArrow" value="Hour"/>
+    <SetImageAlpha name="arrow_hour" value="1,0"/>
+    <SetImageAlpha name="arrow_minute" value="0,5"/>
+    <SetImageAlpha name="arrow_second" value="0,5"/>
+  </Event>
+  
+  <Event name="Puzzle.SelectArrowMinute">
+    <SetLocalState state="CurrentArrow" value="Minute"/>
+    <SetImageAlpha name="arrow_hour" value="0,5"/>
+    <SetImageAlpha name="arrow_minute" value="1,0"/>
+    <SetImageAlpha name="arrow_second" value="0,5"/>
+  </Event>
+  
+  <Event name="Puzzle.SelectArrowSecond">
+    <SetLocalState state="CurrentArrow" value="Second"/>
+    <SetImageAlpha name="arrow_hour" value="0,5"/>
+    <SetImageAlpha name="arrow_minute" value="0,5"/>
+    <SetImageAlpha name="arrow_second" value="1,0"/>
+  </Event>
+  
+  <!--ArrowHour events-->
+  <Event name="Puzzle.ArrowHour.onLeft">
+    <SetLocalState state="ArrowHour" add="-1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ArrowHour" rule="lower" type2="Number" value2="1"/>
+      <True>
+        <Trace text="Setting arrow hour to 12"/>
+        <SetLocalState state="ArrowHour" value="12"/>
+        <SetLocalState state="ArrowHourRot" value="-1,5708"/>
+      </True>
+      <False>
+        <SetLocalState state="ArrowHourRot" add="-0,5236"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="arrow_hour" local_state="ArrowHourRot"/>
+    <HandleEvent event="Puzzle.onCheckArrows"/>
+  </Event>
+  
+  <Event name="Puzzle.ArrowHour.onRight">
+    <SetLocalState state="ArrowHour" add="1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ArrowHour" rule="higher" type2="Number" value2="12"/>
+      <True>
+        <Trace text="Setting arrow hour to 1"/>
+        <SetLocalState state="ArrowHour" value="1"/>
+        <SetLocalState state="ArrowHourRot" value="-1,0472"/>
+      </True>
+      <False>
+        <SetLocalState state="ArrowHourRot" add="0,5236"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="arrow_hour" local_state="ArrowHourRot"/>
+    <HandleEvent event="Puzzle.onCheckArrows"/>
+  </Event>
+  
+  <!--ArrowMinute events-->
+  <Event name="Puzzle.ArrowMinute.onLeft">
+    <SetLocalState state="ArrowMinute" add="-1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ArrowMinute" rule="lower" type2="Number" value2="1"/>
+      <True>
+        <Trace text="Setting arrow minute to 12"/>
+        <SetLocalState state="ArrowMinute" value="12"/>
+        <SetLocalState state="ArrowMinuteRot" value="1,5708"/>
+      </True>
+      <False>
+        <SetLocalState state="ArrowMinuteRot" add="-0,5236"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="arrow_minute" local_state="ArrowMinuteRot"/>
+    <HandleEvent event="Puzzle.onCheckArrows"/>
+  </Event>
+  
+  <Event name="Puzzle.ArrowMinute.onRight">
+    <SetLocalState state="ArrowMinute" add="1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ArrowMinute" rule="higher" type2="Number" value2="12"/>
+      <True>
+        <Trace text="Setting arrow minute to 1"/>
+        <SetLocalState state="ArrowMinute" value="1"/>
+        <SetLocalState state="ArrowMinuteRot" value="2,0944"/>
+      </True>
+      <False>
+        <SetLocalState state="ArrowMinuteRot" add="0,5236"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="arrow_minute" local_state="ArrowMinuteRot"/>
+    <HandleEvent event="Puzzle.onCheckArrows"/>
+  </Event>
+  
+  <!--ArrowSecond events-->
+  <Event name="Puzzle.ArrowSecond.onLeft">
+    <SetLocalState state="ArrowSecond" add="-1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ArrowSecond" rule="lower" type2="Number" value2="1"/>
+      <True>
+        <Trace text="Setting arrow second to 12"/>
+        <SetLocalState state="ArrowSecond" value="12"/>
+        <SetLocalState state="ArrowSecondRot" value="0"/>
+      </True>
+      <False>
+        <SetLocalState state="ArrowSecondRot" add="-0,5236"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="arrow_second" local_state="ArrowSecondRot"/>
+    <HandleEvent event="Puzzle.onCheckArrows"/>
+  </Event>
+  
+  <Event name="Puzzle.ArrowSecond.onRight">
+    <SetLocalState state="ArrowSecond" add="1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ArrowSecond" rule="higher" type2="Number" value2="12"/>
+      <True>
+        <Trace text="Setting arrow second to 1"/>
+        <SetLocalState state="ArrowSecond" value="1"/>
+        <SetLocalState state="ArrowSecondRot" value="0,5236"/>
+      </True>
+      <False>
+        <SetLocalState state="ArrowSecondRot" add="0,5236"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="arrow_second" local_state="ArrowSecondRot"/>
+    <HandleEvent event="Puzzle.onCheckArrows"/>
+  </Event>
+  
+  <Event name="Puzzle.onCheckArrows">
+    
+    <Case>
+      <Check type1="LocalState" value1="ArrowsSound" rule="==" type2="String" value2="1"/>
+      <True>
+        <SetLocalState state="ArrowsSound" value="2"/>
+        <Action type="SoundInstance" name="arrows_sound1" volume="0,5" action="Play"/>
+      </True>
+      <False>
+        <SetLocalState state="ArrowsSound" value="1"/>
+        <Action type="SoundInstance" name="arrows_sound2" volume="0,5" action="Play"/>
+      </False>
+    </Case>
+      
+    <Case>
+      <Check type1="LocalState" value1="ArrowHour" rule="==" type2="Number" value2="3" nextCheck="AND"/>
+      <Check type1="LocalState" value1="ArrowMinute" rule="==" type2="Number" value2="7" nextCheck="AND"/>
+      <Check type1="LocalState" value1="ArrowSecond" rule="==" type2="Number" value2="9"/>
+      <True>
+        <BlockInput/>
+        <Action type="FadeOutHUD"/>
+        <Action type="FadeToBlack" event="Puzzle.onPuzzleCompleted1"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleCompleted1">
+    <Action type="SoundInstance" name="gate_sound" volume="1,0" action="Play"/>
+    <DelayedEvent event="Puzzle.onPuzzleCompleted2" delay="3000"/>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleCompleted2">
+    <ShowImage name="galler_open"/>
+    <Action type="FadeFromBlack"/>
+    <DelayedEvent event="Puzzle.onPuzzleCompleted3" delay="2000"/>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleCompleted3">
+    <SetGlobalState state="DreamRoom4.PuzzleCompleted" value="1"/>
+    <HandleEvent event="Dark_Room_View1.HandlePuzzleCompleted.1"/>
+    <HandleEvent event="Puzzle.onBack"/>
+  </Event>
+  
+</Script>

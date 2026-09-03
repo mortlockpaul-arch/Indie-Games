@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Painting_Zoom" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom11/paiting_zoom" name="paiting_zoom" show="true"/>
+  <AddImage path="World/DreamRoom11/paiting_zoom_drawing_x540y515" name="paper" show="false" dest_rect="540,515,126,53"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="530,520,680,570"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Table_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="Painting_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Painting_Zoom.onPaperAdded">
+    <ShowImage name="paper"/>
+  </Event>
+  
+  <Event name="Painting_Zoom.onPaperRemoved">
+    <HideImage name="paper"/>
+  </Event>
+  
+  <!--Handle states-->
+  <Case>
+    <Check type1="GetState" value1="DreamRoom11.PoetryPuzzle" rule="!=" type2="String" value2=""/>
+    <True>
+      <HandleEvent event="Painting_Zoom.onPaperAdded"/>
+    </True>
+    <False>
+      <HandleEvent event="Painting_Zoom.onPaperRemoved"/>
+    </False>
+  </Case>
+  
+</Script>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom5/view1_back" name="view1_back" show="true"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="510,130,745,620"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Back.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Back.onDoor">
+    <Action type="ChangeArea" area="DreamRoom4" view="View1_Left" door_sound="true"/>
+  </Event>
+  
+</Script>

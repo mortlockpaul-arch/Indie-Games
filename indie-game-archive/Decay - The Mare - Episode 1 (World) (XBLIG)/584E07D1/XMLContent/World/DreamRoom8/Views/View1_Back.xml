@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom8/back" name="back" show="true"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom8/Animations/Fan/" images="1"
+               combinedFrames="true" width="62" height="51" frames="39"
+               frameSmoothing="false" size="640" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom8/Animations/Fan/" name="fan_anim" dest_rect="680,124,62,51"/>
+  <Action type="AnimationInstance" name="fan_anim" action="show"/>
+  <Action type="AnimationInstance" name="fan_anim" action="play" loop="cycle"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="475,0,830,720"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Back.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Back.onDoor">
+    <Action type="ChangeArea" area="DreamRoom5" view="View3_Back" door_sound="true"/>
+  </Event>
+  
+</Script>

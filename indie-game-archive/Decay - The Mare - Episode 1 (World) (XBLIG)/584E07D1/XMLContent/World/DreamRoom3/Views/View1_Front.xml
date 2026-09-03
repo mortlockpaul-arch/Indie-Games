@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom3/front" name="front" show="true"/>
+  <AddImage path="World/DreamRoom3/front_sledgetop_x494y519" name="sledgetop" show="true" dest_rect="494,519,49,21"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom3/Animations/Plank/" images="1"
+               combinedFrames="true" width="193" height="286" frames="51"
+               frameSmoothing="true" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom3/Animations/Plank/" name="plank_anim" dest_rect="610,373,193,286"/>
+  <Action type="AnimationInstance" name="plank_anim" action="show"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom3/Sound/plank" name="plank_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="470,510,570,545"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Zoom_Chair"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Front.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom3.Plank" rule="!=" type2="String" value2="1"/>
+      <True>
+        <DelayedEvent event="View1_Front.DropPlank" delay="2000"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Front.DropPlank">
+    <SetGlobalState state="DreamRoom3.Plank" value="1"/>
+	  <Action type="AnimationInstance" name="plank_anim" action="play"/>
+    <Action type="SoundInstance" name="plank_sound" volume="1,0" action="Play"/>
+  </Event>
+  
+  <Event name="View1_Front.HandlePlank.1">
+	  <Action type="AnimationInstance" name="plank_anim" action="set_frame" value="51"/>
+  </Event>
+  
+  <Event name="View1_Front.HandleSledgeTop.1">
+    <HideImage name="sledgetop"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom3.Plank" event="View1_Front.HandlePlank"/>
+  <HandleState state="DreamRoom3.SledgeTop" event="View1_Front.HandleSledgeTop"/>
+  
+</Script>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Left"/>
+  <Navigator right="true" left="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom2/fan_zoom" name="fan_zoom" show="true"/>
+  <AddImage path="World/DreamRoom2/fan_zoom_letter_x588y404" name="letter" show="true" dest_rect="588,404,48,14"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Right" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="View1_Back" type="fade_out"/>
+    
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="500,120,765,380"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="View1_Left.onFan"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Left.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Left.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+
+  <Event name="View1_Left.onFan">
+    <Action type="ShowText" text="THERE_IS_SOMETHING_CLOSE_TO_THE_FAN"/>
+  </Event>
+  
+  <Event name="View1_Left.onLetter">
+    <Action type="ShowText" text="A bloodstained envelope."/>
+  </Event>
+  
+  <Event name="View1_Left.HandlePuzzleCompleted.1">
+    <DisableTrigger name="Trigger01"/>
+    <HideImage name="letter"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom2.PuzzleCompleted" event="View1_Left.HandlePuzzleCompleted"/>
+  
+</Script>

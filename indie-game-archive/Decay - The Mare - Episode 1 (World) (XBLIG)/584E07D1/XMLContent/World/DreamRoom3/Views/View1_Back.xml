@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom3/back" name="back" show="true"/>
+  <AddImage path="World/DreamRoom3/back_document_x835y285" name="document" show="true" dest_rect="835,285,85,129"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="490,160,770,720"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Back.onDoor"
+    activate_own="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="835,285,920,414"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="View1_Back.Document"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Back.onDoor">
+    <Action type="ChangeArea" area="DreamRoom1" view="View2_Front" door_sound="true"/>
+  </Event>
+  
+  <Event name="View1_Back.Document">
+    <Action type="AskPickup" item_id="DreamRoom3Document"/>
+  </Event>
+
+  <Event name="Pickup.DreamRoom3Document">
+    <FadeOutImage name="document"/>
+    <RemoveTrigger name="Trigger02"/>
+    <SetGlobalState state="DreamRoom3.Document" value="1"/>
+    <SetGlobalState state="MazeGuide2" value="1"/>
+  </Event>
+  
+  <Event name="View1_Back.HandleDocument.1">
+    <HideImage name="document"/>
+    <RemoveTrigger name="Trigger02"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom3.Document" event="View1_Back.HandleDocument"/>
+  
+</Script>

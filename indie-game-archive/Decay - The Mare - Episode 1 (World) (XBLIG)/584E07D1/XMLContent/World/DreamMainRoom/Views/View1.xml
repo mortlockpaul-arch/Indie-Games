@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1"/>
+  <Navigator down="true" right="true" left="true"/>
+  
+  <!--Load content-->
+  <LoadContent type="TextureAnimation"
+               path="World/DreamMainRoom/Animations/TurnOnTV/" images="1"
+               combinedFrames="true" width="640" height="360" frames="5"
+               frameSmoothing="false" size="1280" fps="10"
+               />
+
+  <LoadContent type="TextureAnimation"
+               path="World/DreamMainRoom/Animations/TVOn/" images="1"
+               combinedFrames="true" width="640" height="360" frames="3" random_mode="true"
+               frameSmoothing="false" size="1280" fps="10"
+               />
+
+  <Action type="CreateAnimationInstance" path="World/DreamMainRoom/Animations/TurnOnTV/" name="turn_on_tv_anim" dest_rect="0,0,1280,720"/>
+  <Action type="AnimationInstance" name="turn_on_tv_anim" action="show"/>
+  
+  <Action type="CreateAnimationInstance" path="World/DreamMainRoom/Animations/TVOn/" name="tv_anim" dest_rect="0,0,1280,720"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_to_black"/>
+  <ViewTrigger name="Right" next_view="View1_Left" type="fade_to_black"/>
+  <ViewTrigger name="Left" next_view="View1_Right" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+	
+  <!--Events-->
+  <Event name="View1.onDown">
+    <Case>
+      <Check type1="GetState" value1="DreamMainRoom.TVState" rule="!=" type2="String" value2="1"/>
+      <True>
+        <HandleEvent event="View1.TurnOnTV"/>
+      </True>
+      <False>
+        <Action type="ActivateTrigger" name="Down"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="View1.onRight">
+    <Case>
+      <Check type1="GetState" value1="DreamMainRoom.TVState" rule="!=" type2="String" value2="1"/>
+      <True>
+		    <HandleEvent event="View1.TurnOnTV"/>
+      </True>
+	    <False>
+		    <Action type="ActivateTrigger" name="Right"/>
+	    </False>
+    </Case>
+  </Event>
+  
+  <Event name="View1.onLeft">
+    <Case>
+      <Check type1="GetState" value1="DreamMainRoom.TVState" rule="!=" type2="String" value2="1"/>
+      <True>
+		    <HandleEvent event="View1.TurnOnTV"/>
+      </True>
+	    <False>
+		    <Action type="ActivateTrigger" name="Left"/>
+	    </False>
+    </Case>
+  </Event>
+  
+  <Event name="View1.onReset">
+    <Case>
+      <Check type1="GetState" value1="DreamMainRoom.TVState" rule="!=" type2="String" value2="1"/>
+      <True>
+        <DelayedEvent event="View1.TurnOnTV" delay="3000"/>
+      </True>
+      <False/>
+    </Case>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="View1.EnableInput">
+    <Action type="EnableInput"/>
+    <Action type="FadeInHUD"/>
+    <Action type="ShowCursor"/>
+    <PlayMusic value="1"/>
+  </Event>
+  
+  <Event name="View1.TurnOnTV">
+    <Case>
+      <Check type1="GetState" value1="DreamMainRoom.TVState" rule="!=" type2="String" value2="1"/>
+      <True>
+        <Action type="DisableInput"/>
+        <Action type="FadeOutHUD"/>
+        <Action type="HideCursor"/>
+        <DelayedEvent event="View1.EnableInput" delay="2000"/>
+        <Action type="SetState" id="DreamMainRoom.TVState" state="1"/>
+        <Action type="AnimationInstance" name="turn_on_tv_anim" action="Play" finished_event="View1.TVState.1"/>
+        <HandleEvent event="DreamMainRoom.TurnOnTV"/>
+      </True>
+	    <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1.TVState.1">
+    <Action type="AnimationInstance" name="turn_on_tv_anim" action="hide"/>
+    <Action type="AnimationInstance" name="tv_anim" action="show"/>
+    <Action type="AnimationInstance" name="tv_anim" action="Play"/>
+  </Event>
+  
+  <HandleState state="DreamMainRoom.TVState" event="View1.TVState"/>
+</Script>

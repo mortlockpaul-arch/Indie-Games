@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamOwnRoom/view1_night" name="view1_night" show="true"/>
+  <AddImage path="World/DreamOwnRoom/view1_dream" name="view1_dream" show="false"/>
+  <AddImage path="World/DreamOwnRoom/0005" name="0005" show="false"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamOwnRoom/Animations/WakeUp/" images="1"
+               combinedFrames="true" width="640" height="360" frames="4"
+               frameSmoothing="true" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamOwnRoom/Animations/WakeUp/" name="wakeup_anim" dest_rect="0,0,1280,720"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamOwnRoom/Sound/wakeup_breath" name="wakeup_sound"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View2" type="fade_out"/>
+
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="260,380,370,420"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="PlateZoom"
+    viewtrigger_type="fade_out"/>
+	
+  <!--Events-->
+  <Event name="View1.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamOwnRoom.WakeUp" rule="==" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <DelayedEvent event="View1.onWakeUp1" delay="2000"/>
+      </True>
+      <False/>
+    </Case>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="View1.onWakeUp1">
+    <Action type="AnimationInstance" name="wakeup_anim" action="show"/>
+    <Action type="AnimationInstance" name="wakeup_anim" action="Play"/>
+    <DelayedEvent event="View1.onWakeUp2" delay="1000"/>
+    <Action type="SoundInstance" name="wakeup_sound" volume="0,5" action="Play"/>
+  </Event>
+  
+  <Event name="View1.onWakeUp2">
+    <ShowImage name="0005"/>
+    <FadeInImage name="0005"/>
+    <DelayedEvent event="View1.onWakeUp3" delay="2000"/>
+  </Event>
+  
+  <Event name="View1.onWakeUp3">
+    <Action type="FadeToBlack"/>
+    <DelayedEvent event="View1.onWakeUp4" delay="3000"/>
+  </Event>
+  
+  <Event name="View1.onWakeUp4">
+    <Action type="AnimationInstance" name="wakeup_anim" action="hide"/>
+    <ShowImage name="view1_dream"/>
+    <Action type="FadeFromBlack" speed="0,5"/>
+    <DelayedEvent event="View1.onWakeUp5" delay="1000"/>
+  </Event>
+  
+  <Event name="View1.onWakeUp5">
+    <DelayedEvent event="View1.onWakeUp6" delay="2000"/>
+  </Event>
+  
+  <Event name="View1.onWakeUp6">
+    <UnblockInput/>
+    <Action type="FadeInHUD"/>
+    <Action type="ShowCursor"/>
+    <SetGlobalState state="DreamOwnRoom.WakeUp" value="2"/>
+    <HandleEvent event="PlateZoom.WakeUp.2"/>
+  </Event>
+  
+  <Event name="View1.WakeUp.1">
+    <HideImage name="view1_night"/>
+    <HideImage name="view1_dream"/>
+  </Event>
+  
+  <Event name="View1.WakeUp.2">
+    <HideImage name="view1_night"/>
+    <ShowImage name="view1_dream"/>
+  </Event>
+  
+  <HandleState state="DreamOwnRoom.WakeUp" event="View1.WakeUp"/>
+  
+</Script>

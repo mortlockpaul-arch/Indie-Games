@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Bottom1_Front"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/bottom_front" name="bottom_front" show="true"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="Bottom1_Back" type="fade_out"/>
+
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="500,260,730,510"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Bottom2_Front"
+    viewtrigger_type="fade_out"/>
+	
+  <!--Events-->
+  <Event name="Bottom1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+</Script>

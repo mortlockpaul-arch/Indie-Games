@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View3_Back"/>
+  <Navigator down="true" left="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom1/view3_back" name="view3_back" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View3_Front" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="Stairs_Zoom" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="600,110,890,450"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View2_Back"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View3_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View3_Back.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+</Script>

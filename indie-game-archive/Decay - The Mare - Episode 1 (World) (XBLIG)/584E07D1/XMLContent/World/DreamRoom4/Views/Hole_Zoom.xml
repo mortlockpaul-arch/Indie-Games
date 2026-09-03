@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Hole_Zoom" navigator="false" hud_state="back"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom4/hole_zoom_dark" name="hole_zoom_dark" show="true"/>
+  <AddImage path="World/DreamRoom4/hole_zoom_light" name="light" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View1_Left" type="fade_out"/>
+  <ViewTrigger name="Trigger02" next_view="Dark_Room_View1" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="370,190,920,590"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Hole_Zoom.onHole"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Hole_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Hole_Zoom.onHole">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.Light" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleEvent event="Hole_Zoom.onAskCrawl"/>
+      </True>
+      <False>
+        <Action type="ShowText" text="It's too dark, there's no way I'm crawling in there ..."/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Hole_Zoom.onAskCrawl">
+    <ShowAsk text="Enter?" ask1="Yes" ask_event1="Hole_Zoom.onCrawl" ask2="No" ask_event2=""/>
+  </Event>
+  
+  <Event name="Hole_Zoom.onCrawl">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.NoCrawl" rule="==" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="HideCursor"/>
+        <Action type="FadeToBlack" event="Hole_Zoom.onCrawl2"/>
+      </True>
+      <False>
+        <Action type="ActivateTrigger" name="Trigger02"/>
+      </False>
+    </Case>
+    
+    <Action type="FadeOutHUD"/>
+    <SetHUDAlpha value="0"/>
+  </Event>
+  
+  <Event name="Hole_Zoom.onCrawl2">
+    <DelayedEvent event="Hole_Zoom.onCrawl3" delay="1000"/>
+  </Event>
+  
+  <Event name="Hole_Zoom.onCrawl3">
+	<HandleEvent event="Dark_Room_View1.onShortCrawl"/>
+    <Action type="ActivateTrigger" name="Trigger02"/>
+  </Event>
+  
+  <Event name="Hole_Zoom.HandleLight.1">
+    <ShowImage name="light"/>
+  </Event>
+  
+  <Event name="View1_Left.onReset">
+    <Action type="FadeFromBlack"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom4.Light" event="Hole_Zoom.HandleLight"/>
+  
+</Script>

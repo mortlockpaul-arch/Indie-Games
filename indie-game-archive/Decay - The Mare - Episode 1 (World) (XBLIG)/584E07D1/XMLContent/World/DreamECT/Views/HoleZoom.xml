@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="HoleZoom" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/hole" name="hole" show="true"/>
+  <AddImage path="World/DreamECT/hole2" name="hole2" show="true"/>
+  
+  <AddImage path="World/DreamECT/coin1_x298y549" name="coin" show="true" dest_rect="289,549,25,30"/>
+  <AddImage path="World/DreamECT/coin2_x298y549" name="coin2" show="true" dest_rect="289,549,25,30"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="289,549,332,579"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="HoleZoom.Coin"
+    activate_own ="true"/>
+	
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="380,300,670,560"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="HoleZoom.onAsk"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="HoleZoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="HoleZoom.Coin">
+    <Action type="AskPickup" item_id="Coin"/>
+  </Event>
+
+  <Event name="Pickup.Coin">
+    <HideImage name="coin"/>
+    <HideImage name="coin2"/>
+    <RemoveTrigger name="Trigger01"/>
+    <Action type="SetState" id="DreamECT.Coin" state="1"/>
+  </Event>
+  
+  <Event name="HoleZoom.HandleCoin.1">
+    <HideImage name="coin"/>
+    <HideImage name="coin2"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+
+  <Event name="HoleZoom.onAsk">
+	<ShowAsk text="Enter?" ask1="Yes" ask_event1="HoleZoom.onEnter" ask2="No" ask_event2="" fade="true"/>
+  </Event>
+
+  <Event name="HoleZoom.onEnter">
+    <Action type="ChangeArea" area="DreamECT2" view="Stairs1_Front" door_sound="false"/>
+  </Event>
+  
+  <Event name="DreamECT.Flicker1">
+    <ShowImage name="hole2"/>
+    
+    <Case>
+      <Check type1="GetState" value1="DreamECT.Coin" rule="!=" type2="String" value2="1"/>
+      <True>
+        <ShowImage name="coin2"/>
+      </True>
+	    <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="DreamECT.Flicker2">
+    <HideImage name="hole2"/>
+    
+    <Case>
+      <Check type1="GetState" value1="DreamECT.Coin" rule="!=" type2="String" value2="1"/>
+      <True>
+        <HideImage name="coin2"/>
+      </True>
+	    <False/>
+    </Case>
+    
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamECT.Coin" event="HoleZoom.HandleCoin"/>
+  
+</Script>

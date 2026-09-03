@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Table2_Zoom" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom13/flower_table_zoom" name="flower_table_zoom" show="true"/>
+  <AddImage path="World/DreamRoom13/flower_table_zoom_drawings_x78y207" name="drawings" show="true" dest_rect="78,207,1117,336"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="78,207,1195,543"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Table2_Zoom.Drawings"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Table2_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Table2_Zoom.Drawings">
+    <Action type="ShowText" text="Drawings of flowers ..." text_event="Table2_Zoom.Drawings2"/>
+  </Event>
+  
+  <Event name="Table2_Zoom.Drawings2">
+    <Action type="AskPickup" item_id="DreamRoom13Drawings"/>
+  </Event>
+  
+  <Event name="Pickup.DreamRoom13Drawings">
+    <FadeOutImage name="drawings"/>
+    <RemoveTrigger name="Trigger01"/>
+    <SetGlobalState state="DreamRoom13.Drawings" value="1"/>
+    <SetGlobalState state="DreamRoom9.ShowWhiteRoom" value="1"/>
+    <HandleEvent event="View1_Back.HandleDrawings.1"/>
+  </Event>
+  
+  <Event name="Table2_Zoom.HandleDrawings.1">
+    <HideImage name="drawings"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom13.Drawings" event="Table2_Zoom.HandleDrawings"/>
+  
+</Script>

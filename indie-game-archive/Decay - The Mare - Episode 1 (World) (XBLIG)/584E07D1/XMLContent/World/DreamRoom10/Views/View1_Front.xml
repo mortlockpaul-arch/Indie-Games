@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom10/front" name="front" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="470,170,700,350"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Head_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Front.HandleWallOpen.1">
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom10.WallOpen" event="View1_Front.HandleWallOpen"/>
+  
+</Script>

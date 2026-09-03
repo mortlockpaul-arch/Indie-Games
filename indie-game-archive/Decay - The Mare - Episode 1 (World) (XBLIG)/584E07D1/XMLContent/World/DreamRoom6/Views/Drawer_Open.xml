@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Drawer_Open" navigator="false" hud_state="back"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom6/drawer_zoom3" name="drawer_zoom3" show="true"/>
+  <AddImage path="World/DreamRoom6/drawer_zoom3_coin" name="coin" show="true" dest_rect="760,390,59,47"/>
+  
+  <AddImage path="World/DreamRoom6/drawer_zoom4" name="light" show="false"/>
+  <AddImage path="World/DreamRoom6/drawer_zoom4_coin" name="coin_light" show="false" dest_rect="760,390,59,47"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="760,390,819,437"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Drawer_Open.Coin"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Drawer_Open.onBack">
+    <HandleEvent event="DreamRoom6.PlayDrawerSound"/>
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker1">
+    <ShowImage name="light"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom6.Coin" rule="!=" type2="String" value2="1"/>
+      <True>
+        <ShowImage name="coin_light"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker2">
+    <HideImage name="light"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom6.Coin" rule="!=" type2="String" value2="1"/>
+      <True>
+        <HideImage name="coin_light"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="Drawer_Open.Coin">
+    <Action type="AskPickup" item_id="Coin"/>
+  </Event>
+  
+  <Event name="Pickup.Coin">
+    <SetGlobalState state="DreamRoom6.Coin" value="1"/>
+    <HandleEvent event="Drawer_Open.HandleCoin.1"/>
+  </Event>
+  
+  <Event name="Drawer_Open.HandleCoin.1">
+    <HideImage name="coin"/>
+    <HideImage name="coin_light"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom6.Coin" event="Drawer_Open.HandleCoin"/>
+  
+</Script>

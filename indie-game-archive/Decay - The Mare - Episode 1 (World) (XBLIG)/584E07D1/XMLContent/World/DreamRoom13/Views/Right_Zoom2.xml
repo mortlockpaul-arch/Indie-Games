@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Right_Zoom2" navigator="false" hud_state="back" no_text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom13/view2_zoom_1" name="view2_zoom_1" show="true"/>
+  <AddImage path="World/DreamRoom13/view2_zoom_2" name="light" show="false"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="Right_Zoom" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="420,180,1080,530"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Right_Zoom2.onZoom"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Right_Zoom2.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="DreamRoom13.Flicker1">
+    <ShowImage name="light"/>
+  </Event>
+  
+  <Event name="DreamRoom13.Flicker2">
+    <HideImage name="light"/>
+  </Event>
+  
+  <Event name="Right_Zoom2.onZoom">
+    <Action type="ShowText" text="'Time is an illusion' ..." text_event="Right_Zoom2.onZoom2"/>
+  </Event>
+  
+  <Event name="Right_Zoom2.onZoom2">
+    <Action type="ShowText" text="... that's exactly what it said at the entrance of this ... dream."/>
+  </Event>
+  
+</Script>

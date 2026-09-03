@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Right"/>
+  <Navigator down="true" left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom6/right_zoom" name="right_zoom" show="true"/>
+  <AddImage path="World/DreamRoom6/right_zoom_photo_light_x176y144" name="photo" show="true" dest_rect="184,133,199,290"/>
+  
+  <AddImage path="World/DreamRoom6/right_zoom2" name="light" show="false"/>
+  <AddImage path="World/DreamRoom6/right_zoom_photo_dark_x176y144" name="photo_light" show="false" dest_rect="184,133,199,290"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1_Left" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="184,133,383,423"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Right.Photo"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Right.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Right.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Right.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker1">
+    <ShowImage name="light"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom6.Photo" rule="!=" type2="String" value2="1"/>
+      <True>
+        <ShowImage name="photo_light"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker2">
+    <HideImage name="light"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom6.Photo" rule="!=" type2="String" value2="1"/>
+      <True>
+        <HideImage name="photo_light"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Right.Photo">
+    <Action type="AskPickup" item_id="DreamRoom6Photo"/>
+  </Event>
+  
+  <Event name="Pickup.DreamRoom6Photo">
+    <SetGlobalState state="DreamRoom6.Photo" value="1"/>
+    <HandleEvent event="View1_Right.HandlePhoto.1"/>
+  </Event>
+  
+  <Event name="View1_Right.HandlePhoto.1">
+    <HideImage name="photo"/>
+    <HideImage name="photo_light"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom6.Photo" event="View1_Right.HandlePhoto"/>
+  
+</Script>

@@ -1,0 +1,77 @@
+using System;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Core.Inventory;
+
+public class Arrow
+{
+	public enum ARROW_STATE
+	{
+		IDLE,
+		ACTIVE
+	}
+
+	private ARROW_STATE m_state;
+
+	private Texture2D m_idle_texture;
+
+	private Texture2D m_active_texture;
+
+	private bool m_flip;
+
+	public float m_width;
+
+	public float m_height;
+
+	public Vector2 m_pos = Vector2.Zero;
+
+	public Arrow(Texture2D idle, Texture2D active, bool flip)
+	{
+		m_flip = flip;
+		m_idle_texture = idle;
+		m_active_texture = active;
+		m_width = m_idle_texture.Width;
+		m_height = m_idle_texture.Height;
+	}
+
+	public virtual void Clear()
+	{
+		m_idle_texture = null;
+		m_active_texture = null;
+	}
+
+	public void SetState(ARROW_STATE state)
+	{
+		m_state = state;
+	}
+
+	public virtual void Update(TimeSpan elapsed)
+	{
+	}
+
+	public virtual void Draw(SpriteBatch SB, Color color)
+	{
+		SB.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
+		if (m_flip)
+		{
+			if (m_state == ARROW_STATE.IDLE)
+			{
+				SB.Draw(m_idle_texture, new Rectangle((int)m_pos.X, (int)m_pos.Y, m_idle_texture.Width, m_idle_texture.Height), null, color, 0f, Vector2.Zero, SpriteEffects.FlipHorizontally, 1f);
+			}
+			else
+			{
+				SB.Draw(m_active_texture, new Rectangle((int)m_pos.X, (int)m_pos.Y, m_idle_texture.Width, m_idle_texture.Height), null, color, 0f, Vector2.Zero, SpriteEffects.FlipHorizontally, 1f);
+			}
+		}
+		else if (m_state == ARROW_STATE.IDLE)
+		{
+			SB.Draw(m_idle_texture, new Rectangle((int)m_pos.X, (int)m_pos.Y, m_idle_texture.Width, m_idle_texture.Height), null, color, 0f, Vector2.Zero, SpriteEffects.None, 1f);
+		}
+		else
+		{
+			SB.Draw(m_active_texture, new Rectangle((int)m_pos.X, (int)m_pos.Y, m_idle_texture.Width, m_idle_texture.Height), null, color, 0f, Vector2.Zero, SpriteEffects.None, 1f);
+		}
+		SB.End();
+	}
+}

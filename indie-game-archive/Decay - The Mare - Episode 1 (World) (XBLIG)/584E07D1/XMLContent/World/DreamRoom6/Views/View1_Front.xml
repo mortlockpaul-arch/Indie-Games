@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true" left="true" right="true"/>
+
+  <SetLocalState state="NoFlicker" value="0"/>
+  <SetLocalState state="Vibration" value="0"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom6/front" name="front" show="true"/>
+  <AddImage path="World/DreamRoom6/front_broken" name="front_broken" show="false"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom6/Animations/Table/" images="5"
+               combinedFrames="true" width="640" height="360" frames="61"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom6/Animations/Table/" name="table_anim" dest_rect="0,0,1280,720"/>
+  
+  <LoadContent type="Sound" path="World/DreamRoom6/Sound/table_sound"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom6/Sound/table_sound" name="table_sound"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="View1_Left" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View1_Right" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="490,215,780,440"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Front_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="825,455,955,530"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Drawer_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Front.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Front.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Front.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom6.Visits" rule="==" type2="String" value2="3" nextCheck="AND"/>
+      <Check type1="GlobalState" value1="DreamRoom6.TableBroken" rule="!=" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="FadeOutHUD"/>
+        <SetHUDAlpha value="0"/>
+        <Action type="HideCursor"/>
+        <DelayedEvent event="View1_Front.onTableAnim" delay="2000"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="View1_Front.onTableAnim">
+    <SetLocalState state="NoFlicker" value="1"/>
+    <Action type="AnimationInstance" name="table_anim" action="Play" finished_event="View1_Front.onTableAnimFinished"/>
+    <Action type="AnimationInstance" name="table_anim" action="show"/>
+    <Action type="SoundInstance" name="table_sound" volume="1,0" action="Play"/>
+    <DelayedEvent event="View1_Front.onVibration1" delay="0"/>
+  </Event>
+  
+  <Event name="View1_Front.onTableAnimFinished">
+    <Action type="AnimationInstance" name="table_anim" action="hide"/>
+    <SetGlobalState state="DreamRoom6.TableBroken" value="1"/>
+    <HandleEvent event="View1_Front.HandleTableBroken.1"/>
+    <SetLocalState state="NoFlicker" value="0"/>
+    <UnblockInput/>
+    <Action type="ShowCursor"/>
+    <Action type="FadeInHUD"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker1">
+    <Case>
+      <Check type1="LocalState" value1="NoFlicker" rule="!=" type2="String" value2="1"/>
+      <True>
+        <Action type="AnimationInstance" name="table_anim" action="show"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker2">
+    <Case>
+      <Check type1="LocalState" value1="NoFlicker" rule="!=" type2="String" value2="1"/>
+      <True>
+        <Action type="AnimationInstance" name="table_anim" action="hide"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Front.HandleTableBroken.1">
+    <Action type="AnimationInstance" name="table_anim" action="set_frame" value="60"/>
+    <HideImage name="front"/>
+    <ShowImage name="front_broken"/>
+  </Event>
+  
+  <Event name="View1_Front.onUpdate">
+    <HandleLocalState state="Vibration"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="table_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="table_sound" action="Resume"/>
+  </Event>
+  
+  <Event name="View1_Front.HandleVibration.0">
+    <SetVibration value="0"/>
+  </Event>
+  
+  <Event name="View1_Front.HandleVibration.1">
+    <SetVibration value="0,5"/>
+  </Event>
+  
+  <Event name="View1_Front.HandleVibration.2">
+    <SetVibration value="1,0"/>
+  </Event>
+  
+  <Event name="View1_Front.onVibration1">
+    <SetLocalState state="Vibration" value="1"/>
+    <DelayedEvent event="View1_Front.onVibration2" delay="250"/>
+  </Event>
+  
+  <Event name="View1_Front.onVibration2">
+    <SetLocalState state="Vibration" value="0"/>
+    <DelayedEvent event="View1_Front.onVibration3" delay="350"/>
+  </Event>
+  
+  <Event name="View1_Front.onVibration3">
+    <SetLocalState state="Vibration" value="2"/>
+    <DelayedEvent event="View1_Front.onVibration4" delay="300"/>
+  </Event>
+  
+  <Event name="View1_Front.onVibration4">
+    <SetLocalState state="Vibration" value="0"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom6.TableBroken" event="View1_Front.HandleTableBroken"/>
+  
+</Script>

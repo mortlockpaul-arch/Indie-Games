@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Door_Room7"/>
+  <Navigator down="true" left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom5/zoom_door_room7" name="zoom_door_room7" show="true"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Left" next_view="View3_Back" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="Zoom_Door_Room8" type="fade_out"/>
+  <ViewTrigger name="Down" next_view="Zoom_Stairs" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="500,45,780,720"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="Zoom_Door_Room7.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Zoom_Door_Room7.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room7.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room7.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room7.onDoor">
+    <Action type="ChangeArea" area="DreamRoom7" view="View1_Front" door_sound="true"/>
+  </Event>
+  
+</Script>

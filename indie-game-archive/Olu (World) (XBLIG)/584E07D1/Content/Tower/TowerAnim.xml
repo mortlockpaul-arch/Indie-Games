@@ -1,0 +1,19 @@
+<animation>
+  <name>AnimationSet0</name>
+	<tickspersecond>25.0</tickspersecond>
+  <animationsubset>
+    <name>walk1</name>
+	  <startframe>1</startframe>
+	  <endframe>260</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>walk2</name>
+	  <startframe>271</startframe>
+	  <endframe>530</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>fall</name>
+	  <startframe>541</startframe>
+	  <endframe>800</endframe>
+  </animationsubset>
+</animation>

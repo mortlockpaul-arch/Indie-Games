@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Bricks_Zoom" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom7/bricks_zoom_1" name="bricks_zoom_1" show="true"/>
+  <AddImage path="World/DreamRoom7/bricks_zoom_2" name="bricks_zoom_2" show="false"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom7/Sound/bricks_hit" name="bricks_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="Left_Zoom" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="530,175,770,390"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Bricks_Zoom.onExamineHole"
+    activate_own ="true"
+    enabled="false"/>
+  
+  <!--Events-->
+  <Event name="Bricks_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Bricks_Zoom.Use.Sledge">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom7.WallBroken" rule="!=" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="FadeOutHUD"/>
+        <Action type="HideCursor"/>
+        <Action type="FadeToBlack" event="Bricks_Zoom.onBreakWall1"/>
+      </True>
+      <False>
+        <Action type="ShowText" text="It's already broken."/>
+      </False>
+    </Case>
+    <UseEventHandled/>
+  </Event>
+  
+  <Event name="Bricks_Zoom.onBreakWall1">
+    <Action type="SoundInstance" name="bricks_sound" volume="1,0" action="Play"/>
+    <DelayedEvent event="Bricks_Zoom.onBreakWall2" delay="3000"/>
+  </Event>
+  
+  <Event name="Bricks_Zoom.onBreakWall2">
+    <HandleEvent event="Bricks_Zoom.HandleWallBroken.1"/>
+    <HandleEvent event="Left_Zoom.HandleWallBroken.1"/>
+    <Action type="FadeFromBlack" event="Bricks_Zoom.onBreakWall3"/>
+  </Event>
+  
+  <Event name="Bricks_Zoom.onBreakWall3">
+    <UnblockInput/>
+    <Action type="FadeInHUD"/>
+    <Action type="ShowCursor"/>
+    <SetGlobalState state="DreamRoom7.WallBroken" value="1"/>
+  </Event>
+  
+  <Event name="Bricks_Zoom.HandleWallBroken.1">
+    <HideImage name="bricks_zoom_1"/>
+    <ShowImage name="bricks_zoom_2"/>
+    <EnableTrigger name="Trigger01"/>
+  </Event>
+  
+  <Event name="Bricks_Zoom.onExamineHole">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom7.HoleEmpty" rule="!=" type2="String" value2="1"/>
+      <True>
+        <Action type="AskPickup" item_id="DreamRoom7Document"/>
+      </True>
+      <False>
+        <Action type="ShowText" text="THERE_IS_NOTHING"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Pickup.DreamRoom7Document">
+    <SetGlobalState state="DreamRoom7.HoleEmpty" value="1"/>
+    <SetGlobalState state="MazeGuide1" value="1"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom7.WallBroken" event="Bricks_Zoom.HandleWallBroken"/>
+  
+</Script>

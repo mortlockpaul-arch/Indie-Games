@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Load content-->
+  <LoadContent type="Sound" path="World/DreamECT/Sound/lightbulb"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamECT/Sound/lightbulb" name="light_sound"/>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamECT2/Views/</ViewPath>
+  <View>Stairs1_Front</View>
+  <View>Stairs1_Back</View>
+  <View>Stairs2_Front</View>
+  <View>Stairs2_Back</View>
+  <View>Bottom1_Front</View>
+  <View>Bottom1_Back</View>
+  <View>Bottom2_Front</View>
+  <View>Bottom2_Back</View>
+  
+  <!--Events-->
+  <DelayedEvent event="DreamECT2.Flicker1" min_delay="10" max_delay="2000"/>
+  
+  <Event name="DreamECT2.Flicker1">
+    <DelayedEvent event="DreamECT2.Flicker2" min_delay="10" max_delay="2000"/>
+    <Action type="SoundInstance" name="light_sound" action="Play"/>
+  </Event>
+  
+  <Event name="DreamECT2.Flicker2">
+    <DelayedEvent event="DreamECT2.Flicker1" min_delay="10" max_delay="2000"/>
+    <Action type="SoundInstance" name="light_sound" action="Play"/>
+  </Event>
+  
+  <Event name="Stairs1_Front.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="1,0"/>
+  </Event>
+  
+  <Event name="Stairs1_Back.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="1,0"/>
+  </Event>
+  
+  <Event name="Stairs2_Front.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,5"/>
+  </Event>
+  
+  <Event name="Stairs2_Back.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,5"/>
+  </Event>
+  
+  <Event name="Bottom1_Front.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,25"/>
+  </Event>
+  
+  <Event name="Bottom1_Back.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,25"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,0"/>
+  </Event>
+  
+  <Event name="Bottom2_Back.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,0"/>
+  </Event>
+  
+  <PlayMusic value="1"/>
+  
+</Script>

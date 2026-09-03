@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View2_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <LoadContent type="TextureAnimation"
+               path="World/DreamMainRoom/Animations/View2_Back/" images="1"
+               combinedFrames="true" width="640" height="360" frames="3" random_mode="true"
+               frameSmoothing="false" size="1280" fps="10"
+               />
+
+  <Action type="CreateAnimationInstance" path="World/DreamMainRoom/Animations/View2_Back/" name="tv_anim" dest_rect="0,0,1280,720"/>
+  <Action type="AnimationInstance" name="tv_anim" action="show"/>
+  <Action type="AnimationInstance" name="tv_anim" action="play"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View2" type="fade_to_black"/>
+  <ViewTrigger name="Zoom_Door" next_view="Zoom_Door2" type="fade_to_black"/>  
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="490,120,770,400"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View1_Right"
+    viewtrigger_type="fade_to_black"/>
+	
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="370,130,440,480"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View1_Back"
+    viewtrigger_type="fade_to_black"/>
+    
+  <CursorTrigger
+    name="Trigger03"
+    collision="rect"
+    rect="220,420,270,460"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="DreamMainRoom.onLockedDoor"
+    activate_own="true"/>
+    
+  <CursorTrigger
+    name="Trigger04"
+    collision="rect"
+    rect="245,225,305,280"
+    cursor_style="zoom_small"
+    trigger_type="event"
+    trigger_event="View2_Back.Zoom_Door"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View2_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View2_Back.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View2_Back.Zoom_Door">
+    <HandleEvent event="Zoom_Door2.SetBack2"/>
+    <Action type="ActivateTrigger" name="Zoom_Door"/>
+  </Event>
+  
+</Script>

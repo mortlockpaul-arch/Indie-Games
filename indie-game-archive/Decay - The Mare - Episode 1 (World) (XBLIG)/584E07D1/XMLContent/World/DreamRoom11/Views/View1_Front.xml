@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true" left="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom11/front" name="front" show="true"/>
+  <AddImage path="World/DreamRoom11/front_drawing_x583y398" name="paper" show="false" dest_rect="583,398,119,25"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="View1_Left" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="590,130,785,440"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Painting_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="305,95,480,490"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Front_Door_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Front.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Front.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom11.LeftDoorState" rule="==" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="HideCursor"/>
+        <DelayedEvent event="View1_Front.TriggerLeft" delay="2000"/>
+      </True>
+      <False>
+        <UnblockInput/>
+        <Action type="ShowCursor"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Front.TriggerLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Front.onPaperAdded">
+    <ShowImage name="paper"/>
+  </Event>
+  
+  <Event name="View1_Front.onPaperRemoved">
+    <HideImage name="paper"/>
+  </Event>
+  
+  <!--Handle states-->
+  <Case>
+    <Check type1="GetState" value1="DreamRoom11.PoetryPuzzle" rule="!=" type2="String" value2=""/>
+    <True>
+      <HandleEvent event="View1_Front.onPaperAdded"/>
+    </True>
+    <False>
+      <HandleEvent event="View1_Front.onPaperRemoved"/>
+    </False>
+  </Case>
+  
+</Script>

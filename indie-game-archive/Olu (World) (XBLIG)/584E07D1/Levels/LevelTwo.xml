@@ -1,0 +1,2207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<level startzone="0" beat="12" tempo="172" rootdir="Content\\Level02\\" basecol="0.6 0.3 0.1" flashcol="0.9 0.5 0.4"
+		spincol="1 0.7 0.2" player="Player">
+	<zone id="0" endtime="24" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="30 -10 -20" end="30 -10 50" speed="115" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="35" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="20" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="35" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="-30 -10 -20" end="-30 -10 50" speed="165" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="30" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="65" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="60" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="85" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PRefLine start="-30 -10 -20" end="-30 -10 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="40" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="25" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="85" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="65" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+
+			<path id="3" loop="-1">
+				<PRefLine start="0 20 -20" end="0 20 50" speed="175" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="40" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="25" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="85" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="65" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="4" loop="-1">
+				<PRefLine start="0 -20 -20" end="0 -20 50" speed="155" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="30" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="65" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="60" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="85" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="10" enddeg="10" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="25">
+						<TRotation startdeg="10" enddeg="20" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="10" enddeg="10" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+								   </Transform>
+					<Transform beatstart="12" beatend="25">
+						<TRotation startdeg="10" enddeg="20" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			 </SkyFlowElement>
+		</BG>
+		<music>
+			<cue beat="0" name="BrTrumpet01" playmeas="0" loopmeas="8"/>
+			<cue beat="0" name="BrTrumpet02" playmeas="4" loopmeas="16"/>
+			<cue beat="0" name="BrTrumpet03" playmeas="12" loopmeas="16"/>
+			<!--<cue beat="0" name="BrDrum05" playmeas="0" loopmeas="2"/>-->
+		</music>
+		<endmusic>
+			<cue beat="0" name="BrDrum02" playmeas="0" loopmeas="-1"/>
+		</endmusic>
+		<channel>
+			<!-- Wave 1 and 3 -->
+			<cue beat="6" channel="10" playmeas="0" loopmeas="8"/>
+			<cue beat="0" channel="10" playmeas="1" loopmeas="8"/>
+			<cue beat="3" channel="10" playmeas="1" loopmeas="8"/>
+			<cue beat="6" channel="10" playmeas="1" loopmeas="8"/>
+			<cue beat="0" channel="10" playmeas="2" loopmeas="8"/>
+
+			<!-- Wave 2 -->
+			<cue beat="3" channel="10" playmeas="4" loopmeas="16"/>
+			<cue beat="11" channel="10" playmeas="4" loopmeas="16"/>
+			<cue beat="6" channel="10" playmeas="5" loopmeas="16"/>
+			<cue beat="9" channel="10" playmeas="5" loopmeas="16"/>
+			<cue beat="0" channel="10" playmeas="6" loopmeas="16"/>
+
+			<!-- Wave 4 -->
+			<cue beat="3" channel="10" playmeas="12" loopmeas="16"/>
+			<cue beat="11" channel="10" playmeas="12" loopmeas="16"/>
+			<cue beat="6" channel="10" playmeas="13" loopmeas="16"/>
+			<cue beat="10" channel="10" playmeas="13" loopmeas="16"/>
+			<cue beat="2" channel="10" playmeas="14" loopmeas="16"/>
+
+      <cue beat="4" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+      <TextDisplay2 text="*ping A423:43:95.BA6E24CF\nLocation void\n*ping Q695:85:12.85AD7E3F\nLocation void\n*save_log 'readout'\n0x_4982\n0x_9658\n0x_3844\nolu\n*track_signature 'readout' olu\n...\n...\nnode found\nB142:42:17.FACE0013\n*follow B142:42:17.FACE0013\ndescending..." length="5" waitforenem="1"/>
+      <GameplayChange command="unfade" value="6" waitforenem ="1"/>
+      
+			<!-- Wave 1: Left -->
+			<Digit waitbeat="86">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 2: Right -->
+			<Digit waitbeat="48">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 -20" end="1 0 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 3: Left -->
+			<Digit waitbeat="48">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 4: Right -->
+			<Digit waitbeat="48">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 -20" end="1 0 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 5: Right -->
+			<Digit waitbeat="48">
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 -20" end="1 0 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 6: Right -->
+			<Digit waitbeat="48">
+				<paths>
+					<CopyList id="4">
+						<PLine start="0 0 -20" end="1 0 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 7: Right -->
+			<Digit waitbeat="48">
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 -20" end="1 0 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 8: Right -->
+			<Digit waitbeat="48">
+				<paths>
+					<CopyList id="4">
+						<PLine start="0 0 -20" end="1 0 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -20 50" end="0 -20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="1" endtime="24" muteend="true">
+		<paths>
+			<!-- Phrase 1 and 3 -->
+			<path id="0" loop="-1">
+				<PRefLine start="-30 -10 -20" end="-30 -10 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="30 -10 -20" end="30 -10 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PRefLine start="-30 -10 -20" end="-30 -10 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="3" loop="-1">
+				<PRefLine start="30 -10 -20" end="30 -10 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="100" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+
+
+			<!-- Phrase 2 -->
+			<path id="4" loop="-1">
+				<PRefLine start="0 -30 -20" end="0 -30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="5" loop="-1">
+				<PRefLine start="0 30 -20" end="0 30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="6" loop="-1">
+				<PRefLine start="0 -30 -20" end="0 -30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="7" loop="-1">
+				<PRefLine start="0 30 -20" end="0 30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+
+			<!-- Phrase 4 -->
+			<path id="8" loop="-1">
+				<PRefLine start="0 -30 -20" end="0 -30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="33" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="9" loop="-1">
+				<PRefLine start="0 30 -20" end="0 30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="33" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="10" loop="-1">
+				<PRefLine start="0 -30 -20" end="0 -30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 10 0" speed="33" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="11" loop="-1">
+				<PRefLine start="0 30 -20" end="0 30 50" speed="185" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="33" track="camera"/>
+				<PRefLine start="0 0 0" end="-10 0 0" speed="50" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="20" enddeg="20" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="25">
+						<TRotation startdeg="20" enddeg="32" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="20" enddeg="20" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="25">
+						<TRotation startdeg="20" enddeg="32" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrIntroLoop" beat="0" playmeas="0" loopmeas="8"/>
+			<cue name="BrDrum01" beat="0" playmeas="0" loopmeas="2"/>
+			<cue name="BrIntroBass" beat="0" playmeas="8" loopmeas="16"/>
+			<cue name="BrIntroBass" beat="0" playmeas="12" loopmeas="16"/>
+			<cue name="BrIntroBass" beat="0" playmeas="16" loopmeas="-1"/>
+			<cue name="BrIntroBass" beat="0" playmeas="20" loopmeas="-1"/>
+			<cue name="BrIntroBass" beat="0" playmeas="32" loopmeas="-1"/>
+			<cue name="BrIntroBass" beat="0" playmeas="36" loopmeas="-1"/>
+			<cue name="BrIntroBass" beat="0" playmeas="48" loopmeas="-1"/>
+			<cue name="BrIntroBass" beat="0" playmeas="52" loopmeas="-1"/>
+		</music>
+		<endmusic>
+			<cue name="BrDrum02" beat="0" playmeas="0" loopmeas="-1"/>
+		</endmusic>
+		<channel>
+			<!-- Wave 1 and 3 -->
+			<cue beat="4" channel="10" playmeas="0" loopmeas="4"/>
+			<cue beat="8" channel="10" playmeas="0" loopmeas="4"/>
+			<cue beat="10" channel="10" playmeas="0" loopmeas="4"/>
+			<cue beat="0" channel="10" playmeas="1" loopmeas="4"/>
+
+			<!-- Wave 2 -->
+			<cue beat="4" channel="10" playmeas="2" loopmeas="8"/>
+			<cue beat="8" channel="10" playmeas="2" loopmeas="8"/>
+			<cue beat="0" channel="10" playmeas="3" loopmeas="8"/>
+			<cue beat="4" channel="10" playmeas="3" loopmeas="8"/>
+
+			<!-- Wave 4 -->
+			<cue beat="4" channel="10" playmeas="6" loopmeas="8"/>
+			<cue beat="8" channel="10" playmeas="6" loopmeas="8"/>
+			<cue beat="2" channel="10" playmeas="7" loopmeas="8"/>
+			<cue beat="6" channel="10" playmeas="7" loopmeas="8"/>
+
+      <cue beat="4" channel="29" value="0.45"/>
+		</channel>
+		<enemies>
+			<!-- Wave 1: Side to top -->
+			<Digit waitbeat="0">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 2: Top to side -->
+			<Digit waitbeat="22">
+				<paths>
+					<CopyList id="5">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="6">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 3: Side to top -->
+			<Digit waitbeat="24">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 4: Top to side -->
+			<Digit waitbeat="24">
+				<paths>
+					<CopyList id="8">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="11">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 5: Side to top -->
+			<Digit waitbeat="24">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 6: Top to side -->
+			<Digit waitbeat="24">
+				<paths>
+					<CopyList id="4">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="5">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 7: Side to top -->
+			<Digit waitbeat="24">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- Wave 8: Top to side -->
+			<Digit waitbeat="24">
+				<paths>
+					<CopyList id="10">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+			<Digit>
+				<paths>
+					<CopyList id="11">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -20 50" end="0 -20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+			
+		</enemies>
+	   </zone>
+	<zone id="2" endtime="24" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PBezier pos0="90 -80 -80" pos1="60 -50 -30"
+						 pos2="40 -30 5" pos3="20 -10 20"
+						 speed="1"
+						  chan="11" boost="2"/>
+				<PBezier pos0="20 -10 20" pos1="4 -15 20"
+						 pos2="-20 -10 20" pos3="-20 0 20"
+						 speed="0.16"
+						xamp="0.5" periods="3"
+						  chan="11" boost="2"/>
+				<PBezier pos0="-20 0 20" pos1="-20 8 20"
+						 pos2="20 -8 20" pos3="20 0 20"
+						 speed="0.16"
+						xamp="0.5" periods="2"
+						  chan="11" boost="2"/>
+				<PBezier pos0="20 0 20" pos1="20 8 20"
+						 pos2="-4 -8 20" pos3="-20 10 20"
+						 speed="0.16"
+						xamp="0.5" periods="3"
+						  chan="11" boost="2"/>
+				<PBezier pos0="-20 10 20" pos1="-40 30 5"
+						 pos2="-60 50 -30" pos3="-90 80 -80"
+						 speed="1"
+						  chan="11" boost="2"/>
+			</path>
+			<path id="1" loop="-1">
+				<PBezier pos0="-90 -80 -80" pos1="-60 -50 -30"
+						 pos2="-40 -30 5" pos3="-20 -10 20"
+						 speed="1"
+						  chan="11" boost="2"/>
+				<PBezier pos0="-20 -10 20" pos1="-25 -2 20"
+						 pos2="-20 10 20" pos3="0 15 20"
+						 speed="0.16"
+						xamp="0.5" periods="3"
+						  chan="11" boost="2"/>
+				<PBezier pos0="0 15 20" pos1="-16 15 20"
+						 pos2="16 -15 20" pos3="0 -15 20"
+						 speed="0.16"
+						xamp="0.5" periods="2"
+						  chan="11" boost="2"/>
+				<PBezier pos0="0 -15 20" pos1="20 -10 20"
+						 pos2="25 2 20" pos3="20 10 20"
+						 speed="0.16"
+						xamp="0.5" periods="3"
+						  chan="11" boost="2"/>
+				<PBezier pos0="20 10 20" pos1="40 30 5"
+						 pos2="60 50 -30" pos3="90 80 -80"
+						 speed="1"
+						  chan="11" boost="2"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="32" enddeg="32" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="25">
+						<TRotation startdeg="32" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="32" enddeg="32" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="25">
+						<TRotation startdeg="32" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrTheme2" beat="0" playmeas="0" loopmeas="4"/>
+			<cue name="BrTheme02Drum" beat="0" playmeas="0" loopmeas="4"/>
+		</music>
+		<endmusic>
+			<cue name="BrFastDrums" beat="0" playmeas="0" loopmeas="-1"/>
+		</endmusic>
+		<channel>
+			<cue beat="8" channel="11" playmeas="0" loopmeas="1"/>
+
+      <cue beat="4" channel="29" value="0.4"/>
+      <cue beat="8" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="24">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="24">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="24">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="24">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="24">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="24">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="24">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -20 50" end="0 -20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="3" endtime="48" muteend="true">
+		<paths>
+			<path id="0" loop="0">
+				<PBezier pos0="30 10 20" pos1="10 10 20"
+						 pos2="-10 10 20" pos3="-30 10 20"
+						 speed="0.2"
+						xamp="0.3" periods="6"
+						  chan="11" boost="2"/>
+			</path>
+			<path id="1" loop="0">
+				<PBezier pos0="-30 -10 20" pos1="-10 -10 20"
+						 pos2="10 -10 20" pos3="30 -10 20"
+						 speed="0.2"
+						xamp="0.3" periods="6"
+						  chan="11" boost="2"/>
+			</path>
+			<path id="2" loop="0">
+				<PBezier pos0="10 30 20" pos1="10 10 20"
+						 pos2="10 -10 20" pos3="10 -30 20"
+						 speed="0.2"
+						xamp="0.3" periods="6"
+						  chan="11" boost="2"/>
+			</path>
+			<path id="3" loop="0">
+				<PBezier pos0="-10 -30 20" pos1="-10 -10 20"
+						 pos2="-10 10 20" pos3="-10 30 20"
+						 speed="0.2"
+						xamp="0.3" periods="6"
+						  chan="11" boost="2"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrTheme2" beat="0" playmeas="0" loopmeas="4"/>
+			<cue name="BrHArp01" beat="0" playmeas="0" loopmeas="4"/>
+			<cue name="BrHArpDual01" beat="0" playmeas="4" loopmeas="8"/>
+			<cue name="BrTheme02Drum" beat="0" playmeas="0" loopmeas="4"/>
+		</music>
+		<endmusic>
+			<cue name="BrTheme2End" beat="0" playmeas="0" loopmeas="-1"/>
+			<cue name="BrHArp02" beat="0" playmeas="0" loopmeas="-1"/>
+			<cue name="BrHArpDual02" beat="0" playmeas="0" loopmeas="-1"/>
+		</endmusic>
+		<channel>
+			<cue beat="8" channel="11" playmeas="0" loopmeas="1"/>
+      <cue beat="4" channel="29" value="0.5"/>
+      <cue beat="8" channel="29" value="0.5"/>
+		</channel>
+		<enemies>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Copy copies="3">
+				<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="6">
+					<paths loop="-1">
+						<CopyList id="0">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Serpent>
+				<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="6">
+					<paths loop="-1">
+						<CopyList id="1">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Serpent>
+			</Copy>
+			<Copy copies="4">
+				<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="6">
+					<paths loop="-1">
+						<CopyList id="2">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Serpent>
+				<Serpent numtails="3" spacing="0.15" chan="11" boost="2" waitbeat="6">
+					<paths loop="-1">
+						<CopyList id="3">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Serpent>
+			</Copy>
+
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -20 50" end="0 -20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="4" endtime="24" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="25 50 -60"
+						  end="25 -10 0"
+						  speed="100" track="camera"/>
+				<PRefLine start="25 -10 0"
+						  end="25 -20 10"
+						  speed="1" track="camera"/>
+				<PRefLine start="25 -20 10"
+						  end="25 -100 90"
+						  speed="30" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="0 0 0" end="0 10 0" speed="10" track="camera"/>
+				<PRefLine start="0 0 0" end="10 0 0" speed="25" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 -10" speed="20" track="camera"/>
+				<PRefLine start="0 0 0" end="0 -10 0" speed="30" track="camera"/>
+				<PRefLine start="0 0 0" end="0 0 180" speed="85" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PBezier pos0="60 -10 -30" pos3="40 -20 0"
+						 speed="1"/>
+				<PBezier pos0="40 -20 0" pos1="10 -10 20"
+						 pos2="-10 -10 20" pos3="-40 -20 0"
+						 speed="0.2"
+						 up="0 0 -1" 
+						xamp="0.3" periods="4"/>
+				<PBezier pos0="-40 -20 0" pos3="60 -10 -30"
+						 speed="1"/>
+			</path>
+			<path id="3" loop="-1">
+				<PRefLine start="-25 50 -60"
+						  end="-25 -10 0"
+						  speed="100" track="camera"/>
+				<PRefLine start="-25 -10 0"
+						  end="-25 -20 10"
+						  speed="1" track="camera"/>
+				<PRefLine start="-25 -20 10"
+						  end="-25 -100 90"
+						  speed="30" track="camera"/>
+			</path>
+			<path id="4" loop="-1">
+				<PBezier pos0="-25 -15 -50" pos3="-25 -15 -10"
+						 speed="1"/>
+				<PBezier pos0="-25 -15 -10" pos3="-25 -15 22.5"
+						 speed="0.2"
+						 periods="4" 
+						 up="1 0 0" xdif="90" ydif="180" 
+						 xamp="1.2" yamp="1.2"/>
+				<PBezier pos0="-25 -15 22.5" pos3="-45 -15 22.5"
+						 speed="1.5"
+						 periods="0"
+						 up="0 0 -1" xdif="270"  ydif="0"
+						 xamp="1.95" yamp="1.95"/>
+				<PBezier pos0="-45 -15 22.5" pos3="-45 -15 -10"
+						 speed="0.2"
+						 periods="4"
+						 up="1 0 0" xdif="90" ydif="180"
+						 xamp="-1.2" yamp="1.2"/>
+				<PBezier pos0="-45 -5.25 -10" pos1="-40 -5.25 -15"
+						 pos2="-35 -3 -15" pos3="-30 0 -5"
+						 speed="0.75"
+						 up="0 0 -1"/>
+				<PBezier pos0="-30 0 -5" pos1="-20 15 20"
+						 pos2="-10 15 45" pos3="10 15 40"
+						 speed="0.58"
+						 up="0 0 -1"/>
+				<PBezier pos0="10 15 40" pos3="100 15 40"
+						 speed="1" up="0 0 -1"/>
+					 </path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="24">
+						<TMove startpos="0 0 0" endpos="0 30 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 20 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background05" mode="10" texmode="0 0 1 1">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="12" beatend="24">
+						<TMove startpos="0 0 0" endpos="0 51 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 0 80" endscale="80 120 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrTheme03" beat="0" playmeas="0" loopmeas="8"/>
+			<cue name="BrTheme03Drum" beat="0" playmeas="8" loopmeas="16"/>
+			<cue name="BrTheme03Drum" beat="0" playmeas="10" loopmeas="16"/>
+			<cue name="BrTheme03Drum" beat="0" playmeas="12" loopmeas="16"/>
+			<cue name="BrTheme03Drum" beat="0" playmeas="14" loopmeas="16"/>
+		</music>
+    <endmusic>
+      <cue name="BrTheme03Drum" beat="0" playmeas="0" loopmeas="-1"/>
+    </endmusic>
+		<channel>
+			<cue beat="0" channel="11" playmeas="1" loopmeas="4"/>
+			<cue beat="0" channel="12" playmeas="2" loopmeas="4"/>
+			<cue beat="4" channel="12" playmeas="2" loopmeas="4"/>
+			<cue beat="8" channel="12" playmeas="2" loopmeas="4"/>
+			<cue beat="0" channel="12" playmeas="3" loopmeas="4"/>
+      <cue beat="4" channel="29" value="0.5"/>
+      <cue beat="8" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+			<PlayerView start="0 0 1" end="2 0 1" speed="0.5"/>
+			<Sled01 channel="11" waittime="2" launchdelay="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+				<digitpath size="2" channel="12">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</digitpath>
+			</Sled01>
+			<Sled01 channel="11" waittime="2" launchdelay="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="10 0 10" end="11 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+				<digitpath size="2" channel="12">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</digitpath>
+			</Sled01>
+			<Sled01 channel="11" waittime="2" launchdelay="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="20 0 20" end="21 0 20" speed="0"/>
+					</CopyList>
+				</paths>
+				<digitpath size="2" channel="12">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</digitpath>
+			</Sled01>
+			<Sled01 channel="11" waittime="2" launchdelay="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="30 0 30" end="31 0 30" speed="0"/>
+					</CopyList>
+				</paths>
+				<digitpath size="2" channel="12">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</digitpath>
+			</Sled01>
+
+			<Serpent numtails="7" spacing="0.15" chan="11" boost="0" waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="2" spacing="0.15" chan="11" boost="0" waitbeat="3">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="10 -15 0" end="11 -15 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<PlayerView waittime="1" start="2 0 1" end="-2 0 1" speed="0.25"/>
+			<Serpent numtails="5" spacing="0.15" chan="11" boost="0" waitbeat="2">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="-5 10 0" end="-6 10 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Serpent numtails="3" spacing="0.15" chan="11" boost="0" waitbeat="2">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="0 0 -10" end="1 0 -10" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<!--Right wave-->
+			<Serpent numtails="32" spacing="0.072" chan="11" boost="0" waittime="3" up="0 0 -1">
+				<paths loop="-1">
+					<CopyList id="4">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			<Sled01 channel="11" waittime="2" launchdelay="2">
+				<paths loop="-1">
+					<CopyList id="3">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+				<digitpath size="2" channel="12">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</digitpath>
+			</Sled01>
+			<Copy copies="4">
+				<Serpent numtails="7" spacing="0.072" waittime="1" up="0 0 -1">
+					<paths loop="-1">
+						<CopyList id="4">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Serpent>
+			</Copy>
+			<Sled01 channel="11" waittime="2" launchdelay="2">
+				<paths loop="-1">
+					<CopyList id="3">
+						<PLine start="-20 0 10" end="-21 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+				<digitpath size="2" channel="12">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</digitpath>
+			</Sled01>
+			<PlayerView waittime="3" start="-2 0 1" end="0 0 1" speed="0.25"/>
+			
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -20 50" end="0 -20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="5" endtime="24" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="55 70 -40"
+						  end="55 10 20"
+						  speed="100" track="camera"/>
+				<PRefLine start="55 10 20"
+						  end="55 0 30"
+						  speed="1" track="camera"/>
+				<PRefLine start="55 0 30"
+						  end="55 -80 110"
+						  speed="30" track="camera"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TMove startpos="0 30 0" endpos="0 30 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 20 80" endscale="80 20 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background05" mode="10" texmode="0 0 1 1">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="0">
+						<Transform>
+							<TMove startpos="0 0 0" endpos="0 -10 -10"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TMove startpos="0 51 0" endpos="0 51 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 120 80" endscale="80 120 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="4"/>
+			<cue name="BrTheme04Drum" beat="0" playmeas="2" loopmeas="4"/>
+			<cue name="BrHArp01" beat="0" playmeas="4" loopmeas="8"/>
+			<cue name="BrHArpDual01" beat="0" playmeas="4" loopmeas="8"/>
+		</music>
+    <endmusic>
+      <cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="-1"/>
+    </endmusic>
+		<channel>
+			<cue beat="8" channel="0" />
+
+			<cue beat="8" channel="11" playmeas="0" loopmeas="1"/>
+      <cue beat="4" channel="29" value="0.5"/>
+      <cue beat="8" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+			<PlayerView start="0 0 1" end="2 0 1" speed="0.5"/>
+			<Chand waittime="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			
+			<Chand waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 -9.75 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<Chand waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 -9.75 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 -18.5 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<Chand waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 -9.75 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 -18.5 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 -27.25 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<PlayerView start="2 0 1" end="-2 0 1" speed="0.125" waitforenem="1"/>
+
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-10 -9.75 5" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-20 -18.5 10" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-30 -9.75 12" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-40 -18.5 13" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-50 -9.75 16" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-60 -18.5 16" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-70 -9.75 13" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-80 -18.5 12" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-90 -9.75 10" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-100 -18.5 5" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<Chand waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 -18.5 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 -9.75 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 -27.25 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<Chand waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 -27.25 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 -9.75 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-110 -18.5 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<PlayerView start="-2 0 1" end="0 0 1" speed="0.25" waitforenem="1"/>
+
+			<Chand waittime="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-35 0 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-35 -27.25 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-85 0 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-85 -27.25 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<Chand waitbeat="6">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-45 -9.75 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-45 -18.5 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-65 -9.75 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+			<Chand>
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-65 -18.5 20" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Chand>
+
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -9.125 25" end="0 -9.125 26" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="6" endtime="24" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PBezier pos0="35 50 -60" pos3="35 0 -20"
+						 speed="2"
+						xamp="0" periods="1"
+						  chan="11" boost="0" up="0 1 0"/>
+				<PBezier pos0="35 0 -20" pos3="35 -80 60"
+						 xamp="0.5" periods="2"
+						speed="0.09" up="0 1 0"/>
+				<PBezier pos0="35 -80 60" pos3="35 -110 90"
+						 speed="0.3" up="0 1 0"/>
+			</path>
+			<path id="1" loop="-1">
+				<PBezier pos0="0 70 -60" pos3="0 30 -20"
+						 up="0 1 0" speed="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 -50 60"
+						 xamp="1" periods="1"
+						 speed="0.38" up="0 1 0"/>
+				<PBezier pos0="0 -50 60" pos3="0 -110 90"
+						 speed="0.6" up="0 1 0"/>
+			</path>
+			<path id="2" loop="-1">
+				<PBezier pos0="0 70 -60" pos3="0 30 -20"
+						 up="0 1 0" speed="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 -50 60"
+						 xamp="-1" periods="1"
+						 speed="0.38" up="0 1 0"/>
+				<PBezier pos0="0 -50 60" pos3="0 -110 90"
+						 speed="0.6" up="0 1 0"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<ColorChannel col1="1 0.126 0 1" col2="1 1 0 1"/>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="6">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="6" beatend="24">
+						<TMove startpos="0 0 0" endpos="0 -20 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="160 10 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background07" mode="10">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="6">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="6" beatend="24">
+						<TMove startpos="0 -140 0" endpos="0 -20 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="160 10 80" endscale="160 10 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background06" mode="10" texmode="0 1 0 1">
+				<paths loop = "0">
+					<PRefLine start="65 -90 90" end="65 70 -70" speed="45.2" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="0">
+						<Transform>
+							<TMove startpos="0 0 0" endpos="15 0 0"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background06" mode="10" texmode="0 1 0 1">
+				<paths loop = "0">
+					<PRefLine start="-65 -70 70" end="-65 90 -90" speed="45.2" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="0">
+						<Transform>
+							<TMove startpos="0 0 0" endpos="-15 0 0"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="2"/>
+			<cue name="BrTheme0401" beat="0" playmeas="0" loopmeas="8"/>
+			<cue name="BrTheme0402" beat="0" playmeas="4" loopmeas="8"/>
+			<cue name="BrHArp01" beat="0" playmeas="0" loopmeas="4"/>
+			<cue name="BrHArpDual01" beat="0" playmeas="0" loopmeas="8"/>
+			<cue name="BrHArpDualCombo" beat="0" playmeas="4" loopmeas="8"/>
+		</music>
+		<endmusic>
+			<cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="2"/>
+		</endmusic>
+		<channel>
+			<cue beat="8" channel="0" />
+
+			<cue beat="8" channel="1" />
+			
+			<cue beat="8" channel="11" playmeas="0" loopmeas="1"/>
+      <cue beat="4" channel="29" value="0.5"/>
+      <cue beat="8" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+			<PlayerView start="0 0 1" end="6 0 -1" speed="0.5"/>
+			<Surfer waittime="2" surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			
+			<Surfer surfdir="0 -1 1" waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="10 30 -30" end="1 30 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-10 30 -30" end="1 30 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			
+			<Surfer surfdir="0 -1 1" waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+
+			<Surfer surfdir="0 -1 1" waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 20 -20" end="1 20 -20" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="10 30 -30" end="1 30 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-10 30 -30" end="1 30 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="20 40 -40" end="1 30 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="-20 40 -40" end="1 30 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+
+			<PlayerView start="6 0 -1" end="0 0 1" speed="0.5" waitforenem="1"/>
+
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1" waitbeat="12">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>
+			<Surfer surfdir="0 -1 1">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 -30" speed="0"/>
+					</CopyList>
+				</paths>
+			</Surfer>	
+
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -20 50" end="0 -20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="7" endtime="24" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PBezier pos0="0 70 -60" pos3="0 30 -20"
+						 up="0 1 0" speed="2"
+						chan="11" boost="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 -50 60"  
+						 speed="0.08"
+						xamp="0.5" yamp="0.5" 
+						 ydif="90" periods="2"
+						  chan="11" boost="2"/>
+				<PBezier pos0="0 -50 60" pos3="0 30 -20"
+						 speed="0.08"
+						xamp="0.25" yamp="0.25"
+						 ydif="90" periods="2"
+						  chan="11" boost="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 70 -60"
+						 up="0 1 0" speed="2"
+						chan="11" boost="2"/>
+			</path>
+			<path id="1" loop="-1">
+				<PBezier pos0="0 70 -60" pos3="0 30 -20"
+						 up="0 1 0" speed="2"
+						chan="11" boost="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 -50 60"
+						 speed="0.08"
+						xamp="-0.5" yamp="0.5"
+						 ydif="90" periods="2"
+						  chan="11" boost="2"/>
+				<PBezier pos0="0 -50 60" pos3="0 30 -20"
+						 speed="0.08"
+						xamp="-0.25" yamp="0.25"
+						 ydif="90" periods="2"
+						  chan="11" boost="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 70 -60"
+						 up="0 1 0" speed="2"
+						chan="11" boost="2"/>
+			</path>
+			<path id="2" loop="-1">
+				<PBezier pos0="20 -10 -20" pos1="20 10 20"
+						 pos2="0 15 30" pos3="-15 20 35"
+						 speed="0.08" chan="11" boost="2"
+						 xamp="0.2" yamp="0.2" ydif="90"
+						 periods="12"/>
+				<PBezier pos0="-15 20 35" pos3="15 -20 -35"
+						 speed="0.16" chan="11" boost="2"
+						 xamp="0.2" yamp="0.2" ydif="90"
+						 periods="2"/>
+			</path>
+			<path id="3" loop="-1">
+				<PBezier pos0="-10 -10 -20" pos1="-20 20 30"
+						 pos2="10 30 45" pos3="35 30 45"
+						 speed="0.06" chan="11" boost="2"
+						 xamp="0.15" yamp="0.15" ydif="90"
+						 periods="12"/>
+				<PBezier pos0="35 30 45" pos3="-35 -30 -45"
+						 speed="0.16" chan="11" boost="2"
+						 xamp="0.15" yamp="0.15" ydif="90"
+						 periods="2"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<ColorChannel col1="1 0.126 0 1" col2="1 1 0 1"/>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TMove startpos="0 -20 0" endpos="0 -20 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="160 10 80" endscale="160 10 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background07" mode="10">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<ColorChannel col1="0.9 0.8 0 1" col2="1 0.126 0 1"/>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TMove startpos="0 -20 0" endpos="0 -20 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="160 10 80" endscale="160 10 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background06" mode="10" texmode="0 1 0 1">
+				<paths loop = "0">
+					<PRefLine start="65 -90 90" end="65 70 -70" speed="45.2" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<Transform>
+							<TMove startpos="0 0 0" endpos="15 0 0"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background06" mode="10" texmode="0 1 0 1">
+				<paths loop = "0">
+					<PRefLine start="-65 -70 70" end="-65 90 -90" speed="45.2" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<Transform>
+							<TMove startpos="0 0 0" endpos="-15 0 0"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="2"/>
+			<cue name="BrTheme0401" beat="0" playmeas="0" loopmeas="8"/>
+			<cue name="BrTheme0402" beat="0" playmeas="4" loopmeas="8"/>
+			<cue name="BrHArpDualCombo" beat="0" playmeas="4" loopmeas="8"/>
+		</music>
+		<endmusic>
+			<cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="2"/>
+		</endmusic>
+		<channel>
+			<cue beat="8" channel="0" />
+
+			<cue beat="8" channel="1" />
+
+			<cue beat="8" channel="11" playmeas="0" loopmeas="1"/>
+      <cue beat="4" channel="29" value="0.5"/>
+      <cue beat="8" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+
+			<PlayerView start="0 0 1" end="0 1 1" speed="0.5"/>
+			
+			<Serpent numtails="32" spacing="0.30" chan="11" boost="2">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+			
+			<Serpent numtails="32" spacing="0.30" chan="11" boost="2">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<PlayerView start="0 1 1" end="0 -1 2" speed="0.5" waitforenem="1"/>			
+			
+			<Serpent numtails="32" spacing="0.30" chan="11" boost="2">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<Serpent numtails="64" spacing="0.30" chan="11" boost="2" waitforenem="1">
+				<paths loop="-1">
+					<CopyList id="3">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<PlayerView start="0 -1 2" end="0 0 1" speed="0.5" waitforenem="1"/>
+
+			<!-- end of zone -->
+			<FinishBox waittime="1">
+				<paths>
+					<PRefLine start = "0 -20 50" end="0 -20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="8" endtime="28" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PBezier pos0="0 60 -60" pos3="0 -120 120"
+						 speed="0.05"
+						 xamp="0.4" yamp="0.4" ydif="90"
+						 periods="12" up="0 1 0"/>
+			</path>
+			<path id="1" loop="-1">
+				<PBezier pos0="0 60 -60" pos3="0 -120 120"
+						 speed="0.05"
+						 xamp="0.4" yamp="0.4" xdif ="180" ydif="270"
+						 periods="12" up="0 1 0"/>
+			</path>
+			<path id="2" loop="-1">
+				<PBezier pos0="0 60 -60" pos3="0 -120 120"
+						 speed="0.1"
+						 xamp="-0.2" yamp="0.2" ydif="90"
+						 periods="12" up="0 1 0"/>
+			</path>
+			<path id="3" loop="-1">
+				<PBezier pos0="0 60 -60" pos3="0 -120 120"
+						 speed="0.1"
+						 xamp="-0.2" yamp="0.2" xdif ="180" ydif="270"
+						 periods="12" up="0 1 0"/>
+			</path>
+			<path id="4" loop="-1">
+				<PBezier pos0="0 70 -60" pos3="0 30 -20"
+						 up="0 1 0" speed="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 -50 60"
+						 xamp="1" periods="1"
+						 speed="0.38" up="0 1 0"/>
+				<PBezier pos0="0 -50 60" pos3="0 -110 90"
+						 speed="0.6" up="0 1 0"/>
+			</path>
+			<path id="5" loop="-1">
+				<PBezier pos0="0 70 -60" pos3="0 30 -20"
+						 up="0 1 0" speed="2"/>
+				<PBezier pos0="0 30 -20" pos3="0 -50 60"
+						 xamp="-1" periods="1"
+						 speed="0.38" up="0 1 0"/>
+				<PBezier pos0="0 -50 60" pos3="0 -110 90"
+						 speed="0.6" up="0 1 0"/>
+			</path>
+			<path id="6" loop="-1">
+				<PRefLine start="0 70 -20"
+						  end="0 10 20"
+						  speed="100" track="camera"/>
+				<PRefLine start="0 10 20"
+						  end="0 0 30"
+						  speed="2" track="camera"/>
+				<PRefLine start="0 0 30"
+						  end="0 -80 130"
+						  speed="30" track="camera"/>
+			</path>
+			<path id="7" loop="-1">
+				<PRefLine start="0 -20 -20" end="0 -20 120" speed="45" track="camera"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level02Background01" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<ColorChannel col1="1 0.126 0 1" col2="1 1 0 1"/>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TMove startpos="0 -20 0" endpos="0 -20 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="160 10 80" endscale="160 10 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="24">
+						<TMove startpos="0 -20 0" endpos="0 100 0"/>
+						<TRotation startdeg="45" enddeg="0" axis="1 0 0"/>
+						<TScale startscale="160 10 80" endscale="160 10 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background07" mode="10">
+				<paths loop = "0">
+					<PRefLine start="0 0 176" end="0 0 80" speed="24" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<ColorChannel col1="0.9 0.8 0 1" col2="1 0.126 0 1"/>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TMove startpos="0 -20 0" endpos="0 -20 0"/>
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="160 10 80" endscale="160 10 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="24">
+						<TMove startpos="0 -20 0" endpos="0 100 0"/>
+						<TRotation startdeg="45" enddeg="0" axis="1 0 0"/>
+						<TScale startscale="160 10 80" endscale="160 10 80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background06" mode="10" texmode="0 1 0 1">
+				<paths loop = "0">
+					<PRefLine start="65 -90 90" end="65 70 -70" speed="45.2" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<Transform>
+							<TMove startpos="0 0 0" endpos="15 0 0"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="24">
+						<TMove startpos="0 0 0" endpos="70 0 0"/>
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level02Background06" mode="10" texmode="0 1 0 1">
+				<paths loop = "0">
+					<PRefLine start="-65 -70 70" end="-65 90 -90" speed="45.2" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<Transform>
+							<TMove startpos="0 0 0" endpos="-15 0 0"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="24">
+						<TMove startpos="0 0 0" endpos="-70 0 0"/>
+						<TScale startscale="80 80 -80" endscale="80 80 -80"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<SkyFlowElement>
+				<transforms>
+					<Transform beatstart="-1" beatend="12">
+						<TRotation startdeg="45" enddeg="45" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+					<Transform beatstart="12" beatend="24">
+						<TRotation startdeg="45" enddeg="0" axis="1 0 0"/>
+						<TScale startscale="80 80 80" endscale="80 80 80"/>
+					</Transform>
+				</transforms>
+			</SkyFlowElement>
+		</BG>
+		<music>
+			<cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="2"/>
+			<cue name="BrTheme0401" beat="0" playmeas="0" loopmeas="8"/>
+			<cue name="BrTheme0402" beat="0" playmeas="4" loopmeas="8"/>
+			<cue name="BrHArpDualCombo" beat="0" playmeas="4" loopmeas="8"/>
+			<cue name="BrTrumpetCrazy" beat="0" playmeas="0" loopmeas="4"/>
+		</music>
+		<endmusic>
+			<cue name="BrTrumpetFinish" beat="0" playmeas="0" loopmeas="-1"/>
+		</endmusic>
+		<channel>
+			<cue beat="8" channel="1"/>
+			
+			<cue beat="0" channel="0" playmeas="1" loopmeas="4"/>
+			<cue beat="0" channel="0" playmeas="2" loopmeas="4"/>
+      <cue beat="4" channel="29" value="0.5"/>
+      <cue beat="8" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+
+			<PlayerView start="0 0 1" end="0 1 2" speed="0.5"/>
+
+			<Serpent numtails="64" spacing="0.15">
+				<paths loop="-1">
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<Serpent numtails="64" spacing="0.15">
+				<paths loop="-1">
+					<CopyList id="1">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<Serpent numtails="64" spacing="0.15" waittime="2">
+				<paths loop="-1">
+					<CopyList id="2">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<Serpent numtails="64" spacing="0.15">
+				<paths loop="-1">
+					<CopyList id="3">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Serpent>
+
+			<Copy copies="7">
+				<Surfer surfdir="0 -1 1" waitbeat="12">
+					<paths loop="-1">
+						<CopyList id="4">
+							<PLine start="0 0 0" end="0 0 -30" speed="0"/>
+						</CopyList>
+					</paths>
+				</Surfer>
+				<Surfer surfdir="0 -1 1">
+					<paths loop="-1">
+						<CopyList id="5">
+							<PLine start="0 0 0" end="0 0 -30" speed="0"/>
+						</CopyList>
+					</paths>
+				</Surfer>
+			</Copy>
+			
+			<Copy copies="4">
+				<Chand waitbeat="48">
+					<paths loop="-1">
+						<CopyList id="6">
+							<PLine start="15 -18.5 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Chand>
+				<Chand>
+					<paths loop="-1">
+						<CopyList id="6">
+							<PLine start="-15 -18.5 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Chand>
+				<Chand>
+					<paths loop="-1">
+						<CopyList id="6">
+							<PLine start="15 -9.75 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Chand>
+				<Chand>
+					<paths loop="-1">
+						<CopyList id="6">
+							<PLine start="-15 -9.75 0" end="1 0 0" speed="0"/>
+						</CopyList>
+					</paths>
+				</Chand>
+			</Copy>
+
+			<PlayerView start="0 1 2" end="0 0 1" speed="0.5" waittime="3"/>
+
+			<!-- end of zone -->
+			<FinishBox waittime="1" waitforenem="1">
+				<paths>
+					<PRefLine start = "0 -10 60" end="0 -10 61" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+
+			<Digit inv="true" waitbeat="12" waitforenem="1">
+				<paths>
+					<CopyList id="7">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Digit>
+		</enemies>
+	</zone>
+	<zone id="9" endtime="28" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PBezier pos0="0 60 -60" pos3="0 -120 120"
+						 speed="0.05"
+						 xamp="0.4" yamp="0.4" ydif="90"
+						 periods="12" up="0 1 0"/>
+			</path>
+		</paths>
+		<BG>
+		</BG>
+		<music>
+			<cue name="BrTheme04Drum" beat="0" playmeas="0" loopmeas="2"/>
+		</music>
+		<channel>
+			<cue beat="0" channel="0" playmeas="1" loopmeas="4"/>
+			<cue beat="0" channel="0" playmeas="2" loopmeas="4"/>
+      <cue beat="4" channel="29" value="0.5"/>
+      <cue beat="8" channel="29" value="0.4"/>
+		</channel>
+		<enemies>
+			<Pythagoras>
+				<paths>
+					<PRefLine start="0 0 40" end="0 0 41" speed="0" track="camera"/>
+				</paths>
+			</Pythagoras>
+			<GameplayChange command="fade" value="3" waitforenem ="1"/>
+			<GameplayChange command="quit" value="2" waitforenem ="1"/>
+		</enemies>
+	</zone>
+</level>

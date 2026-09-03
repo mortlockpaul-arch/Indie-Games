@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Left_Door_Zoom" navigator="false" hud_state="back" no_text_fade="true"/>
+  
+  <SetLocalState state="SlamDoor" value="0"/>
+  <SetLocalState state="ShowHand" value="0"/>
+  <SetLocalState state="Vibration" value="0"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom11/wood_door_zoom_closed" name="wood_door_zoom_closed" show="true"/>
+  <AddImage path="World/DreamRoom11/wood_door_zoom_open" name="wood_door_zoom_open" show="false"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom11/Animations/Left_Zoom_Butterfly/" images="1"
+               combinedFrames="true" width="154" height="143" frames="15"
+               frameSmoothing="false" size="1024" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom11/Animations/Left_Zoom_Butterfly/" name="butterfly_anim" dest_rect="470,372,154,143"/>
+  <Action type="AnimationInstance" name="butterfly_anim" action="Play" loop="ping_pong"/>
+  <Action type="AnimationInstance" name="butterfly_anim" action="show"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom11/Animations/Bag/" images="1"
+               combinedFrames="true" width="274" height="402" frames="19"
+               frameSmoothing="false" size="2048" fps="15"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom11/Animations/Bag/" name="bag_anim" dest_rect="578,136,274,402"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom11/Animations/Hand/" images="4"
+               combinedFrames="true" width="640" height="360" frames="49"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom11/Animations/Hand/" name="hand_anim" dest_rect="0,0,1280,720"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom11/Animations/Left_Zoom_Door/" images="1"
+               combinedFrames="true" width="640" height="360" frames="8"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom11/Animations/Left_Zoom_Door/" name="door_anim" dest_rect="0,0,1280,720"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom11/Sound/andning1" name="bag_sound1"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom11/Sound/andning2" name="bag_sound2"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom11/Sound/door_slam" name="door_slam"/>  
+  <Action type="CreateSoundInstance" path="Sound/locked_door" name="locked_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Left" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="740,380,790,510"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Left_Door_Zoom.onDoor"
+    activate_own="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="470,372,624,515"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Left_Door_Zoom.onButterfly"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Left_Door_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onReset">
+    <Action type="GameDataView" value="View1_Left"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom11.LeftDoorState" rule="==" type2="String" value2="2"/>
+      <True>
+        <Action type="AnimationInstance" name="bag_anim" action="show"/>
+        <DelayedEvent event="Left_Door_Zoom.onBagAnim1" delay="1000"/>
+        <DelayedEvent event="Left_Door_Zoom.onText1" delay="3000"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onText1">
+    <Action type="ShowText" text="Bag: Mother, is that you?" text_event="Left_Door_Zoom.onAsk1"/>
+  </Event>
+  
+  <!--Question 1 answer 1-->
+  <Event name="Left_Door_Zoom.onAsk1Answer1">
+    <DelayedEvent event="Left_Door_Zoom.onAsk1Answer1_Delay" delay="1000"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_Delay">
+    <Action type="ShowText" text="Bag: Oh ..." text_event="Left_Door_Zoom.onAsk1Answer1_1"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_1">
+    <Action type="ShowText" text="Bag: My mother said I shouldn't talk to strangers, but I like you." text_event="Left_Door_Zoom.onAsk1Answer1_2"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_2">
+    <Action type="ShowText" text="Bag: I wish she would come visit me." text_event="Left_Door_Zoom.onAsk1Answer1_3"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_3">
+    <Action type="ShowText" text="Bag: I haven't seen her in a long, long time." text_event="Left_Door_Zoom.onAsk1Answer1_4"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_4">
+    <Action type="ShowText" text="Bag: I don't like waiting ..." text_event="Left_Door_Zoom.onAsk1Answer1_5"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_5">
+    <Action type="ShowText" text="Bag: ... it's boring since I don't have much to do in here." text_event="Left_Door_Zoom.onAsk1Answer1_6"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_6">
+    <Action type="ShowText" text="Bag: I'm complaining too much." text_event="Left_Door_Zoom.onAsk1Answer1_7"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_7">
+    <Action type="ShowText" text="Bag: But I'm glad I got a visitor." text_event="Left_Door_Zoom.onAsk1Answer1_8"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_8">
+    <Action type="ShowText" text="Bag: I think I like you a lot." text_event="Left_Door_Zoom.onAsk1Answer1_9"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_9">
+    <Action type="ShowText" text="Bag: Oh well ... you'll continue your adventure now, won't you?" text_event="Left_Door_Zoom.onAsk1Answer1_10"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_10">
+    <Action type="ShowText" text="Bag: But we'll meet again. That's a promise." text_event="Left_Door_Zoom.onAsk1Answer1_11"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer1_11">
+    <DelayedEvent event="Left_Door_Zoom.onAsk2" delay="2000"/>
+  </Event>
+  
+  <!--Question 1 answer 2-->
+  <Event name="Left_Door_Zoom.onAsk1Answer2">
+    <DelayedEvent event="Left_Door_Zoom.onAsk1Answer2_2" delay="1000"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk1Answer2_2">
+    <Action type="ShowText" text="Bag: Liar!" text_event="Left_Door_Zoom.onSlamDoor"/>
+  </Event>
+  
+  <!--Question 1 answer 3-->
+  <Event name="Left_Door_Zoom.onAsk1Answer3">
+    <HandleEvent event="Left_Door_Zoom.onSlamDoor"/>
+  </Event>
+  
+  <!--Question 2 answer 1-->
+  <Event name="Left_Door_Zoom.onAsk2Answer1">
+    <HandleEvent event="Left_Door_Zoom.onSlamDoor"/>
+  </Event>
+  
+  <!--Question 2 answer 2-->
+  <Event name="Left_Door_Zoom.onAsk2Answer2">
+    <DelayedEvent event="Left_Door_Zoom.onAsk2Answer2_2" delay="1000"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onAsk2Answer2_2">
+    <Action type="ShowText" text="Bag: Your new best friend." text_event="Left_Door_Zoom.onShowHand"/>
+  </Event>
+  
+  <!--Question 2 answer 3-->
+  <Event name="Left_Door_Zoom.onAsk2Answer3">
+    <HandleEvent event="Left_Door_Zoom.onSlamDoor"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onShowHand">
+    <SetLocalState state="ShowHand" value="1"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onSlamDoor">
+    <SetLocalState state="SlamDoor" value="1"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onBagAnim1">
+    <Action type="AnimationInstance" name="bag_anim" reverse_anim="false" action="Play" finished_event="Left_Door_Zoom.onBagAnim2"/>
+    <SetLocalState state="BagSound" random_min="1" random_max="2"/>
+    <Case>
+      <Check type1="LocalState" value1="BagSound" rule="==" type2="Number" value2="1"/>
+      <True>
+        <Action type="SoundInstance" name="bag_sound1" volume="1,0" action="Play"/>
+      </True>
+      <False>
+        <Action type="SoundInstance" name="bag_sound2" volume="1,0" action="Play"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.ShowHand">
+    <Action type="AnimationInstance" name="hand_anim" action="show"/>
+    <HideImage name="wood_door_zoom_open"/>
+    <ShowImage name="wood_door_zoom_open"/>
+    <FadeOutImage name="wood_door_zoom_open"/>
+    <DelayedEvent event="Left_Door_Zoom.ShowHand2" delay="1000"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.ShowHand2">
+    <Action type="AnimationInstance" name="hand_anim" action="Play"/>
+    <DelayedEvent event="Left_Door_Zoom.ShowHand3" delay="1500"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.ShowHand3">
+    <Action type="SoundInstance" name="door_slam" volume="1,0" action="Play"/>
+    <DelayedEvent event="Left_Door_Zoom.onVibration1" delay="250"/>
+    <SetGlobalState state="DreamRoom11.LeftDoorState" value="3"/>
+    <HandleEvent event="View1_Left.HandleDoorState.3"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.SlamDoor">
+    <Action type="AnimationInstance" name="door_anim" action="show"/>
+    <Action type="AnimationInstance" name="door_anim" action="Play"/>
+    <Action type="SoundInstance" name="door_slam" volume="1,0" action="Play"/>
+    <DelayedEvent event="Left_Door_Zoom.onVibration1" delay="250"/>
+    <SetGlobalState state="DreamRoom11.LeftDoorState" value="3"/>
+    <HandleEvent event="View1_Left.HandleDoorState.3"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onBagAnim2">
+    <Action type="AnimationInstance" name="bag_anim" reverse_anim="true" action="Play" finished_event="Left_Door_Zoom.onBagAnim3"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onBagAnim3">
+    <Case>
+      <Check type1="LocalState" value1="SlamDoor" rule="==" type2="Number" value2="1"/>
+      <True>
+        <HandleEvent event="Left_Door_Zoom.SlamDoor"/>
+      </True>
+      <False>
+        <Case>
+          <Check type1="LocalState" value1="ShowHand" rule="==" type2="Number" value2="1"/>
+          <True>
+            <HandleEvent event="Left_Door_Zoom.ShowHand"/>
+          </True>
+          <False>
+            <DelayedEvent event="Left_Door_Zoom.onBagAnim1" min_delay="1500" max_delay="2000"/>
+          </False>
+        </Case>
+      </False>
+    </Case>
+    
+  </Event>
+  
+  <Event name="Left_Door_State.HandleDoorState.2">
+    <Action type="AnimationInstance" name="butterfly_anim" action="hide"/>
+    <ShowImage name="wood_door_zoom_open"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onDoor">
+    <Action type="SoundInstance" name="locked_sound" volume="0,5" action="Play"/>
+    <Action type="ShowText" text="It won't open."/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onButterfly">
+    <Action type="ShowText" text="A red butterfly. It's beautiful ..."/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onUpdate">
+    <HandleLocalState state="Vibration"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="bag_sound1" action="Pause"/>
+    <Action type="SoundInstance" name="bag_sound2" action="Pause"/>
+    <Action type="SoundInstance" name="door_slam" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="bag_sound1" action="Resume"/>
+    <Action type="SoundInstance" name="bag_sound2" action="Resume"/>
+    <Action type="SoundInstance" name="door_slam" action="Resume"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.HandleVibration.0">
+    <SetVibration value="0"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.HandleVibration.1">
+    <SetVibration value="1,0"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onVibration1">
+    <SetLocalState state="Vibration" value="1"/>
+    <DelayedEvent event="Left_Door_Zoom.onVibration2" delay="250"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom.onVibration2">
+    <SetLocalState state="Vibration" value="0"/>
+    <SetVibration value="0"/>
+    <DelayedEvent event="Left_Door_Zoom.onBack" delay="250"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom11.LeftDoorState" event="Left_Door_State.HandleDoorState"/>
+  
+</Script>

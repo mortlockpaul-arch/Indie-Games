@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Head_Zoom" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom10/head_zoom" name="head_zoom" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Puzzle" next_view="Puzzle" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="550,110,760,370"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Head_Zoom.onHead"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Head_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Head_Zoom.onReset">
+    <Action type="GameDataView" value="View1_Front"/>
+  </Event>
+  
+  <Event name="Head_Zoom.onHead">
+    <ShowAsk text="Examine?" ask1="Yes" ask_event1="Head_Zoom.onExamineHead" ask2="No" ask_event2=""/>
+  </Event>
+  
+  <Event name="Head_Zoom.onExamineHead">
+    <Action type="ActivateTrigger" name="Puzzle"/>
+  </Event>
+  
+</Script>

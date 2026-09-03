@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Left_Zoom"/>
+  <Navigator right="true" left="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom7/view2_bricks" name="view2_bricks" show="true"/>
+  <AddImage path="World/DreamRoom7/view2_nobricks" name="view2_nobricks" show="false"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Left" next_view="View1_Back" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="410,195,725,360"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Bricks_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="Left_Zoom.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="Left_Zoom.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="Left_Zoom.HandleWallBroken.1">
+    <HideImage name="view2_bricks"/>
+    <ShowImage name="view2_nobricks"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom7.WallBroken" event="Left_Zoom.HandleWallBroken"/>
+  
+</Script>

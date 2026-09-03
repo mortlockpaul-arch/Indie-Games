@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom11/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>View1_Left</View>
+  <View>Painting_Zoom</View>
+  <View>Table_Zoom</View>
+  <View>Left_Door_Zoom</View>
+  <View>Left_Door_Zoom2</View>
+  <View>Front_Door_Zoom</View>
+  
+  <ViewPath>XMLContent/World/DreamRoom4/Views/</ViewPath>
+  <View>Light_Sequence</View>
+  
+  <!--Events-->
+  <HandleEvent event="Light_Sequence.Setup.DreamRoom11"/>
+  
+  <PlayMusic value="1"/>
+  
+</Script>

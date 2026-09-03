@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Door_Room8"/>
+  <Navigator down="true" left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom5/zoom_door_room8" name="zoom_door_room8" show="true"/>
+  <AddImage path="World/DreamRoom5/zoom_door_room8_document_x1010y270" name="document" show="true" dest_rect="1010,270,84,127"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View3_Back" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="Zoom_Stairs" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="Zoom_Door_Room7" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="1010,270,1094,398"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Zoom_Door_Room8.Document1"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="480,90,705,630"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="Zoom_Door_Room8.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Zoom_Door_Room8.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room8.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room8.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room8.onDoor">
+    <Action type="ChangeArea" area="DreamRoom8" view="View1_Front" door_sound="true"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room8.Document1">
+    <Action type="ShowText" text="A list of names ... my name is at the bottom." text_event="Zoom_Door_Room8.Document2"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room8.Document2">
+    <Action type="AskPickup" item_id="Room5Document"/>
+  </Event>
+  
+  <Event name="Pickup.Room5Document">
+    <FadeOutImage name="document"/>
+    <RemoveTrigger name="Trigger01"/>
+    <Action type="SetState" id="DreamRoom5.Document" state="1"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room8.HandleDocument.1">
+    <HideImage name="document"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom5.Document" event="Zoom_Door_Room8.HandleDocument"/>
+  
+</Script>

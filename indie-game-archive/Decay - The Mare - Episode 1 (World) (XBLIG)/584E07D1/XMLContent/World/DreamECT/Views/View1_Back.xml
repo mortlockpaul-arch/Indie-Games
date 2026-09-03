@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/back" name="back" show="true"/>
+  <AddImage path="World/DreamECT/back2" name="back2" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="670,150,890,630"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Back.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="DreamECT.Flicker1">
+    <ShowImage name="back2"/>
+  </Event>
+  
+  <Event name="DreamECT.Flicker2">
+    <HideImage name="back2"/>
+  </Event>
+  
+  <Event name="View1_Back.onDoor">
+    <Case>
+      <Check type1="GlobalState" value1="Loading.Suicide" rule="==" type2="String" value2="1"/>
+      <True>
+        <SetGlobalState state="Loading.ForceSuicide" value="1"/>
+      </True>
+      <False/>
+    </Case>
+    
+    <Action type="ChangeArea" area="DreamMainRoom" view="View2_Back" door_sound="true"/>
+  </Event>
+  
+</Script>

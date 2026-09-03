@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Load content-->
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom3/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>Zoom_Chair</View>
+  
+  <PlayMusic value="1"/>
+  
+</Script>

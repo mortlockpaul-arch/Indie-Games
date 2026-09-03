@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Stairs_Zoom_Door" navigator="false" hud_state="back"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom1/zoom_door_floor_lamp_off" name="zoom_door_floor_lamp_off" show="true"/>
+  <AddImage path="World/DreamRoom1/zoom_door_floor_lamp_on" name="light" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="Stairs_Zoom" type="fade_out"/>
+
+  <!--Cursor triggers-->    
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="470,150,725,690"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="Stairs_Zoom_Door.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Stairs_Zoom_Door.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom.Flicker1">
+    <ShowImage name="light"/>
+  </Event>
+
+  <Event name="Stairs_Zoom.Flicker2">
+    <HideImage name="light"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom_Door.onDoor">
+    <Action type="ChangeArea" area="DreamRoom4" view="View1_Left" door_sound="true"/>
+  </Event>
+  
+</Script>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View2"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamMainRoom/view2" name="view2" show="true"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View2_Back" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="795,375,825,410"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="DreamMainRoom.onLockedDoor"
+    activate_own="true"/>
+
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="230,95,360,720"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View2.onECTDoor"
+    activate_own="true"/>
+	
+  <CursorTrigger
+    name="Trigger03"
+    collision="rect"
+    rect="830,250,865,300"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Zoom_Door1"
+    viewtrigger_type="fade_to_black"/>
+    
+  <CursorTrigger
+    name="Trigger04"
+    collision="rect"
+    rect="805,115,895,700"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Zoom_Door1"
+    viewtrigger_type="fade_to_black"
+    enabled="false"/>
+    
+  <!--Events-->
+  <Event name="View2.onDown">
+	<Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View2.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View2.onECTDoor">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleEvent event="DreamMainRoom.onLockedDoor"/>
+      </True>
+      <False>
+        <Action type="ChangeArea" area="DreamECT" view="View1_Front" door_sound="true"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="View2.HandleRoom4PuzzleCompleted.1">  
+    <RemoveTrigger name="Trigger01"/>
+    <RemoveTrigger name="Trigger03"/>
+    <EnableTrigger name="Trigger04"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom4.PuzzleCompleted" event="View2.HandleRoom4PuzzleCompleted"/>
+  
+</Script>

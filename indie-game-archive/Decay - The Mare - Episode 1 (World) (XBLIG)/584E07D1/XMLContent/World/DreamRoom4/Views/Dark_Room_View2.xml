@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Dark_Room_View2"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom4/dark_room_view2" name="dark_room_view2" show="true"/>
+  <AddImage path="World/DreamRoom4/dark_room_view2_coin_x877y308" name="coin" show="true" dest_rect="877,308,17,24"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="Dark_Room_View1" type="fade_out"/>
+  <ViewTrigger name="Trigger02" next_view="View1_Left" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="485,415,760,610"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Dark_Room_View2.onAskCrawl"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Trigger03"
+    collision="rect"
+    rect="877,308,894,332"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Dark_Room_View2.Coin"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Dark_Room_View2.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="Dark_Room_View2.onReset">
+    <UnblockInput/>
+  </Event>
+  
+  <Event name="Dark_Room_View2.onAskCrawl">
+    <ShowAsk text="Enter?" ask1="Yes" ask_event1="Dark_Room_View2.onCrawl" ask2="No" ask_event2=""/>
+  </Event>
+  
+  <Event name="Dark_Room_View2.onCrawl">
+    <BlockInput/>
+		<Action type="FadeOutHUD"/>
+    <SetHUDAlpha value="0"/>
+		<Action type="HideCursor"/>
+    <Action type="FadeToBlack" event="Dark_Room_View2.onCrawl2"/>
+  </Event>
+  
+  <Event name="Dark_Room_View2.onCrawl2">
+    <DelayedEvent event="Dark_Room_View2.onCrawl3" delay="1000"/>
+  </Event>
+  
+  <Event name="Dark_Room_View2.onCrawl3">
+    <HandleEvent event="Dark_Room_View1.HandleNoCrawl.1"/>
+    <Action type="ActivateTrigger" name="Trigger02"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onReset">
+    <Action type="FadeFromBlack"/>
+  </Event>
+  
+  <Event name="Dark_Room_View2.Coin">
+    <Action type="AskPickup" item_id="Coin"/>
+  </Event>
+
+  <Event name="Pickup.Coin">
+    <FadeOutImage name="coin"/>
+    <RemoveTrigger name="Trigger03"/>
+    <SetGlobalState state="DreamRoom4.Coin" value="1"/>
+  </Event>
+  
+  <Event name="Dark_Room_View2.HandleCoin.1">
+    <HideImage name="coin"/>
+    <RemoveTrigger name="Trigger03"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom4.Coin" event="Dark_Room_View2.HandleCoin"/>
+  
+</Script>

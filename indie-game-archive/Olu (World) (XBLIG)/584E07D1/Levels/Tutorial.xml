@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<level startzone="0" beat="16" tempo="164.926" basecol="0 0 0.2" spincol="0 0 0.6">
+	<zone id="0">
+		<paths>
+			<path id="0" loop="1">
+				<PRefLine start="0 10 150" end="0 -10 50" speed="35" track="camera"/>
+				<PRefLine start="0 -10 50" end="0 -10 40" speed="0.00001" track="camera"/>
+			</path>
+			<path id="1" loop="1">
+				<PRefLine start="0 10 150" end="0 -10 70" speed="35" track="camera"/>
+				<PRefLine start="0 -10 70" end="0 -10 60" speed="0.0001" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PRefLine start="0 -100 100" end="0 100 100" speed="30" track="camera"/>
+			</path>
+		</paths>
+		<BG>
+			<BackgroundElement model="Level01Background00" mode="11">
+				<paths loop = "0">
+					<PRefLine start="0 -15 0" end="0 -15 -40" speed="10" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="4 4 4" endscale="-4 4 4"/>
+					</Transform>
+					<Transform beatstart="0" beatend="16">
+						<TRotation startdeg="0" enddeg="90" axis="0 0 -1"/>
+						<TScale startscale="-4 -4 -4" endscale="-4 -4 -4"/>
+					</Transform>
+					<Transform beatstart="16" beatend="24">
+						<TScale startscale="-4 -4 -4" endscale="-4 -4 -4"/>
+						<TMove startpos="0 0 -35" endpos="0 0 -35"/>
+						<TRotation startdeg="90" enddeg="90" axis="0 0 -1"/>
+						<TRotation startdeg="0" enddeg="90" axis="0 1 0"/>
+						<TMove startpos="0 0 35" endpos="0 0 35"/>
+					</Transform>
+					<Transform beatstart="24" beatend="33">
+						<TScale startscale="-4 -4 -4" endscale="-4 -4 -4"/>
+						<TMove startpos="0 0 -35" endpos="0 0 -35"/>
+						<TRotation startdeg="90" enddeg="90" axis="0 0 -1"/>
+						<TRotation startdeg="90" enddeg="90" axis="0 1 0"/>
+						<TMove startpos="0 0 35" endpos="0 0 35"/>
+						<TMove startpos="0 0 0" endpos="0 0 -110"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background01x" mode="11">
+				<paths loop="0">
+					<PRefLine start="0 0 20" end="0 0 21" speed="0" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="24">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="24" beatend="33">
+						<TScale startscale="4 4 0" endscale="4 4 4"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+		</BG>
+		<music>
+			<cue beat="0" name="Kick01" />
+		</music>
+		<enemies>
+			<GameplayChange command="unfade" value="3"/>
+			<TextDisplay text="As a hacker,\nyou are armed with only two weapons:\n\nThe Vectors." waitforenem="1" length="5"/>
+			  <TextDisplay text="You straddle the boundary between the Analog and Digital world,\n\nand you possess both an Analog and Digital Vector." waitforenem="1" length="5"/>
+			  <TextDisplay text="The right trigger is the Analog Vector.\n\nThe left trigger is the Digital Vector." waitforenem="1" length="5"/>
+			<TextDisplay text="To fire:\n\nHold the trigger,\nTarget multiple enemies,\nThen release." waitforenem="1" length="5"/>
+			<Bird01 waitforenem="1">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01>
+				<paths>
+					<CopyList id="0">
+						<PLine start="-10 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01>
+				<paths>
+					<CopyList id="0">
+						<PLine start="-20 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01>
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<TextDisplay text="To get bigger combos, target more enemies at once." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="hit8">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-5 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-35 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="5 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="35 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>					
+				</enems>
+			</LoopEnemy>
+			<LoopEnemy waitforenem="1" mode="hit8">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<TextDisplay text="There are both Analog and Digital enemies." waitforenem="1" length="5"/>
+			<TextDisplay text="Analog enemies are darker with solid faces,\n\nDigital enemies are lighter with wireframe faces." waitforenem="1" length="5"/>
+			<TextDisplay text="Attack enemies with the OPPOSITE weapon to:\n\nDOUBLE the damage.\nINCREASE the score." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="hitoppw">
+				<paths />
+				<enems>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<LoopEnemy waitforenem="1" mode="hitopps">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<LoopEnemy waitforenem="1" mode="hitopp">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<TextDisplay text="As you hit more enemies, your overdrive bar for each Vector will start to fill." waitforenem="1" length="5"/>
+			<TextDisplay text="When each bar fills up, you will earn one overdrive for that Vector." waitforenem="1" length="5"/>
+			<GameplayChange command="fillWirePower" waitforenem="1"/>
+			<TextDisplay text="We have given you three overdrives for the Digital Vector." waitforenem="1" length="5"/>
+			<TextDisplay text="Press the Left Bumper to activate the MEGA DRIVE and hit many enemies at once." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="mega">
+				<paths />
+				<enems>
+					<Fish01Flock waitbeat="0" ripple="false" waitforenem="1" num="63" total="63" error="40" interval="1">
+						<paths>
+							<CopyList id="1">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01Flock>
+					<Fish01 waitforenem="1">
+						<paths>
+							<CopyList id="1">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01>
+				</enems>
+			</LoopEnemy>
+			<GameplayChange command="fillSolidPower" waitforenem="1" />
+			<TextDisplay text="We have given you three overdrives for the Analog Vector." waitforenem="1" length="5"/>
+			<TextDisplay text="Press the Right Bumper to activate the FREEZE DRIVE and freeze time for a moment." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="freeze">
+				<paths />
+				<enems>
+					<Fish01Flock waitbeat="0" ripple="false" waitforenem="1" num="63" total="63" error="40" interval="1" fill="wire">
+						<paths>
+							<CopyList id="2">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01Flock>
+					<Fish01 waitforenem="1" fill="wire">
+						<paths>
+							<CopyList id="2">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01>
+				</enems>
+			</LoopEnemy>
+			<TextDisplay text="At the end of each zone is a Routing Node." waitforenem="1" length="5"/>
+			<TextDisplay text="Destroy it to gain information and sink deeper into the network." waitforenem="1" length="5"/>
+			<FinishBox waitforenem="1">
+				<paths>
+					<PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+	<zone id="1">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="-60 15 120" end="-20 10 80" speed="30" track="camera"/>
+				<PRefLine start="-20 10 80" end="-20 10 40" speed="10" track="camera"/>
+				<PRefLine start="-20 10 40" end="-20 10 -100" speed="60" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="60 15 120" end="20 10 80" speed="30" track="camera"/>
+				<PRefLine start="20 10 80" end="20 10 40" speed="10" track="camera"/>
+				<PRefLine start="20 10 40" end="20 10 -100" speed="60" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PRefLine start="-20 -10 -20" end="-20 10 80" speed="30" track="camera"/>
+				<PRefLine start="-20 10 80" end="-120 0 80" speed="50" track="camera"/>
+			</path>
+			<path id="3" loop="-1">
+				<PRefLine start="20 -10 -20" end="20 10 80" speed="30" track="camera"/>
+				<PRefLine start="20 10 80" end="120 0 80" speed="50" track="camera"/>
+			</path>
+		</paths>
+		<music>
+			<cue beat="0" name="Kick01" />
+			<cue beat="0" name="HiHat01" />
+		</music>
+		<BG>
+			<BackgroundElement model="Level01Background01x2" mode="11">
+				<paths loop="0">
+					<PRefLine start="0 0 -20" end="0 0 -32" speed="20" track="camera"/>
+				</paths>
+				<transforms usepath="0">
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="4 4 4" endscale="4 4 4"/>
+					</Transform>
+					<Transform beatstart="0" beatend="16">
+						<TMove startpos="0 0 -20" endpos ="0 0 -41"/>
+					</Transform>
+					<Transform beatstart="16" beatend="33">
+						<TMove startpos="0 0 -41" endpos ="0 0 -41"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background02" mode="11" glow="true">
+				<paths>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="8">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="8" beatend="16">
+						<TScale startscale="16 16 0" endscale="16 16 0"/>
+						<TMove startpos="0 0 90" endpos ="0 0 0"/>
+					</Transform>
+					<Transform beatstart="16" beatend="33">
+						<TScale startscale="16 16 0" endscale="16 16 0"/>
+						<TMove startpos="0 0 0" endpos ="0 0 0"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+		</BG>
+		<enemies>
+			<TextDisplay text="Congratulations!  Now feel the pulse and dive in..." waitforenem="1" length="5"/>
+			<GameplayChange command="fade" value="5" waitforenem ="1"/>
+			<GameplayChange command="quit" waitforenem ="1"/>
+		</enemies>
+	</zone>
+</level>

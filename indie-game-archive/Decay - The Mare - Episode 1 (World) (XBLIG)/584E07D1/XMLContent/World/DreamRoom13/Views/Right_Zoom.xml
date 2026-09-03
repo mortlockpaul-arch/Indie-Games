@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Right_Zoom" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <SetLocalState state="ShowMare" value="0"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom13/view2_1" name="view2_1" show="true"/>
+  <AddImage path="World/DreamRoom13/view2_2" name="light" show="false"/>
+  <AddImage path="World/DreamRoom13/view2_3_x772y154" name="mare" show="false" dest_rect="772,154,73,163"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Zoom" next_view="Right_Zoom2" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="580,110,915,325"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Right_Zoom.onZoom"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Right_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+    <SetLocalState state="ShowMare" value="0"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onZoom">
+    <Action type="ActivateTrigger" name="Zoom"/>
+    <SetLocalState state="ShowMare" value="0"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom13.ShowMare" rule="!=" type2="String" value2="1"/>
+      <True>
+        <DelayedEvent event="Right_Zoom.InitMare" delay="2000"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom13.Flicker1">
+    <ShowImage name="light"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="ShowMare" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleEvent event="Right_Zoom.onShowMare"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="DreamRoom13.Flicker2">
+    <HideImage name="light"/>
+    <HideImage name="mare"/>
+  </Event>
+  
+  <Event name="Right_Zoom.InitMare">
+    <SetLocalState state="ShowMare" value="1"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onShowMare">
+    
+    <SetLocalState state="rnd" random_min="1" random_max="100"/>
+    <Trace local_state="rnd"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="rnd" rule="lower" type2="Number" value2="15"/>
+      <True>
+        <ShowImage name="mare"/>
+        <SetLocalState state="ShowMare" value="0"/>
+        <SetGlobalState state="DreamRoom13.ShowMare" value="1"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+</Script>

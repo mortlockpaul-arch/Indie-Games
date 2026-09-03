@@ -1,0 +1,29 @@
+<animation>
+  <name>AnimationSet0</name>
+	<tickspersecond>25.0</tickspersecond>
+  <animationsubset>
+    <name>rise</name>
+	  <startframe>1</startframe>
+	  <endframe>30</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>lowerarms</name>
+	  <startframe>31</startframe>
+	  <endframe>70</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>armsdown</name>
+	  <startframe>71</startframe>
+	  <endframe>71</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>raisearms</name>
+	  <startframe>81</startframe>
+	  <endframe>110</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>leave</name>
+	  <startframe>111</startframe>
+	  <endframe>150</endframe>
+  </animationsubset>
+</animation>

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>GKEngine</AssemblyName>
-	  <TargetFramework>net481</TargetFramework>
+	  <TargetFramework>net5.0-windows7.0</TargetFramework>
 	  <PlatformTarget>x86</PlatformTarget>
 	  <LangVersion>14.0</LangVersion>
 	  <AllowUnsafeBlocks>True</AllowUnsafeBlocks>

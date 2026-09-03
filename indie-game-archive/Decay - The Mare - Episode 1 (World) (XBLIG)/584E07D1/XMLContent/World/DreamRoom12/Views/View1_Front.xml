@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true" left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom12/view1" name="view1" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="View1_Left" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View1_Right" type="fade_out"/>
+  <ViewTrigger name="Door" next_view="View1_Front" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="545,200,735,605"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="DreamRoom12.onFrontDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Front.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Front.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Front.onReset">
+    <Action type="GameDataArea" value="DreamRoom11"/>
+    <Action type="GameDataView" value="Front_Door_Zoom"/>
+  </Event>
+  
+  <Event name="View1_Front.onDoor">
+    <Action type="ActivateTrigger" name="Door"/>
+    <PlayDoorSound/>
+  </Event>
+  
+</Script>

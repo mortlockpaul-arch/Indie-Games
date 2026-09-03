@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Teddy_Zoom" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom7/teddy_zoom" name="teddy_zoom" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="480,165,765,520"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Teddy_Zoom.onTeddy"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Teddy_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Teddy_Zoom.onTeddy">
+    <Action type="ShowText" text="A teddy bear ..."/>
+  </Event>
+  
+</Script>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Left"/>
+  <Navigator left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom4/left" name="left" show="true"/>
+  <AddImage path="World/DreamRoom4/left_document_x594y96" name="document" show="true" dest_rect="594,96,97,142"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/WhiteRoom/Animations/Noise/" images="1"
+               combinedFrames="true" width="640" height="360" frames="5"
+               frameSmoothing="false" size="2048" fps="25" random_mode="true"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/WhiteRoom/Animations/Noise/" name="noise_anim" dest_rect="0,0,1280,720"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/WhiteRoom/Animations/Gunshot/" images="1"
+               combinedFrames="true" width="640" height="360" frames="1"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/WhiteRoom/Animations/Gunshot/" name="chair_anim" dest_rect="0,0,1280,720"/>
+  
+  <LoadContent type="Sound" path="World/WhiteRoom/Sound/white_room_1"/>
+  <Action type="CreateSoundInstance" path="World/WhiteRoom/Sound/white_room_1" name="anim_sound"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Right" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="View1_Back" type="fade_out"/>
+
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="594,96,691,238"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="View1_Left.Document"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="565,275,710,385"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Hole_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View1_Left.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Left.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Left.onReset">
+    <UnblockInput/>
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.ShowWhiteRoom" rule="==" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="FadeOutHUD"/>
+        <SetHUDAlpha value="0"/>
+        <Action type="HideCursor"/>
+        <DelayedEvent event="View1_Left.ShowWhiteRoom1" delay="3000"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Left.Document">
+    <Action type="AskPickup" item_id="DreamRoom4Document"/>
+  </Event>
+  
+  <Event name="Pickup.DreamRoom4Document">
+    <FadeOutImage name="document"/>
+    <RemoveTrigger name="Trigger01"/>
+    <SetGlobalState state="DreamRoom4.Document" value="1"/>
+  </Event>
+  
+  <Event name="View1_Left.HandleDocument.1">
+    <HideImage name="document"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <Event name="View1_Left.ShowWhiteRoom1">
+    <Action type="AnimationInstance" name="noise_anim" action="show"/>
+    <Action type="AnimationInstance" name="noise_anim" action="play"/>
+    <Action type="SoundInstance" name="anim_sound" volume="1,0" action="Play"/>
+    <DelayedEvent event="View1_Left.ShowWhiteRoom2" delay="480"/>
+    <Action type="PauseMusic"/>
+  </Event>
+  
+  <Event name="View1_Left.ShowWhiteRoom2">
+    <Action type="AnimationInstance" name="noise_anim" action="hide"/>
+    <Action type="AnimationInstance" name="chair_anim" action="show"/>
+    <DelayedEvent event="View1_Left.ShowWhiteRoom3" delay="4400"/>
+  </Event>
+  
+  <Event name="View1_Left.ShowWhiteRoom3">
+    <Action type="AnimationInstance" name="chair_anim" action="hide"/>
+    <Action type="AnimationInstance" name="noise_anim" action="show"/>
+    <Action type="AnimationInstance" name="noise_anim" action="play"/>
+    <DelayedEvent event="View1_Left.ShowWhiteRoom4" delay="480"/>
+  </Event>
+  
+  <Event name="View1_Left.ShowWhiteRoom4">
+    <Action type="AnimationInstance" name="noise_anim" action="hide"/>
+    <UnblockInput/>
+    <Action type="ShowCursor"/>
+    <Action type="FadeInHUD"/>
+    <Action type="ResumeMusic"/>
+    <SetGlobalState state="DreamRoom4.ShowWhiteRoom" value=""/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="anim_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="anim_sound" action="Resume"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom4.Document" event="View1_Left.HandleDocument"/>
+  
+</Script>

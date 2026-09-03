@@ -1,0 +1,19 @@
+<animation>
+  <name>AnimationSet0</name>
+	<tickspersecond>25.0</tickspersecond>
+  <animationsubset>
+    <name>right</name>
+	  <startframe>1</startframe>
+	  <endframe>1</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>tilt</name>
+	  <startframe>1</startframe>
+	  <endframe>21</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>left</name>
+	  <startframe>21</startframe>
+	  <endframe>21</endframe>
+  </animationsubset>
+</animation>

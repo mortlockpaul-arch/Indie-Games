@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Right" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom9/zoom_door_room10" name="zoom_door_room10" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="400,0,850,720"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Right.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Right.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="View1_Right.onDoor">
+    <Action type="ChangeArea" area="DreamRoom10" view="View1_Front" door_sound="true"/>
+  </Event>
+  
+</Script>

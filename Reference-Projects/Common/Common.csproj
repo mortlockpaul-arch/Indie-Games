@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>Common</AssemblyName>
-	  <TargetFramework>net481</TargetFramework>
+	  <TargetFramework>net5.0-windows7.0</TargetFramework>
 	  <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
-	  <TargetFramework>net481</TargetFramework>
+	  <TargetFramework>net5.0-windows7.0</TargetFramework>
 	  <PlatformTarget>x86</PlatformTarget>
 	  <LangVersion>14.0</LangVersion>
 	  <AllowUnsafeBlocks>True</AllowUnsafeBlocks>

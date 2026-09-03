@@ -13,8 +13,8 @@
 		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
 		<PlatformTarget>x64</PlatformTarget>
 		<Platforms>x86;x64</Platforms>
-		<RootNameSpace>Decay - Part 1 (World) (XBLIG)</RootNameSpace>
-		<StartupObject>Decay - Part 1 (World) (XBLIG).Program</StartupObject>
+		<RootNameSpace>Game</RootNameSpace>
+		<StartupObject>Game.Program</StartupObject>
 		<ApplicationIcon>gamethumbnail.png</ApplicationIcon>
 	</PropertyGroup>
 	<ItemGroup>

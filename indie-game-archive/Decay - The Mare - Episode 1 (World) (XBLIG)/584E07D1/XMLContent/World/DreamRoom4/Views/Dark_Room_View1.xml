@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Dark_Room_View1"/>
+  <Navigator down="true"/>
+  
+  <SetLocalState state="Vibration" value="0"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom4/dark_room_view1" name="dark_room_view1" show="false"/>
+  <AddImage path="World/DreamRoom4/dark_room_view1_clearedpuzzle" name="dark_room_view1_clearedpuzzle" show="false"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom4/Animations/Crawl/" images="15"
+               combinedFrames="true" width="640" height="360" frames="212"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+			   
+  <Action type="CreateAnimationInstance" path="World/DreamRoom4/Animations/Crawl/" name="crawl_anim" dest_rect="0,0,1280,720"/>
+  <Action type="AnimationInstance" name="crawl_anim" action="show"/>
+  
+  <LoadContent type="Sound" path="World/DreamRoom4/Sound/crawl_sound"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom4/Sound/crawl_sound" name="crawl_sound"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="Dark_Room_View2" type="fade_out"/>
+  <ViewTrigger name="Puzzle" next_view="Puzzle" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="510,120,840,460"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="Dark_Room_View1.onClock1"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Dark_Room_View1.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onReset">
+    <HandleEvent event="Puzzle.ResetPuzzle"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.NoCrawl" rule="==" type2="String" value2="2"/>
+      <True>
+        <UnblockInput/>
+        <HandleEvent event="Dark_Room_View1.HandleNoCrawl.2"/>
+      </True>
+      <False>
+        <HandleEvent event="Dark_Room_View1.onCrawl"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onClock1">
+    <Action type="ShowText" text="This clock seems to be linked to something." text_event="Dark_Room_View1.onClock2"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onClock2">
+    <Action type="ShowText" text="If I adjust the hands, something might happen." text_event="Dark_Room_View1.onClock3"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onClock3">
+    <ShowAsk text="Adjust clock hands?" ask1="Yes" ask_event1="Dark_Room_View1.onClock4" ask2="No" ask_event2=""/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onClock4">
+    <Action type="FadeOutHUD"/>
+    <SetHUDAlpha value="0"/>
+    <Action type="ActivateTrigger" name="Puzzle"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onShortCrawl">
+    <Action type="AnimationInstance" name="crawl_anim" action="hide"/>
+    <Action type="AnimationInstance" name="crawl_anim" action="show"/>
+    <Action type="AnimationInstance" name="crawl_anim" action="set_end_frame" value="194"/>
+    <Action type="AnimationInstance" name="crawl_anim" action="play_from_frame" value="125" finished_event="Dark_Room_View1.onCrawlAnimFinished"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onCrawl">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.NoCrawl" rule="==" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="DisableInput"/>
+        <Action type="HideCursor"/>
+      </True>
+      <False>
+        <BlockInput/>
+        <Action type="DisableInput"/>
+        <Action type="HideCursor"/>
+        <Action type="AnimationInstance" name="crawl_anim" action="play" finished_event="Dark_Room_View1.onCrawlAnimFinished"/>
+        <Action type="SoundInstance" name="crawl_sound" volume="1,0" action="Play"/>
+        <DelayedEvent event="Dark_Room_View1.onVibration1" delay="1300"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onCrawlAnimFinished">
+    <UnblockInput/>
+		<Action type="EnableInput"/>
+		<Action type="FadeInHUD"/>
+		<Action type="ShowCursor"/>
+    
+    <HideImage name="dark_room_view1"/>
+    <ShowImage name="dark_room_view1_clearedpuzzle"/>
+    <FadeInImage name="dark_room_view1_clearedpuzzle"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <HideImage name="dark_room_view1"/>
+        <HideImage name="dark_room_view1_clearedpuzzle"/>
+        <ShowImage name="dark_room_view1_clearedpuzzle"/>
+        <FadeInImage name="dark_room_view1_clearedpuzzle"/>
+      </True>
+      <False>
+        <HideImage name="dark_room_view1"/>
+        <HideImage name="dark_room_view1_clearedpuzzle"/>
+        <ShowImage name="dark_room_view1"/>
+        <FadeInImage name="dark_room_view1"/>
+      </False>
+    </Case>
+    
+    <SetGlobalState state="DreamRoom4.NoCrawl" value="2"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.HandleNoCrawl.1">
+    <Action type="AnimationInstance" name="crawl_anim" action="show"/>
+    <Action type="AnimationInstance" name="crawl_anim" action="set_frame" value="125"/>
+    <HideImage name="dark_room_view1"/>
+    <SetGlobalState state="DreamRoom4.NoCrawl" value="1"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.HandleNoCrawl.2">
+    <Action type="AnimationInstance" name="crawl_anim" action="hide"/>
+    <ShowImage name="dark_room_view1"/>
+    <HandleState state="DreamRoom4.PuzzleCompleted" event="Dark_Room_View1.HandlePuzzleCompleted"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.HandlePuzzleCompleted.1">
+    <HideImage name="dark_room_view1"/>
+    <ShowImage name="dark_room_view1_clearedpuzzle"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onUpdate">
+    <HandleLocalState state="Vibration"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="crawl_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="crawl_sound" action="Resume"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.HandleVibration.0">
+    <SetVibration value="0"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.HandleVibration.1">
+    <SetVibration value="0,5"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.HandleVibration.2">
+    <SetVibration value="0,5"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onVibration1">
+    <SetLocalState state="Vibration" value="1"/>
+    <DelayedEvent event="Dark_Room_View1.onVibration2" delay="300"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onVibration2">
+    <SetLocalState state="Vibration" value="0"/>
+    <DelayedEvent event="Dark_Room_View1.onVibration3" delay="2000"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onVibration3">
+    <SetLocalState state="Vibration" value="1"/>
+    <DelayedEvent event="Dark_Room_View1.onVibration4" delay="300"/>
+  </Event>
+  
+  <Event name="Dark_Room_View1.onVibration4">
+    <SetLocalState state="Vibration" value="0"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom4.NoCrawl" event="Dark_Room_View1.HandleNoCrawl"/>
+  <HandleState state="DreamRoom4.PuzzleCompleted" event="Dark_Room_View1.HandlePuzzleCompleted"/>
+  
+</Script>

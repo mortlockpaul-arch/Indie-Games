@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom13/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>Table_Zoom</View>
+  <View>Table2_Zoom</View>
+  <View>Right_Zoom</View>
+  <View>Right_Zoom2</View>
+  
+  <ViewPath>XMLContent/World/DreamRoom4/Views/</ViewPath>
+  <View>Light_Sequence</View>
+  
+  <!--Events-->
+  <HandleEvent event="Light_Sequence.Setup.DreamRoom13"/>
+  
+  <DelayedEvent event="DreamRoom13.Flicker1" min_delay="10" max_delay="2000"/>
+  
+  <Event name="DreamRoom13.Flicker1">
+    <DelayedEvent event="DreamRoom13.Flicker2" min_delay="10" max_delay="2000"/>
+  </Event>
+  
+  <Event name="DreamRoom13.Flicker2">
+    <DelayedEvent event="DreamRoom13.Flicker1" min_delay="10" max_delay="2000"/>
+  </Event>
+  
+  <PlayMusic value="1"/>
+  
+</Script>

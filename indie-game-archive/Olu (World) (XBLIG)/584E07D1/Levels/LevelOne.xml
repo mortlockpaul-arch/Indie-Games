@@ -1,0 +1,3329 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<level startzone="0" beat="16" tempo="144" player="Player/LevelOne">
+	<zone id="0" muteend="true">
+		<paths>
+			<path id="0" loop="1">
+				<PRefLine start="0 10 150" end="0 -10 50" speed="35" track="camera"/>
+				<PRefLine start="0 -10 50" end="0 -10 40" speed="0.00001" track="camera"/>
+			</path>
+			<path id="1" loop="1">
+				<PRefLine start="0 10 150" end="0 -10 70" speed="35" track="camera"/>
+				<PRefLine start="0 -10 70" end="0 -10 60" speed="0.0001" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PRefLine start="0 -100 100" end="0 100 100" speed="30" track="camera"/>
+			</path>
+		</paths>
+		<BG>
+      <BackgroundElement model="Level01Background00" mode="11">
+				<paths loop = "0">
+				  <PRefLine start="0 -15 0" end="0 -15 -40" speed="10" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="4 4 4" endscale="-4 4 4"/>
+					</Transform>
+					<Transform beatstart="0" beatend="16">
+						<TRotation startdeg="0" enddeg="90" axis="0 0 -1"/>
+						<TScale startscale="-4 -4 -4" endscale="-4 -4 -4"/>
+					</Transform>
+					<Transform beatstart="16" beatend="24">
+						<TScale startscale="-4 -4 -4" endscale="-4 -4 -4"/>
+						<TMove startpos="0 0 -35" endpos="0 0 -35"/>
+						<TRotation startdeg="90" enddeg="90" axis="0 0 -1"/>
+						<TRotation startdeg="0" enddeg="90" axis="0 1 0"/>
+						<TMove startpos="0 0 35" endpos="0 0 35"/>
+					</Transform>
+					<Transform beatstart="24" beatend="33">
+						<TScale startscale="-4 -4 -4" endscale="-4 -4 -4"/>
+						<TMove startpos="0 0 -35" endpos="0 0 -35"/>
+						<TRotation startdeg="90" enddeg="90" axis="0 0 -1"/>
+						<TRotation startdeg="90" enddeg="90" axis="0 1 0"/>
+						<TMove startpos="0 0 35" endpos="0 0 35"/>
+						<TMove startpos="0 0 0" endpos="0 0 -110"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+      <BackgroundElement model="Level01Background01x" mode="11">
+				<paths loop="0">
+					<PRefLine start="0 0 20" end="0 0 21" speed="0" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="24">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="24" beatend="33">
+						<TScale startscale="4 4 0" endscale="4 4 4"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+		</BG>
+		<music>
+			<cue beat="0" name="BTPattern3" />
+		</music>
+		<endmusic>
+			<cue beat="0" name="BTPattern3" />
+		</endmusic>
+    <channel>
+      <cue beat="0" channel="29" value="0.3"/>
+    </channel>
+		<enemies>
+			<GameplayChange command="unfade" value="3"/>
+
+
+			<TextDisplay text="As a hacker,\nyou are armed with only two weapons:\n\nThe Vectors." waitforenem="1" length="5"/>
+			<TextDisplay text="You straddle the boundary between the Analog and Digital world,\n\nand you possess both an Analog and Digital Vector." waitforenem="1" length="5"/>
+			<TextDisplay text="The right trigger is the Analog Vector.\n\nThe left trigger is the Digital Vector." waitforenem="1" length="5"/>
+			<TextDisplay text="To fire:\n\nHold the trigger,\nTarget multiple enemies,\nThen release." waitforenem="1" length="5"/>
+			<Bird01 waitforenem="1">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01>
+				<paths>
+					<CopyList id="0">
+						<PLine start="-10 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01>
+				<paths>
+					<CopyList id="0">
+						<PLine start="-20 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01>
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<TextDisplay text="To get bigger combos, target more enemies at once." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="hit8">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-5 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-35 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="5 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="35 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<LoopEnemy waitforenem="1" mode="hit8">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<TextDisplay text="There are both Analog and Digital enemies." waitforenem="1" length="5"/>
+			<TextDisplay text="Analog enemies are darker with solid faces,\n\nDigital enemies are lighter with wireframe faces." waitforenem="1" length="5"/>
+			<TextDisplay text="Attack enemies with the OPPOSITE weapon to:\n\nDOUBLE the damage.\nINCREASE the score." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="hitoppw">
+				<paths />
+				<enems>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<LoopEnemy waitforenem="1" mode="hitopps">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<LoopEnemy waitforenem="1" mode="hitopp">
+				<paths />
+				<enems>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01>
+						<paths>
+							<CopyList id="0">
+								<PLine start="-15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 10 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="25 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+					<Bird01 fill="wire">
+						<paths>
+							<CopyList id="0">
+								<PLine start="15 0 0" end="1 0 0" speed="0"/>
+							</CopyList>
+						</paths>
+					</Bird01>
+				</enems>
+			</LoopEnemy>
+			<TextDisplay text="As you hit more enemies, your overdrive bar for each Vector will start to fill." waitforenem="1" length="5"/>
+			<TextDisplay text="When each bar fills up, you will earn one overdrive for that Vector." waitforenem="1" length="5"/>
+			<GameplayChange command="fillWirePower" waitforenem="1"/>
+			<TextDisplay text="You have been given three overdrives for the Digital Vector." waitforenem="1" length="5"/>
+			<TextDisplay text="Press the Left Bumper to activate the MEGA DRIVE and hit many enemies at once." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="mega">
+				<paths />
+				<enems>
+					<Fish01Flock waitbeat="0" ripple="false" waitforenem="1" num="63" total="63" error="40" interval="1">
+						<paths>
+							<CopyList id="1">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01Flock>
+					<Fish01 waitforenem="1">
+						<paths>
+							<CopyList id="1">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01>
+				</enems>
+			</LoopEnemy>
+			<GameplayChange command="fillSolidPower" waitforenem="1" />
+			<TextDisplay text="You have been given three overdrives for the Analog Vector." waitforenem="1" length="5"/>
+			<TextDisplay text="Press the Right Bumper to activate the FREEZE DRIVE and freeze time for a moment." waitforenem="1" length="5"/>
+			<LoopEnemy waitforenem="1" mode="freeze">
+				<paths />
+				<enems>
+					<Fish01Flock waitbeat="0" ripple="false" waitforenem="1" num="63" total="63" error="40" interval="1" fill="wire">
+						<paths>
+							<CopyList id="2">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01Flock>
+					<Fish01 waitforenem="1" fill="wire">
+						<paths>
+							<CopyList id="2">
+								<PLine start="0 0 0" end="0 0 1" speed="0"/>
+							</CopyList>
+						</paths>
+					</Fish01>
+				</enems>
+			</LoopEnemy>
+			<TextDisplay text="At the end of each zone is a Routing Node." waitforenem="1" length="5"/>
+			<TextDisplay text="Destroy it to gain information and sink deeper into the network." waitforenem="1" length="5"/>
+			<FinishBox waitforenem="1">
+				<paths>
+					<PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+			
+		</enemies>
+	</zone>
+	<zone id="1" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="-60 15 120" end="-20 10 80" speed="30" track="camera"/>
+				<PRefLine start="-20 10 80" end="-20 10 40" speed="10" track="camera"/>
+				<PRefLine start="-20 10 40" end="-20 10 -100" speed="60" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="60 15 120" end="20 10 80" speed="30" track="camera"/>
+				<PRefLine start="20 10 80" end="20 10 40" speed="10" track="camera"/>
+				<PRefLine start="20 10 40" end="20 10 -100" speed="60" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PRefLine start="-20 -10 -20" end="-20 10 80" speed="30" track="camera"/>
+				<PRefLine start="-20 10 80" end="-120 0 80" speed="50" track="camera"/>
+					 </path>
+			<path id="3" loop="-1">
+				<PRefLine start="20 -10 -20" end="20 10 80" speed="30" track="camera"/>
+				<PRefLine start="20 10 80" end="120 0 80" speed="50" track="camera"/>
+			</path>
+		</paths>
+		<music>
+			<cue beat="0" name="BTPattern3" />
+			<cue beat="0" name="BTPattern2" />
+			<cue beat="0" name="BTPattern1" playmeas="0" loopmeas ="4" />
+		</music>
+		<endmusic>
+			<cue beat="0" name="BTPattern2" />
+			<cue beat="0" name="BTPattern3" />
+			<cue beat="0" name="BTPattern5" />
+		</endmusic>
+    <channel>
+      <cue beat="0" channel="29" value="0.4"/>
+    </channel>
+		<BG>
+      <BackgroundElement model="Level01Background01x2" mode="11">
+				<paths loop="0">
+					<PRefLine start="0 0 -20" end="0 0 -32" speed="20" track="camera"/>
+				</paths>
+				<transforms usepath="0">
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="4 4 4" endscale="4 4 4"/>
+					</Transform>
+          <Transform beatstart="0" beatend="16">
+            <TMove startpos="0 0 -20" endpos ="0 0 -41"/>
+          </Transform>
+          <Transform beatstart="16" beatend="33">
+            <TMove startpos="0 0 -41" endpos ="0 0 -41"/>
+          </Transform>
+				</transforms>
+			</BackgroundElement>
+      <BackgroundElement model="Level01Background02" mode="11" glow="true">
+        <paths>
+        </paths>
+        <transforms>
+          <Transform beatstart="-1" beatend="8">
+            <TScale startscale="0 0 0" endscale="0 0 0"/>
+          </Transform>
+          <Transform beatstart="8" beatend="16">
+            <TScale startscale="16 16 0" endscale="16 16 0"/>
+            <TMove startpos="0 0 90" endpos ="0 0 0"/>
+          </Transform>
+          <Transform beatstart="16" beatend="33">
+            <TScale startscale="16 16 0" endscale="16 16 0"/>
+            <TMove startpos="0 0 0" endpos ="0 0 0"/>
+          </Transform>
+        </transforms>
+	  </BackgroundElement>
+		</BG>
+		<player>
+			<PAbstractSet>
+				<PAbstract beat="0" pos="0 0 0" dir="0 0 1" up="0 1 0"/>
+				<PAbstract beat="16" pos="0 0 0" dir="0.3122 0 0.95" up="0 1 0"/>
+				<PAbstract beat="24" pos="0 -20 25" dir="0 1 0" up="0 0 -1"/>
+				<PAbstract beat="33" pos="0 -60 25" dir="0 1 0" up="0 0 -1"/>
+			</PAbstractSet>
+		</player>
+		<enemies>
+      
+			<CondEnemy mode="tutorial">
+				<paths />
+				<enems>
+					<TextDisplay text="Congratulations!  Now feel the pulse and dive in..." waitforenem="1" length="5"/>
+					<GameplayChange command="clearscore" />
+				</enems>
+			</CondEnemy>
+
+			<CondEnemy mode="nottutorial">
+				<paths />
+				<enems>
+          <TextDisplay2 text="*list directory contents\neccr_22100203\neccr_22100204\neccr_22100205\neccr_22100206\neccr_22100207\neccr_22100208\neccr_22100209\neccr_22100210\neccr_22100211\neccr_22100212\neccr_22100213\nRESTRICTED_ACCESS\neccr_22100214\neccr_22100215\n^BREAK SEQ\n*read RESTRICTED_ACCESS\nERROR ERROR ERROR ERROR\nERROR ERROR ERROR ERROR\nERROR ERROR ERROR ERROR\nDEPLOYING SECURITY\n*activate v_analog\nAnalog Vector enabled\n*activate v_digital\nDigital Vector enabled\n*analyze A000:00:00.000000AA" length="5" waitforenem="1"/>
+				</enems>
+			</CondEnemy>
+      <CondEnemy mode="nottutorial" waitforenem="1">
+        <paths />
+        <enems>
+          <GameplayChange command="unfade" value="3"/>
+        </enems>
+      </CondEnemy>
+			
+      <!-- Wave 1 -->
+			<ECube waittime="2" waitforenem = "1">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="0">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+
+			<!-- Wave 2 -->
+			<ECube waittime="2" waitforenem="1">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 -10 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="0">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 -10 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			
+			<!-- Wave 3 (right side forward) -->
+			<ECube waittime="2" waitforenem="1">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="1">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="1">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="1">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+
+			<!-- Wave 4 (left side forward) -->
+			<ECube waittime="2" waitforenem="1">
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="1">
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="1">
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+			<ECube waittime="1">
+				<paths>
+					<CopyList id="3">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</ECube>
+      
+      <!-- end of zone -->
+      <FinishBox waittime="1" waitforenem="1" fill="wire">
+        <paths>
+          <PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+        </paths>
+      </FinishBox>
+
+		</enemies>
+	   </zone>
+	<zone id="2" endtime="64" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="-30 20 -20" end="-30 20 80" speed="40" track="camera"/>
+				<PRefLine start="-30 20 80" end="-15 20 90" speed="25" track="camera"/>
+				<PRefLine start="-15 20 90" end="-10 20 80" speed="20" track="camera"/>
+				<PRefLine start="-10 20 80" end="30 -20 -120"  speed="30" track="camera"/>
+			</path>
+      <path id="1" loop="-1">
+        <PRefLine start="30 20 -20" end="30 20 80" speed="40" track="camera"/>
+        <PRefLine start="30 20 80" end="15 20 90" speed="25" track="camera"/>
+        <PRefLine start="15 20 90" end="10 20 80" speed="20" track="camera"/>
+        <PRefLine start="10 20 80" end="-30 -20 -120"  speed="30" track="camera"/>
+      </path>
+		</paths>
+		<music>
+			<cue beat="0" name="BTPattern5" />
+			<cue beat="0" name="BTPattern2" />
+			<cue beat="0" name="BTPattern3" />
+			<cue beat="0" name="BTPattern4"/>
+			<cue beat="0" name="BTPattern1" playmeas="0" loopmeas ="4" />
+		</music>
+		<endmusic>
+			<cue beat="0" name="BTPattern5" />
+			<cue beat="0" name="BTPattern2" />
+			<cue beat="0" name="BTPattern3" />
+			<cue beat="0" name="BTPattern4" />
+			<cue beat="0" name="BTPattern1" playmeas="0" loopmeas ="4" />
+		</endmusic>
+    <channel>
+      <cue beat="0" channel="29" value="0.45"/>
+      <cue beat="8" channel="29" value="0.4"/>
+    </channel>
+		<BG>
+        <BackgroundElement model="Level01Background03" mode="11" glow="true">
+          <paths loop="0">
+            <PRefLine start="0 -25 0" end="0 -25 -32" speed="20" track="camera"/>
+          </paths>
+          <transforms>
+            <Transform beatstart="-1" beatend="-1">
+              <TScale startscale="16 0 16" endscale="16 0 16"/>
+            </Transform>
+			  <Transform beatstart="0" beatend="0">
+				  <TScale startscale="0 0 0" endscale="0 0 0"/>
+			  </Transform>
+          </transforms>
+        </BackgroundElement>
+      <BackgroundElement model="Level01Background05" mode="11">
+        <paths loop="0">
+          <!--<PRefLine start="0 -25 0" end="0 -25 -32" speed="20" track="camera"/>-->
+        </paths>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="0 0 0" endscale="0 0 0"/>
+          </Transform>
+          <Transform beatstart="0" beatend="32">
+            <TMove startpos="0 -25 0" endpos ="0 -25 0"/>
+			  <TScale startscale="-128 0 -128" endscale="-128 80 -128"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+			<BackgroundElement model="Level01Background0502" mode="11" glow="true">
+				<paths loop="0">
+					<!--<PRefLine start="0 -25 0" end="0 -25 -32" speed="20" track="camera"/>-->
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="0" beatend="32">
+						<TMove startpos="0 -25 0" endpos ="0 -25 0"/>
+						<TScale startscale="-128 0 -128" endscale="-128 128 -128"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background04Line01" mode="11">
+        <paths loop="0">
+          <PRefLine start="-30 -25 200" end="-30 -25 0" speed="20" track="camera"/>
+        </paths>
+        <effects>
+          <ShineEffect shinepos="0 1.2 0" shinevel="0 -0.7 0" shinedist="0.7" length="7" loop="true"/>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="32">
+            <TScale startscale="100 100 100" endscale="100 100 100"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background04Line02" mode="11">
+        <paths loop="0">
+          <PRefLine start="20 15 200" end="20 15 0" speed="20" track="camera"/>
+        </paths>
+        <effects>
+          <ShineEffect shinepos="0 1 0" shinevel="0 -0.7 0" shinedist="0.7" length="5" loop="true"/>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="32">
+            <TScale startscale="100 100 100" endscale="100 100 100"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background04Line03" mode="11">
+        <paths loop="0">
+          <PRefLine start="-40 15 200" end="-40 15 0" speed="20" track="camera"/>
+        </paths>
+        <effects>
+          <ShineEffect shinepos="0 2 0" shinevel="0 -0.8 0" shinedist="0.7" length="6" loop="true"/>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="32">
+            <TScale startscale="100 100 100" endscale="100 100 100"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background04Line04" mode="11">
+        <paths loop="0">
+          <PRefLine start="5 25 200" end="5 25 0" speed="20" track="camera"/>
+        </paths>
+        <effects>
+          <ShineEffect shinepos="0 1 0" shinevel="0 -0.75 0" shinedist="0.7" length="4" loop="true"/>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="32">
+            <TScale startscale="100 100 100" endscale="100 100 100"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+		</BG>
+		<player>
+			<PAbstractSet>
+				<PAbstract beat="0" pos="0 0 200" dir="0 0 1" up="0 1 0"/>
+				<PAbstract beat="32" pos="0 0 332.8" dir="0 0 1" up="0 1 0"/>
+				<PAbstract beat="40" pos="-153.6 0 396.8" dir="-1 0 0" up="0 1 0"/>
+				<PAbstract beat="64" pos="-385.2 0 435.2" dir="-1 0 0" up="0 1 0"/>
+				<!--<PAbstract beat="64" pos="-435.2 0 435.2" dir="1 0 0" up="0 1 0"/>-->
+			</PAbstractSet>
+		</player>
+		<enemies>
+			<!-- Wave 1 -->
+			<Bird01 waitbeat="32" fill="wire" waitforenem="1">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Copy copies="3">
+				<Bird01 waitbeat="8" fill="wire">
+					<paths>
+						<CopyList id="0">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+			</Copy>
+			<Copy copies="4">
+				<Bird01 waitbeat="2" fill="wire">
+					<paths>
+						<CopyList id="0">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+			</Copy>
+			
+			<!-- Wave 2 -->
+			<Bird01 waitbeat="32" waitforenem="1">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Copy copies="3">
+				<Bird01 waitbeat="8">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+			</Copy>
+			<Copy copies="4">
+				<Bird01 waitbeat="2">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+			</Copy>
+			
+			<!-- Wave 3 -->
+			<Bird01 waitbeat="32" waitforene="1">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01 waitbeat="4">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 10" speed="0"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			
+			<Copy copies="5">
+				<Bird01 waitbeat="4">
+					<paths>
+						<CopyList id="0">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+				<Bird01 waitbeat="4">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+			</Copy>
+			<Copy copies="4">
+				<Bird01 waitbeat="1">
+					<paths>
+						<CopyList id="0">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+				<Bird01 waitbeat="1">
+					<paths>
+						<CopyList id="1">
+							<PLine start="0 0 0" end="0 0 10" speed="0"/>
+						</CopyList>
+					</paths>
+				</Bird01>
+			</Copy>
+			
+			<!-- end of zone -->
+			<FinishBox waitbeat="32">
+				<paths>
+					<PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+				</paths>
+			</FinishBox>
+		</enemies>
+	</zone>
+  <zone id="3" endtime="128" muteend="true">
+    <paths>
+      <path id="0" loop="-1">
+        <PRefLine start = "0 0 150" end="0 0 -140" speed="25" track="camera"/>
+      </path>
+      <path id="1" loop="-1">
+        <PRefLine start="50 0 -100" end="50 0 150" speed ="25" track="camera"/>
+      </path>
+		<path id="2" loop="-1">
+			<PRefLine start="-50 0 150" end="-50 0 -100" speed="25" track="camera"/>
+		</path>
+		<path id="3" loop="-1">
+			<PRefLine start="0 0 150" end="0 0 -100" speed="25" track="camera"/>
+		</path>
+		<path id="4" loop="-1">
+			<PRefLine start="0 0 175" end="0 0 -75" speed="25" track="camera"/>
+		</path>
+    </paths>
+    <music>
+			<cue beat="0" name="BTPattern5" />
+		<cue beat="0" name="BTPattern3" />
+		
+		<cue beat="0" name="BTPattern4" playmeas="0" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="1" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="2" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="3" loopmeas ="32" />
+		<cue beat="0" name="BTPattern7" playmeas="0" loopmeas ="32" />
+		<cue beat="0" name="BTPattern7" playmeas="2" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="8" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="9" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="10" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="11" loopmeas ="32" />
+		<cue beat="0" name="BTPattern7" playmeas="8" loopmeas ="32" />
+		<cue beat="0" name="BTPattern7" playmeas="10" loopmeas ="32" />
+
+		<cue beat="0" name="BTPattern8" playmeas="4" loopmeas ="32" />
+		<cue beat="0" name="BTPattern8" playmeas="6" loopmeas ="32" />
+		<cue beat="0" name="BTPattern14" playmeas="4" loopmeas ="32" />
+		<cue beat="0" name="BTPattern14" playmeas="6" loopmeas ="32" />
+		<cue beat="0" name="BTPattern8" playmeas="12" loopmeas ="32" />
+		<cue beat="0" name="BTPattern8" playmeas="14" loopmeas ="32" />
+		<cue beat="0" name="BTPattern14" playmeas="12" loopmeas ="32" />
+		<cue beat="0" name="BTPattern14" playmeas="14" loopmeas ="32" />
+
+
+		<cue beat="0" name="BTPattern4" playmeas="16" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="17" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="18" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="19" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="20" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="21" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="22" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="23" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="24" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="25" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="26" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="27" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="28" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="29" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="30" loopmeas ="32" />
+		<cue beat="0" name="BTPattern4" playmeas="31" loopmeas ="32" />
+		
+		<cue beat="0" name="BTPattern10" playmeas="16" loopmeas ="32" />
+		<cue beat="0" name="BTPattern11" playmeas="18" loopmeas ="32" />
+		<cue beat="0" name="BTPattern10" playmeas="20" loopmeas ="32" />
+		<cue beat="0" name="BTPattern12" playmeas="22" loopmeas ="32" />
+		<cue beat="0" name="BTPattern10" playmeas="24" loopmeas ="32" />
+		<cue beat="0" name="BTPattern11" playmeas="26" loopmeas ="32" />
+		<cue beat="0" name="BTPattern10" playmeas="28" loopmeas ="32" />
+		<cue beat="0" name="BTPattern12" playmeas="30" loopmeas ="32" />
+	</music>
+	  <endmusic>
+		  <cue beat="0" name="BTPattern10" playmeas="0" loopmeas ="-1" />
+		  <cue beat="0" name="BTPattern11" playmeas="2" loopmeas ="-1" />
+		  <cue beat="0" name="BTPattern10" playmeas="4" loopmeas ="-1" />
+		  <cue beat="0" name="BTPattern12" playmeas="6" loopmeas ="-1" />
+		  
+		  <cue beat="0" name="BTPattern17" playmeas="6" loopmeas ="-1" />
+		  
+		  <cue beat="0" name="BTPattern3" />
+		  <cue beat="0" name="BTPattern5" />
+	  </endmusic>
+    <channel>
+      <cue beat="0" channel="29" value="0.55"/>
+      <cue beat="8" channel="29" value="0.5"/>
+    </channel>
+    <BG>
+		<BackgroundElement model="Level01Background0601" mode="11">
+			<paths loop="0">
+				<PRefLine start="0 -30 0" end="0 -30 -448" speed="40" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="-128 80 -128" endscale="-128 80 -128"/>
+				</Transform>
+				<Transform beatstart="0" beatend="128">
+					<TScale startscale="0 0 0" endscale="0 0 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background0602" mode="11" glow="true">
+			<paths loop="0">
+				<PRefLine start="0 -30 0" end="0 -30 -409.6" speed="40" track="camera"/>
+			</paths>
+			<transforms usepath="0">
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="-128 128 -128" endscale="-128 128 -128"/>
+				</Transform>
+				<Transform beatstart="0" beatend="64">
+					<TMove startpos = "0 0 0" endpos="0 0 -400"/>
+					<TScale startscale="-128 128 -128" endscale="-128 128 -128"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background0701" mode="11" glow="false">
+			<paths loop="0">
+				<PRefLine start="0 -30 0" end="0 -30 -448" speed="40" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="0 0 0" endscale="0 0 0"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TMove startpos="0 -15 0" endpos="0 -15 0"/>
+					<TRotation startdeg="0" enddeg="90" axis="0 0 1"/>
+					<TMove startpos="0 15 0" endpos="0 15 0"/>
+					<TScale startscale="-128 80 -128" endscale="-128 80 -128"/>
+				</Transform>
+				<Transform beatstart="64" beatend="128">
+					<TMove startpos="0 -15 0" endpos="0 -15 750"/>
+					<TRotation startdeg="90" enddeg="90" axis="0 0 1"/>
+					<TMove startpos="0 15 0" endpos="0 15 0"/>
+					<TScale startscale="-128 80 -128" endscale="-128 80 -128"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background0702" mode="11" glow="false">
+			<paths loop="0">
+				<PRefLine start="0 -30 0" end="0 -30 -448" speed="40" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="0 0 0" endscale="0 0 0"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TMove startpos="0 -15 0" endpos="0 -15 0"/>
+					<TRotation startdeg="0" enddeg="90" axis="0 0 -1"/>
+					<TMove startpos="0 15 0" endpos="0 15 0"/>
+					<TScale startscale="-128 80 -128" endscale="-128 80 -128"/>
+				</Transform>
+				<Transform beatstart="64" beatend="128">
+					<TMove startpos="0 -15 0" endpos="0 -15 750"/>
+					<TRotation startdeg="90" enddeg="90" axis="0 0 -1"/>
+					<TMove startpos="0 15 0" endpos="0 15 0"/>
+					<TScale startscale="-128 80 -128" endscale="-128 80 -128"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background0703" mode="10">
+			<paths loop="0">
+				<PRefLine start="0 220 550" end="0 -250 550" speed="50" track="camera"/>
+					 </paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="32">
+					<TScale startscale="0 0 0" endscale="0 0 0"/>
+							</Transform>
+				<Transform beatstart="32" beatend="128">
+					<TScale startscale="-64 150 -32" endscale="-64 150 -32"/>
+				</Transform>
+					 </transforms>
+			  </BackgroundElement>
+		<BackgroundElement model="Level01Background0704" mode="10">
+			<paths loop="-1">
+				<PRefLine start="0 -225 850" end="0 -226 850" speed="0" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="32">
+					<TScale startscale="0 0 0" endscale="0 0 0"/>
+				</Transform>
+				<Transform beatstart="32" beatend="128">
+					<TScale startscale="-64 100 -32" endscale="-64 100 -32"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+	</BG>
+	  <player>
+		  <PAbstractSet>
+			  <PAbstract beat="0" pos="0 0 0" dir="0 0 1" up="0 1 0"/>
+			  <PAbstract beat="32" pos="0 0 0" dir="0 0 1" up="0 1 0"/>
+			  <PAbstract beat="64" pos="0 0 300" dir="0 0 1" up="0 1 0"/>
+			  <PAbstract beat="128" pos="0 -250 800" dir="0 0 1" up="0 1 0"/>
+		  </PAbstractSet>
+	  </player>
+    <enemies>
+		
+		<!-- Wave 1 -->
+      <ECube waitbeat="16">
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 0 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>        
+      </ECube>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 30 0" end="0 30 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="-30 0 0" end="-30 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 -30 0" end="0 -30 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="30 0 0" end="30 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+		
+		
+	<!-- Wave 2 -->
+      <ECube waitbeat="18"  waitforenem="1">
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 0 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PCircle center="0 0 0" radius="30" speed="0.9" loop="true" startrad="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PCircle center="0 0 0" radius="30" speed="0.9" loop="true" startrad="90"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PCircle center="0 0 0" radius="30" speed="0.9" loop="true" startrad="180"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PCircle center="0 0 0" radius="30" speed="0.9" loop="true" startrad="270"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+	  
+	  <!-- Wave 3 -->
+      <ECube waitbeat="8" waitforenem="1">
+        <paths>
+          <CopyList id="0">
+            <PLine start="20 0 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <ECube>
+        <paths>
+          <CopyList id="0">
+            <PLine start="-20 0 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <ECube>
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 -20 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <ECube>
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 20 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+		
+	<!-- Wave 4 -->
+      <ECube waitbeat="32" waitforenem="1">
+        <paths>
+          <CopyList id="0">
+            <PLine start="20 -10 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="20 0 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+		
+      <ECube waitbeat="16">
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 15 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="10 15 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+		
+      <ECube waitbeat="16">
+        <paths>
+          <CopyList id="0">
+            <PLine start="-10 -20 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="-10 -10 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+		
+      <ECube waitbeat="16">
+        <paths>
+          <CopyList id="0">
+            <PLine start="15 15 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </ECube>
+      <Bird01 fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="15 25 0" end="0 0 10" speed="0"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+	
+	<!-- Wave 5 -->
+      <Bird01 waitbeat="8" waitforenem="1">
+        <paths>
+          <CopyList id="1">
+            <PCircle center="0 0 0" radius="10" speed="1.5" loop="true"/>
+          </CopyList>
+        </paths>
+      </Bird01>
+		<Copy copies="11">
+		  <Bird01 waitbeat="4">
+			<paths>
+			  <CopyList id="1">
+				<PCircle center="0 0 0" radius="10" speed="1.5" loop="true"/>
+			  </CopyList>
+			</paths>
+		  </Bird01>
+		</Copy>
+
+		<!-- Wave 6 -->
+		<Bird01 waitbeat="8" waitforenem="1" fill="wire">
+			<paths>
+				<CopyList id="2">
+					<PCircle center="0 0 0" radius="10" speed="1.5" loop="true"/>
+				</CopyList>
+			</paths>
+		</Bird01>
+		<Copy copies="11">
+			<Bird01 waitbeat="4"  fill="wire">
+				<paths>
+					<CopyList id="2">
+						<PCircle center="0 0 0" radius="10" speed="1.5" loop="true"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+		</Copy>
+		
+		<!-- Wave 7 -->
+		<Bird01 waitbeat="8" waitforenem="1">
+			<paths>
+				<CopyList id="3">
+					<PCircle center="0 0 0" radius="20" speed="1.5" loop="true"/>
+				</CopyList>
+			</paths>
+		</Bird01>
+		<Bird01 waitbeat="0">
+			<paths>
+				<CopyList id="4">
+					<PCircle center="0 0 0" radius="20" speed="1.5" loop="true"/>
+				</CopyList>
+			</paths>
+		</Bird01>
+		<Bird01 waitbeat="0">
+			<paths>
+				<CopyList id="3">
+					<PCircle center="0 0 0" radius="10" speed="1.5" loop="true"/>
+				</CopyList>
+			</paths>
+		</Bird01>
+		<Copy copies="15">
+			<Bird01 waitbeat="2">
+				<paths>
+					<CopyList id="3">
+						<PCircle center="0 0 0" radius="20" speed="1.5" loop="true"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01 waitbeat="0">
+				<paths>
+					<CopyList id="4">
+						<PCircle center="0 0 0" radius="20" speed="1.5" loop="true"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+			<Bird01 waitbeat="0">
+				<paths>
+					<CopyList id="3">
+						<PCircle center="0 0 0" radius="10" speed="1.5" loop="true"/>
+					</CopyList>
+				</paths>
+			</Bird01>
+		</Copy>
+
+      <!-- end of zone -->
+      <FinishBox waitbeat="3">
+        <paths>
+          <PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+        </paths>
+      </FinishBox>
+	</enemies>
+  </zone>
+	<zone id="4" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="0 -15 55" end="0 35 54" speed="100" track="camera"/>
+				<PRefLine start="0 35 54" end="0 2 45" speed="60" track="camera"/>
+				<PRefLine start="0 2 45" end="0 2 35" speed="40" track="camera"/>
+				<PRefLine start="0 2 35" end="0 2 -80" speed="30" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="-45 -15 65" end="-30 35 64" speed="100" track="camera"/>
+				<PRefLine start="-30 35 64" end="0 20 50" speed="50" track="camera"/>
+				<PRefLine start="0 20 50" end="20 5 20" speed="40" track="camera"/>
+				<PRefLine start="20 5 20" end="20 5 -80" speed="40" track="camera"/>
+			</path>
+			<path id="2" loop="-1">
+				<PRefLine start="45 -15 65" end="30 35 64" speed="100" track="camera"/>
+				<PRefLine start="30 35 64" end="0 20 50" speed="50" track="camera"/>
+				<PRefLine start="0 20 50" end="-20 5 20" speed="40" track="camera"/>
+				<PRefLine start="-20 5 20" end="-20 5 -80" speed="40" track="camera"/>
+			</path>
+		</paths>
+		<music>
+			<cue beat="0" name="BTPattern10" playmeas="0" loopmeas ="8" />
+			<cue beat="0" name="BTPattern11" playmeas="2" loopmeas ="8" />
+			<cue beat="0" name="BTPattern10" playmeas="4" loopmeas ="8" />
+			<cue beat="0" name="BTPattern12" playmeas="6" loopmeas ="8" />
+
+			<cue beat="0" name="BTPattern15" playmeas="0" loopmeas ="8" />
+			<cue beat="0" name="BTPattern16" playmeas="2" loopmeas ="8" />
+			<cue beat="0" name="BTPattern15" playmeas="4" loopmeas ="8" />
+			<cue beat="0" name="BTPattern17" playmeas="6" loopmeas ="8" />
+
+			<cue beat="0" name="BTPattern3" />
+			<cue beat="0" name="BTPattern5" />
+			<cue beat="0" name="BTPattern23" playmeas="0" loopmeas="2"/>
+		</music>
+		<endmusic>
+			<cue beat="0" name="BTPattern21Intro" playmeas="0" loopmeas ="-1" />
+
+			<cue beat="0" name="BTPattern3" />
+		</endmusic>
+		<channel>
+			<cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+			<cue beat="4" channel="0" playmeas="0" loopmeas="2"/>
+			<cue beat="8" channel="0" playmeas="0" loopmeas="2"/>
+      
+      <cue beat="0" channel="29" value="0.8" loopmeas ="2"/>
+      <cue beat="4" channel="29" value="0.75" loopmeas ="2"/>
+      <cue beat="8" channel="29" value="0.7" loopmeas ="2"/>
+      <cue beat="0" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+      <cue beat="8" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+		</channel>
+		<endchannel>
+			<cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+			<cue beat="4" channel="0" playmeas="0" loopmeas="2"/>
+			<cue beat="8" channel="0" playmeas="0" loopmeas="2"/>
+
+			<cue beat="0" channel="29" value="0.8" loopmeas ="2"/>
+			<cue beat="4" channel="29" value="0.75" loopmeas ="2"/>
+			<cue beat="8" channel="29" value="0.7" loopmeas ="2"/>
+			<cue beat="0" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+			<cue beat="8" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+		</endchannel>
+		<BG>
+			<BackgroundElement model="Level01Background0704x2" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 5 50" end="0 5 -7.6" speed="45" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="0">
+						<Transform>
+							<TScale startscale="1 1 1" endscale="2 1 1"/>
+						</Transform>
+						<ColorChannel col1="0.413 0.810 1 1" col2="1 0.2 0 1"/>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="-64 100 -32" endscale="-64 100 -32"/>
+					</Transform>
+					<Transform beatstart="0" beatend="32">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0705wave" mode="11" glow="true">
+				<paths loop="0">
+					<PRefLine start="0 -40 -50" end="0 -40 -225" speed="120" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="0">
+						<Transform>
+							<TMove startpos="0 40 0" endpos="0 40 0"/>
+							<TScale startscale="1 1 1" endscale="1.5 3 1"/>
+							<TMove startpos="0 -40 0" endpos="0 -40 0"/>
+						</Transform>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="16">
+						<TScale startscale="128 40 -128" endscale="128 40 -128"/>
+					</Transform>
+					<Transform beatstart="16" beatend="24">
+						<TMove startpos="0 0 0" endpos="0 5 0"/>
+						<TScale startscale="128 40 -128" endscale="128 15 -192"/>
+					</Transform>
+					<Transform beatstart="24" beatend="32">
+						<TMove startpos="0 5 0" endpos="0 5 0"/>
+						<TScale startscale="128 15 -192" endscale="128 15 -192"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background070601" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 5 50" end="0 5 -7.6" speed="45" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="0" beatend="16">
+						<TScale startscale="-64 100 -32" endscale="-64 100 -32"/>
+						<TMove startpos="-38.4 0 0" endpos="-38.4 0 0"/>
+						<TRotation startdeg="0" enddeg="90" axis="0 0 1"/>
+						<TMove startpos="38.4 0 0" endpos="138.4 -20 0"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background070602" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 5 50" end="0 5 -7.6" speed="45" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="0" beatend="16">
+						<TScale startscale="-64 100 -32" endscale="-64 100 -32"/>
+						<TMove startpos="38.4 0 0" endpos="38.4 0 0"/>
+						<TRotation startdeg="0" enddeg="90" axis="0 0 -1"/>
+						<TMove startpos="-38.4 0 0" endpos="-138.4 -20 0"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+		</BG>
+		<enemies>
+
+			<!-- Wave 1 -->
+			<Fish01 waitbeat="0" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-20 0 0" end="-21 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="3" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="20 0 0" end="21 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			
+			<!-- Wave 2 -->
+			<Fish01 waitbeat="24" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="20 0 0" end="21 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="3" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-20 0 0" end="-21 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			
+			<!-- Wave 3 -->
+			<Fish01 waitbeat="24" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-45 0 0" end="-46 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="45 0 0" end="46 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 0" end="-31 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 0" end="31 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-15 0 0" end="-16 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="15 0 0" end="16 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<!-- Wave 4 -->
+			<Fish01 waitbeat="24" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-15 0 0" end="-16 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="15 0 0" end="16 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 0" end="-31 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 0" end="31 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-45 0 0" end="-46 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="45 0 0" end="46 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			
+			<!-- Wave 5 -->
+			<Fish01 waitbeat="24" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 15" end="-31 0 15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 0" end="-31 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 -15" end="-31 0 -15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 15" end="1 0 15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 -15" end="1 0 -15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 15" end="31 0 15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 0" end="31 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 -15" end="31 0 -15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<!-- Wave 6 -->
+			<Fish01 waitbeat="24" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 15" end="31 0 15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 0" end="31 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 -15" end="31 0 -15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 15" end="1 0 15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="1 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 -15" end="1 0 -15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 15" end="-31 0 15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 0" end="-31 0 0" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 -15" end="-31 0 -15" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<!-- Wave 7 -->
+			<Fish01 waitbeat="24" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<!-- Wave 8 -->
+			<Fish01 waitbeat="24" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			
+			<Fish01 waitbeat="4" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="2">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+      <!-- end of zone -->
+      <FinishBox waitbeat="3" fill="wire">
+        <paths>
+          <PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+        </paths>
+      </FinishBox>
+			
+		</enemies>
+	</zone>
+	<zone id="5" endtime="128" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="0 -15 105" end="0 40 95" speed="40" track="camera"/>
+				<PRefLine start="0 12 45" end="0 2 25" speed="30" track="camera"/>
+				<PRefLine start="0 2 25" end="0 2 -80" speed="30" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="0 -5 -20" end="0 -5 110" speed="10" track="camera"/>
+			</path>
+      <path id="2" loop="-1">
+        <PRefLine start="0 -5 180" end="0 -5 -20" speed="20" track="camera"/>
+      </path>
+      <path id="3" loop="-1">
+        <PRefLine start="80 -12 40" end="20 20 60" speed="30" track="camera"/>
+        <PRefLine start="20 20 60" end="-10 15 40" speed="30" track="camera"/>
+        <PRefLine start="-10 15 40" end="-35 5 35" speed="30" track="camera"/>
+        <PRefLine start="-35 5 35" end="-80 0 25" speed="30" track="camera"/>
+      </path>
+    </paths>
+		<music>
+			<cue beat="0" name="BTPattern1" playmeas="0" loopmeas="4" />
+			<cue beat="0" name="BTPattern3" />
+			<cue beat="0" name="BTPattern5" />
+			<cue beat="0" name="BTPattern21" playmeas="0" loopmeas="4"/>
+
+		</music>
+		<endmusic>
+			<cue beat="0" name="BTPattern1" loopmeas="-1" />
+			<cue beat="0" name="BTPattern19Intro" loopmeas="-1" />
+			<cue beat="0" name="BTPattern3" loopmeas="-1" />
+			<cue beat="0" name="BTPattern5" loopmeas="-1"/>
+		</endmusic>
+		<channel>
+			<cue beat="0" channel="1" playmeas="0" loopmeas="2"/>
+			<cue beat="2" channel="4" playmeas="0" loopmeas="2"/>
+
+			<cue beat="0" channel="2" playmeas="1" loopmeas="4"/>
+			<cue beat="2" channel="3" playmeas="1" loopmeas="4"/>
+
+			<cue beat="0" channel="5" playmeas="3" loopmeas="4"/>
+			<cue beat="2" channel="6" playmeas="3" loopmeas="4"/>
+      
+      <cue beat="0" channel="29" value="0.6"/>
+      <cue beat="8" channel="29" value="0.6"/>
+			
+		</channel>
+		<BG>
+			<BackgroundElement model="Level01Background080101" mode="10">
+				<paths loop="0">
+					<PRefLine start="40 -15 -50" end="40 -15 -107.6" speed="45" track="camera"/>
+				</paths>
+				<effects>
+				  <ChannelEffectSet channel="2">
+					<Transform>
+					  <TMove startpos="0 15 0" endpos="0 15 0"/>
+					  <TScale startscale="1 0 1" endscale="1 32 1"/>
+					  <TMove startpos="0 -15 0" endpos="0 -15 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="0.6 0.6 0 1"/>
+				  </ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+					</Transform>
+					<Transform beatstart="0" beatend="128">
+						<TMove startpos="0 0 0" endpos="0 100 0"/>
+						<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background080102" mode="10">
+				<paths loop="0">
+					<PRefLine start="40 -15 -50" end="40 -15 -107.6" speed="45" track="camera"/>
+				</paths>
+				<effects>
+				  <ChannelEffectSet channel="4">
+					<Transform>
+					  <TMove startpos="0 15 0" endpos="0 15 0"/>
+					  <TScale startscale="1 0 1" endscale="1 32 1"/>
+					  <TMove startpos="0 -15 0" endpos="0 -15 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="0.2 1 0.2 1"/>
+				  </ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+					</Transform>
+					<Transform beatstart="0" beatend="128">
+						<TMove startpos="0 0 0" endpos="0 100 0"/>
+						<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+      <BackgroundElement model="Level01Background080103" mode="10">
+        <paths loop="0">
+          <PRefLine start="40 -15 -50" end="40 -15 -107.6" speed="45" track="camera"/>
+        </paths>
+        <effects>
+          <ChannelEffectSet channel="5">
+            <Transform>
+              <TMove startpos="0 15 0" endpos="0 15 0"/>
+              <TScale startscale="1 0 1" endscale="1 32 1"/>
+              <TMove startpos="0 -15 0" endpos="0 -15 0"/>
+            </Transform>
+            <ColorChannel col1="0.413 0.810 1 1" col2="1 0.2 0 1"/>
+          </ChannelEffectSet>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="100 1 -32" endscale="100 1 -32"/>
+          </Transform>
+			<Transform beatstart="0" beatend="128">
+				<TMove startpos="0 0 0" endpos="0 100 0"/>
+				<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+			</Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background080104" mode="10">
+        <paths loop="0">
+          <PRefLine start="-40 -15 -50" end="-40 -15 -107.6" speed="45" track="camera"/>
+        </paths>
+        <effects>
+          <ChannelEffectSet channel="3">
+            <Transform>
+              <TMove startpos="0 15 0" endpos="0 15 0"/>
+              <TScale startscale="1 0 1" endscale="1 32 1"/>
+              <TMove startpos="0 -15 0" endpos="0 -15 0"/>
+            </Transform>
+            <ColorChannel col1="0.413 0.810 1 1" col2="0.6 0.6 0 1"/>
+          </ChannelEffectSet>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="100 1 -32" endscale="100 1 -32"/>
+          </Transform>
+			<Transform beatstart="0" beatend="128">
+				<TMove startpos="0 0 0" endpos="0 100 0"/>
+				<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+			</Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background080105" mode="10">
+        <paths loop="0">
+          <PRefLine start="-40 -15 -50" end="-40 -15 -107.6" speed="45" track="camera"/>
+        </paths>
+        <effects>
+          <ChannelEffectSet channel="4">
+            <Transform>
+              <TMove startpos="0 15 0" endpos="0 15 0"/>
+              <TScale startscale="1 0 1" endscale="1 32 1"/>
+              <TMove startpos="0 -15 0" endpos="0 -15 0"/>
+            </Transform>
+            <ColorChannel col1="0.413 0.810 1 1" col2="0.2 1 0.2 1"/>
+          </ChannelEffectSet>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="100 1 -32" endscale="100 1 -32"/>
+          </Transform>
+			<Transform beatstart="0" beatend="128">
+				<TMove startpos="0 0 0" endpos="0 100 0"/>
+				<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+			</Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background080106" mode="10">
+        <paths loop="0">
+          <PRefLine start="-40 -15 -50" end="-40 -15 -107.6" speed="45" track="camera"/>
+        </paths>
+        <effects>
+          <ChannelEffectSet channel="6">
+            <Transform>
+              <TMove startpos="0 15 0" endpos="0 15 0"/>
+              <TScale startscale="1 0 1" endscale="1 32 1"/>
+              <TMove startpos="0 -15 0" endpos="0 -15 0"/>
+            </Transform>
+            <ColorChannel col1="0.413 0.810 1 1" col2="1 0.4 0 1"/>
+          </ChannelEffectSet>
+        </effects>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="100 1 -32" endscale="100 1 -32"/>
+          </Transform>
+			<Transform beatstart="0" beatend="128">
+				<TMove startpos="0 0 0" endpos="0 100 0"/>
+				<TScale startscale="100 1 -32" endscale="100 1 -32"/>
+			</Transform>
+        </transforms>
+      </BackgroundElement>
+			<BackgroundElement model="Level01Background0705wave" mode="11" glow="true" endtransform="true">
+				<paths loop="0">
+					<PRefLine start="0 -20 -50" end="0 -20 -166.6" speed="120" track="camera"/>
+				</paths>
+				<effects>
+					<ChannelEffectSet channel="1">
+						<Transform>
+							<TMove startpos="0 20 0" endpos="0 20 0"/>
+							<TScale startscale="1 1 1" endscale="1.2 3 1"/>
+							<TMove startpos="0 -20 0" endpos="0 -20 0"/>
+						</Transform>
+						<ColorChannel col1="0.413 0.810 1 1" col2="1 0.2 0 1"/>
+					</ChannelEffectSet>
+				</effects>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="128 15 -192" endscale="128 15 -192"/>
+					</Transform>
+					<Transform beatstart="0" beatend="128">
+						<TMove startpos="0 0 0" endpos="0 100 0"/>
+						<TScale startscale="128 15 -192" endscale="128 15 -192"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="25 -18 110" end="25 -18 10" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="64">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="64" beatend="80">
+						<TMove startpos="0 -150 0" endpos="0 0 0"/>
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="-20 -28 110" end="-20 -28 10" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="80">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="80" beatend="96">
+						<TMove startpos="0 -150 0" endpos="0 0 0"/>
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="35 -8 110" end="35 -8 10" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="96">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="96" beatend="112">
+						<TMove startpos="0 -150 0" endpos="0 0 0"/>
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="-35 -13 110" end="-35 -13 10" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="112">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="112" beatend="128">
+						<TMove startpos="0 -150 0" endpos="0 0 0"/>
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background1001" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="0">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="0" beatend="32">
+						<TMove startpos="0 100 0" endpos="0 -50 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+					<Transform beatstart="32" beatend="64">
+						<TMove startpos="0 -50 0" endpos="0 -50 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+					<Transform beatstart="64" beatend="128">
+						<TMove startpos="0 -50 0" endpos="0 0 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background1002" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="32">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="32" beatend="64">
+						<TMove startpos="0 100 0" endpos="0 -50 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+					<Transform beatstart="64" beatend="128">
+						<TMove startpos="0 -50 0" endpos="0 0 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background1003" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="64">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="64" beatend="80">
+						<TMove startpos="0 100 0" endpos="0 -37.5 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+					<Transform beatstart="80" beatend="128">
+						<TMove startpos="0 -37.5 0" endpos="0 0 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background1004" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="80">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="80" beatend="96">
+						<TMove startpos="0 100 0" endpos="0 -25 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+					<Transform beatstart="96" beatend="128">
+						<TMove startpos="0 -25 0" endpos="0 0 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background1005" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="96">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="96" beatend="112">
+						<TMove startpos="0 100 0" endpos="0 -12.5 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+					<Transform beatstart="112" beatend="128">
+						<TMove startpos="0 -12.5 0" endpos="0 0 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background1006" mode="10">
+				<paths loop="0">
+					<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="112">
+						<TScale startscale="0 0 0" endscale="0 0 0"/>
+					</Transform>
+					<Transform beatstart="112" beatend="128">
+						<TMove startpos="0 100 0" endpos="0 0 0"/>
+						<TScale startscale="100 100 100" endscale="100 100 100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+		</BG>
+		<player></player>
+		<enemies>
+      
+      <!-- Wave 1 -->
+			<Fish01 waitbeat="8" ripple="false">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="10 0 10" end="10 0 11" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="20 0 20" end="20 0 21" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-10 0 10" end="-10 0 11" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-20 0 20" end="-20 0 21" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<!-- Wave 2 -->
+			<Fish01 waitbeat="8" waitforenem="1" ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="40 0 40" end="40 0 41" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 30" end="30 0 31" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="2"  ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-40 0 40" end="-40 0 41" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="2"  ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="20 0 20" end="20 0 21" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="2"  ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 30" end="-30 0 31" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="2"  ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="10 0 10" end="10 0 11" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="2"  ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-20 0 20" end="-20 0 21" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15" fill="wire">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-10 0 10" end="-10 0 11" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+
+			<!-- Wave 3 -->
+			<Fish01 waitbeat="8" waitforenem="1" ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="40 0 40" end="40 0 41" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="30 0 30" end="30 0 31" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="20 0 20" end="20 0 21" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="10 0 10" end="10 0 11" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="0 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-10 0 10" end="-10 0 11" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-20 0 20" end="-20 0 21" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			<Fish01 waitbeat="4"  ripple="false" waterheight="-15">
+				<paths>
+					<CopyList id="0">
+						<PLine start="-30 0 30" end="-30 0 31" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish01>
+			
+			<!-- Wave 4 -->
+			<Fish02 waitbeat="8" waitforenem="1" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="20 0 0" end="20 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish02>
+			<Fish02 waitbeat="8" >
+				<paths>
+					<CopyList id="1">
+						<PLine start="-20 0 0" end="-20 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Fish02>
+
+      <!-- Wave 5 -->
+      <Fish02 waitbeat="8" waitforenem="1">
+        <paths>
+          <CopyList id="2">
+            <PLine start="20 0 0" end="20 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish02>
+      <Fish02 waitbeat="8" fill="wire">
+        <paths>
+          <CopyList id="2">
+            <PLine start="-20 0 0" end="-20 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish02>
+
+      <!-- Wave 6 -->
+      <Fish02 waitbeat="8" waitforenem="1" fill="wire">
+        <paths>
+          <CopyList id="1">
+            <PLine start="25 -10 0" end="25 -10 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish02>
+      <Fish02 waitbeat="0">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-25 -10 0" end="-25 -10 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish02>
+      <Fish01 waitbeat="2" ripple="false" fill="wire">
+        <paths>
+          <CopyList id="1">
+            <PLine start="5 10 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-15 5 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false" fill="wire">
+        <paths>
+          <CopyList id="1">
+            <PLine start="20 0 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-10 15 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false" fill="wire">
+        <paths>
+          <CopyList id="1">
+            <PLine start="0 -5 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false" fill="wire">
+        <paths>
+          <CopyList id="1">
+            <PLine start="15 0 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-20 10 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false" fill="wire">
+        <paths>
+          <CopyList id="1">
+            <PLine start="10 15 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="2" ripple="false">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-5 5 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="0" ripple="false" fill="wire">
+        <paths>
+          <CopyList id="1">
+            <PLine start="5 5 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01 waitbeat="0" ripple="false">
+        <paths>
+          <CopyList id="1">
+            <PLine start="0 0 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01>
+      <Fish01Flock waitbeat="0" ripple="false" waitforenem="1" num="2" total="32" error="40">
+        <paths>
+          <CopyList id="3">
+            <PLine start="0 0 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01Flock>
+
+      <FinishBox waitbeat="32" fill="wire">
+        <paths>
+          <PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+        </paths>
+      </FinishBox>
+    </enemies>
+  </zone>
+  <zone id="6" muteend="true">
+    <paths>
+      <path id="0" loop="-1">
+        <PRefLine start="0 -15 105" end="0 40 95" speed="40" track="camera"/>
+        <PRefLine start="0 12 45" end="0 2 25" speed="30" track="camera"/>
+        <PRefLine start="0 2 25" end="0 2 -80" speed="30" track="camera"/>
+      </path>
+      <path id="1" loop="-1">
+		  <PRefLine start="0 0 -15" end="0 0 45" speed="10" track="camera"/>
+		  <PRefLine start="0 0 45" end="0 0 49" speed="1" track="camera"/>
+		  <PRefLine start="0 0 49" end="0 0 110" speed="10" track="camera"/>
+      </path>
+		<path id="2" loop="-1">
+			<PRefLine start="55 0 50" end="15 15 50" speed="20" track="camera"/>
+			<PRefLine start="15 15 50" end="-15 25 60" speed="40" track="camera"/>
+			<PRefLine start="-15 25 60" end="-90 30 60" speed="40" track="camera"/>
+		</path>
+		<path id="3" loop="-1">
+			<PRefLine start="-55 0 50" end="-15 15 50" speed="20" track="camera"/>
+			<PRefLine start="-15 15 50" end="15 25 60" speed="40" track="camera"/>
+			<PRefLine start="15 25 60" end="90 30 60" speed="40" track="camera"/>
+		</path>
+		<path id="4" loop="-1">
+			<PRefLine start="25 0 25" end="25 10 60" speed="10" track="camera"/>
+			<PRefLine start="25 10 60" end="25 20 140" speed="30" track="camera"/>
+		</path>
+		<path id="5" loop="-1">
+			<PRefLine start="-25 0 25" end="-25 10 60" speed="10" track="camera"/>
+			<PRefLine start="-25 10 60" end="-25 20 140" speed="30" track="camera"/>
+		</path>
+		<path id="6" loop="-1">
+			<PRefLine start="0 0 -15" end="0 0 35" speed="10" track="camera"/>
+			<PRefLine start="0 0 35" end="0 0 39" speed="1" track="camera"/>
+			<PRefLine start="0 0 39" end="0 0 110" speed="10" track="camera"/>
+		</path>
+		<path id="7" loop="-1">
+			<PRefLine start="0 0 55" end="0 0 57" speed="10" track="camera"/>
+			<PRefLine start="0 10 60" end="0 140 70" speed="30" track="camera"/>
+		</path>
+    </paths>
+	  <music>
+		  <cue beat="0" name="BTPattern10" playmeas="0" loopmeas ="8" />
+		  <cue beat="0" name="BTPattern11" playmeas="2" loopmeas ="8" />
+		  <cue beat="0" name="BTPattern10" playmeas="4" loopmeas ="8" />
+		  <cue beat="0" name="BTPattern12" playmeas="6" loopmeas ="8" />
+
+		  <cue beat="0" name="BTPattern15" playmeas="0" loopmeas ="8" />
+		  <cue beat="0" name="BTPattern16" playmeas="2" loopmeas ="8" />
+		  <cue beat="0" name="BTPattern15" playmeas="4" loopmeas ="8" />
+		  <cue beat="0" name="BTPattern17" playmeas="6" loopmeas ="8" />
+
+		  <cue beat="0" name="BTPattern19" playmeas="0" loopmeas ="16" />
+
+		  <cue beat="0" name="BTPattern3" />
+		  <cue beat="0" name="BTPattern5" />
+		  <cue beat="0" name="BTPattern23" playmeas="0" loopmeas="2"/>
+		  
+	  </music>
+	  <endmusic>
+		  <cue beat="0" name="BTPattern3" />
+		  <cue beat="0" name="BTPattern5" />
+		  
+		  <cue beat="0" name="BTPattern22Intro" loopmeas="-1"/>
+	  </endmusic>
+	  <channel>
+		  <cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+		  <cue beat="3" channel="0" playmeas="0" loopmeas="2"/>
+		  <cue beat="7" channel="0" playmeas="0" loopmeas="2"/>
+		  <cue beat="0" channel="1" playmeas="0" loopmeas="2"/>
+		  <cue beat="3" channel="2" playmeas="0" loopmeas="2"/>
+		  <cue beat="7" channel="3" playmeas="0" loopmeas="2"/>
+
+      <cue beat="0" channel="29" value="0.8" loopmeas ="2"/>
+      <cue beat="3" channel="29" value="0.75" loopmeas ="2"/>
+      <cue beat="7" channel="29" value="0.7" loopmeas ="2"/>
+      <cue beat="0" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+      <cue beat="7" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+	  </channel>
+	  <endchannel>
+		  <cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+		  <cue beat="4" channel="0" playmeas="0" loopmeas="2"/>
+		  <cue beat="8" channel="0" playmeas="0" loopmeas="2"/>
+
+		  <cue beat="0" channel="29" value="0.8" loopmeas ="2"/>
+		  <cue beat="4" channel="29" value="0.75" loopmeas ="2"/>
+		  <cue beat="8" channel="29" value="0.7" loopmeas ="2"/>
+		  <cue beat="0" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+		  <cue beat="8" channel="29" value="0.6" playmeas="1" loopmeas ="2"/>
+	  </endchannel>
+    <BG>
+		<BackgroundElement model="Level01Background0901" mode="11">
+			<paths loop="0">
+				<PRefLine start="25 -18 110" end="25 -18 10" speed="30" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TMove startpos="-25 18 0" endpos="-25 18 0"/>
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					<TMove startpos="0 0 0" endpos="0 -50 0"/>
+					<TRotation startdeg="0" enddeg="90" axis="0 0 1"/>
+					<TMove startpos="25 -18 0" endpos="0 0 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background0901" mode="11">
+			<paths loop="0">
+				<PRefLine start="-20 -28 110" end="-20 -28 10" speed="30" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TMove startpos="20 28 0" endpos="20 28 0"/>
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					<TMove startpos="0 0 0" endpos="0 -50 0"/>
+					<TMove startpos="-20 -28 0" endpos="0 0 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background0901" mode="11">
+			<paths loop="0">
+				<PRefLine start="35 -8 110" end="35 -8 10" speed="30" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TMove startpos="-35 8 0" endpos="-35 8 0"/>
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					<TMove startpos="0 0 0" endpos="0 -50 0"/>
+					<TRotation startdeg="0" enddeg="180" axis="0 0 1"/>
+					<TMove startpos="35 -8 0" endpos="0 0 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background0901" mode="11">
+			<paths loop="0">
+				<PRefLine start="-35 -13 110" end="-35 -13 10" speed="30" track="camera"/>
+			</paths>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TMove startpos="35 13 0" endpos="35 13 0"/>
+					<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					<TMove startpos="0 0 0" endpos="0 -50 0"/>
+					<TRotation startdeg="0" enddeg="90" axis="0 0 -1"/>
+					<TMove startpos="-35 -13 0" endpos="0 0 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background1001" mode="10">
+			<paths loop="0">
+				<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+			</paths>
+			<effects>
+				<ChannelEffectSet channel="1">
+					<Transform>
+						<TMove startpos="0 60 0" endpos="0 60 0"/>
+						<TScale startscale="1 1 1" endscale="1 2 1"/>
+						<TMove startpos="0 -60 0" endpos="0 -50 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="1 0.2 0 1"/>
+				</ChannelEffectSet>
+			</effects>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+					<TMove startpos="0 0 0" endpos="0 -100 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background1002" mode="10">
+			<paths loop="0">
+				<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+			</paths>
+			<effects>
+				<ChannelEffectSet channel="2">
+					<Transform>
+						<TMove startpos="0 60 0" endpos="0 60 0"/>
+						<TScale startscale="1 1 1" endscale="1 2 1"/>
+						<TMove startpos="0 -60 0" endpos="0 -50 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="1 1 0.2 1"/>
+				</ChannelEffectSet>
+			</effects>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+					<TMove startpos="0 0 0" endpos="0 -100 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background1003" mode="10">
+			<paths loop="0">
+				<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+			</paths>
+			<effects>
+				<ChannelEffectSet channel="3">
+					<Transform>
+						<TMove startpos="0 60 0" endpos="0 60 0"/>
+						<TScale startscale="1 1 1" endscale="1 2 1"/>
+						<TMove startpos="0 -60 0" endpos="0 -50 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="1 0.5 0.1 1"/>
+				</ChannelEffectSet>
+			</effects>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+					<TMove startpos="0 0 0" endpos="0 -100 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background1004" mode="10">
+			<paths loop="0">
+				<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+			</paths>
+			<effects>
+				<ChannelEffectSet channel="1">
+					<Transform>
+						<TMove startpos="0 40 0" endpos="0 40 0"/>
+						<TScale startscale="1 1 1" endscale="1 2 1"/>
+						<TMove startpos="0 -40 0" endpos="0 -50 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="1 0.2 0 1"/>
+				</ChannelEffectSet>
+			</effects>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+					<TMove startpos="0 0 0" endpos="0 -100 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background1005" mode="10">
+			<paths loop="0">
+				<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+			</paths>
+			<effects>
+				<ChannelEffectSet channel="2">
+					<Transform>
+						<TMove startpos="0 40 0" endpos="0 40 0"/>
+						<TScale startscale="1 1 1" endscale="1 2 1"/>
+						<TMove startpos="0 -40 0" endpos="0 -50 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="1 1 0.2 1"/>
+				</ChannelEffectSet>
+			</effects>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+					<TMove startpos="0 0 0" endpos="0 -100 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+		<BackgroundElement model="Level01Background1006" mode="10">
+			<paths loop="0">
+				<PRefLine start="0 -50 200" end="0 -50 0" speed="40" track="camera"/>
+			</paths>
+			<effects>
+				<ChannelEffectSet channel="3">
+					<Transform>
+						<TMove startpos="0 40 0" endpos="0 40 0"/>
+						<TScale startscale="1 1 1" endscale="1 2 1"/>
+						<TMove startpos="0 -40 0" endpos="0 -50 0"/>
+					</Transform>
+					<ColorChannel col1="0.413 0.810 1 1" col2="1 0.5 0.1 1"/>
+				</ChannelEffectSet>
+			</effects>
+			<transforms>
+				<Transform beatstart="-1" beatend="-1">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+				</Transform>
+				<Transform beatstart="0" beatend="32">
+					<TScale startscale="100 100 100" endscale="100 100 100"/>
+					<TMove startpos="0 0 0" endpos="0 -100 0"/>
+				</Transform>
+			</transforms>
+		</BackgroundElement>
+	</BG>
+	<player>
+	</player>
+    <enemies>
+
+		<!-- Wave 1 -->
+		<Fish01Flock waitbeat="0" ripple="false" interval="4" num="3" total="8" error="10">
+			<paths>
+				<CopyList id="2">
+					<PLine start="0 0 0" end="0 0 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Fish01Flock>
+		<Fish01Flock waitbeat="32" ripple="false" interval="4" num="3" total="8" error="10" fill="wire">
+			<paths>
+				<CopyList id="3">
+					<PLine start="0 0 0" end="0 0 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Fish01Flock>
+
+		<!-- Wave 2 -->
+		<Fish01Flock waitbeat="32" ripple="false" interval="4" num="3" total="8" error="10" fill="wire">
+			<paths>
+				<CopyList id="4">
+					<PLine start="0 0 0" end="0 0 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Fish01Flock>
+		<!-- setup whale for Wave 3 -->
+		<Whale01 waitbeat="8">
+			<paths>
+				<CopyList id="1">
+					<PLine start="25 -15 0" end="25 -10 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		<Fish01Flock waitbeat="24" ripple="false" interval="6" num="3" total="8" error="10">
+			<paths>
+				<CopyList id="5">
+					<PLine start="0 0 0" end="0 0 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Fish01Flock>
+		<!-- setup whale for Wave 4 -->
+		<Whale01 waitbeat="8">
+			<paths>
+				<CopyList id="1">
+					<PLine start="-20 -25 0" end="-20 -25 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		
+		<!-- Wave 5-->
+		<Whale01 waitbeat="32">
+			<paths>
+				<CopyList id="1">
+					<PLine start="35 -5 0" end="35 -5 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		
+		<!-- Wave 6 -->
+		<Whale01 waitbeat="32">
+			<paths>
+				<CopyList id="1">
+					<PLine start="-35 -10 0" end="-35 -10 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+
+		<!-- Wave 7 -->
+		<Whale01 waitbeat="32">
+			<paths>
+				<CopyList id="6">
+					<PLine start="25 -15 25" end="25 -15 24" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		<Whale01 waitbeat="32">
+			<paths>
+				<CopyList id="6">
+					<PLine start="35 -5 25" end="35 -5 24" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		<PlayerView waitbeat="24" start="0 0 1" end="1 0 1" speed="0.5"/>
+		
+		<!-- Wave 8 -->
+		<Whale01 waitbeat="8">
+			<paths>
+				<CopyList id="6">
+					<PLine start="25 -15 -25" end="25 -15 -26" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		<Whale01 waitbeat="32">
+			<paths>
+				<CopyList id="6">
+					<PLine start="35 -5 -25" end="35 -5 -26" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		
+		<!-- Wave 9 -->
+		<Whale01 waitbeat="96">
+			<paths>
+				<CopyList id="6">
+					<PLine start="-25 -20 25" end="-25 -20 26" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		<PlayerView waitbeat="16" start="1 0 1" end="-1 0 1" speed="0.5"/>
+		<Whale01 waitbeat="16">
+			<paths>
+				<CopyList id="6">
+					<PLine start="-35 -10 25" end="-35 -10 26" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		
+		<!-- Wave 10 -->
+		<Whale01 waitbeat="24">
+			<paths>
+				<CopyList id="6">
+					<PLine start="-25 -20 -25" end="-25 -20 -26" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		<Whale01 waitbeat="32">
+			<paths>
+				<CopyList id="6">
+					<PLine start="-35 -10 -25" end="-35 -10 -26" speed="0"/>
+				</CopyList>
+			</paths>
+		</Whale01>
+		<PlayerView waitforenem="1" start="-1 0 1" end="0 0 1" speed="1"/>
+
+
+		<!-- Wave 11 -->
+		<Fish01Flock waitbeat="22" ripple="false" interval="2" num="1" total="16" error="10">
+			<paths>
+				<CopyList id="7">
+					<PLine start="0 0 0" end="0 0 1" speed="0"/>
+				</CopyList>
+			</paths>
+		</Fish01Flock>
+		<FinishBox waitbeat="16">
+			<paths>
+				<PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+			</paths>
+		</FinishBox>
+		
+		
+	</enemies>
+  </zone>
+	<zone id="7" endtime="128" muteend="true">
+    <paths>
+      <path id="0" loop="-1">
+        <PRefLine start="0 0 105" end="0 0 95" speed="30" track="camera"/>
+        <PRefLine start="0 0 85" end="0 0 25" speed="10" track="camera"/>
+        <PRefLine start="0 -20 15" end="0 -20 -40" speed="30" track="camera"/>
+      </path>
+      <path id="1" loop="-1">
+        <PRefLine start="0 -100 30" end="0 -10 30" speed="50" track="camera"/>
+        <PRefLine start="0 -10 30" end="0 -10 40" speed="2" track="camera"/>
+        <PRefLine start="0 -10 40" end="0 -10 130" speed="50" track="camera"/>
+      </path>
+    </paths>
+    <music>
+		<cue name="BTPattern3" beat="0"/>
+		<cue name="BTPattern5" beat="0"/>
+
+		<cue name="BTPattern21" beat="0" loopmeas="4" playmeas="0"/>
+		
+		<cue name="BTPattern22" beat="0" loopmeas="16" playmeas="0"/>
+		<cue name="BTPattern22" beat="0" loopmeas="16" playmeas="4"/>
+
+		<cue name="BTPattern20" beat="0" loopmeas="16" playmeas="8"/>
+    </music>
+    <endmusic>
+		<cue name="BTPattern3" beat="0"/>
+		<cue name="BTPattern5" beat="0"/>
+		
+		<cue name="BTPattern20" beat="0" loopmeas="-1" playmeas="0"/>
+    </endmusic>
+    <channel>
+      <cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+      <cue beat="0" channel="1" playmeas="0" loopmeas="2"/>
+      <cue beat="4" channel="1" playmeas="0" loopmeas="2"/>
+      <cue beat="8" channel="1" playmeas="0" loopmeas="2"/>
+      <cue beat="12" channel="1" playmeas="0" loopmeas="2"/>
+
+      <cue beat="0" channel="29" value="0.6"/>
+      <cue beat="8" channel="29" value="0.6"/>
+    </channel>
+    <endchannel>
+      <cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+
+		<cue beat="0" channel="29" value="0.6"/>
+		<cue beat="8" channel="29" value="0.6"/>
+    </endchannel>
+    <BG>
+      <BackgroundElement model="Level01Background0901" mode="11">
+        <paths loop="0">
+          <PRefLine start="0 0 110" end="0 0 -90" speed="30" track="camera"/>
+        </paths>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="0 -50 0"/>
+            <TRotation startdeg="90" enddeg="90" axis="0 0 -1"/>
+          </Transform>
+          <Transform beatstart="0" beatend="128">
+            <TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="30 -28 0"/>
+            <TRotation startdeg="90" enddeg="0" axis="0 0 -1"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background0901" mode="11">
+        <paths loop="0">
+          <PRefLine start="0 0 110" end="0 0 -90" speed="30" track="camera"/>
+        </paths>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="0 -50 0"/>
+            <TRotation startdeg="90" enddeg="90" axis="0 0 1"/>
+          </Transform>
+          <Transform beatstart="0" beatend="128">
+            <TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="10 -28 0"/>
+            <TRotation startdeg="90" enddeg="0" axis="0 0 1"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background0901" mode="11">
+        <paths loop="0">
+          <PRefLine start="0 0 110" end="0 0 -90" speed="30" track="camera"/>
+        </paths>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="0 -50 0"/>
+            <TRotation startdeg="180" enddeg="180" axis="0 0 -1"/>
+          </Transform>
+          <Transform beatstart="0" beatend="128">
+            <TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="-10 -28 0"/>
+            <TRotation startdeg="180" enddeg="0" axis="0 0 -1"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+      <BackgroundElement model="Level01Background0901" mode="11">
+        <paths loop="0">
+          <PRefLine start="0 0 110" end="0 0 -90" speed="30" track="camera"/>
+        </paths>
+        <transforms>
+          <Transform beatstart="-1" beatend="-1">
+            <TScale startscale="-75 100 100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="0 -50 0"/>
+          </Transform>
+          <Transform beatstart="0" beatend="128">
+            <TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+            <TMove startpos="0 -50 0" endpos="-30 -28 0"/>
+          </Transform>
+        </transforms>
+      </BackgroundElement>
+    </BG>
+    <player>
+    </player>
+    <enemies>
+      <!-- Wave 1 -->
+      <Fish01Flock waitbeat="0" ripple="false" interval="32" num="2" total="16" error="20" fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 0 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01Flock>
+      <Whale01 waitbeat="64" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-30 0 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+      <Whale01 waitbeat="64" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="35 -4 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+      <Whale01 waitbeat="64" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-10 -10 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+      <Whale01 waitbeat="64" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="15 -7 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+
+      <!-- Wave 2 -->
+      <Fish01Flock waitbeat="0" ripple="false" interval="16" num="2" total="32" error="20" fill="wire">
+        <paths>
+          <CopyList id="0">
+            <PLine start="0 0 0" end="0 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Fish01Flock>
+      <Whale01 waitbeat="32" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-30 0 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+      <Whale01 waitbeat="32" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="35 -4 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+      <Whale01 waitbeat="32" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="-10 -10 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+      <Whale01 waitbeat="32" channel="1">
+        <paths>
+          <CopyList id="1">
+            <PLine start="15 -7 0" end="-30 0 1" speed="0"/>
+          </CopyList>
+        </paths>
+      </Whale01>
+      <FinishBox waitbeat="128" fill="wire">
+        <paths>
+          <PRefLine start = "0 20 50" end="0 20 51" speed="0" track="camera"/>
+        </paths>
+      </FinishBox>
+    </enemies>
+  </zone>
+  <zone id="8" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="0 0 105" end="0 0 95" speed="40" track="camera"/>
+				<PRefLine start="0 0 85" end="0 0 25" speed="30" track="camera"/>
+				<PRefLine start="0 -20 15" end="0 -20 -40" speed="30" track="camera"/>
+			</path>
+		</paths>
+		<music>
+
+		</music>
+		<endmusic>
+		</endmusic>
+		<channel>
+			<cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+
+      <cue beat="0" channel="29" value="0.6"/>
+      <cue beat="8" channel="29" value="0.6"/>
+		</channel>
+		<endchannel>
+			<cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+		</endchannel>
+		<BG>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="30 -28 110" end="30 -28 -90" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="10 -28 110" end="10 -28 -90" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="-10 -28 110" end="-10 -28 -90" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+			<BackgroundElement model="Level01Background0901" mode="11">
+				<paths loop="0">
+					<PRefLine start="-30 -28 110" end="-30 -28 -90" speed="30" track="camera"/>
+				</paths>
+				<transforms>
+					<Transform beatstart="-1" beatend="-1">
+						<TScale startscale="-75 100 -100" endscale="-75 100 -100"/>
+					</Transform>
+				</transforms>
+			</BackgroundElement>
+		</BG>
+		<player>
+		</player>
+		<enemies>
+      <Hypatia waitbeat="0"/>
+			<GameplayChange command="fade" value="3" waitforenem ="1"/>
+			<GameplayChange command="quit" value="1" waitforenem ="1"/>
+		</enemies>
+	</zone>
+	<zone id="9" muteend="true">
+		<paths>
+			<path id="0" loop="-1">
+				<PRefLine start="0 0 105" end="0 0 95" speed="40" track="camera"/>
+				<PRefLine start="0 0 85" end="0 0 25" speed="30" track="camera"/>
+				<PRefLine start="0 -20 15" end="0 -20 -40" speed="30" track="camera"/>
+			</path>
+			<path id="1" loop="-1">
+				<PRefLine start="0 -5 110" end="0 -5 -20" speed="25" track="camera"/>
+			</path>
+		</paths>
+		<music>
+		</music>
+		<endmusic>
+		</endmusic>
+		<channel>
+			<cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+		</channel>
+		<endchannel>
+			<cue beat="0" channel="0" playmeas="0" loopmeas="2"/>
+		</endchannel>
+		<BG>
+		</BG>
+		<player>
+		</player>
+		<enemies>
+      <GameplayChange command="quit" value="1" waitforenem ="1"/>
+			<Gift waitbeat="2" fill="wire">
+				<paths>
+					<CopyList id="1">
+						<PLine start="15 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Gift>
+			<Gift waitbeat="0">
+				<paths>
+					<CopyList id="1">
+						<PLine start="-15 0 0" end="0 0 1" speed="0"/>
+					</CopyList>
+				</paths>
+			</Gift>
+		</enemies>
+	</zone>
+</level>

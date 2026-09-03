@@ -1,39 +1,32 @@
-<?xml version='1.0' encoding='utf-8'?>
 <Project Sdk="Microsoft.NET.Sdk">
-	<PropertyGroup>
-		<AssemblyName>20 Games</AssemblyName>
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		<TargetFramework>net481</TargetFramework>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU</Platforms>
-		<OutputType>WinExe</OutputType>
-		<LangVersion>14.0</LangVersion>
-		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
-		<PlatformTarget>x86</PlatformTarget>
-	</PropertyGroup>
-	<ItemGroup>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj">
-			<Private>True</Private>
-			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
-		</ProjectReference>
-	</ItemGroup>
-	<ItemGroup>
-		<Reference Include="FarseerPhysicsXNA">
-			<HintPath>FarseerPhysicsXNA.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="ISParticleEngine">
-			<HintPath>ISParticleEngine.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-	</ItemGroup>
-	<ItemGroup />
-	<ItemGroup>
-		<None Update="Content\**\*">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
+  <PropertyGroup>
+    <AssemblyName>FarseerPhysicsXNA</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" LogicalName="Microsoft.Xna.Framework.RuntimeProfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework" />
+    <Reference Include="System.Core">
+      <HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics" />
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Xml.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

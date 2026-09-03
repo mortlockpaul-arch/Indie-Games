@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Bottom2_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/bottom_back_open" name="bottom_back_open" show="true"/>
+  <AddImage path="World/DreamECT/bottom_back" name="bottom_back" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="Bottom2_Front" type="fade_out"/>
+
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="490,60,730,505"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Bottom1_Back"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="Bottom2_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="Bottom2_Back.HandleGaller.1">
+    <DisableTrigger name="Trigger01"/>
+    <HideImage name="bottom_back_open"/>
+    <ShowImage name="bottom_back"/>
+  </Event>
+  
+  <Event name="Bottom2_Back.HandlePuzzleCompleted.1">
+    <EnableTrigger name="Trigger01"/>
+    <HideImage name="bottom_back"/>
+    <ShowImage name="bottom_back_open"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamECT2.Galler" event="Bottom2_Back.HandleGaller"/>
+  <HandleState state="DreamRoom4.PuzzleCompleted" event="Bottom2_Back.HandlePuzzleCompleted"/>
+  
+</Script>

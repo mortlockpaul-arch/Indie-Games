@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Right_Zoom" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom7/two_portraits_zoom" name="two_portraits_zoom" show="true"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom7/Animations/EyesLeft/" images="3"
+               combinedFrames="false" width="158" height="87" frames="3"
+               frameSmoothing="false" fps="5"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom7/Animations/EyesLeft/" name="left_anim" dest_rect="328,326,158,87"/>
+  <Action type="AnimationInstance" name="left_anim" action="show"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom7/Animations/EyesRight/" images="3"
+               combinedFrames="false" width="172" height="78" frames="3"
+               frameSmoothing="false" fps="5"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom7/Animations/EyesRight/" name="right_anim" dest_rect="759,270,172,78"/>
+  <Action type="AnimationInstance" name="right_anim" action="show"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  
+  <!--Events-->
+  <Event name="Right_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onReset">
+    <HandleEvent event="Right_Zoom.StartBlink"/>
+  </Event>
+  
+  <Event name="Right_Zoom.StartBlink">
+    <Action type="AnimationInstance" name="left_anim" action="play" reverse_anim="false" finished_event="Right_Zoom.onBlink1"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink1">
+    <Action type="AnimationInstance" name="left_anim" action="play" reverse_anim="true" finished_event="Right_Zoom.onBlink2"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink2">
+    <Action type="AnimationInstance" name="right_anim" action="play" reverse_anim="false" finished_event="Right_Zoom.onBlink3"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink3">
+    <Action type="AnimationInstance" name="right_anim" action="play" reverse_anim="true" finished_event="Right_Zoom.onBlink4"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink4">
+    <Action type="AnimationInstance" name="left_anim" action="play" reverse_anim="false" finished_event="Right_Zoom.onBlink5"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink5">
+    <Action type="AnimationInstance" name="left_anim" action="play" reverse_anim="true" finished_event="Right_Zoom.onBlink6"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink6">
+    <Action type="AnimationInstance" name="left_anim" action="play" reverse_anim="false" finished_event="Right_Zoom.onBlink7"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink7">
+    <Action type="AnimationInstance" name="left_anim" action="play" reverse_anim="true" finished_event="Right_Zoom.onBlink8"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink8">
+    <Action type="AnimationInstance" name="right_anim" action="play" reverse_anim="false" finished_event="Right_Zoom.onBlink9"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink9">
+    <Action type="AnimationInstance" name="right_anim" action="play" reverse_anim="true" finished_event="Right_Zoom.onBlink10"/>
+  </Event>
+  
+  <Event name="Right_Zoom.onBlink10">
+    <DelayedEvent event="Right_Zoom.StartBlink" delay="2000"/>
+  </Event>
+  
+</Script>

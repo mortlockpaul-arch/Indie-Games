@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Door2" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <!--Load content-->
+  <LoadContent type="TextureAnimation"
+               path="World/DreamMainRoom/Animations/Zoom_Door3/" images="1"
+               combinedFrames="true" width="640" height="360" frames="3" random_mode="true"
+               frameSmoothing="false" size="1280" fps="10"
+               />
+
+  <Action type="CreateAnimationInstance" path="World/DreamMainRoom/Animations/Zoom_Door3/" name="tv_anim" dest_rect="0,0,1280,720"/>
+  <Action type="AnimationInstance" name="tv_anim" action="show"/>
+  <Action type="AnimationInstance" name="tv_anim" action="play"/>
+  
+  <ViewTrigger name="Back1" next_view="View1_Left" type="fade_to_black"/>
+  <ViewTrigger name="Back2" next_view="View2_Back" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="385,240,865,475"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Zoom_Door2.onHatch"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Zoom_Door2.SetBack1">
+    <SetLocalState state="BackView" value="View1_Left"/>
+  </Event>
+  
+  <Event name="Zoom_Door2.SetBack2">
+    <SetLocalState state="BackView" value="View2_Back"/>
+  </Event>
+  
+  <Event name="Zoom_Door2.onReset">
+    <Case>
+      <Check type1="LocalState" value1="BackView" rule="==" type2="String" value2="View1_Left"/>
+      <True>
+        <Action type="GameDataView" value="View1_Left"/>
+      </True>
+      <False>
+        <Action type="GameDataView" value="View2_Back"/>
+      </False>
+    </Case>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="Zoom_Door2.onBack">
+    <Case>
+      <Check type1="LocalState" value1="BackView" rule="==" type2="String" value2="View1_Left"/>
+      <True>
+        <Action type="ActivateTrigger" name="Back1"/>
+      </True>
+      <False>
+        <Action type="ActivateTrigger" name="Back2"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Zoom_Door2.onHatch">
+    <Action type="ShowText" text="It won't open."/>
+  </Event>
+  
+</Script>

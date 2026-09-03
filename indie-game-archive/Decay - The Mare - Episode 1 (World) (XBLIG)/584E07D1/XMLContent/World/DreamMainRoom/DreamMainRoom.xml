@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Load content-->
+  <LoadContent type="Sound" path="World/DreamMainRoom/Sound/tv_turn_on"/>
+  <LoadContent type="Sound" path="World/DreamMainRoom/Sound/tv_sound"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamMainRoom/Sound/tv_turn_on" name="tv_turn_on"/>
+  <Action type="CreateSoundInstance" path="World/DreamMainRoom/Sound/tv_sound" name="tv_sound"/>
+  <Action type="CreateSoundInstance" path="Sound/locked_door" name="locked_sound"/>
+
+  <!--Events-->
+  <Event name="DreamMainRoom.onLockedDoor">
+    <Action type="SoundInstance" name="locked_sound" volume="0,5" action="Play"/>
+	  <Action type="ShowText" text="ITS_LOCKED" fade="false"/>
+  </Event>
+  
+  <Event name="DreamMainRoom.TurnOnTV">
+    <Action type="SoundInstance" name="tv_turn_on" volume="1,0" action="Play"/>
+  </Event>
+  
+  <Event name="View1.TVState.1">
+	<DelayedEvent event="DreamMainRoom.onTVSound" delay="1000"/>
+    <Action type="SoundInstance" name="tv_sound" volume="0,5"/>
+  </Event>
+
+  <Event name="DreamMainRoom.onTVSound">
+    <Action type="SoundInstance" name="tv_sound" action="Play" loop="true"/>
+  </Event>
+  
+  <Event name="DreamMainRoom.StopTVSound">
+    <Action type="SoundInstance" name="tv_sound" action="Stop"/>
+  </Event>
+  
+  <Event name="View2.onReset">
+    <Action type="SoundInstance" name="tv_sound" volume="0,25"/>
+  </Event>
+
+  <Event name="View2_Back.onReset">
+    <Action type="SoundInstance" name="tv_sound" volume="0,25"/>
+  </Event>
+  
+  <Event name="View1_Back.onReset">
+    <Action type="SoundInstance" name="tv_sound" volume="0,5"/>
+  </Event>
+  
+  <Event name="View1_Left.onReset">
+    <Action type="SoundInstance" name="tv_sound" volume="0,5"/>
+  </Event>
+  
+  <Event name="View1_Right.onReset">
+    <Action type="SoundInstance" name="tv_sound" volume="0,5"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="tv_sound" action="Pause"/>
+  </Event>
+
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="tv_sound" action="Resume"/>
+  </Event>
+  
+  <Event name="Game.FadeInArea">
+    <Case>
+      <Check type1="GlobalState" value1="DreamMainRoom.TVState" rule="==" type2="String" value2="1"/>
+      <True>
+        <PlayMusic value="1"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamMainRoom/Views/</ViewPath>
+  <View>View1</View>
+  <View>View1_Back</View>
+  <View>View1_Left</View>
+  <View>View1_Right</View>
+  <View>View2</View>
+  <View>View2_Back</View>
+  <View>Zoom_Door1</View>
+  <View>Zoom_Door2</View>
+  <View>Zoom_Door3</View>
+  
+</Script>

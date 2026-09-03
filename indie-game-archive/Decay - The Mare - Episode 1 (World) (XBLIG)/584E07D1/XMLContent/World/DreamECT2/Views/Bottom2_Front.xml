@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Bottom2_Front"/>
+  <Navigator down="true"/>
+  
+  <SetLocalState state="Vibration" value="0"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/bottom_front2" name="bottom_front2" show="true"/>
+
+  <LoadContent type="TextureAnimation"
+               path="World/DreamECT/Animations/Galler/" images="9"
+               combinedFrames="true" width="640" height="360" frames="128"
+               frameSmoothing="true" size="2048" fps="30"
+               />
+			   
+  <Action type="CreateAnimationInstance" path="World/DreamECT/Animations/Galler/" name="galler_anim" dest_rect="0,0,1280,720"/>
+  
+  <LoadContent type="Sound" path="World/DreamECT/Sound/gate_sound"/>  
+  <Action type="CreateSoundInstance" path="World/DreamECT/Sound/gate_sound" name="gate_sound"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="Bottom2_Back" type="fade_out"/>
+
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="510,190,700,580"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="Bottom2_Front.onDoorZoom"
+    activate_own="true"/>
+
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="510,190,700,580"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="Bottom2_Front.onDoorOpen"
+    activate_own="true"
+    enabled="false"/>
+    
+  <!--Events-->
+  <Event name="Bottom2_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onDoorZoom">    
+    <Action type="ShowText" text="TIME_IS_AN_ILLUSION" text_event="Bottom2_Front.onGallerAnim" fade="true"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onDoorOpen">
+    <Action type="ChangeArea" area="DreamRoom1" view="View1_Front" door_sound="true"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onGallerAnim">
+		<Action type="DisableInput"/>
+		<Action type="FadeOutHUD"/>
+		<Action type="HideCursor"/>
+	  <Action type="AnimationInstance" name="galler_anim" action="show"/>
+	  <Action type="AnimationInstance" name="galler_anim" action="play" finished_event="Bottom2_Front.onGallerAnimFinished"/>
+    <Action type="SoundInstance" name="gate_sound" volume="1,0" action="Play"/>
+    <DelayedEvent event="Bottom2_Front.onVibration1" delay="750"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onGallerAnimFinished">
+	  <Action type="AnimationInstance" name="galler_anim" action="hide"/>
+    <Action type="SetState" id="DreamECT2.Galler" state="1"/>
+    <HandleEvent event="Bottom2_Front.HandleGaller.1"/>
+    <HandleEvent event="Bottom2_Back.HandleGaller.1"/>
+		<Action type="EnableInput"/>
+		<Action type="FadeInHUD"/>
+		<Action type="ShowCursor"/>
+    <Action type="ShowText" text="WHAT_THE_HELL" fade="true"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.HandleGaller.1">
+    <DisableTrigger name="Trigger01"/>
+    <EnableTrigger name="Trigger02"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onUpdate">
+    <HandleLocalState state="Vibration"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="gate_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="gate_sound" action="Resume"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.HandleVibration.0">
+    <SetVibration value="0"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.HandleVibration.1">
+    <SetVibration value="1,0"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.HandleVibration.2">
+    <SetVibration value="1,0"/>
+  </Event>
+
+  <Event name="Bottom2_Front.onVibration1">
+    <SetLocalState state="Vibration" value="1"/>
+    <DelayedEvent event="Bottom2_Front.onVibration2" delay="250"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onVibration2">
+    <SetLocalState state="Vibration" value="2"/>
+    <DelayedEvent event="Bottom2_Front.onVibration3" delay="500"/>
+  </Event>
+  
+  <Event name="Bottom2_Front.onVibration3">
+    <SetLocalState state="Vibration" value="0"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamECT2.Galler" event="Bottom2_Front.HandleGaller"/>
+  
+</Script>

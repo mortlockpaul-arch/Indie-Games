@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Puzzle" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <SetLocalState state="ButtonMode" value="0"/>
+  <SetLocalState state="CurrentButton" value="0"/>
+  <SetLocalState state="ButtonSound" value="1"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom2/puzzle_zoom" name="puzzle_zoom" show="true"/>
+  <AddImage path="World/DreamRoom2/puzzle_button1" name="button1" show="true" dest_rect="441,373,60,75" center="30,45"/>
+  <AddImage path="World/DreamRoom2/puzzle_button2" name="button2" show="true" dest_rect="581,373,60,75" center="30,45"/>
+  <AddImage path="World/DreamRoom2/puzzle_button3" name="button3" show="true" dest_rect="722,373,60,75" center="30,45"/>
+  <AddImage path="World/DreamRoom2/puzzle_button4" name="button4" show="true" dest_rect="864,373,60,75" center="30,45"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom2/Animations/Fan/" images="7"
+               combinedFrames="true" width="640" height="360" frames="100"
+               frameSmoothing="true" size="2048" fps="25"
+               />
+			   
+  <Action type="CreateAnimationInstance" path="World/DreamRoom2/Animations/Fan/" name="fan_anim" dest_rect="0,0,1280,720"/>
+  
+  <AddImage path="World/DreamRoom2/zoom_handle" name="zoom_handle" show="false"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom2/Animations/Handle/" images="2"
+               combinedFrames="true" width="412" height="499" frames="29"
+               frameSmoothing="false" size="2048" fps="30"
+               />
+			   
+  <Action type="CreateAnimationInstance" path="World/DreamRoom2/Animations/Handle/" name="handle_anim" dest_rect="354,162,412,499"/>
+  
+  <LoadContent type="Sound" path="World/DreamRoom2/Sound/switch"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom2/Sound/switch" name="handle_sound"/>
+  
+  <LoadContent type="Sound" path="World/DreamRoom2/Sound/fan_sound"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom2/Sound/fan_sound" name="fan_sound"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom4/Sound/clock_arrows" name="button_sound1"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom4/Sound/clock_arrows" name="button_sound2"/>
+  
+  <!--Load button1-->
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button1" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button1" global_state="DreamRoom2.Puzzle.Button1"/>
+    </True>
+    <False>
+      <SetLocalState state="Button1" value="0"/>
+    </False>
+  </Case>
+  
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button1" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button1Rot" global_state="DreamRoom2.Puzzle.Button1Rot"/>
+    </True>
+    <False>
+      <SetLocalState state="Button1Rot" value="0"/>
+    </False>
+  </Case>
+  
+  <SetImageRotation name="button1" local_state="Button1Rot"/>
+  
+  <!--Load button2-->
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button2" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button2" global_state="DreamRoom2.Puzzle.Button2"/>
+    </True>
+    <False>
+      <SetLocalState state="Button2" value="0"/>
+    </False>
+  </Case>
+  
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button2" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button2Rot" global_state="DreamRoom2.Puzzle.Button2Rot"/>
+    </True>
+    <False>
+      <SetLocalState state="Button2Rot" value="0"/>
+    </False>
+  </Case>
+  
+  <SetImageRotation name="button2" local_state="Button2Rot"/>
+  
+  <!--Load button3-->
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button3" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button3" global_state="DreamRoom2.Puzzle.Button3"/>
+    </True>
+    <False>
+      <SetLocalState state="Button3" value="0"/>
+    </False>
+  </Case>
+  
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button3" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button3Rot" global_state="DreamRoom2.Puzzle.Button3Rot"/>
+    </True>
+    <False>
+      <SetLocalState state="Button3Rot" value="0"/>
+    </False>
+  </Case>
+  
+  <SetImageRotation name="button3" local_state="Button3Rot"/>
+  
+  <!--Load button4-->
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button4" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button4" global_state="DreamRoom2.Puzzle.Button4"/>
+    </True>
+    <False>
+      <SetLocalState state="Button4" value="0"/>
+    </False>
+  </Case>
+  
+  <Case>
+    <Check type1="GlobalState" value1="DreamRoom2.Puzzle.Button4" rule="!=" type2="String" value2=""/>
+    <True>
+      <SetLocalState state="Button4Rot" global_state="DreamRoom2.Puzzle.Button4Rot"/>
+    </True>
+    <False>
+      <SetLocalState state="Button4Rot" value="0"/>
+    </False>
+  </Case>
+  
+  <SetImageRotation name="button4" local_state="Button4Rot"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Button1"
+    collision="rect"
+    rect="390,320,490,420"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Puzzle.Button1"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Button2"
+    collision="rect"
+    rect="530,320,630,420"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Puzzle.Button2"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Button3"
+    collision="rect"
+    rect="675,320,770,420"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Puzzle.Button3"
+    activate_own ="true"/>
+    
+  <CursorTrigger
+    name="Button4"
+    collision="rect"
+    rect="820,320,910,420"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Puzzle.Button4"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Puzzle.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Puzzle.onReset">
+    <Action type="GameDataView" value="View1_Front"/>
+  </Event>
+  
+  <!--button1 events-->
+  <Event name="Puzzle.Button1">
+    <SetLocalState state="CurrentButton" value="1"/>
+    <HandleEvent event="Puzzle.EnterButtonMode"/>
+  </Event>
+  
+  <Event name="Puzzle.Button1.onLeft">
+    <SetLocalState state="Button1" add="-1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button1" rule="lower" type2="Number" value2="0"/>
+      <True>
+        <Trace text="Setting button1 to 9"/>
+        <SetLocalState state="Button1" value="9"/>
+        <SetLocalState state="Button1Rot" value="5,67"/>
+      </True>
+      <False>
+        <SetLocalState state="Button1Rot" add="-0,63"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button1" local_state="Button1Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button1" local_state="Button1"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button1Rot" local_state="Button1Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <Event name="Puzzle.Button1.onRight">
+    <SetLocalState state="Button1" add="1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button1" rule="higher" type2="Number" value2="9"/>
+      <True>
+        <Trace text="Setting button1 to 0"/>
+        <SetLocalState state="Button1" value="0"/>
+        <SetLocalState state="Button1Rot" value="0"/>
+      </True>
+      <False>
+        <SetLocalState state="Button1Rot" add="0,63"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button1" local_state="Button1Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button1" local_state="Button1"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button1Rot" local_state="Button1Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <!--button2 events-->
+  <Event name="Puzzle.Button2">
+    <SetLocalState state="CurrentButton" value="2"/>
+    <HandleEvent event="Puzzle.EnterButtonMode"/>
+  </Event>
+  
+  <Event name="Puzzle.Button2.onLeft">
+    <SetLocalState state="Button2" add="-1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button2" rule="lower" type2="Number" value2="0"/>
+      <True>
+        <Trace text="Setting button2 to 9"/>
+        <SetLocalState state="Button2" value="9"/>
+        <SetLocalState state="Button2Rot" value="5,58"/>
+      </True>
+      <False>
+        <SetLocalState state="Button2Rot" add="-0,62"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button2" local_state="Button2Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button2" local_state="Button2"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button2Rot" local_state="Button2Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <Event name="Puzzle.Button2.onRight">
+    <SetLocalState state="Button2" add="1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button2" rule="higher" type2="Number" value2="9"/>
+      <True>
+        <Trace text="Setting button2 to 0"/>
+        <SetLocalState state="Button2" value="0"/>
+        <SetLocalState state="Button2Rot" value="0"/>
+      </True>
+      <False>
+        <SetLocalState state="Button2Rot" add="0,62"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button2" local_state="Button2Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button2" local_state="Button2"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button2Rot" local_state="Button2Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <!--button3 events-->
+  <Event name="Puzzle.Button3">
+    <SetLocalState state="CurrentButton" value="3"/>
+    <HandleEvent event="Puzzle.EnterButtonMode"/>
+  </Event>
+  
+  <Event name="Puzzle.Button3.onLeft">
+    <SetLocalState state="Button3" add="-1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button3" rule="lower" type2="Number" value2="0"/>
+      <True>
+        <Trace text="Setting button3 to 9"/>
+        <SetLocalState state="Button3" value="9"/>
+        <SetLocalState state="Button3Rot" value="5,58"/>
+      </True>
+      <False>
+        <SetLocalState state="Button3Rot" add="-0,62"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button3" local_state="Button3Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button3" local_state="Button3"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button3Rot" local_state="Button3Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <Event name="Puzzle.Button3.onRight">
+    <SetLocalState state="Button3" add="1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button3" rule="higher" type2="Number" value2="9"/>
+      <True>
+        <Trace text="Setting button3 to 0"/>
+        <SetLocalState state="Button3" value="0"/>
+        <SetLocalState state="Button3Rot" value="0"/>
+      </True>
+      <False>
+        <SetLocalState state="Button3Rot" add="0,62"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button3" local_state="Button3Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button3" local_state="Button3"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button3Rot" local_state="Button3Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <!--button4 events-->
+  <Event name="Puzzle.Button4">
+    <SetLocalState state="CurrentButton" value="4"/>
+    <HandleEvent event="Puzzle.EnterButtonMode"/>
+  </Event>
+  
+  <Event name="Puzzle.Button4.onLeft">
+    <SetLocalState state="Button4" add="-1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button4" rule="lower" type2="Number" value2="0"/>
+      <True>
+        <Trace text="Setting button4 to 9"/>
+        <SetLocalState state="Button4" value="9"/>
+        <SetLocalState state="Button4Rot" value="5,58"/>
+      </True>
+      <False>
+        <SetLocalState state="Button4Rot" add="-0,62"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button4" local_state="Button4Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button4" local_state="Button4"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button4Rot" local_state="Button4Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <Event name="Puzzle.Button4.onRight">
+    <SetLocalState state="Button4" add="1"/>
+    
+    <Case>
+      <Check type1="LocalState" value1="Button4" rule="higher" type2="Number" value2="9"/>
+      <True>
+        <Trace text="Setting button4 to 0"/>
+        <SetLocalState state="Button4" value="0"/>
+        <SetLocalState state="Button4Rot" value="0"/>
+      </True>
+      <False>
+        <SetLocalState state="Button4Rot" add="0,62"/>
+      </False>
+    </Case>
+    
+    <SetImageRotation name="button4" local_state="Button4Rot"/>
+    
+    <SetGlobalState state="DreamRoom2.Puzzle.Button4" local_state="Button4"/>
+    <SetGlobalState state="DreamRoom2.Puzzle.Button4Rot" local_state="Button4Rot"/>
+    <HandleEvent event="Puzzle.PlayButtonSound"/>
+  </Event>
+  
+  <Event name="Puzzle.EnterButtonMode">
+		<Action type="DisableInput"/>
+		<Action type="HideCursor"/>
+    <HandleEvent event="Puzzle.DisableButtons"/>
+    <SetLocalState state="ButtonMode" value="1"/>
+  </Event>
+  
+  <Event name="Puzzle.LeaveButtonMode">
+		<Action type="EnableInput"/>
+		<Action type="FadeInHUD"/>
+		<Action type="ShowCursor"/>
+    <HandleEvent event="Puzzle.EnableButtons"/>
+    <SetLocalState state="CurrentButton" value="0"/>
+    <SetLocalState state="ButtonMode" value="0"/>
+  </Event>
+  
+  <Event name="Puzzle.DisableButtons">
+    <DisableTrigger name="Button1"/>
+    <DisableTrigger name="Button2"/>
+    <DisableTrigger name="Button3"/>
+    <DisableTrigger name="Button4"/>
+  </Event>
+  
+  <Event name="Puzzle.EnableButtons">
+    <EnableTrigger name="Button1"/>
+    <EnableTrigger name="Button2"/>
+    <EnableTrigger name="Button3"/>
+    <EnableTrigger name="Button4"/>
+  </Event>
+  
+  <Event name="Puzzle.onUseHandle">
+    <Action type="DisableInput"/>
+    <Action type="HideCursor"/>
+    <Action type="FadeOutHUD"/>
+    <BlockInput/>
+    <Action type="FadeToBlack" event="Puzzle.onUseHandle2"/>
+  </Event>
+  
+  <Event name="Puzzle.onUseHandle2">
+    <ShowImage name="zoom_handle"/>
+    <Action type="FadeFromBlack" event="Puzzle.onUseHandle3"/>
+  </Event>
+  
+  <Event name="Puzzle.onUseHandle3">
+	  <Action type="AnimationInstance" name="handle_anim" action="show"/>
+	  <Action type="AnimationInstance" name="handle_anim" action="play" finished_event="Puzzle.onCheckButtons"/>
+    <Action type="SoundInstance" name="handle_sound" volume="1,0" action="Play"/>
+  </Event>
+  
+  <Event name="Puzzle.onCheckButtons">
+    <Case>
+      <Check type1="LocalState" value1="Button1" rule="==" type2="Number" value2="9" nextCheck="AND"/>
+      <Check type1="LocalState" value1="Button2" rule="==" type2="Number" value2="6" nextCheck="AND"/>
+      <Check type1="LocalState" value1="Button3" rule="==" type2="Number" value2="1" nextCheck="AND"/>
+      <Check type1="LocalState" value1="Button4" rule="==" type2="Number" value2="5"/>
+      <True>
+        <Action type="FadeToBlack" event="Puzzle.onPuzzleCompleted"/>
+      </True>
+      <False>
+        <Action type="ShowText" text="Nothing happens ..." text_event="Puzzle.onPuzzleFailed"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleCompleted">
+	  <Action type="AnimationInstance" name="fan_anim" action="show"/>
+    <Action type="FadeFromBlack" event="Puzzle.onPuzzleCompleted2"/>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleCompleted2">
+	  <Action type="AnimationInstance" name="fan_anim" action="play" finished_event="Puzzle.onPuzzleCompleted3"/>
+    <Action type="SoundInstance" name="fan_sound" volume="1,0" action="Play"/>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleCompleted3">
+    <SetGlobalState state="DreamRoom2.PuzzleCompleted" value="1"/>
+    <SetGlobalState state="Loading.Suicide" value="1"/>
+    <HandleEvent event="View1_Front.HandlePuzzleCompleted.1"/>
+    <HandleEvent event="View1_Left.HandlePuzzleCompleted.1"/>
+    <Action type="ActivateTrigger" name="Back"/>
+    <Action type="EnableInput"/>
+    <UnblockInput/>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleFailed">
+    <Action type="FadeToBlack" event="Puzzle.onPuzzleFailed2"/>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleFailed2">
+    <HideImage name="zoom_handle"/>
+	  <Action type="AnimationInstance" name="handle_anim" action="hide"/>
+    <Action type="FadeFromBlack" event="Puzzle.onPuzzleFailed3"/>
+  </Event>
+  
+  <Event name="Puzzle.onPuzzleFailed3">
+    <Action type="EnableInput"/>
+    <Action type="ShowCursor"/>
+    <Action type="FadeInHUD"/>
+    <UnblockInput/>
+  </Event>
+  
+  <Event name="Puzzle.PlayButtonSound">
+    <Case>
+      <Check type1="LocalState" value1="ButtonSound" rule="==" type2="String" value2="1"/>
+      <True>
+        <SetLocalState state="ButtonSound" value="2"/>
+        <Action type="SoundInstance" name="button_sound1" volume="0,5" action="Play"/>
+      </True>
+      <False>
+        <SetLocalState state="ButtonSound" value="1"/>
+        <Action type="SoundInstance" name="button_sound2" volume="0,5" action="Play"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="fan_sound" action="Pause"/>
+    <Action type="SoundInstance" name="handle_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="fan_sound" action="Resume"/>
+    <Action type="SoundInstance" name="handle_sound" action="Resume"/>
+  </Event>
+  
+</Script>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Wall_Closed" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom10/wall_zoom1" name="wall_zoom1" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  
+  <!--Events-->
+  <Event name="Zoom_Wall_Closed.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+</Script>

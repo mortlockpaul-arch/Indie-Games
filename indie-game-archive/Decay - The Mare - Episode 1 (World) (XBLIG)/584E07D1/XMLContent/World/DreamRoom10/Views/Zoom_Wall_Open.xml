@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Wall_Open" navigator="false" hud_state="back" text_fade="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom10/wall_zoom_open" name="wall_zoom_open" show="true"/>
+  <AddImage path="World/DreamRoom10/wall_zoom_key_x578y439" name="key" show="true" dest_rect="578,439,92,33"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="578,439,670,472"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Zoom_Wall_Open.Key"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Zoom_Wall_Open.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Zoom_Wall_Open.Key">
+    <Action type="AskPickup" item_id="DreamRoom10PuppyKey"/>
+  </Event>
+
+  <Event name="Pickup.DreamRoom10PuppyKey">
+    <FadeOutImage name="key"/>
+    <RemoveTrigger name="Trigger01"/>
+    <HandleEvent event="View1_Back.HandleKey.1"/>
+    <SetGlobalState state="DreamRoom10.Key" value="1"/>
+  </Event>
+  
+  <Event name="Zoom_Wall_Open.HandleKey.1">
+    <HideImage name="key"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom10.Key" event="Zoom_Wall_Open.HandleKey"/>
+  
+</Script>

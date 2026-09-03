@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Left"/>
+  <Navigator left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom11/left_door_closed" name="left_door_closed" show="true"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom11/Animations/Left_Door/" images="3"
+               combinedFrames="true" width="230" height="496" frames="89"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom11/Animations/Left_Door/" name="door_anim" dest_rect="521,182,230,496"/>
+  <Action type="AnimationInstance" name="door_anim" action="show"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom11/Animations/Left_Butterfly/" images="1"
+               combinedFrames="true" width="57" height="53" frames="15"
+               frameSmoothing="false" size="256" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom11/Animations/Left_Butterfly/" name="butterfly_anim" dest_rect="585,391,57,53"/>
+  <Action type="AnimationInstance" name="butterfly_anim" action="Play" loop="ping_pong"/>
+  <Action type="AnimationInstance" name="butterfly_anim" action="show"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamRoom11/Sound/door_open" name="door_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Left" next_view="View1_Back" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Door" next_view="Left_Door_Zoom" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="530,220,720,630"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="View1_Left.onDoor"
+    activate_own="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="530,220,720,630"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Left_Door_Zoom2"
+    viewtrigger_type="fade_out"
+    enabled="false"/>
+    
+  <!--Events-->
+  <Event name="View1_Left.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Left.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Left.onReset">
+    <UnblockInput/>
+    <Action type="ShowCursor"/>
+    <Action type="FadeInHUD"/>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom11.LeftDoorState" rule="==" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="HideCursor"/>
+        <Action type="FadeOutHUD"/>
+        <SetHUDAlpha value="0"/>
+        <Action type="AnimationInstance" name="door_anim" action="play" finished_event="View1_Left.onDoorAnim"/>
+        <Action type="SoundInstance" name="door_sound" volume="1,0" action="Play"/>
+        <HandleEvent event="Left_Door_State.HandleDoorState.2"/>
+        <SetGlobalState state="DreamRoom11.LeftDoorState" value="2"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Left.onDoor">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom11.LeftDoorState" rule="==" type2="String" value2="2"/>
+      <True>
+        <BlockInput/>
+        <Action type="HideCursor"/>
+        <Action type="FadeOutHUD"/>
+      </True>
+      <False/>
+    </Case>
+    
+    <Action type="ActivateTrigger" name="Door"/>
+  </Event>
+  
+  <Event name="View1_Left.onDoorAnim">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Left.HandleDoorState.">
+    <SetGlobalState state="DreamRoom11.LeftDoorState" value="1"/>
+    <Action type="AnimationInstance" name="butterfly_anim" action="hide"/>
+  </Event>
+  
+  <Event name="View1_Left.HandleDoorState.2">
+    <Action type="AnimationInstance" name="butterfly_anim" action="hide"/>
+    <Action type="AnimationInstance" name="door_anim" action="set_frame" value="88"/>
+  </Event>
+  
+  <Event name="View1_Left.HandleDoorState.3">
+    <Action type="AnimationInstance" name="butterfly_anim" action="hide"/>
+    <Action type="AnimationInstance" name="door_anim" action="set_frame" value="0"/>
+    <DisableTrigger name="Trigger01"/>
+    <EnableTrigger name="Trigger02"/>
+  </Event>
+  
+  <!--Handle states-->
+  <Case>
+    <Check type1="GlobalState" value1="MazeGuide1" rule="==" type2="String" value2="1" nextCheck="AND"/>
+    <Check type1="GlobalState" value1="MazeGuide2" rule="==" type2="String" value2="1"/>
+    <True>
+      <HandleState state="DreamRoom11.LeftDoorState" event="View1_Left.HandleDoorState"/>
+    </True>
+    <False/>
+  </Case>
+  
+</Script>

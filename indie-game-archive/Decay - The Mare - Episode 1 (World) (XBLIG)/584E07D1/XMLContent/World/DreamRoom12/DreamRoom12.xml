@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom12/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>View1_Left</View>
+  <View>View1_Right</View>
+  
+  <SetLocalState state="MazeActive" value="1"/>
+  <SetLocalState state="Navigation" value="0"/>
+  <SetLocalState state="CurrentDoor" value=""/>
+  
+  <!--Events-->
+  <Event name="DreamRoom12.onFrontDoor">
+    <SetLocalState state="CurrentDoor" value="Front"/>
+    <Case>
+      <Check type1="LocalState" value1="MazeActive" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleLocalState state="Navigation"/>
+      </True>
+      <False>
+        <Action type="ChangeArea" area="DreamRoom11" view="View1_Front" door_sound="true"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom12.onBackDoor">
+    <SetLocalState state="CurrentDoor" value="Back"/>
+    <Case>
+      <Check type1="LocalState" value1="MazeActive" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleLocalState state="Navigation"/>
+      </True>
+      <False>
+        <Action type="ChangeArea" area="DreamRoom11" view="View1_Front" door_sound="true"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom12.onLeftDoor">
+    <SetLocalState state="CurrentDoor" value="Left"/>
+    <Case>
+      <Check type1="LocalState" value1="MazeActive" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleLocalState state="Navigation"/>
+      </True>
+      <False>
+        <Action type="ChangeArea" area="DreamRoom11" view="View1_Front" door_sound="true"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom12.onRightDoor">
+    <SetLocalState state="CurrentDoor" value="Right"/>
+    <Case>
+      <Check type1="LocalState" value1="MazeActive" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleLocalState state="Navigation"/>
+      </True>
+      <False>
+        <Action type="ChangeArea" area="DreamRoom11" view="View1_Front" door_sound="true"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleCurrentDoor.Front">
+    <HandleEvent event="View1_Front.onDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleCurrentDoor.Back">
+    <HandleEvent event="View1_Back.onDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleCurrentDoor.Left">
+    <HandleEvent event="View1_Left.onDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleCurrentDoor.Right">
+    <HandleEvent event="View1_Right.onDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.0">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Left"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <Case>
+      <Check type1="GlobalState" value1="MazeGuide1" rule="!=" type2="String" value2="1" nextCheck="OR"/>
+      <Check type1="GlobalState" value1="MazeGuide2" rule="!=" type2="String" value2="1"/>
+      <True>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace local_state="MazeActive"/>
+      </True>
+      <False/>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.1">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Front"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.2">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Right"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.3">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Right"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.4">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Right"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.5">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Front"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.6">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Left"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.7">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Left"/>
+      <True>
+        <SetLocalState state="Navigation" add="1"/>
+        <Trace local_state="Navigation"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+      </False>
+    </Case>
+    
+    <HandleLocalState state="CurrentDoor"/>
+  </Event>
+  
+  <Event name="DreamRoom12.HandleNavigation.8">
+    <Case>
+      <Check type1="LocalState" value1="CurrentDoor" rule="==" type2="String" value2="Front"/>
+      <True>
+        <Action type="ChangeArea" area="DreamRoom13" view="View1_Front" door_sound="true"/>
+      </True>
+      <False>
+        <SetLocalState state="MazeActive" value="0"/>
+        <Trace text="*** FAILED ***"/>
+        <HandleLocalState state="CurrentDoor"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <PlayMusic value="1"/>
+  
+</Script>

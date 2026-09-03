@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Load content-->
+  <!--
+  <LoadContent type="TextureAnimation"
+               path="World/Room1/Animations/View1to2/" images="1"
+               combinedFrames="true" width="320" height="180" frames="50"
+               frameSmoothing="true"
+               />
+               -->
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom5/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>View2_Front</View>
+  <View>View2_Back</View>
+  <View>Zoom_Door_Room6</View>
+  <View>Zoom_Door_Room7</View>
+  <View>Zoom_Door_Room8</View>
+  <View>View3_Back</View>
+  <View>Zoom_Stairs</View>
+  <View>Zoom_Door_Floor3</View>
+  
+  <PlayMusic value="1"/>
+  
+</Script>

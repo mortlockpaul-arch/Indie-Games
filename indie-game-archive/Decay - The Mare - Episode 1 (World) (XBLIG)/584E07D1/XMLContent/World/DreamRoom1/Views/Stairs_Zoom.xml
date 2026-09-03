@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Stairs_Zoom"/>
+  <Navigator left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom1/view3_right" name="stairs_zoom1" show="true"/>
+  <AddImage path="World/DreamRoom1/stairs_zoom2_x163y385" name="light" show="false" dest_rect="163,385,939,326"/>
+  <AddImage path="World/DreamRoom1/view3_right_redlamp_x582y9" name="light2" show="false" dest_rect="582,9,156,235"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Left" next_view="View3_Front" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View3_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="560,420,850,600"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Stairs_Zoom_Door"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="Stairs_Zoom.onReset">
+    <DelayedEvent event="Stairs_Zoom.Flicker3" min_delay="10" max_delay="2000"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom.Flicker1">
+    <ShowImage name="light"/>
+  </Event>
+
+  <Event name="Stairs_Zoom.Flicker2">
+    <HideImage name="light"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom.Flicker3">
+    <DelayedEvent event="Stairs_Zoom.Flicker4" min_delay="10" max_delay="2000"/>
+    <ShowImage name="light2"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom.Flicker4">
+    <DelayedEvent event="Stairs_Zoom.Flicker3" min_delay="10" max_delay="2000"/>
+    <HideImage name="light2"/>
+  </Event>
+  
+</Script>

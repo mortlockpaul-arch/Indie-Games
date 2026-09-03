@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Stairs1_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/stairs1_back" name="stairs1_back" show="true"/>
+  <AddImage path="World/DreamECT/stairs1_back2" name="stairs1_back2" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="Stairs1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="520,380,630,500"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="Stairs1_Back.onAsk"
+    activate_own ="true"/>
+	
+  <!--Events-->
+  <Event name="Stairs1_Back.onAsk">
+	<ShowAsk text="Enter?" ask1="Yes" ask_event1="Stairs1_Back.onEnter" ask2="No" ask_event2="" fade="true"/>
+  </Event>
+  
+  <Event name="Stairs1_Back.onEnter">
+    <Action type="ChangeArea" area="DreamECT" view="View1_Back" door_sound="false"/>
+  </Event>
+  
+  <Event name="Stairs1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="DreamECT2.Flicker1">
+    <ShowImage name="stairs1_back2"/>
+  </Event>
+  
+  <Event name="DreamECT2.Flicker2">
+    <HideImage name="stairs1_back2"/>
+  </Event>
+  
+</Script>

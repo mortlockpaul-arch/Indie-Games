@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="PlateZoom" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamOwnRoom/piller_zoom" name="piller_zoom" show="true"/>
+  <AddImage path="World/DreamOwnRoom/plate_zoom" name="plate_zoom" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View1" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="465,365,700,525"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="PlateZoom.onPlate"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="PlateZoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="PlateZoom.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="PlateZoom.onPlate">
+    <Case>
+      <Check type1="GetState" value1="DreamOwnRoom.WakeUp" rule="==" type2="String" value2="2"/>
+      <True>
+        <Action type="ShowText" text="I took my medicine before I went to bed." fade="false"/>
+      </True>
+      <False>
+        <Action type="ShowText" text="I was told to take my medicine before I went to bed." text_event="PlateZoom.onPlate2"/>
+      </False>
+    </Case>
+  </Event>
+  
+  <Event name="PlateZoom.onPlate2">
+    <ShowAsk text="Take medicine?" ask1="Yes" ask_event1="PlateZoom.onTakeMedicine" ask2="No" ask_event2="" fade="false"/>
+  </Event>
+  
+  <Event name="PlateZoom.onTakeMedicine">
+    <SetGlobalState state="DreamOwnRoom.WakeUp" value="1"/>
+    <BlockInput/>
+    <Action type="FadeOutHUD"/>
+    <SetHUDAlpha value="0"/>
+    <Action type="HideCursor"/>
+    <Action type="FadeToBlack" speed="0,5"/>
+    <DelayedEvent event="PlateZoom.onTakeMedicine2" delay="4000"/>
+  </Event>
+  
+  <Event name="PlateZoom.onWakeUp">
+    <Action type="ChangeArea" area="DreamOwnRoom" view="View1" door_sound="false"/>
+    <Action type="FadeOutHUD"/>
+    <SetHUDAlpha value="0"/>
+  </Event>
+  
+  <Event name="PlateZoom.WakeUp.2">
+    <HideImage name="piller_zoom"/>
+    <ShowImage name="plate_zoom"/>
+  </Event>
+  
+  <HandleState state="DreamOwnRoom.WakeUp" event="PlateZoom.WakeUp"/>
+  
+</Script>

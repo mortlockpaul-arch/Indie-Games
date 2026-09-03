@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom1/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>View2_Front</View>
+  <View>View2_Back</View>
+  <View>View3_Front</View>
+  <View>View3_Back</View>
+  <View>Zoom_Door_Room3</View>
+  <View>Stairs_Zoom</View>
+  <View>Stairs_Zoom_Door</View>
+  <View>Ring_Zoom</View>
+  
+  <ViewPath>XMLContent/World/DreamRoom4/Views/</ViewPath>
+  <View>Light_Sequence</View>
+  
+  <!--Events-->
+  <DelayedEvent event="Stairs_Zoom.Flicker1" min_delay="10" max_delay="2000"/>
+  
+  <Event name="Stairs_Zoom.Flicker1">
+    <DelayedEvent event="Stairs_Zoom.Flicker2" min_delay="10" max_delay="2000"/>
+  </Event>
+  
+  <Event name="Stairs_Zoom.Flicker2">
+    <DelayedEvent event="Stairs_Zoom.Flicker1" min_delay="10" max_delay="2000"/>
+  </Event>
+  
+  <PlayMusic value="1"/>
+  
+  <HandleEvent event="Light_Sequence.Setup.DreamRoom1"/>
+  
+</Script>

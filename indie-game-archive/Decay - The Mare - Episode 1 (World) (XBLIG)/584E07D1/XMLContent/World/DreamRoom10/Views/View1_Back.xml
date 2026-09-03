@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom10/back" name="back" show="true"/>
+  <AddImage path="World/DreamRoom10/back_wall_open_122x196" name="wall_open" show="false" dest_rect="122,196,207,474"/>
+  <AddImage path="World/DreamRoom10/back_key_x149y399" name="key" show="false" dest_rect="149,399,47,19"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="590,110,800,600"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Back.onDoor"
+    activate_own="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="130,200,290,445"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Zoom_Wall_Closed"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger03"
+    collision="rect"
+    rect="130,200,290,445"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Zoom_Wall_Open"
+    viewtrigger_type="fade_out"
+    enabled="false"/>
+    
+  <!--Events-->
+  <Event name="View1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Back.onReset">
+    <UnblockInput/>
+  </Event>
+  
+  <Event name="View1_Back.onDoor">
+    <Action type="ChangeArea" area="DreamRoom9" view="View1_Back" door_sound="true"/>
+  </Event>
+  
+  <Event name="View1_Back.HandleWallOpen.1">
+    <ShowImage name="wall_open"/>
+    <ShowImage name="key"/>
+    <DisableTrigger name="Trigger02"/>
+    <EnableTrigger name="Trigger03"/>
+  </Event>
+  
+  <Event name="View1_Back.HandleKey.1">
+    <HideImage name="key"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom10.WallOpen" event="View1_Back.HandleWallOpen"/>
+  <HandleState state="DreamRoom10.Key" event="View1_Back.HandleKey"/>
+  
+</Script>

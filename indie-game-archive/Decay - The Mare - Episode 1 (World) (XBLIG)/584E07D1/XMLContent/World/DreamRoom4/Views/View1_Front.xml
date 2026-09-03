@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator left="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom4/front" name="front" show="true"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Left" next_view="View1_Left" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="790,0,1150,720"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Front.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Front.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Front.onDoor">
+    <Action type="ChangeArea" area="DreamRoom5" view="View1_Front" door_sound="true"/>
+  </Event>
+  
+</Script>

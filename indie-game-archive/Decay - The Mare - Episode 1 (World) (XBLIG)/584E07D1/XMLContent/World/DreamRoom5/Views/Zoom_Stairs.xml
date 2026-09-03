@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Zoom_Stairs"/>
+  <Navigator down="true" left="true" right="true"/>
+  
+  <SetLocalState state="Vibration" value="0"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom5/zoom_stairs" name="zoom_stairs" show="true"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom5/Animations/Window/" images="1"
+               combinedFrames="true" width="148" height="189" frames="43"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom5/Animations/Window/" name="mare_anim" dest_rect="449,79,148,189"/>
+  <Action type="AnimationInstance" name="mare_anim" action="show"/>
+  <Action type="AnimationInstance" name="mare_anim" action="set_Frame" value="42"/>
+  
+  <LoadContent type="Sound" path="World/DreamRoom5/Sound/mare_window"/>
+  <Action type="CreateSoundInstance" path="World/DreamRoom5/Sound/mare_window" name="mare_sound"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Left" next_view="Zoom_Door_Room8" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="View3_Back" type="fade_out"/>
+  <ViewTrigger name="Down" next_view="Zoom_Door_Room7" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="365,415,640,595"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="Zoom_Door_Floor3"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="Zoom_Stairs.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom5.ShowMare2" rule="==" type2="String" value2="1"/>
+      <True>
+        <HandleEvent event="Zoom_Stairs.onMareAnim"/>
+      </True>
+      <False/>
+    </Case>
+    
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom5.ShowMare2" rule="==" type2="String" value2="2"/>
+      <True>
+        <DelayedEvent event="Zoom_Stairs.onMareAnim" delay="2000"/>
+      </True>
+      <False/>
+    </Case>
+    
+  </Event>
+  
+  <Event name="Zoom_Stairs.onMareAnim">
+    <Action type="AnimationInstance" name="mare_anim" action="Play" finished_event="Zoom_Stairs.onMareAnimFinished"/>
+    <Action type="AnimationInstance" name="mare_anim" action="show"/>
+    <Action type="SoundInstance" name="mare_sound" volume="1,0" action="Play"/>
+    <SetGlobalState state="DreamRoom5.ShowMare2" value=""/>
+    <DelayedEvent event="Zoom_Stairs.onVibration1" delay="250"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.onMareAnimFinished">
+    <Action type="AnimationInstance" name="mare_anim" action="set_Frame" value="42"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.onUpdate">
+    <HandleLocalState state="Vibration"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="mare_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="mare_sound" action="Resume"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.HandleVibration.0">
+    <SetVibration value="0"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.HandleVibration.1">
+    <SetVibration value="0,5"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.onVibration1">
+    <SetLocalState state="Vibration" value="1"/>
+    <DelayedEvent event="Zoom_Stairs.onVibration2" delay="250"/>
+  </Event>
+  
+  <Event name="Zoom_Stairs.onVibration2">
+    <SetLocalState state="Vibration" value="0"/>
+  </Event>
+  
+</Script>

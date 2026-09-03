@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View3_Front"/>
+  <Navigator down="true" right="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom1/view3_front" name="view3_front" show="true"/>
+  <AddImage path="World/DreamRoom1/view3_front_document_x811y576" name="paper" show="false" dest_rect="811,576,94,52"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View3_Back" type="fade_out"/>
+  <ViewTrigger name="Right" next_view="Stairs_Zoom" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="800,580,910,630"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Ring_Zoom"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="330,160,515,590"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View3_Front.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View3_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View3_Front.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View3_Front.onPaperAdded">
+    <ShowImage name="paper"/>
+  </Event>
+  
+  <Event name="View3_Front.onPaperRemoved">
+    <HideImage name="paper"/>
+  </Event>
+  
+  <Event name="View3_Front.onDoor">
+    <Action type="ChangeArea" area="DreamRoom2" view="View1_Front" door_sound="true"/>
+  </Event>
+  
+  <!--Handle states-->
+  <Case>
+    <Check type1="GetState" value1="DreamRoom1.PoetryPuzzle" rule="!=" type2="String" value2=""/>
+    <True>
+      <HandleEvent event="View3_Front.onPaperAdded"/>
+    </True>
+    <False>
+      <HandleEvent event="View3_Front.onPaperRemoved"/>
+    </False>
+  </Case>
+  
+</Script>

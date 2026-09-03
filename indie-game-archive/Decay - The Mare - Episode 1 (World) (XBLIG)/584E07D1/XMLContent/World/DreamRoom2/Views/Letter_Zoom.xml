@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Letter_Zoom" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom2/letter_zoom_floor" name="letter_zoom_floor" show="true"/>
+  <AddImage path="World/DreamRoom2/letter_zoom_floor_x556y346" name="letter" show="true" dest_rect="556,346,130,97"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="556,346,686,443"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Letter_Zoom.Room2Envelope"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Letter_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Letter_Zoom.Room2Envelope">
+    <Action type="AskPickup" item_id="Room2Envelope"/>
+  </Event>
+
+  <Event name="Pickup.Room2Envelope">
+    <FadeOutImage name="letter"/>
+    <RemoveTrigger name="Trigger01"/>
+    <Action type="SetState" id="DreamRoom2.Letter" state="1"/>
+    <HandleEvent event="View1_Front.HandleLetter.1"/>
+  </Event>
+  
+  <Event name="Letter_Zoom.HandleLetter.1">
+    <HideImage name="letter"/>
+    <RemoveTrigger name="Trigger01"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom2.Letter" event="Letter_Zoom.HandleLetter"/>
+  
+</Script>

@@ -1,0 +1,14 @@
+﻿<animation>
+  <name>AnimationSet0</name>
+  <tickspersecond>25.0</tickspersecond>
+  <animationsubset>
+    <name>idle</name>
+    <startframe>1</startframe>
+    <endframe>1</endframe>
+  </animationsubset>
+  <animationsubset>
+    <name>spin</name>
+    <startframe>1</startframe>
+    <endframe>320</endframe>
+  </animationsubset>
+</animation>

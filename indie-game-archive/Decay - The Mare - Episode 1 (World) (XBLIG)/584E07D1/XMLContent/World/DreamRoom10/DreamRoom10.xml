@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamRoom10/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>Head_Zoom</View>
+  <View>Puzzle</View>
+  <View>Zoom_Wall_Closed</View>
+  <View>Zoom_Wall_Open</View>
+  
+  <!--Events-->
+  
+  <PlayMusic value="1"/>
+  
+</Script>

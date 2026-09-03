@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamECT/front" name="front" show="true"/>
+  <AddImage path="World/DreamECT/front2" name="front2" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="540,340,660,500"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="HoleZoom"
+    viewtrigger_type="fade_out"/>
+	
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="DreamECT.Flicker1">
+    <ShowImage name="front2"/>
+  </Event>
+  
+  <Event name="DreamECT.Flicker2">
+    <HideImage name="front2"/>
+  </Event>
+  
+</Script>

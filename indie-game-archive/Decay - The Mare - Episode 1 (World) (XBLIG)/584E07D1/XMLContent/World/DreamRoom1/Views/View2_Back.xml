@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View2_Back"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom1/view2_back" name="view2_back" show="true"/>
+  <AddImage path="World/DreamRoom1/view2_back_key_x429y390" name="key" show="false" dest_rect="429,390,35,34"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View2_Front" type="fade_out"/>
+  <ViewTrigger name="Zoom_Door" next_view="Zoom_Door3" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="660,100,880,370"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View1_Back"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="280,80,480,720"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="View2_Back.Zoom_Door"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View2_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="DreamRoom3.Unlocked.1">
+    <ShowImage name="key"/>
+  </Event>
+  
+  <Event name="View2_Back.Zoom_Door">
+    <HandleEvent event="Zoom_Door3.SetBack2"/>
+    <Action type="ActivateTrigger" name="Zoom_Door"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom3.Unlocked" event="DreamRoom3.Unlocked"/>
+  
+</Script>

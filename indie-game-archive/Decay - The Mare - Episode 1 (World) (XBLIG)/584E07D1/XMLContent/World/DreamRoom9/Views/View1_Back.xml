@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Back"/>
+  <Navigator down="true"/>
+  
+  <SetLocalState state="Vibration" value="0"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom9/back" name="back" show="true"/>
+  <AddImage path="World/DreamRoom9/back2_x658y442" name="sledgehandle" show="true" dest_rect="658,442,135,180"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/WhiteRoom/Animations/Noise/" images="1"
+               combinedFrames="true" width="640" height="360" frames="5"
+               frameSmoothing="false" size="2048" fps="25" random_mode="true"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/WhiteRoom/Animations/Noise/" name="noise_anim" dest_rect="0,0,1280,720"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/WhiteRoom/Animations/Gunshot/" images="5"
+               combinedFrames="true" width="640" height="360" frames="75"
+               frameSmoothing="false" size="2048" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/WhiteRoom/Animations/Gunshot/" name="chair_anim" dest_rect="0,0,1280,720"/>
+  
+  <LoadContent type="Sound" path="World/WhiteRoom/Sound/white_room_2"/>
+  <Action type="CreateSoundInstance" path="World/WhiteRoom/Sound/white_room_2" name="anim_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Front" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="450,165,640,585"
+    cursor_style="use"
+    trigger_type="event"
+    trigger_event="View1_Back.onDoor"
+    activate_own="true"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="675,445,775,485"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Zoom_Chair"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger03"
+    collision="rect"
+    rect="920,60,1020,720"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View1_Right"
+    viewtrigger_type="fade_out"/>
+    
+  <!--Events-->
+  <Event name="View1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Back.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom9.ShowWhiteRoom" rule="==" type2="String" value2="1"/>
+      <True>
+        <BlockInput/>
+        <Action type="FadeOutHUD"/>
+        <SetHUDAlpha value="0"/>
+        <Action type="HideCursor"/>
+        <DelayedEvent event="View1_Back.ShowWhiteRoom1" delay="3000"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Back.onDoor">
+    <Action type="ChangeArea" area="DreamRoom11" view="View1_Front" door_sound="true"/>
+  </Event>
+  
+  <Event name="View1_Back.HandleSledgeHandle.1">
+    <HideImage name="sledgehandle"/>
+    <RemoveTrigger name="Trigger02"/>
+  </Event>
+  
+  <Event name="View1_Back.ShowWhiteRoom1">
+    <Action type="AnimationInstance" name="noise_anim" action="show"/>
+    <Action type="AnimationInstance" name="noise_anim" action="play"/>
+    <Action type="SoundInstance" name="anim_sound" volume="1,0" action="Play"/>
+    <DelayedEvent event="View1_Back.ShowWhiteRoom2" delay="480"/>
+    <Action type="PauseMusic"/>
+  </Event>
+  
+  <Event name="View1_Back.ShowWhiteRoom2">
+    <Action type="AnimationInstance" name="noise_anim" action="hide"/>
+    <Action type="AnimationInstance" name="chair_anim" action="show"/>
+    <DelayedEvent event="View1_Back.ShowWhiteRoom3" delay="4300"/>
+  </Event>
+  
+  <Event name="View1_Back.ShowWhiteRoom3">
+    <Action type="AnimationInstance" name="chair_anim" action="play"/>
+    <DelayedEvent event="View1_Back.ShowWhiteRoom4" delay="3500"/>
+    <DelayedEvent event="View1_Back.onVibration1" delay="250"/>
+  </Event>
+  
+  <Event name="View1_Back.ShowWhiteRoom4">
+    <Action type="AnimationInstance" name="chair_anim" action="hide"/>
+    <Action type="AnimationInstance" name="noise_anim" action="show"/>
+    <Action type="AnimationInstance" name="noise_anim" action="play"/>
+    <DelayedEvent event="View1_Back.ShowWhiteRoom5" delay="480"/>
+  </Event>
+  
+  <Event name="View1_Back.ShowWhiteRoom5">
+    <Action type="AnimationInstance" name="noise_anim" action="hide"/>
+    <UnblockInput/>
+    <Action type="ShowCursor"/>
+    <Action type="FadeInHUD"/>
+    <Action type="ResumeMusic"/>
+    <SetGlobalState state="DreamRoom9.ShowWhiteRoom" value=""/>
+  </Event>
+  
+  <Event name="View1_Back.onUpdate">
+    <HandleLocalState state="Vibration"/>
+  </Event>
+  
+  <Event name="Game.Pause">
+    <Action type="SoundInstance" name="anim_sound" action="Pause"/>
+  </Event>
+  
+  <Event name="Game.Resume">
+    <Action type="SoundInstance" name="anim_sound" action="Resume"/>
+  </Event>
+  
+  <Event name="View1_Back.HandleVibration.0">
+    <SetVibration value="0"/>
+  </Event>
+  
+  <Event name="View1_Back.HandleVibration.1">
+    <SetVibration value="1,0"/>
+  </Event>
+  
+  <Event name="View1_Back.onVibration1">
+    <SetLocalState state="Vibration" value="1"/>
+    <DelayedEvent event="View1_Back.onVibration2" delay="300"/>
+  </Event>
+  
+  <Event name="View1_Back.onVibration2">
+    <SetLocalState state="Vibration" value="0"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom9.SledgeHandle" event="View1_Back.HandleSledgeHandle"/>
+  
+</Script>

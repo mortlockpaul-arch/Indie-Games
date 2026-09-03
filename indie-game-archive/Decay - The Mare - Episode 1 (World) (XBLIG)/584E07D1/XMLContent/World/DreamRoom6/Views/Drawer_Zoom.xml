@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Drawer_Zoom" navigator="false" hud_state="back"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom6/drawer_zoom1" name="drawer_zoom1" show="true"/>
+  <AddImage path="World/DreamRoom6/drawer_zoom2" name="light" show="false"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Back" next_view="View1_Front" type="fade_out"/>
+  <ViewTrigger name="Open" next_view="Drawer_Open" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="570,300,735,400"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Drawer_Zoop.onOpen"
+    activate_own ="true"/>
+    
+  <!--Events-->
+  <Event name="Drawer_Zoom.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Drawer_Zoop.onOpen">
+    <HandleEvent event="DreamRoom6.PlayDrawerSound"/>
+    <Action type="ActivateTrigger" name="Open"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker1">
+    <ShowImage name="light"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Flicker2">
+    <HideImage name="light"/>
+  </Event>
+  
+</Script>

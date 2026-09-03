@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true" left="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom2/front" name="front" show="true"/>
+  <AddImage path="World/DreamRoom2/front_letter_x893y605" name="letter" show="false" dest_rect="893,605,54,25"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  <ViewTrigger name="Left" next_view="View1_Left" type="fade_out"/>
+    
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="850,280,975,345"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Puzzle"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="893,605,947,630"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Letter_Zoom"
+    viewtrigger_type="fade_out"
+    enabled="false"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Front.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Front.HandlePuzzleCompleted.1">
+    <DisableTrigger name="Trigger01"/>
+    <ShowImage name="letter"/>
+    <EnableTrigger name="Trigger02"/>
+  </Event>
+  
+  <Event name="View1_Front.HandleLetter.1">
+    <HideImage name="letter"/>
+    <DisableTrigger name="Trigger02"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom2.PuzzleCompleted" event="View1_Front.HandlePuzzleCompleted"/>
+  <HandleState state="DreamRoom2.Letter" event="View1_Front.HandleLetter"/>
+</Script>

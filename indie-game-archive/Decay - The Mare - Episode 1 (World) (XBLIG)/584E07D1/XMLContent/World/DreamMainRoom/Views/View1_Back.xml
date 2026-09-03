@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Back"/>
+  <Navigator down="true" left="true" right="true"/>
+  
+  <!--Load content-->
+  <LoadContent type="TextureAnimation"
+               path="World/DreamMainRoom/Animations/View1_Back/" images="1"
+               combinedFrames="true" width="640" height="360" frames="3" random_mode="true"
+               frameSmoothing="false" size="1280" fps="10"
+               />
+
+  <Action type="CreateAnimationInstance" path="World/DreamMainRoom/Animations/View1_Back/" name="tv_anim" dest_rect="0,0,1280,720"/>
+  <Action type="AnimationInstance" name="tv_anim" action="show"/>
+  <Action type="AnimationInstance" name="tv_anim" action="play"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1" type="fade_to_black"/>
+  <ViewTrigger name="Left" next_view="View1_Left" type="fade_to_black"/>
+  <ViewTrigger name="Right" next_view="View1_Right" type="fade_to_black"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="440,420,475,450"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="View1_Back.onDoor"
+    activate_own="true"/>
+  
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="520,275,615,320"
+    cursor_style="zoom_small"
+    trigger_type="view"
+    trigger_view="Zoom_Door3"
+    viewtrigger_type="fade_to_black"/>
+    
+  <!--Events-->
+  <Event name="View1_Back.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Back.onLeft">
+    <Action type="ActivateTrigger" name="Left"/>
+  </Event>
+  
+  <Event name="View1_Back.onRight">
+    <Action type="ActivateTrigger" name="Right"/>
+  </Event>
+  
+  <Event name="View1_Back.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom4.PuzzleCompleted" rule="==" type2="String" value2="1"/>
+      <True>
+        <Action type="GameDataArea" value="DreamECT"/>
+        <Action type="GameDataView" value="View1_Back"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Back.onDoor">
+    <Action type="ChangeArea" area="DreamOwnRoom" view="View1" door_sound="true"/>
+  </Event>
+  
+</Script>

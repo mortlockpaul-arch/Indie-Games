@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Load content-->
+  <!--
+  <LoadContent type="TextureAnimation"
+               path="World/Room1/Animations/View1to2/" images="1"
+               combinedFrames="true" width="320" height="180" frames="50"
+               frameSmoothing="true"
+               />
+               -->
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamOwnRoom/Views/</ViewPath>
+  <View>View1</View>
+  <View>View2</View>
+  <View>PlateZoom</View>
+  <View>SkapZoom</View>
+  <View>SkapZoomOpen</View>
+  
+  <!--Events-->
+  <Event name="Game.FadeInArea">
+    <Case>
+      <Check type1="GlobalState" value1="DreamMainRoom.TVState" rule="==" type2="String" value2="1"/>
+      <True>
+        <PlayMusic value="1"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+</Script>

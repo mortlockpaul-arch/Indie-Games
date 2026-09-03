@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="View1_Front"/>
+  <Navigator down="true"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom5/view1_front" name="view1_front" show="true"/>
+  <AddImage path="World/DreamRoom5/view1_front_document_x715y300" name="document" show="true" dest_rect="715,300,30,50"/>
+  <AddImage path="World/DreamRoom5/view1_front_withkey_x949y465" name="key" show="false" dest_rect="949,465,57,65"/>
+
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom5/Animations/RoofFan/" images="1"
+               combinedFrames="true" width="360" height="138" frames="29"
+               frameSmoothing="false" size="2048"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom5/Animations/RoofFan/" name="roof_fan_anim" dest_rect="470,0,360,138"/>
+  <Action type="AnimationInstance" name="roof_fan_anim" action="Play" loop="cycle"/>
+  <Action type="AnimationInstance" name="roof_fan_anim" action="show"/>
+  
+  <LoadContent type="TextureAnimation"
+               path="World/DreamRoom5/Animations/DoorWindow/" images="1"
+               combinedFrames="true" width="42" height="138" frames="9"
+               frameSmoothing="false" size="320" fps="25"
+               />
+               
+  <Action type="CreateAnimationInstance" path="World/DreamRoom5/Animations/DoorWindow/" name="mare_anim" dest_rect="515,249,42,138"/>
+  <Action type="AnimationInstance" name="mare_anim" action="show"/>
+  
+  <!--View triggers-->
+  <ViewTrigger name="Down" next_view="View1_Back" type="fade_out"/>
+  <ViewTrigger name="Zoom_Door" next_view="Zoom_Door6" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="370,140,790,510"
+    cursor_style="zoom"
+    trigger_type="view"
+    trigger_view="View2_Front"
+    viewtrigger_type="fade_out"/>
+    
+  <CursorTrigger
+    name="Trigger02"
+    collision="rect"
+    rect="900,75,1015,720"
+    cursor_style="zoom"
+    trigger_type="event"
+    trigger_event="View1_Front.Zoom_Door"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="View1_Front.onDown">
+    <Action type="ActivateTrigger" name="Down"/>
+  </Event>
+  
+  <Event name="View1_Front.onReset">
+    <Case>
+      <Check type1="GlobalState" value1="DreamRoom5.ShowMare1" rule="!=" type2="String" value2="1"/>
+      <True>
+        <DelayedEvent event="View1_Front.onMareAnim" delay="2000"/>
+      </True>
+      <False/>
+    </Case>
+  </Event>
+  
+  <Event name="View1_Front.onMareAnim">
+    <Action type="AnimationInstance" name="mare_anim" action="Play" finished_event="View1_Front.onMareAnimFinished"/>
+  </Event>
+  
+  <Event name="Pickup.Room5Document">
+    <HideImage name="document"/>
+  </Event>
+  
+  <Event name="Zoom_Door_Room8.HandleDocument.1">
+    <HideImage name="document"/>
+  </Event>
+  
+  <Event name="DreamRoom6.Unlocked.1">
+    <ShowImage name="key"/>
+  </Event>
+  
+  <Event name="View1_Front.Zoom_Door">
+    <HandleEvent event="Zoom_Door6.SetBack1"/>
+    <Action type="ActivateTrigger" name="Zoom_Door"/>
+  </Event>
+  
+  <Event name="View1_Front.HandleMare.1">
+    <Action type="AnimationInstance" name="mare_anim" action="hide"/>
+  </Event>
+  
+  <Event name="View1_Front.onMareAnimFinished">
+    <Action type="AnimationInstance" name="mare_anim" action="hide"/>
+    <SetGlobalState state="DreamRoom5.ShowMare1" value="1"/>
+  </Event>
+  
+  <!--Handle states-->
+  <HandleState state="DreamRoom6.Unlocked" event="DreamRoom3.Unlocked"/>
+  <HandleState state="DreamRoom5.ShowMare1" event="View1_Front.HandleMare"/>
+  
+</Script>

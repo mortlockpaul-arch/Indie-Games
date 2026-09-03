@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  <Setup name="Left_Door_Zoom2" navigator="false" hud_state="back" text_fade="false"/>
+  
+  <!--Load content-->
+  <AddImage path="World/DreamRoom11/wood_door_zoom_closed" name="wood_door_zoom_closed" show="true"/>
+  
+  <Action type="CreateSoundInstance" path="Sound/locked_door" name="locked_sound"/>
+  
+  <!--Turn triggers-->
+  <ViewTrigger name="Back" next_view="View1_Left" type="fade_out"/>
+  
+  <!--Cursor triggers-->
+  <CursorTrigger
+    name="Trigger01"
+    collision="rect"
+    rect="740,380,790,510"
+    cursor_style="use_small"
+    trigger_type="event"
+    trigger_event="Left_Door_Zoom2.onDoor"
+    activate_own="true"/>
+    
+  <!--Events-->
+  <Event name="Left_Door_Zoom2.onBack">
+    <Action type="ActivateTrigger" name="Back"/>
+  </Event>
+  
+  <Event name="Left_Door_Zoom2.onDoor">
+    <Action type="SoundInstance" name="locked_sound" volume="0,5" action="Play"/>
+    <Action type="ShowText" text="It won't open."/>
+  </Event>
+  
+</Script>

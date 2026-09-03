@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script>
+  
+  <!--Load content-->  
+  <LoadContent type="Sound" path="World/DreamECT/Sound/lightbulb"/>
+  
+  <Action type="CreateSoundInstance" path="World/DreamECT/Sound/lightbulb" name="light_sound"/>
+  
+  <!--Create views-->
+  <ViewPath>XMLContent/World/DreamECT/Views/</ViewPath>
+  <View>View1_Front</View>
+  <View>View1_Back</View>
+  <View>HoleZoom</View>
+  
+  <Action type="SoundInstance" name="light_sound" volume="0,5"/>
+  
+  <!--Events-->
+  <DelayedEvent event="DreamECT.Flicker1" min_delay="10" max_delay="2000"/>
+  
+  <Event name="DreamECT.Flicker1">
+    <DelayedEvent event="DreamECT.Flicker2" min_delay="10" max_delay="2000"/>
+    <Action type="SoundInstance" name="light_sound" action="Play"/>
+  </Event>
+  
+  <Event name="DreamECT.Flicker2">
+    <DelayedEvent event="DreamECT.Flicker1" min_delay="10" max_delay="2000"/>
+    <Action type="SoundInstance" name="light_sound" action="Play"/>
+  </Event>
+  
+  <Event name="HoleZoom.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="1,0"/>
+  </Event>
+  
+  <Event name="View1_Front.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,5"/>
+  </Event>
+  
+  <Event name="View1_Back.onReset">
+    <Action type="SoundInstance" name="light_sound" volume="0,5"/>
+  </Event>
+  
+  <PlayMusic value="1"/>
+</Script>
