@@ -11,6 +11,8 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="C:/source/Indie-Games/indie-game-archive/2176 Supernova Storm (World) (XBLIG)/2176 Supernova Storm (World) (XBLIG).csproj" />
+    <Project Path="C:/source/Indie-Games/indie-game-archive/3D Infinity (World) (XBLIG)/3D Infinity (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -18,6 +20,9 @@
       <Build Solution="Release|x64" Project="false" />
     </Project>
     <Project Path="indie-game-archive/2060 Cyber Racer (World) (XBLIG)/2060 Cyber Racer (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/8-Bit Defense (World) (XBLIG)/8-Bit Defense (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
@@ -70,8 +75,6 @@
     </Project>
   </Folder>
   <Folder Name="/Reference-Projects/">
-    <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/LibMaximinus.csproj" />
-    <Project Path="indie-game-archive/27 Ball Funky Pool (World) (XBLIG)/MaximinusDataTypes.csproj" />
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/AircraftRC.resources.csproj" />
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/BEPUphysics.csproj" />
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/DPSFXbox360.csproj" />
@@ -79,7 +82,6 @@
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/CharImportData.csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/FarseerPhysics.csproj" />
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/RenderLibrary.csproj" />
-    <Project Path="indie-game-archive/Decay - The Mare - Episode 1 (World) (XBLIG)/Core.csproj" />
     <Project Path="indie-game-archive/Defenders of the Last Colony/EasyStorage.csproj" />
     <Project Path="indie-game-archive/Defenders of the Last Colony/EasyStorage.resources.csproj">
       <Platform Solution="Debug|x64" Project="x64" />
