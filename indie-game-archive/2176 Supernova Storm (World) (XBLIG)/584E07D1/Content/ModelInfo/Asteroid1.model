@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<ModelInfo>
+	<Model model='Asteroid1' texture='asteroid1'/>
+	<CollisionSpheres>
+		<ColSphere position='18.18159,863.8151,0' radius='550.4165'/>
+		<ColSphere position='-94.2914,-712.2024,0' radius='768.3812'/>
+		<ColSphere position='130.6546,202.9045,0' radius='768.3813'/>
+	</CollisionSpheres>
+</ModelInfo>

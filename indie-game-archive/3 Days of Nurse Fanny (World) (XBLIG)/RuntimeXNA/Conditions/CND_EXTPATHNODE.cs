@@ -1,0 +1,26 @@
+using RuntimeXNA.Objects;
+using RuntimeXNA.RunLoop;
+
+namespace RuntimeXNA.Conditions;
+
+public class CND_EXTPATHNODE : CCnd, IEvaObject
+{
+	public override bool eva1(CRun rhPtr, CObject hoPtr)
+	{
+		return true;
+	}
+
+	public override bool eva2(CRun rhPtr)
+	{
+		return evaObject(rhPtr, this);
+	}
+
+	public virtual bool evaObjectRoutine(CObject hoPtr)
+	{
+		if (hoPtr.roc.rcMovementType != 5)
+		{
+			return false;
+		}
+		return checkMark(hoPtr.hoAdRunHeader, hoPtr.hoMark1);
+	}
+}

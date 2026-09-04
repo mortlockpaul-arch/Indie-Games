@@ -1,29 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
 <Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <AssemblyName>Farseer Physics 3.0 XNA</AssemblyName>
-    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
-	  <TargetFramework>net5.0-windows7.0</TargetFramework>
-    <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
-  <PropertyGroup>
-    <LangVersion>14.0</LangVersion>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
-  </PropertyGroup>
-  <PropertyGroup>
-    <RootNamespace />
-  </PropertyGroup>
-  <ItemGroup>
-    <None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
-    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" LogicalName="Microsoft.Xna.Framework.RuntimeProfile" />
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Microsoft.Xna.Framework" />
-    <Reference Include="System.Core">
-      <HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-      <HintPath>C:\WINDOWS\Microsoft.NET\Framework64\v4.0.30319\System.Xml.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<PropertyGroup>
+		<AssemblyName>Tales of The Orange Forest</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<OutputType>WinExe</OutputType>
+		<LangVersion>14.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
+		<PlatformTarget>x64</PlatformTarget>
+		<Platforms>x86;x64</Platforms>
+		<RootNameSpace>Tales of The Orange Forest</RootNameSpace>
+		<StartupObject>Tales of The Orange Forest.Program</StartupObject>
+		<ApplicationIcon>gamethumbnail.png</ApplicationIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
+			<Private>True</Private>
+			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="Farseer Physics 3.0 XNA">
+			<HintPath>Farseer Physics 3.0 XNA.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="ProjectMercury">
+			<HintPath>ProjectMercury.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="Farseer Physics 3.0 XNA">
+			<HintPath>584E07D1/Farseer Physics 3.0 XNA.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="ProjectMercury">
+			<HintPath>584E07D1/ProjectMercury.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup />
+	<ItemGroup>
+		<None Update="Content\**\*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 </Project>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<ModelInfo>
+	<Model model='Asteroid4' texture='asteroid1'/>
+	<CollisionSpheres>
+		<ColSphere position='770.9083,-134.0905,0' radius='1402.491'/>
+		<ColSphere position='842.8531,-743.0878,0' radius='1202.371'/>
+		<ColSphere position='1166.605,512.9692,0' radius='877.424'/>
+		<ColSphere position='153.3821,688.056,0' radius='1144.243'/>
+		<ColSphere position='-1189.588,-1116.099,0' radius='593.6428'/>
+		<ColSphere position='-164.3741,-598.4509,0' radius='1321.276'/>
+		<ColSphere position='-224.3281,170.4082,0' radius='995.9473'/>
+		<ColSphere position='-1183.592,-743.0878,0' radius='462.904'/>
+	</CollisionSpheres>
+</ModelInfo>
