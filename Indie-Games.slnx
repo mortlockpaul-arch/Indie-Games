@@ -64,16 +64,17 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
     <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBALL (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBall.csproj" />
-    <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBallMk4.csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
+    <Project Path="D:/downloads/XBLIG/extracted/Downtown SMASH Dodgeball! (World) (XBLIG)/Downtown SMASH Dodgeball! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/3 Days of Nurse Fanny (World) (XBLIG)/BinaryRead.csproj" />
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/AircraftRC.resources.csproj">
       <Platform Solution="Debug|x86" Project="x64" />
@@ -93,6 +94,7 @@
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj" />
     <Project Path="Reference-Projects/Common/Common.csproj" />
     <Project Path="Reference-Projects/GKEngine/GKEngine.csproj" />
+    <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBallMk4.csproj" />
   </Folder>
   <Folder Name="/References/">
     <Project Path="Content-References/FNA.Contents.csproj">

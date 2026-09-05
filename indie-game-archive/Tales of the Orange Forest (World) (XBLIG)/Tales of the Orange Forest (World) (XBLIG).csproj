@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>Tales of The Orange Forest</AssemblyName>
@@ -14,34 +14,18 @@
 		<PlatformTarget>x64</PlatformTarget>
 		<Platforms>x86;x64</Platforms>
 		<RootNameSpace>Tales of The Orange Forest</RootNameSpace>
-		<StartupObject>Tales of The Orange Forest.Program</StartupObject>
-		<ApplicationIcon>gamethumbnail.png</ApplicationIcon>
+		<StartupObject>Platformer1.Program</StartupObject>
+		<ApplicationIcon>app.ico</ApplicationIcon>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Content Include="app.ico" />
+	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
 			<Private>True</Private>
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>
 	</ItemGroup>
-	<ItemGroup>
-		<Reference Include="Farseer Physics 3.0 XNA">
-			<HintPath>Farseer Physics 3.0 XNA.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="ProjectMercury">
-			<HintPath>ProjectMercury.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="Farseer Physics 3.0 XNA">
-			<HintPath>584E07D1/Farseer Physics 3.0 XNA.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-		<Reference Include="ProjectMercury">
-			<HintPath>584E07D1/ProjectMercury.dll</HintPath>
-			<Private>True</Private>
-		</Reference>
-	</ItemGroup>
-	<ItemGroup />
 	<ItemGroup>
 		<None Update="Content\**\*">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>

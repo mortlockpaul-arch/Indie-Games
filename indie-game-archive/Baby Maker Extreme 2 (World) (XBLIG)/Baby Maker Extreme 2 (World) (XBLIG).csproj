@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>Baby Maker Extreme 2</AssemblyName>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<OutputType>WinExe</OutputType>
+		<LangVersion>14.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
+		<PlatformTarget>x64</PlatformTarget>
+		<Platforms>x86;x64</Platforms>
+		<RootNameSpace>Baby Maker Extreme 2</RootNameSpace>
+		<StartupObject>Baby Maker Extreme 2.Program</StartupObject>
+		<ApplicationIcon>gamethumbnail.png</ApplicationIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
+			<Private>True</Private>
+			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
+		</ProjectReference>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="FarseerPhysicsXNA">
+			<HintPath>584E07D1/FarseerPhysicsXNA.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="PhysicsHandler">
+			<HintPath>584E07D1/PhysicsHandler.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="RenderLibrary">
+			<HintPath>584E07D1/RenderLibrary.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup />
+	<ItemGroup>
+		<None Update="Content\**\*">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+</Project>

@@ -6,6 +6,7 @@ using FarseerPhysics.Common.Decomposition;
 using FarseerPhysics.Dynamics;
 using FarseerPhysics.Dynamics.Joints;
 using Microsoft.Xna.Framework;
+using Path = FarseerPhysics.Common.Path;
 
 namespace FarseerPhysics.Factories;
 

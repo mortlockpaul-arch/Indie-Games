@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<AssemblyName>TabeBALL</AssemblyName>
+		<AssemblyName>TabeBALL (World) (XBLIG)</AssemblyName>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<TargetFramework>net8.0-windows</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -13,8 +13,8 @@
 		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
 		<PlatformTarget>x64</PlatformTarget>
 		<Platforms>x86;x64</Platforms>
-		<RootNameSpace>TabeBALL</RootNameSpace>
-		<StartupObject>TabeBALL.Program</StartupObject>
+		<RootNameSpace>TabeBALL (World) (XBLIG)</RootNameSpace>
+		<StartupObject>TabeBALL (World) (XBLIG).Program</StartupObject>
 		<ApplicationIcon>gamethumbnail.png</ApplicationIcon>
 	</PropertyGroup>
 	<ItemGroup>
