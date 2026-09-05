@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<AssemblyName>ApocZ</AssemblyName>
@@ -12,6 +12,7 @@
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<StartupObject>GameEngine.Program</StartupObject>
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">

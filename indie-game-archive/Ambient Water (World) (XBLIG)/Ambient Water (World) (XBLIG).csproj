@@ -13,6 +13,7 @@
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
 		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
 		<StartupObject>amProject.Program</StartupObject>
+		<Platforms>AnyCPU;x64</Platforms>
 	</PropertyGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">

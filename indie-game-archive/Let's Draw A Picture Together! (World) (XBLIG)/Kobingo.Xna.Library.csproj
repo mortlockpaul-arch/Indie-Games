@@ -3,26 +3,29 @@
 	<PropertyGroup>
 		<AssemblyName>Let's Draw A Picture Together!</AssemblyName>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		<TargetFramework>net481</TargetFramework>
+		<TargetFramework>net8.0-windows</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<Platforms>AnyCPU</Platforms>
 		<OutputType>WinExe</OutputType>
 		<LangVersion>14.0</LangVersion>
 		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
 		<EnableDefaultEmbeddedResourceItems>False</EnableDefaultEmbeddedResourceItems>
-		<PlatformTarget>x86</PlatformTarget>
+		<PlatformTarget>x64</PlatformTarget>
+		<Platforms>x86;x64</Platforms>
+		<RootNameSpace>Let's Draw A Picture Together!</RootNameSpace>
+		<StartupObject>Let's Draw A Picture Together!.Program</StartupObject>
+		<ApplicationIcon>gamethumbnail.png</ApplicationIcon>
 	</PropertyGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\..\Content-References\Contents.csproj">
+		<ProjectReference Include="..\..\Content-References\FNA.Contents.csproj">
 			<Private>True</Private>
 			<CopyLocalSatelliteAssemblies>True</CopyLocalSatelliteAssemblies>
 		</ProjectReference>
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="Kobingo.Xna.Library">
-			<HintPath>Kobingo.Xna.Library.dll</HintPath>
+			<HintPath>584E07D1/Kobingo.Xna.Library.dll</HintPath>
 			<Private>True</Private>
 		</Reference>
 	</ItemGroup>
