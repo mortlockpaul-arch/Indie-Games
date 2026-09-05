@@ -1,37 +1,35 @@
-
+<?xml version='1.0' encoding='utf-8'?>
 <Solution>
   <Configurations>
-    <Platform Name="Any CPU" />
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/indie-game-archive/">
-    <Project Path="D:/downloads/XBLIG/extracted/TabeBALL (World) (XBLIG)/TabeBALL (World) (XBLIG).csproj">
-      <Platform Solution="*|Any CPU" Project="x64" />
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
     <Project Path="C:/source/Indie-Games/indie-game-archive/2176 Supernova Storm (World) (XBLIG)/2176 Supernova Storm (World) (XBLIG).csproj" />
-    <Project Path="C:/source/Indie-Games/indie-game-archive/3D Infinity (World) (XBLIG)/3D Infinity (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play with Your Mates (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-      <Build Solution="*|x86" Project="false" />
-      <Build Solution="Release|x64" Project="false" />
-    </Project>
-    <Project Path="indie-game-archive/2060 Cyber Racer (World) (XBLIG)/2060 Cyber Racer (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/2D House of Terror (World) (XBLIG)/2D House of Terror (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/8-Bit Defense (World) (XBLIG)/8-Bit Defense (World) (XBLIG).csproj">
       <Platform Solution="Debug|x64" Project="x64" />
     </Project>
-    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/8-bit Girlfriend (World) (XBLIG)/8-bit Girlfriend (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/Aircraft RC (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
+    <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
+    <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Decay - Part 1 (World) (XBLIG)/Decay - Part 1 (World) (XBLIG).csproj">
       <Platform Solution="Debug|x86" Project="x64" />
     </Project>
@@ -49,13 +47,11 @@
     <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Jet Star Universe (World) (XBLIG).csproj">
       <Platform Solution="Debug|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Xbox360Game1.csproj" />
     <Project Path="indie-game-archive/Let's Draw A Picture Together! (World) (XBLIG)/Let's Draw A Picture Together! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Lucky (World) (XBLIG)/Lucky (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="Debug|x86" Project="x64" />
       <Platform Solution="Release|x86" Project="x86" />
-      <Build Solution="*|Any CPU" Project="false" />
       <Build Solution="*|x64" Project="false" />
       <Build Solution="Release|x86" Project="false" />
     </Project>
@@ -73,9 +69,15 @@
     <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
     </Project>
+    <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBALL (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBall.csproj" />
+    <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBallMk4.csproj" />
   </Folder>
   <Folder Name="/Reference-Projects/">
-    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/AircraftRC.resources.csproj" />
+    <Project Path="indie-game-archive/3 Days of Nurse Fanny (World) (XBLIG)/BinaryRead.csproj" />
+    <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/AircraftRC.resources.csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/BEPUphysics.csproj" />
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/DPSFXbox360.csproj" />
     <Project Path="indie-game-archive/Aircraft RC (World) (XBLIG)/SynapseGaming-SunBurn-Indie.csproj" />
@@ -102,14 +104,12 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="Debug|x86" Project="x64" />
       <Platform Solution="Release|x86" Project="x86" />
-      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="FNA/FNA.Core.csproj" />
     <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="Debug|x86" Project="x64" />
       <Platform Solution="Release|x86" Project="x86" />
-      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="FNA/FNA.NetFramework.csproj" />
     <Project Path="FNA/FNA.NetStandard.csproj" />
