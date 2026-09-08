@@ -1,0 +1,34 @@
+using System.Diagnostics.CodeAnalysis;
+using System.Dynamic.Utils;
+
+namespace System.Dynamic;
+
+[RequiresDynamicCode("Creating a call site may require dynamic code generation.")]
+public abstract class GetIndexBinder : DynamicMetaObjectBinder
+{
+	public sealed override Type ReturnType => typeof(object);
+
+	public CallInfo CallInfo { get; }
+
+	internal sealed override bool IsStandardBinder => true;
+
+	protected GetIndexBinder(CallInfo callInfo)
+	{
+		ArgumentNullException.ThrowIfNull(callInfo, "callInfo");
+		CallInfo = callInfo;
+	}
+
+	public sealed override DynamicMetaObject Bind(DynamicMetaObject target, DynamicMetaObject[] args)
+	{
+		ArgumentNullException.ThrowIfNull(target, "target");
+		ContractUtils.RequiresNotNullItems(args, "args");
+		return target.BindGetIndex(this, args);
+	}
+
+	public DynamicMetaObject FallbackGetIndex(DynamicMetaObject target, DynamicMetaObject[] indexes)
+	{
+		return FallbackGetIndex(target, indexes, null);
+	}
+
+	public abstract DynamicMetaObject FallbackGetIndex(DynamicMetaObject target, DynamicMetaObject[] indexes, DynamicMetaObject? errorSuggestion);
+}

@@ -1,0 +1,23 @@
+using System.Security.AccessControl;
+using Microsoft.Win32.SafeHandles;
+
+namespace System.IO.Pipes;
+
+public static class PipesAclExtensions
+{
+	public static PipeSecurity GetAccessControl(this PipeStream stream)
+	{
+		return new PipeSecurity(stream.SafePipeHandle, AccessControlSections.Access | AccessControlSections.Owner | AccessControlSections.Group);
+	}
+
+	public static void SetAccessControl(this PipeStream stream, PipeSecurity pipeSecurity)
+	{
+		ArgumentNullException.ThrowIfNull(pipeSecurity, "pipeSecurity");
+		SafePipeHandle safePipeHandle = stream.SafePipeHandle;
+		if (stream is NamedPipeClientStream && !stream.IsConnected)
+		{
+			throw new IOException(System.SR.IO_IO_PipeBroken);
+		}
+		pipeSecurity.Persist(safePipeHandle);
+	}
+}

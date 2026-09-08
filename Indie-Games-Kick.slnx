@@ -1,0 +1,87 @@
+
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Content-References/">
+    <Project Path="Content-References/FNA.Contents.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="Debug|Any CPU" Project="x64" />
+    </Project>
+    <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="FNA/FNA.Core.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="FNA/FNA.NetFramework.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="FNA/FNA.NetStandard.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.WindowsDX.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/indie-game-archive/">
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Astralis (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Astralis.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astro Cluster (World) (XBLIG)/Astro Cluster (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astro Cluster (World) (XBLIG)/Astro Cluster.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/21 Ball Snooker Champion (World) (XBLIG)/21 Ball Snooker Champion (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/21 Ball Snooker Champion (World) (XBLIG)/21 Ball Snooker Champion.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/2 JAWSOME.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/2D House of Terror (World) (XBLIG)/2D House of Terror (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/2D House of Terror (World) (XBLIG)/2d_house_of_terror.csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="global.json" />
+  </Folder>
+  <Folder Name="/Reference-Projects/">
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/4D530888.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Audio.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/BEPUphysics.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/BEPUphysicsDrawer.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/BEPUutilities.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Core.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/EasyStorage.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/EasyStorage.resources.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Editor.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Entities.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/ForceFeedback.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Gameplay.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Graphics.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/GUI.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Input.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/RenderTree.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Settings.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/21 Ball Snooker Champion (World) (XBLIG)/LibMaximinus.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/21 Ball Snooker Champion (World) (XBLIG)/MaximinusDataTypes.csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/BoxCollider.csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="indie-game-archive/2176 Supernova Storm (World) (XBLIG)/system.xml.csproj" />
+    <Project Path="indie-game-archive/Lunar Panda Deluxe (World) (XBLIG)/GameLibrary.csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="indie-game-archive/Lunar Panda Deluxe (World) (XBLIG)/MyDataTypes.csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+  </Folder>
+</Solution>

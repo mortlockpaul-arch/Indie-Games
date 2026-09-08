@@ -1,0 +1,15 @@
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
+
+namespace System.Transactions.DtcProxyShim.DtcInterfaces;
+
+[GeneratedComInterface]
+[Guid("30274F88-6EE4-474e-9B95-7807BC9EF8CF")]
+[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[IUnknownDerived<_003CSystem_Transactions_DtcProxyShim_DtcInterfaces_ITmNodeName_003EF83A5FD8143BEEC85074C07122F0B8F7539C69880D2FFFC413D71F3163F0A0BDF__InterfaceInformation, _003CSystem_Transactions_DtcProxyShim_DtcInterfaces_ITmNodeName_003EF83A5FD8143BEEC85074C07122F0B8F7539C69880D2FFFC413D71F3163F0A0BDF__InterfaceImplementation>]
+internal interface ITmNodeName
+{
+	internal void GetNodeNameSize(out uint pcbNodeNameSize);
+
+	internal void GetNodeName(uint cbNodeNameBufferSize, [MarshalAs(UnmanagedType.LPWStr)] out string pcbNodeSize);
+}

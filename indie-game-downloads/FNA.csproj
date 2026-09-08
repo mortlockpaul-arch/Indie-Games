@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>FNA</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.AlphaTestEffect.fxb" />
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.BasicEffect.fxb" />
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.DualTextureEffect.fxb" />
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.EnvironmentMapEffect.fxb" />
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.SkinnedEffect.fxb" />
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.SpriteEffect.fxb" />
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffect.fxb" />
+    <None Remove="Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffectR.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.AlphaTestEffect.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.AlphaTestEffect.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.BasicEffect.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.BasicEffect.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.DualTextureEffect.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.DualTextureEffect.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.EnvironmentMapEffect.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.EnvironmentMapEffect.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.SkinnedEffect.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.SkinnedEffect.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.SpriteEffect.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.SpriteEffect.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffect.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffect.fxb" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffectR.fxb" LogicalName="Microsoft.Xna.Framework.Graphics.Effect.Resources.YUVToRGBAEffectR.fxb" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>

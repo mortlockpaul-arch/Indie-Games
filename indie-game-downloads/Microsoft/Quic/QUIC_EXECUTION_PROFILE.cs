@@ -1,0 +1,9 @@
+namespace Microsoft.Quic;
+
+internal enum QUIC_EXECUTION_PROFILE
+{
+	LOW_LATENCY,
+	MAX_THROUGHPUT,
+	SCAVENGER,
+	REAL_TIME
+}

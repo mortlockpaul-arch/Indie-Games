@@ -1,0 +1,15 @@
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
+
+namespace System.Transactions.DtcProxyShim.DtcInterfaces;
+
+[GeneratedComInterface]
+[Guid("80c7bfd0-87ee-11ce-8081-0080c758527e")]
+[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[IUnknownDerived<_003CSystem_Transactions_DtcProxyShim_DtcInterfaces_IPrepareInfo_003EF2B331A3475953ED21DD6863BAC5587A8F19ADB192318DF4A4782EEA8F78F6C33__InterfaceInformation, _003CSystem_Transactions_DtcProxyShim_DtcInterfaces_IPrepareInfo_003EF2B331A3475953ED21DD6863BAC5587A8F19ADB192318DF4A4782EEA8F78F6C33__InterfaceImplementation>]
+internal interface IPrepareInfo
+{
+	void GetPrepareInfoSize(out uint pcbPrepInfo);
+
+	void GetPrepareInfo([MarshalAs(UnmanagedType.LPArray)] byte[] pPrepInfo);
+}

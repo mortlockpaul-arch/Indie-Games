@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>EGEngine</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="FNA">
+      <HintPath>DLC\ApocZ-FNA\publish\ApocZ-Portable\FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="DataContent">
+      <HintPath>DLC\ApocZ-FNA\publish\ApocZ-Portable\DataContent.dll</HintPath>
+    </Reference>
+    <Reference Include="FNA.NetStub">
+      <HintPath>DLC\ApocZ-FNA\publish\ApocZ-Portable\FNA.NetStub.dll</HintPath>
+    </Reference>
+    <Reference Include="SkinnedModel">
+      <HintPath>DLC\ApocZ-FNA\publish\ApocZ-Portable\SkinnedModel.dll</HintPath>
+    </Reference>
+    <Reference Include="PropModel">
+      <HintPath>DLC\ApocZ-FNA\publish\ApocZ-Portable\PropModel.dll</HintPath>
+    </Reference>
+    <Reference Include="MaxscriptDefinesXbox360">
+      <HintPath>DLC\ApocZ-FNA\publish\ApocZ-Portable\MaxscriptDefinesXbox360.dll</HintPath>
+    </Reference>
+    <Reference Include="DataCompressor">
+      <HintPath>DLC\ApocZ-FNA\publish\ApocZ-Portable\DataCompressor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

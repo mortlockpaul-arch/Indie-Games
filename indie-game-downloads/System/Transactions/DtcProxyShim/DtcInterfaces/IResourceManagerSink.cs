@@ -1,0 +1,13 @@
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
+
+namespace System.Transactions.DtcProxyShim.DtcInterfaces;
+
+[GeneratedComInterface]
+[Guid("0D563181-DEFB-11CE-AED1-00AA0051E2C4")]
+[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[IUnknownDerived<_003CSystem_Transactions_DtcProxyShim_DtcInterfaces_IResourceManagerSink_003EF27BFCAE9FB4597E73042DFBBE3B6C966B91ECD70ECF636B31F5E12F8305F9828__InterfaceInformation, _003CSystem_Transactions_DtcProxyShim_DtcInterfaces_IResourceManagerSink_003EF27BFCAE9FB4597E73042DFBBE3B6C966B91ECD70ECF636B31F5E12F8305F9828__InterfaceImplementation>]
+internal interface IResourceManagerSink
+{
+	void TMDown();
+}

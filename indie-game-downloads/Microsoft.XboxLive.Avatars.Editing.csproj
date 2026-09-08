@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Microsoft.XboxLive.Avatars.Editing</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.XboxLive.Avatars">
+      <HintPath>DLC\Avatar Farm Online Complete\Game\Microsoft.XboxLive.Avatars.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.XboxLive.Avatars.Mathlib">
+      <HintPath>DLC\Avatar Farm Online Complete\Game\Microsoft.XboxLive.Avatars.Mathlib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

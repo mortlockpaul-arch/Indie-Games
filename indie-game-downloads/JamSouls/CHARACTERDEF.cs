@@ -1,0 +1,17 @@
+namespace JamSouls;
+
+public enum CHARACTERDEF
+{
+	PASSION,
+	MALADIE,
+	VICE,
+	FOLIE,
+	MISERE,
+	FAMINE,
+	MORT,
+	GUERRE,
+	TROMPERIE,
+	ESPERANCE,
+	FROG,
+	COUNT
+}

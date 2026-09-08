@@ -1,0 +1,30 @@
+namespace System.Net.WebSockets;
+
+public readonly struct ValueWebSocketReceiveResult
+{
+	private readonly uint _countAndEndOfMessage;
+
+	private readonly WebSocketMessageType _messageType;
+
+	public int Count => (int)(_countAndEndOfMessage & 0x7FFFFFFF);
+
+	public bool EndOfMessage => (_countAndEndOfMessage & 0x80000000u) == 2147483648u;
+
+	public WebSocketMessageType MessageType => _messageType;
+
+	public ValueWebSocketReceiveResult(int count, WebSocketMessageType messageType, bool endOfMessage)
+	{
+		ArgumentOutOfRangeException.ThrowIfNegative(count, "count");
+		if ((uint)messageType > 2u)
+		{
+			ThrowMessageTypeOutOfRange();
+		}
+		_countAndEndOfMessage = (uint)(count | (endOfMessage ? int.MinValue : 0));
+		_messageType = messageType;
+	}
+
+	private static void ThrowMessageTypeOutOfRange()
+	{
+		throw new ArgumentOutOfRangeException("messageType");
+	}
+}

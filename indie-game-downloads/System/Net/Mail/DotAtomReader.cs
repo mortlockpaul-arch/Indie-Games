@@ -1,0 +1,45 @@
+using System.Net.Mime;
+using System.Text;
+
+namespace System.Net.Mail;
+
+internal static class DotAtomReader
+{
+	internal static bool TryReadReverse(string data, int index, out int outIndex, bool throwExceptionIfFail)
+	{
+		int num = index;
+		while (0 <= index && (!Ascii.IsValid(data[index]) || ((data[index] == '.' || MailBnfHelper.Atext[(uint)data[index]]) && (data[index] != '.' || index <= 0 || data[index - 1] != '.'))))
+		{
+			index--;
+		}
+		if (num == index)
+		{
+			if (throwExceptionIfFail)
+			{
+				throw new FormatException(System.SR.Format(System.SR.MailHeaderFieldInvalidCharacter, data[index]));
+			}
+			outIndex = 0;
+			return false;
+		}
+		if (index > 0 && data[index] == '.' && data[index - 1] == '.')
+		{
+			if (throwExceptionIfFail)
+			{
+				throw new FormatException(System.SR.Format(System.SR.MailHeaderFieldInvalidCharacter, ".."));
+			}
+			outIndex = 0;
+			return false;
+		}
+		if (data[index + 1] == '.')
+		{
+			if (throwExceptionIfFail)
+			{
+				throw new FormatException(System.SR.Format(System.SR.MailHeaderFieldInvalidCharacter, '.'));
+			}
+			outIndex = 0;
+			return false;
+		}
+		outIndex = index;
+		return true;
+	}
+}

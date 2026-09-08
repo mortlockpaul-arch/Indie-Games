@@ -1,0 +1,17 @@
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.Marshalling;
+
+namespace System.Transactions.DtcProxyShim.DtcInterfaces;
+
+[GeneratedComInterface]
+[Guid("0fb15081-af41-11ce-bd2b-204c4f4f5020")]
+[InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
+[IUnknownDerived<_003CSystem_Transactions_DtcProxyShim_DtcInterfaces_ITransactionEnlistmentAsync_003EF44716E76837B8A799F1AAF3871EF2F636FCB56F26148830D7E2D5321F73D34D3__InterfaceInformation, _003CSystem_Transactions_DtcProxyShim_DtcInterfaces_ITransactionEnlistmentAsync_003EF44716E76837B8A799F1AAF3871EF2F636FCB56F26148830D7E2D5321F73D34D3__InterfaceImplementation>]
+internal interface ITransactionEnlistmentAsync
+{
+	void PrepareRequestDone(int hr, nint pmk, nint pboidReason);
+
+	void CommitRequestDone(int hr);
+
+	void AbortRequestDone(int hr);
+}

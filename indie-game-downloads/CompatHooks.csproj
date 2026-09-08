@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CompatHooks</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="FNA">
+      <HintPath>DLC\Avatar Farm Online Complete\Game\FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="Quasar">
+      <HintPath>DLC\Avatar Farm Online Complete\Game\Quasar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

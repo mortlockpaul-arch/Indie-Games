@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="InvalidSkeletonVersion" xml:space="preserve"><value>Invalid skeleton version.</value></data>
+  <data name="CorruptedStreamText" xml:space="preserve"><value>Corrupted data stream</value></data>
+  <data name="ManifestValidationFailed" xml:space="preserve"><value>Manifest components validation failed.</value></data>
+  <data name="AvatarEditorTitleId" xml:space="preserve"><value>584D07D1</value></data>
+  <data name="UnexpectedEofText" xml:space="preserve"><value>Unexpected end of file while parsing assets</value></data>
+  <data name="InvalidAnimationAssetFileText" xml:space="preserve"><value>Invalid animation asset file</value></data>
+  <data name="FailedToLoadAssetText" xml:space="preserve"><value>Failed to load required avatar asset(s). Asset service may be down, is unreachable or asset is not available.</value></data>
+  <data name="IncompatibleAssetGenderText" xml:space="preserve"><value>Asset gender does not match avatar body gender.</value></data>
+  <data name="ModelParserError4" xml:space="preserve"><value>Vertex pairing index out of range</value></data>
+  <data name="ModelParserError1" xml:space="preserve"><value>Too many batches per avatar component</value></data>
+  <data name="ModelParserError3" xml:space="preserve"><value>Vertex pairs count out of range</value></data>
+  <data name="ModelParserError2" xml:space="preserve"><value>Too many textures per avatar component</value></data>
+  <data name="InvalidWordSizeText" xml:space="preserve"><value>Invalid word size</value></data>
+  <data name="ShapeOverridesFailedToLoad" xml:space="preserve"><value>Shape overrides dictionary failed to load</value></data>
+  <data name="InvalidCustomColorsText" xml:space="preserve"><value>Invalid number of custom colors. 3 are required.</value></data>
+  <data name="InvalidAvatarEyeTextureIndex" xml:space="preserve"><value>Invalid eye texture index</value></data>
+  <data name="DecompressionFailedText" xml:space="preserve"><value>Asset decompression failed.</value></data>
+  <data name="FailedToResolveEyeShadowTexture" xml:space="preserve"><value>Unable to resolve eyeshadow texture for given eye</value></data>
+  <data name="FailedToLoadCoreAssetText" xml:space="preserve"><value>Failed to load core asset. Asset service may be down or is unreachable.</value></data>
+  <data name="IvalidCallingThread" xml:space="preserve"><value>Invalid calling thread</value></data>
+  <data name="ManifestCannotBeNullText" xml:space="preserve"><value>Manifest cannot be null</value></data>
+  <data name="InvalidAvatarMouthTextureIndex" xml:space="preserve"><value>Invalid mouth texture index</value></data>
+  <data name="TextureParserError4" xml:space="preserve"><value>Invalid texture format descriptor</value></data>
+  <data name="TextureParserError1" xml:space="preserve"><value>Invalid texture width</value></data>
+  <data name="TextureParserError3" xml:space="preserve"><value>Texture layer count out of range</value></data>
+  <data name="TextureParserError2" xml:space="preserve"><value>Invalid texture height</value></data>
+  <data name="InvalidAvatarExpressionFormatText" xml:space="preserve"><value>Invalid avatar expression format</value></data>
+  <data name="InvalidManifest3" xml:space="preserve"><value>Invalid manifest, body is required but not present</value></data>
+  <data name="InvalidManifest2" xml:space="preserve"><value>Invalid manifest, required components not present</value></data>
+  <data name="InvalidManifest1" xml:space="preserve"><value>Invalid manifest, failed to equip required components</value></data>
+  <data name="InvalidManifest6" xml:space="preserve"><value>Invalid manifest, head is required but required textures are not present</value></data>
+  <data name="InvalidManifest5" xml:space="preserve"><value>Invalid manifest, head is required but required blend shapes are not present</value></data>
+  <data name="InvalidManifest4" xml:space="preserve"><value>Invalid manifest, head is required but not present</value></data>
+  <data name="UnknownAssetVersionText" xml:space="preserve"><value>Unrecognized asset version specified as an input parameter.</value></data>
+  <data name="FailedToParseAnimationAssetFileText" xml:space="preserve"><value>Failed to parse animation asset file</value></data>
+  <data name="TriangleParserError4" xml:space="preserve"><value>Invalid vertex stride</value></data>
+  <data name="TriangleParserError5" xml:space="preserve"><value>Invalid number of triangles in asset stream</value></data>
+  <data name="TriangleParserError6" xml:space="preserve"><value>Invalid number of vertices in asset stream</value></data>
+  <data name="TriangleParserError7" xml:space="preserve"><value>Invalid shader type</value></data>
+  <data name="TriangleParserError1" xml:space="preserve"><value>Texture coordinates count out of range</value></data>
+  <data name="TriangleParserError2" xml:space="preserve"><value>Triangle count out of range</value></data>
+  <data name="TriangleParserError3" xml:space="preserve"><value>Vertex count out of range</value></data>
+  <data name="NonStockAssetAddressFormat" xml:space="preserve"><value>http://localhost/AvatarResources/Assets/{0}.bin</value></data>
+  <data name="StockAssetAddressFormat" xml:space="preserve"><value>http://localhost/AvatarResources/Assets/{0}.bin</value></data>
+  <data name="FailedToDownloadAnimationAssetText" xml:space="preserve"><value>Failed to download animation asset</value></data>
+  <data name="TriangleOverrideError1" xml:space="preserve"><value>Triangle count out of range</value></data>
+  <data name="IncompatibleAssetsText" xml:space="preserve"><value>Invalid avatar manifest. Cannot combine incompatible assets.</value></data>
+  <data name="VertexOverrideError1" xml:space="preserve"><value>Vertex count out of range</value></data>
+  <data name="VertexOverrideError2" xml:space="preserve"><value>Vertex override index out of range</value></data>
+  <data name="SkeletonParserError1" xml:space="preserve"><value>Too many joints in skeleton</value></data>
+  <data name="InvalidAssetTypeText" xml:space="preserve"><value>Invalid asset type.</value></data>
+  <data name="MainThreadExceptionText" xml:space="preserve"><value>Synchronous download can't be called from Main Thread</value></data>
+  <data name="InvalidAvatarEyebrowTextureIndex" xml:space="preserve"><value>Invalid eyebrow texture index</value></data>
+  <data name="FailedToDownloadAssetText" xml:space="preserve"><value>Failed to download asset</value></data>
+  <data name="InvalidStrbFileText" xml:space="preserve"><value>Invalid structured binary file</value></data>
+  <data name="InvalidComponentIdText" xml:space="preserve"><value>Invalid avatar component ID</value></data>
+  <data name="ShapeOverridesFaiedToLoad" xml:space="preserve"><value>Shape overrides dictionary failed to load</value></data>
+  </root>
