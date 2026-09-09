@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+
 <Solution>
   <Configurations>
     <Platform Name="Any CPU" />
@@ -48,9 +48,11 @@
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/21 Ball Snooker Champion (World) (XBLIG)/21 Ball Snooker Champion (World) (XBLIG).csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Debug|x64" Project="x64" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Debug|x64" Project="x64" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj">
       <Platform Solution="*|x86" Project="x86" />
@@ -63,8 +65,24 @@
       <Platform Solution="*|x86" Project="x86" />
       <Platform Solution="Debug|x64" Project="x64" />
     </Project>
-    <Project Path="D:/downloads/indie-game-downloads/Big Tidy Up (World) (XBLIG)/Big Tidy Up (World) (XBLIG).csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Big Tidy Up (World) (XBLIG)/KBT Game.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Ask Angela! (World) (XBLIG)/Ask Angela! (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Big Tidy Up (World) (XBLIG)/Big Tidy Up (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Arcade Snake (World) (XBLIG)/Arcade Snake (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Advance (World) (XBLIG)/Advance (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Adamant Ants (World) (XBLIG)/Adamant Ants (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+    </Project>
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="global.json" />
@@ -129,6 +147,10 @@
     <Project Path="D:/downloads/indie-game-downloads/Astralis (World) (XBLIG)/Settings.csproj">
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Air War (World) (XBLIG)/Alchemist (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Ask Angela! (World) (XBLIG)/TAS.XNA.Common.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Big Tidy Up (World) (XBLIG)/DreamEngine.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Big Tidy Up (World) (XBLIG)/SpriteSheetRuntime.csproj" />
     <Project Path="indie-game-archive/2176 Supernova Storm (World) (XBLIG)/system.xml.csproj">
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -136,7 +158,5 @@
       <Platform Solution="*|x86" Project="x86" />
       <Platform Solution="Debug|x64" Project="x64" />
     </Project>
-    <Project Path="D:/downloads/indie-game-downloads/Big Tidy Up (World) (XBLIG)/DreamEngine.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Big Tidy Up (World) (XBLIG)/SpriteSheetRuntime.csproj" />
   </Folder>
 </Solution>
