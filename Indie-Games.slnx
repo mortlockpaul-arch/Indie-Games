@@ -1,11 +1,20 @@
-<?xml version='1.0' encoding='utf-8'?>
+
 <Solution>
   <Configurations>
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/indie-game-archive/">
-    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME/584E07D1/2 JAWSOME.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/9 Ball Pool Champion (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Aqualibrium (World) (XBLIG)/Aqualibrium (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play With Your Mates (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/2D House of Terror (World) (XBLIG)/2D House of Terror (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/8-Bit Defense (World) (XBLIG)/8-Bit Defense (World) (XBLIG).csproj" />
@@ -19,26 +28,27 @@
     <Project Path="indie-game-archive/DepthAttack (World) (XBLIG)/DepthAttack (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/JamSouls ! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Jet Set Willy 360 (World) (XBLIG)/Jet Set Willy 360 (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Jet Star Universe (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Let's Draw A Picture Together! (World) (XBLIG)/Let's Draw A Picture Together! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Lucky (World) (XBLIG)/Lucky (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/TabeBALL (World) (XBLIG)/TabeBALL (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Swords &amp; Monsters (XBLIG)/Swords &amp; Monsters (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG)/ZP2KX - Zombies and Pterodactyls 20XX (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Jet Star Universe (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Xbox360Game1.csproj" />
-    <Project Path="indie-game-archive/Swords &amp; Monsters (XBLIG)/Swords &amp; Monsters (XBLIG).csproj" />
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/Library-Projects/">
-    <Project Path="Content-References/FNA.Contents.csproj" />
+    <Project Path="Content-References/FNA.Contents.csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+      <Platform Solution="Debug|x86" Project="x86" />
+    </Project>
     <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b" />
     <Project Path="FNA/FNA.Core.csproj" />
     <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f" />
@@ -55,13 +65,10 @@
     <Project Path="D:/downloads/indie-game-downloads/Aquarium HD/XNAnimation 360.csproj" />
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/AvatarCustomAnimation.csproj" />
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/XNATweener.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME/584E07D1/BoxCollider.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/LibMaximinus.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/BoxCollider.csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/FarseerPhysicsXNA.csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/ISParticleEngine.csproj" />
-    <Project Path="indie-game-archive/Decay - The Mare - Episode 1 (World) (XBLIG)/Core.csproj" />
-    <Project Path="indie-game-archive/Decay - The Mare - Episode 1 (World) (XBLIG)/Decay - The Mare - Episode 1 (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Decay - The Mare - Episode 1 (World) (XBLIG)/SGSCore.csproj" />
-    <Project Path="indie-game-archive/Decay - The Mare - Episode 1 (World) (XBLIG)/SGSXML.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="global.json" />
