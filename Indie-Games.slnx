@@ -6,9 +6,11 @@
   </Configurations>
   <Folder Name="/indie-game-archive/">
     <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/9 Ball Pool Champion (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x86" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj">
       <Platform Solution="Debug|x86" Project="x64" />
     </Project>
-    <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj" />
     <Project Path="D:/downloads/indie-game-downloads/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
       <Platform Solution="Debug|x86" Project="x64" />
     </Project>
@@ -21,9 +23,14 @@
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play With Your Mates (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/21 Ball Snooker Champion (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/2D House of Terror (World) (XBLIG)/2D House of Terror (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/8-Bit Defense (World) (XBLIG)/8-Bit Defense (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/8-bit Girlfriend (World) (XBLIG)/8-bit Girlfriend (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/8-bit Girlfriend (World) (XBLIG)/8-bit Girlfriend (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
     <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
       <Platform Solution="Debug|*" Project="x86" />
@@ -60,15 +67,17 @@
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
   </Folder>
   <Folder Name="/indie-game-downloads/">
-    <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
   </Folder>
   <Folder Name="/Library-Projects/">
-    <Project Path="Content-References/FNA.Contents.csproj">
-      <Platform Solution="Debug|x64" Project="x64" />
-      <Platform Solution="Debug|x86" Project="x86" />
-    </Project>
     <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b" />
     <Project Path="FNA/FNA.Core.csproj" />
+    <Project Path="library-projects/fna.contents.libraries/FNA.Contents.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj" />
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.WindowsDX.csproj" />
   </Folder>
@@ -80,10 +89,11 @@
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/sgMotion.csproj" />
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/SynapseGaming-SunBurn-Pro.csproj" />
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/XNATweener.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/LibMaximinus.csproj" />
     <Project Path="D:/downloads/indie-game-downloads/2 JAWSOME (World) (XBLIG)/BoxCollider.csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/FarseerPhysicsXNA.csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/ISParticleEngine.csproj" />
+    <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/LibMaximinus.csproj" />
+    <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/MaximinusDataTypes.csproj" />
     <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSContentPipeline.csproj" />
     <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSCore.csproj" />
     <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSXML.csproj" />
