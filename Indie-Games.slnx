@@ -1,6 +1,7 @@
 
 <Solution>
   <Configurations>
+    <Platform Name="Any CPU" />
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
@@ -18,8 +19,10 @@
       <Platform Solution="Debug|x86" Project="x64" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/Arbor Vitae/Arbor Vitae.csproj">
+      <Platform Solution="Debug|Any CPU" Project="x64" />
       <Platform Solution="Debug|x64" Project="x86" />
       <Platform Solution="Debug|x86" Project="x64" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play With Your Mates (World) (XBLIG).csproj" />
@@ -33,10 +36,13 @@
     </Project>
     <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
-      <Platform Solution="Debug|*" Project="x86" />
+      <Platform Solution="Debug|x64" Project="x86" />
+      <Platform Solution="Debug|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj">
-      <Platform Solution="Debug|*" Project="x86" />
+      <Platform Solution="Debug|Any CPU" Project="x64" />
+      <Platform Solution="Debug|x64" Project="x86" />
+      <Platform Solution="Debug|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj">
       <Platform Solution="Debug|x64" Project="x64" />
@@ -65,6 +71,10 @@
     </Project>
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/invAIders (World) (XBLIG)/invAIders (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x64" Project="x64" />
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
