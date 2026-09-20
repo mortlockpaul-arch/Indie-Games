@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+
 <Solution>
   <Configurations>
     <Platform Name="Any CPU" />
@@ -43,10 +43,8 @@
       <Platform Solution="Debug|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x86" />
-      <Platform Solution="Debug|x64" Project="x64" />
-      <Platform Solution="Release|x86" Project="x86" />
-      <Platform Solution="Release|x64" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj">
       <Platform Solution="Debug|x64" Project="x86" />
@@ -77,7 +75,6 @@
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/360 Mega Pack HD Remix/360 Mega Pack HD Remix.csproj" />
-    <Project Path="indie-game-archive/360 Mega Pack HD Remix/360_Mega_Pack_HD_REMIX.csproj" />
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
