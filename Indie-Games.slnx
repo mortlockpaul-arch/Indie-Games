@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+
 <Solution>
   <Configurations>
     <Platform Name="Any CPU" />
@@ -71,16 +71,24 @@
     <Project Path="indie-game-archive/Let's Draw A Picture Together! (World) (XBLIG)/Let's Draw A Picture Together! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Lucky (World) (XBLIG)/Lucky (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Swords &amp; Monsters (XBLIG)/Swords &amp; Monsters (XBLIG).csproj">
       <Platform Solution="Debug|x86" Project="x64" />
     </Project>
-    <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Try Not to Fart (World) (XBLIG)/Try Not to Fart (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest.csproj" />
+    <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Try Not to Fart (World) (XBLIG)/Try Not to Fart (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Fright Light (World) (XBLIG)/Fright Light (World) (XBLIG).csproj">
+      <Platform Solution="Release|x86" Project="x64" />
+    </Project>
+    <Project Path="indie-game-archive/Fright Light (World) (XBLIG)/LightsOnCrazies.csproj" />
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
@@ -92,7 +100,8 @@
     <Project Path="FNA/FNA.Core.csproj" />
     <Project Path="library-projects/fna.contents.libraries/FNA.Contents.csproj">
       <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="Release|x86" Project="x86" />
     </Project>
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj" />
     <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.WindowsDX.csproj" />
