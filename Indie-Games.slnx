@@ -21,7 +21,6 @@
       <Platform Solution="Debug|x86" Project="x64" />
       <Build Solution="*|Any CPU" Project="false" />
     </Project>
-    <Project Path="D:/downloads/indie-game-downloads/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play With Your Mates (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/21 Ball Snooker Champion (World) (XBLIG).csproj">
@@ -75,6 +74,11 @@
     <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/360 Mega Pack HD Remix/360 Mega Pack HD Remix.csproj" />
+    <Project Path="indie-game-archive/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/3D Stereo Studio (World) (XBLIG)/StereoStudio.csproj" />
+    <Project Path="indie-game-archive/Appease the Spider (World) (XBLIG)/Appease the Spider (World) (XBLIG).csproj">
+      <Platform Solution="Debug|x86" Project="x64" />
+    </Project>
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
