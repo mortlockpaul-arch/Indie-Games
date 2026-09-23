@@ -77,9 +77,10 @@
     <Project Path="indie-game-archive/Swords &amp; Monsters (XBLIG)/Swords &amp; Monsters (XBLIG).csproj">
       <Platform Solution="Debug|x86" Project="x64" />
     </Project>
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Try Not to Fart (World) (XBLIG)/Try Not to Fart (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest.csproj" />
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
@@ -116,6 +117,8 @@
     <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/AvatarCustomAnimationPipeline.csproj" />
     <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/InstancedModelPipeline.csproj" />
     <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/InstancedModelSample.csproj" />
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj" />
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="global.json" />
