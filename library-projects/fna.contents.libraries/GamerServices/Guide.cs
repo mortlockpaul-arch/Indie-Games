@@ -9,6 +9,7 @@
 
 #region Using Statements
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Storage;
 using System;
 using System.Collections.Generic;
 using System.Threading;
@@ -281,6 +282,40 @@ namespace Microsoft.Xna.Framework.GamerServices
 		{
 		}
 
-		#endregion
-	}
+        private static StorageDevice _storageDevice;
+
+        public static IAsyncResult BeginShowStorageDeviceSelector(
+            AsyncCallback callback,
+            object state)
+        {
+            _storageDevice = StorageDevice.OpenDevice();
+
+            var result = new CompletedAsyncResult(state);
+
+            callback?.Invoke(result);
+
+            return result;
+        }
+
+        public static StorageDevice EndShowStorageDeviceSelector(IAsyncResult asyncResult)
+        {
+            return _storageDevice;
+        }
+
+        private sealed class CompletedAsyncResult : IAsyncResult
+        {
+            public CompletedAsyncResult(object state)
+            {
+                AsyncState = state;
+            }
+
+            public object AsyncState { get; }
+            public WaitHandle AsyncWaitHandle => null;
+            public bool CompletedSynchronously => true;
+            public bool IsCompleted => true;
+        }
+
+
+        #endregion
+    }
 }

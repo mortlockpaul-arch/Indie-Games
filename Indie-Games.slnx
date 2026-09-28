@@ -1,136 +1,303 @@
 
 <Solution>
   <Configurations>
-    <Platform Name="Any CPU" />
-    <Platform Name="x64" />
     <Platform Name="x86" />
+    <Platform Name="x64" />
   </Configurations>
   <Folder Name="/indie-game-archive/">
-    <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/9 Ball Pool Champion (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x86" />
-    </Project>
-    <Project Path="D:/downloads/indie-game-downloads/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
-    </Project>
     <Project Path="D:/downloads/indie-game-downloads/Aqualibrium (World) (XBLIG)/Aqualibrium (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
     </Project>
-    <Project Path="D:/downloads/indie-game-downloads/Arbor Vitae/Arbor Vitae.csproj">
-      <Platform Solution="Debug|Any CPU" Project="x64" />
-      <Platform Solution="Debug|x64" Project="x86" />
-      <Platform Solution="Debug|x86" Project="x64" />
-      <Build Solution="*|Any CPU" Project="false" />
+    <Project Path="D:/downloads/indie-game-downloads/One Night You're Crazy (World) (XBLIG)/One Night You're Crazy (World) (XBLIG).csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
     </Project>
-    <Project Path="indie-game-archive/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play With Your Mates (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/9 Ball Pool Champion (World) (XBLIG).csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Arbor Vitae (World) (XBLIG)/Arbor Vitae (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play With Your Mates (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/21 Ball Snooker Champion (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/2D House of Terror (World) (XBLIG)/2D House of Terror (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/360 Mega Pack HD Remix/360 Mega Pack HD Remix.csproj" />
-    <Project Path="indie-game-archive/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/3D Stereo Studio (World) (XBLIG)/StereoStudio.csproj" />
-    <Project Path="indie-game-archive/8-Bit Defense (World) (XBLIG)/8-Bit Defense (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/2D House of Terror (World) (XBLIG)/2D House of Terror (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/360 Mega Pack HD Remix/360 Mega Pack HD Remix.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/3D Stereo Studio (World) (XBLIG)/3D Stereo Studio (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/8-Bit Defense (World) (XBLIG)/8-Bit Defense (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/8-bit Girlfriend (World) (XBLIG)/8-bit Girlfriend (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Alien Jelly (World) (XBLIG)/Alien Jelly (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/Ambient Travels (World) (XBLIG)/Ambient Travels (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x64" Project="x86" />
-      <Platform Solution="Debug|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Ambient Water (World) (XBLIG)/Ambient Water (World) (XBLIG).csproj">
-      <Platform Solution="Debug|Any CPU" Project="x64" />
-      <Platform Solution="Debug|x64" Project="x86" />
-      <Platform Solution="Debug|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/ApocZ (World) (XBLIG)/ApocZ (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Appease the Spider (World) (XBLIG)/Appease the Spider (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x64" Project="x86" />
-      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Decay - Part 1 (World) (XBLIG)/Decay - Part 1 (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/Decay - Part 4 (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/DepthAttack (World) (XBLIG)/DepthAttack (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/invAIders (World) (XBLIG)/invAIders (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x64" Project="x64" />
-      <Platform Solution="Debug|x86" Project="x64" />
+    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/Decay - Part 4 (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/JamSouls ! (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/Jet Pack War (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Jet Set Willy 360 (World) (XBLIG)/Jet Set Willy 360 (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Jet Star Universe (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Let's Draw A Picture Together! (World) (XBLIG)/Let's Draw A Picture Together! (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Lucky (World) (XBLIG)/Lucky (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Swords &amp; Monsters (XBLIG)/Swords &amp; Monsters (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
-    </Project>
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest.csproj" />
-    <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Try Not to Fart (World) (XBLIG)/Try Not to Fart (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x86" />
+    <Project Path="indie-game-archive/DepthAttack (World) (XBLIG)/DepthAttack (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Fright Light (World) (XBLIG)/Fright Light (World) (XBLIG).csproj">
-      <Platform Solution="Release|x86" Project="x64" />
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Fright Light (World) (XBLIG)/LightsOnCrazies.csproj" />
+    <Project Path="indie-game-archive/Gravitron360 (World) (XBLIG)/Gravitron360 (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/invAIders (World) (XBLIG)/invAIders (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/JamSouls ! (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/Jet Pack War (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Jet Set Willy 360 (World) (XBLIG)/Jet Set Willy 360 (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Jet Star Universe (World) (XBLIG)/Jet Star Universe (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Let's Draw A Picture Together! (World) (XBLIG)/Let's Draw A Picture Together! (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Lucky (World) (XBLIG)/Lucky (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/MADRISM (World) (XBLIG)/MADRISM (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Manic Miner 360 (World) (XBLIG)/Manic Miner 360 (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/One Night Two Crazies (World) (XBLIG)/One Night Two Crazies (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Platformer From Hell (World) (XBLIG)/Platformer From Hell (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Swords &amp; Monsters (XBLIG)/Swords &amp; Monsters (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Tales of the Orange Forest (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Try Not to Fart (World) (XBLIG)/Try Not to Fart (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Downtown SMASH Dodgeball! (World) (XBLIG)/Downtown SMASH Dodgeball! (World) (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Ghouls N Gals (XBLIG)/Ghouls N Gals (XBLIG).csproj" />
+    <Project Path="indie-game-archive/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Gamerbots - Third-Robot Shooting (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
-      <Platform Solution="Debug|x86" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
     </Project>
   </Folder>
   <Folder Name="/Library-Projects/">
-    <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b" />
-    <Project Path="FNA/FNA.Core.csproj" />
+    <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="FNA/FNA.Core.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="library-projects/fna.contents.libraries/FNA.Contents.csproj">
       <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="Debug|x86" Project="x64" />
-      <Platform Solution="Release|x86" Project="x86" />
+      <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj" />
-    <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.WindowsDX.csproj" />
+    <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.DesktopGL.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="monogame/MonoGame.Framework/MonoGame.Framework.WindowsDX.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
   </Folder>
   <Folder Name="/Reference-Projects/">
-    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/BEPUphysics.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/DPSFXbox360.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/EasyStorage.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/EasyStorage.resources.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/sgMotion.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/SynapseGaming-SunBurn-Pro.csproj" />
-    <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/XNATweener.csproj" />
-    <Project Path="indie-game-archive/2 JAWSOME (World) (XBLIG)/BoxCollider.csproj" />
-    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/FarseerPhysicsXNA.csproj" />
-    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/ISParticleEngine.csproj" />
-    <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/LibMaximinus.csproj" />
-    <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/MaximinusDataTypes.csproj" />
-    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSContentPipeline.csproj" />
-    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSCore.csproj" />
-    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSXML.csproj" />
-    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/AvatarCustomAnimation.csproj" />
-    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/AvatarCustomAnimationPipeline.csproj" />
-    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/InstancedModelPipeline.csproj" />
-    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/InstancedModelSample.csproj" />
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj" />
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj" />
+    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/BEPUphysics.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/DPSFXbox360.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/EasyStorage.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/EasyStorage.resources.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/sgMotion.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/SynapseGaming-SunBurn-Pro.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/XNATweener.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="x64" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/LibMaximinus.csproj" />
+    <Project Path="indie-game-archive/2 JAWSOME (World) (XBLIG)/BoxCollider.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/FarseerPhysicsXNA.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/ISParticleEngine.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/21 Ball Snooker Champion (World) (XBLIG)/MaximinusDataTypes.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSContentPipeline.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSCore.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSXML.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/AvatarCustomAnimation.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/AvatarCustomAnimationPipeline.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/InstancedModelPipeline.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/InstancedModelSample.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Downtown SMASH Dodgeball! (World) (XBLIG)/isdf.Runtime.csproj" />
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Burst.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Oops.Xna.Framework.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/XNAnimation.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path="global.json" />
   </Folder>
-  <Project Path="RetroShelf/RetroShelf.csproj" />
+  <Project Path="RetroShelf/RetroShelf.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
 </Solution>

@@ -11,6 +11,7 @@
 using System;
 using System.IO;
 using System.Globalization;
+using Microsoft.Xna.Framework.Graphics;
 #endregion
 
 namespace Microsoft.Xna.Framework.GamerServices
@@ -66,12 +67,13 @@ namespace Microsoft.Xna.Framework.GamerServices
 			get;
 			private set;
 		}
+        public Texture2D GamerPicture { get; set; }
 
-		#endregion
+        #endregion
 
-		#region Internal Constructor
+        #region Internal Constructor
 
-		internal GamerProfile()
+        internal GamerProfile()
 		{
 			IsDisposed = false;
 
