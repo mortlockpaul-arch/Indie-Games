@@ -4,6 +4,7 @@
 [submodule "monogame"]
 	path = monogame
 	url = https://github.com/mortlockpaul-arch/monogame.git
+	branch = develop
 [submodule "RetroShelf"]
 	path = RetroShelf
 	url = https://github.com/robby-gridpoint/RetroShelf.git
