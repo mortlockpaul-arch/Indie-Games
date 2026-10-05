@@ -2,6 +2,7 @@
 <Solution>
   <Configurations>
     <Platform Name="x86" />
+    <Platform Name="Any CPU" />
     <Platform Name="x64" />
   </Configurations>
   <Folder Name="/indie-game-archive/">
@@ -15,8 +16,10 @@
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/9 Ball Pool Champion (World) (XBLIG).csproj" />
     <Project Path="D:/downloads/indie-game-downloads/Arbor Vitae (World) (XBLIG)/Arbor Vitae (World) (XBLIG).csproj">
+      <Platform Solution="*|Any CPU" Project="x64" />
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="indie-game-archive/2 JAWSOME (World) (XBLIG)/2 JAWSOME (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -70,7 +73,15 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/Baby Maker Extreme (World) (XBLIG)/Baby Maker Extreme (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Comedy Night (World) (XBLIG)/Comedy Night (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -86,10 +97,16 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/Downtown SMASH Dodgeball! (World) (XBLIG)/Downtown SMASH Dodgeball! (World) (XBLIG).csproj" />
     <Project Path="indie-game-archive/Fright Light (World) (XBLIG)/Fright Light (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Gamerbots - Third-Robot Shooting (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Ghouls N Gals (XBLIG)/Ghouls N Gals (XBLIG).csproj" />
     <Project Path="indie-game-archive/Gravitron360 (World) (XBLIG)/Gravitron360 (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -142,6 +159,10 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/Platypus (World) (XBLIG)/Platypus (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/Swords &amp; Monsters (XBLIG)/Swords &amp; Monsters (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -158,16 +179,6 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Downtown SMASH Dodgeball! (World) (XBLIG)/Downtown SMASH Dodgeball! (World) (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Ghouls N Gals (XBLIG)/Ghouls N Gals (XBLIG).csproj" />
-    <Project Path="indie-game-archive/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Gamerbots - Third-Robot Shooting (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
@@ -176,6 +187,10 @@
     </Project>
   </Folder>
   <Folder Name="/Library-Projects/">
+    <Project Path="FNA.Contents/FNA.Contents.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -184,7 +199,12 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="library-projects/fna.contents.libraries/FNA.Contents.csproj">
+    <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="FNA/FNA.NetFramework.csproj" />
+    <Project Path="Monogame.Contents/Monogame.Contents.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -200,33 +220,49 @@
   <Folder Name="/Reference-Projects/">
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/BEPUphysics.csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|Any CPU" Project="x64" />
       <Platform Solution="*|x64" Project="x64" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/DPSFXbox360.csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|Any CPU" Project="x64" />
       <Platform Solution="*|x64" Project="x64" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/EasyStorage.csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|Any CPU" Project="x64" />
       <Platform Solution="*|x64" Project="x64" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/EasyStorage.resources.csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|Any CPU" Project="x64" />
       <Platform Solution="*|x64" Project="x64" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/sgMotion.csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|Any CPU" Project="x64" />
       <Platform Solution="*|x64" Project="x64" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/Vampire Slayer FPS (World) (XBLIG)/SynapseGaming-SunBurn-Pro.csproj">
       <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|Any CPU" Project="x64" />
       <Platform Solution="*|x64" Project="x64" />
+      <Build Solution="*|Any CPU" Project="false" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/XNATweener.csproj">
       <Platform Solution="*|x86" Project="x86" />
       <Platform Solution="*|x64" Project="x64" />
     </Project>
     <Project Path="D:/downloads/indie-game-downloads/9 Ball Pool Champion (World) (XBLIG)/LibMaximinus.csproj" />
+    <Project Path="D:/downloads/indie-games/Comedy Night (World) (XBLIG)/Comedy Night.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/2 JAWSOME (World) (XBLIG)/BoxCollider.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -243,6 +279,14 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/Comedy Night (World) (XBLIG)/AvatarCustomAnimation.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Comedy Night (World) (XBLIG)/LighthouseGamesEngine.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/Decay - Part 4 (World) (XBLIG)/SGSContentPipeline.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -255,7 +299,32 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Jet Pack War (World) (XBLIG)/AvatarCustomAnimation.csproj">
+    <Project Path="indie-game-archive/Downtown SMASH Dodgeball! (World) (XBLIG)/isdf.Runtime.csproj" />
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Burst.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Oops.Xna.Framework.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/XNAnimation.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/DebugViewXNA.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/JamSoul.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/JamSouls ! (World) (XBLIG)/ProjectMercury.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -271,24 +340,19 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/Farseer Physics 3.0 XNA.csproj">
+    <Project Path="indie-game-archive/Massive Cleavage vs Zombies (World) (XBLIG)/Massive Cleavage vs Zombies.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Tales of the Orange Forest (World) (XBLIG)/ProjectMercury.csproj">
+    <Project Path="indie-game-archive/Platypus (World) (XBLIG)/AnimationModelContentWin.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Downtown SMASH Dodgeball! (World) (XBLIG)/isdf.Runtime.csproj" />
-    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Burst.csproj">
+    <Project Path="indie-game-archive/Platypus (World) (XBLIG)/BliXNA.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/Oops.Xna.Framework.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/XNAnimation.csproj">
+    <Project Path="indie-game-archive/Platypus (World) (XBLIG)/PackedImageContent_Win.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>

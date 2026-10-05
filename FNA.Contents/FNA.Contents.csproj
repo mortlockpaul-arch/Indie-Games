@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>x86;x64;AnyCPU</Platforms>
+		<DebugSymbols>false</DebugSymbols>
+		<DebugType>None</DebugType>
+		<LangVersion>13.0</LangVersion>
+		<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+		<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	</PropertyGroup>
+	<PropertyGroup>
+		<CurrentPlatform Condition="'$(PlatformTarget)' == 'x86'">x86</CurrentPlatform>
+		<CurrentPlatform Condition="'$(PlatformTarget)' == 'x64'">x64</CurrentPlatform>
+		<CurrentPlatform Condition="'$(PlatformTarget)' == 'AnyCPU'">x86</CurrentPlatform>
+	</PropertyGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\FNA\FNA.NetFramework.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="$(CurrentPlatform)\**\*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<TargetPath>%(Filename)%(Extension)</TargetPath>
+		</None>
+	</ItemGroup>
+	<Target Name="ShowPlatform" BeforeTargets="Build">
+		<Message Importance="High" Text="PlatformTarget=$(PlatformTarget), CurrentPlatform=$(CurrentPlatform)" />
+	</Target>
+	<ItemGroup>
+		<Reference Update="System">
+			<SpecificVersion>True</SpecificVersion>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Update="System.Data">
+			<SpecificVersion>True</SpecificVersion>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Update="System.Drawing">
+			<SpecificVersion>True</SpecificVersion>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Update="System.Xml">
+			<SpecificVersion>True</SpecificVersion>
+		</Reference>
+	</ItemGroup>
+
+
+</Project>
