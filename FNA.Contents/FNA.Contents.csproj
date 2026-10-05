@@ -19,6 +19,7 @@
 		<CurrentPlatform Condition="'$(PlatformTarget)' == 'AnyCPU'">x86</CurrentPlatform>
 	</PropertyGroup>
 	<ItemGroup>
+	  <ProjectReference Include="..\FNA.NetStub\FNA.NetStub.csproj" />
 	  <ProjectReference Include="..\FNA\FNA.NetFramework.csproj" />
 	</ItemGroup>
 	<ItemGroup>
