@@ -96,9 +96,6 @@
     <Project Path="indie-game-archive/Gravitron360 (World) (XBLIG)/Gravitron360 (World) (XBLIG).csproj">
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/iCandy (World) (XBLIG)/iCandy (World) (XBLIG).csproj">
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
     <Project Path="indie-game-archive/invAIders (World) (XBLIG)/invAIders (World) (XBLIG).csproj">
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -184,6 +181,22 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/Avatar Farm Online (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/iCandy (World) (XBLIG)/iCandy (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Allure (World) (XBLIG)/Allure (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Zombie Estate (World) (XBLIG)/Zombie Estate (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/A-Band (World) (XBLIG)/A-Band (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -308,12 +321,6 @@
     <Project Path="indie-game-archive/Gamerbots - Third-Robot Shooting (World) (XBLIG)/XNAnimation.csproj">
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/iCandy (World) (XBLIG)/iCandy.csproj">
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/iCandy (World) (XBLIG)/ProjectMercury.csproj">
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
     <Project Path="indie-game-archive/iRiS 2.0 - Visualizer Studio (World) (XBLIG)/AlteredLibXNA.csproj">
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -375,10 +382,6 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Demon House FPS (XBLIG)/EasyStorage.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
     <Project Path="indie-game-archive/Demon House FPS (XBLIG)/GeometricIntersection.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -436,6 +439,38 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmOnline.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/iCandy (World) (XBLIG)/EasyStorage.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/iCandy (World) (XBLIG)/iCandy.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Allure (World) (XBLIG)/Allure.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/A-Band (World) (XBLIG)/A-Band.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/A-Band (World) (XBLIG)/A-Band.resources.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/A-Band (World) (XBLIG)/ContentBeat.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/A-Band (World) (XBLIG)/ProjectMercury.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="D:/downloads/indie-game-downloads/A-Band (World) (XBLIG)/SpriteSheet.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
