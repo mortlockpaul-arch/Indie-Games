@@ -6,6 +6,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Platforms>x86;x64;AnyCPU</Platforms>
+		<PlatformTarget>x64</PlatformTarget>
 		<DebugSymbols>false</DebugSymbols>
 		<DebugType>None</DebugType>
 		<LangVersion>13.0</LangVersion>
@@ -16,7 +17,7 @@
 	<PropertyGroup>
 		<CurrentPlatform Condition="'$(PlatformTarget)' == 'x86'">x86</CurrentPlatform>
 		<CurrentPlatform Condition="'$(PlatformTarget)' == 'x64'">x64</CurrentPlatform>
-		<CurrentPlatform Condition="'$(PlatformTarget)' == 'AnyCPU'">x86</CurrentPlatform>
+		<CurrentPlatform Condition="'$(PlatformTarget)' == 'AnyCPU'">AnyCPU</CurrentPlatform>
 	</PropertyGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\FNA.NetStub\FNA.NetStub.csproj" />

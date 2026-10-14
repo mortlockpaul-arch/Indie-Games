@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+
 <Solution>
   <Configurations>
     <Configuration Name="Debug" />
@@ -90,10 +90,6 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/Avatar Farm Online (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -273,6 +269,10 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/Avatar Farm Online (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
@@ -283,11 +283,11 @@
   <Folder Name="/Library-Projects/">
     <Project Path="FNA.Contents/FNA.Contents.csproj">
       <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Release|x86" Project="x86" />
     </Project>
     <Project Path="FNA.NetStub/FNA.NetStub.csproj" Id="f5328b35-f276-4157-9b69-e06d527c689b">
       <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Release|x86" Project="x86" />
     </Project>
     <Project Path="FNA/FNA.Core.csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -295,11 +295,11 @@
     </Project>
     <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
       <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Release|x86" Project="x86" />
     </Project>
     <Project Path="FNA/FNA.NetFramework.csproj">
       <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Release|x86" Project="x86" />
     </Project>
     <Project Path="Monogame.Contents/Monogame.Contents.csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -339,6 +339,42 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Arbor Vitae (World) (XBLIG)/Arbor Vitae.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarm2.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarm2Bridge.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmImport.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmOnlineBridge.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/FarseerPhysicsXNA.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/Quasar.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/QuasarGameUtils.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/XBLIGGameUtils.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmOnline.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
