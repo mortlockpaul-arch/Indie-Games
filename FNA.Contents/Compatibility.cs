@@ -13,5 +13,11 @@ namespace System.Threading
             int[] processors)
         {
         }
+
+        public static void SetProcessorAffinity(
+    this Thread thread,
+    int processor)
+        {
+        }
     }
 }
