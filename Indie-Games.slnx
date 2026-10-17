@@ -1,4 +1,3 @@
-<?xml version='1.0' encoding='utf-8'?>
 <Solution>
   <Configurations>
     <Configuration Name="Debug" />
@@ -22,6 +21,14 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/20 Games to Play with Your Mates (World) (XBLIG)/20 Games to Play With Your Mates (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/2048 - Xbox 360 Edition (World) (XBLIG)/2048 - Xbox 360 Edition (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/2060 Cyber Racer (World) (XBLIG)/2060 Cyber Racer (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -57,6 +64,10 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
     <Project Path="indie-game-archive/Acid Rain Heroes (World) (XBLIG)/Acid Rain Heroes (World) (XBLIG).csproj">
       <Platform Solution="*|x86" Project="x86" />
       <Build Solution="*|x64" Project="false" />
@@ -66,6 +77,10 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Allure (World) (XBLIG)/Allure (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Ambiance (World) (XBLIG)/Ambiance (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -90,6 +105,14 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Aquarium HD (World) (XBLIG)/Aquarium HD (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Arbor Vitae (World) (XBLIG)/Arbor Vitae (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/Avatar Farm Online (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -146,6 +169,22 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Gravitron360 (World) (XBLIG)/Gravitron360 (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Head Shot 2 (World) (XBLIG)/Head Shot 2 (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Head Shot God (World) (XBLIG)/Head Shot God (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Head Shot Z (World) (XBLIG)/Head Shot Z (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Headshot (World) (XBLIG)/Headshot (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -237,6 +276,10 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/This Is Hard (World) (XBLIG)/This Is Hard (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="Any CPU" />
+      <Platform Solution="*|x86" Project="Any CPU" />
+    </Project>
     <Project Path="indie-game-archive/Time Viking!!!!! and Space Raptor (World) (XBLIG)/Time Viking!!!!! and Space Raptor (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
@@ -246,38 +289,6 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Zombie Estate (World) (XBLIG)/Zombie Estate (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/2048 - Xbox 360 Edition (World) (XBLIG)/2048 - Xbox 360 Edition (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Head Shot Z (World) (XBLIG)/Head Shot Z (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Arbor Vitae (World) (XBLIG)/Arbor Vitae (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/Avatar Farm Online (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/2060 Cyber Racer (World) (XBLIG)/2060 Cyber Racer (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Headshot (World) (XBLIG)/Headshot (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/Ambiance (World) (XBLIG)/Ambiance (World) (XBLIG).csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -298,16 +309,16 @@
       <Platform Solution="Release|x86" Project="x86" />
     </Project>
     <Project Path="FNA/FNA.Core.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="Any CPU" />
+      <Platform Solution="*|x86" Project="Any CPU" />
     </Project>
     <Project Path="FNA/FNA.csproj" Id="35253ce1-c864-4cd3-8249-4d1319748e8f">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="Release|x86" Project="x86" />
     </Project>
     <Project Path="FNA/FNA.NetFramework.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="Release|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="Any CPU" />
+      <Platform Solution="Release|x86" Project="Any CPU" />
     </Project>
     <Project Path="Monogame.Contents/Monogame.Contents.csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -325,18 +336,14 @@
   <Folder Name="/Solution Items/">
     <File Path="global.json" />
   </Folder>
-  <Project Path="RetroShelf/RetroShelf.csproj">
-    <Platform Solution="*|x64" Project="x64" />
-    <Platform Solution="*|x86" Project="x86" />
-  </Project>
   <Folder Name="/Reference-Projects/">
     <Project Path="indie-game-archive/2048 - Xbox 360 Edition (World) (XBLIG)/2048Xbox.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/ABC Fun (World) (XBLIG)/ABC Fun.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="Any CPU" />
+      <Platform Solution="*|x86" Project="Any CPU" />
     </Project>
     <Project Path="indie-game-archive/ABC Fun (World) (XBLIG)/AvatarCustomAnimation.csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -347,12 +354,12 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Arbor Vitae (World) (XBLIG)/Arbor Vitae.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="Any CPU" />
+      <Platform Solution="*|x86" Project="Any CPU" />
     </Project>
     <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarm2.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="*|x64" Project="Any CPU" />
+      <Platform Solution="*|x86" Project="Any CPU" />
     </Project>
     <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarm2Bridge.csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -361,6 +368,10 @@
     <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmImport.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmOnline.csproj">
+      <Platform Solution="*|x64" Project="Any CPU" />
+      <Platform Solution="*|x86" Project="Any CPU" />
     </Project>
     <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmOnlineBridge.csproj">
       <Platform Solution="*|x64" Project="x64" />
@@ -382,13 +393,13 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
-    <Project Path="indie-game-archive/Avatar Farm Online (World) (XBLIG)/AvatarFarmOnline.csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
     <Project Path="indie-game-archive/Headshot (World) (XBLIG)/Head Shot.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
   </Folder>
+  <Project Path="RetroShelf/RetroShelf.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
 </Solution>
