@@ -8,6 +8,7 @@
 [submodule "RetroShelf"]
 	path = RetroShelf
 	url = https://github.com/mortlockpaul-arch/RetroShelf.git
+	branch = master
 [submodule "FNA.NetStub"]
 	path = FNA.NetStub
 	url = https://github.com/mortlockpaul-arch/FNA.NetStub
