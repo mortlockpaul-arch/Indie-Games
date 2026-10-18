@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <Solution>
   <Configurations>
     <Configuration Name="Debug" />
@@ -41,10 +42,6 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/2D House of Terror (World) (XBLIG)/2D House of Terror (World) (XBLIG).csproj">
-      <Platform Solution="*|x64" Project="x64" />
-      <Platform Solution="*|x86" Project="x86" />
-    </Project>
-    <Project Path="indie-game-archive/360 Mega Pack HD Remix/360 Mega Pack HD Remix.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
@@ -292,6 +289,10 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/360 Mega Pack HD Remix/360 Mega Pack HD Remix.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
@@ -394,6 +395,10 @@
       <Platform Solution="*|x86" Project="x86" />
     </Project>
     <Project Path="indie-game-archive/Headshot (World) (XBLIG)/Head Shot.csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/360 Mega Pack HD Remix/360_Mega_Pack_HD_REMIX.csproj">
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
