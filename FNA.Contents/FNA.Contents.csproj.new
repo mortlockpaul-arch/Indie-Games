@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	<OutputType>Library</OutputType>
+	<TargetFramework>net9.0-windows</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+	<Platforms>x86;x64;AnyCPU</Platforms>
+	<PlatformTarget>AnyCPU</PlatformTarget>
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>embedded</DebugType>
+	<LangVersion>13.0</LangVersion>
+	<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<ProjectReference Include="..\FNA.NetStub\FNA.NetStub.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Update="x86\**\*">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  <TargetPath>%(Filename)%(Extension)</TargetPath>
+	</None>
+	<None Update="x64\**\*">
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  <TargetPath>%(Filename)%(Extension)</TargetPath>
+	</None>
+  </ItemGroup>
+</Project>

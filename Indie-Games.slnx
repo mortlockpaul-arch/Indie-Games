@@ -297,6 +297,14 @@
       <Platform Solution="*|x64" Project="x64" />
       <Platform Solution="*|x86" Project="x86" />
     </Project>
+    <Project Path="indie-game-archive/Storage Inc (World) (XBLIG)/Storage Inc (World) (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
+    <Project Path="indie-game-archive/Sexy Flight (XBLIG)/Sexy Flight (XBLIG).csproj">
+      <Platform Solution="*|x64" Project="x64" />
+      <Platform Solution="*|x86" Project="x86" />
+    </Project>
   </Folder>
   <Folder Name="/indie-game-downloads/">
     <Project Path="D:/downloads/indie-game-downloads/ABC Fun (World) (XBLIG)/ABC Fun (World) (XBLIG).csproj">
